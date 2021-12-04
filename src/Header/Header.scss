@@ -1,0 +1,30 @@
+.Header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 100px;
+  background-color: lighten(#282c34, 5%);
+  box-shadow: 0 0 20px 5px rgba(0, 0, 0, .3);
+  color: rgba(255, 255, 255, .6);
+  font-size: .3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.Header-stats {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Header-stats>div {
+  margin-right: 20px;
+}
+
+.Header-message {
+  margin-top: 8px;
+  font-size: .2rem;
+}

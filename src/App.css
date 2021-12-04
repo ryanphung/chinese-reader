@@ -1,0 +1,39 @@
+.App {
+
+}
+
+.App-main {
+  margin-top: 100px;
+  height: calc(100vh - 100px);
+  background-color: #282c34;
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-input {
+  display: none;
+  flex: 1;
+  background-color: rgba(255, 255, 255, .03);
+  outline: none;
+  border: none;
+  color: rgba(255, 255, 255, .7);
+  padding: 40px;
+  font-family: inherit;
+  font-size: 1rem;
+}
+
+.App-output {
+  flex: 2;
+  background-color: rgba(255, 255, 255, 0);
+  color: rgba(255, 255, 255, .8);
+  padding: 40px;
+  font-family: inherit;
+  font-size: 1rem;
+  overflow-wrap: anywhere;
+  overflow-y: scroll;
+  padding-left: 200px;
+  padding-right: 200px;
+}
