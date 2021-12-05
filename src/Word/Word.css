@@ -3,6 +3,9 @@
 .Word {
   position: relative;
   display: inline-block;
+}
+
+.Word-matched {
   cursor: pointer;
 }
 

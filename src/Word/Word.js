@@ -18,7 +18,7 @@ function Word({ token, rshFrame, vocabularyDb, onClick, onHover }) {
       // const pinyins = pinyinify(char)
       // return pinyins?.[0]?.join()
     }
-  }, [token])
+  }, [token.matches])
 
   const vocabularyLevel = vocabularyDb[char]
   const showPinyin = true//vocabularyLevel !== 4
@@ -28,9 +28,13 @@ function Word({ token, rshFrame, vocabularyDb, onClick, onHover }) {
   return (
     isLineBreak ?
     <div className="Word-line-break"/> :
-    <div className={`Word ${matched ? 'Word-matched' : ''} Word-level-${vocabularyLevel}`}
-      onClick={() => onClick(char)}
-      onMouseEnter={() => token.matches.length ? onHover(token) : onHover()}
+    <div className={[
+      "Word",
+      matched ? 'Word-matched' : '',
+      typeof(vocabularyLevel) === 'number' ? `Word-level-${vocabularyLevel}` : ''
+    ].join(' ')}
+      onClick={() => matched && onClick(char)}
+      onMouseEnter={() => matched ? onHover(token) : onHover()}
       onMouseLeave={() => onHover()}
     >
       {/* {
