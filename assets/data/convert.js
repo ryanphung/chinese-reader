@@ -37,9 +37,13 @@ function convertContent() {
     // read file
     const txt = fs.readFileSync(__dirname + '/content.txt', 'utf8')
 
+    let chapters = txt.split(/Chapter [0-9]*/).map((v, i) => 'Chapter ' + i + v)
+
+    chapters = chapters.slice(1)
+
     // write file
     fs.writeFileSync(__dirname + '/../../src/data/content.json', JSON.stringify({
-      data: txt
+      data: chapters
     }), 'utf8')
     console.log('Written to file')
   } catch (err) {

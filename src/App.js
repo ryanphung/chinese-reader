@@ -16,7 +16,8 @@ const rshMap = _toMap(rsh)
 const rsh1Map = _toMap(rsh1)
 
 function App() {
-  const [content, setContent] = useState(initialContent.data)
+  const chapter = 1
+  const [content, setContent] = useState(initialContent.data[chapter])
   const [tokenizer, setTokenizer] = useState({ })
   const tokens = useMemo(() =>
     tokenizeContent(tokenizer.tokenize, content),
