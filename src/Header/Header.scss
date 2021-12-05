@@ -3,28 +3,38 @@
   top: 0;
   left: 0;
   right: 0;
-  height: 100px;
+  height: 132px;
   background-color: lighten(#282c34, 5%);
   box-shadow: 0 0 20px 5px rgba(0, 0, 0, .3);
   color: rgba(255, 255, 255, .6);
   font-size: .3rem;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: stretch;
+  flex-direction: row;
+}
+
+.Header-info {
+  display: flex;
+  justify-content: flex-start;
+  align-items: stretch;
   flex-direction: column;
+  padding: 20px;
 }
 
 .Header-stats {
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center;
 }
 
 .Header-stats>div {
-  margin-right: 20px;
+  margin-left: 20px;
 }
 
 .Header-message {
+  display: flex;
+  justify-content: flex-end;
   margin-top: 8px;
   font-size: .2rem;
 }

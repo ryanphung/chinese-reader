@@ -1,0 +1,105 @@
+ /* Colors: https://developer.blackberry.com/design/bb10/color.html */
+
+.Word {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.Word-matched::after {
+  content : "";
+  position: absolute;
+  left: 5px;
+  bottom: 0;
+  height: 0;
+  right: 5px;
+  border-bottom: 2px solid white;
+  transition: all .3s ease-in-out;
+  opacity: .3;
+}
+
+/* .Word-keyword {
+  font-size: .3rem;
+  max-width: 1rem;
+  display: flex;
+  justify-content: center;
+  transition: all .3s ease-in-out;
+  overflow: visible;
+  white-space: nowrap;
+  text-transform: lowercase;
+  opacity: 0;
+  margin-bottom: -4px;
+  color: #dcd427;
+}
+
+.Word-hanviet {
+  font-size: .3rem;
+  max-width: 1rem;
+  display: flex;
+  justify-content: center;
+  transition: all .3s ease-in-out;
+  overflow: visible;
+  white-space: nowrap;
+  text-transform: lowercase;
+  opacity: 0;
+  margin-bottom: -4px;
+  color: #ff3333;
+} */
+
+.Word-pinyin {
+  font-size: .3rem;
+  transition: all .2s ease-in-out;
+  margin-top: 8px;
+  margin-bottom: -8px;
+}
+
+.Word-pinyin span {
+  display: inline-block;
+  width: 1rem;
+  text-align: center;
+}
+
+.Word-level-0 .Word-pinyin {
+  /* color: #ff3333; */
+}
+
+.Word-level-1 .Word-pinyin {
+  opacity: .75;
+  /* opacity: 0; */
+}
+
+.Word-level-2 .Word-pinyin {
+  opacity: .5;
+}
+
+.Word-level-3 .Word-pinyin {
+  opacity: .25;
+}
+
+.Word-level-4 .Word-pinyin,
+.Word-level-4.Word-matched::after {
+  opacity: 0;
+}
+
+.Word-char {
+  transition: all .3s ease-in-out;
+}
+
+.Word:hover .Word-keyword,
+.Word:hover .Word-hanviet,
+.Word:hover .Word-pinyin:hover {
+  opacity: 1;
+}
+
+.Word-matched:hover {
+  color: #0092cc;
+}
+
+.Word-matched:hover::after {
+  border-color: #0092cc;
+}
+
+.Word-line-break {
+  display: block;
+  margin-bottom: 60px;
+}

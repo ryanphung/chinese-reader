@@ -1,5 +1,5 @@
 import phienam from '../data/phienam.json'
 
-const hanvietify = char => phienam[char]
+const hanvietify = word => [...(word || '')].map(char => phienam[char]).join(' ')
 
 export default hanvietify
