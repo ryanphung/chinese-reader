@@ -7,7 +7,7 @@ function Word({ token, rshFrame, vocabularyDb, onClick, onHover }) {
   const char = token.text
   const matched = !!token.matches.length
   const isLineBreak = char === '\n'
-  const keyword = token.matches?.[0]?.english?.split?.('/')?.[0]?.split?.(';')?.[0]?.split?.(' (')?.[0]
+  const keyword = token.matches?.[0]?.english?.split?.(/[\/;,]/)?.[0].split?.(' (')?.[0]
   const hanviet = hanvietify(char)
   // const pinyins = (rshFrame?.pinyin || '').replace('{', '').replace('}', '').replace(/<.*?>/gi, '').split(',')
 
@@ -59,7 +59,7 @@ function Word({ token, rshFrame, vocabularyDb, onClick, onHover }) {
           vocabularyLevel === 0 ? '\u00A0' + keyword + '\u00A0' :
           vocabularyLevel === 1 ? '\u00A0' + hanviet + '\u00A0':
           vocabularyLevel === 2 ? '\u00A0' + pinyin + '\u00A0':
-          char
+          char === ' ' ? '\u00A0' : char
         }
       </div>
     </div>
