@@ -16,8 +16,8 @@ const rshMap = _toMap(rsh)
 const rsh1Map = _toMap(rsh1)
 
 function App() {
-  const chapter = 1
-  const [content, setContent] = useState(initialContent.data[chapter])
+  const [chapter, setChapter] = useState(0)
+  const [content, setContent] = useState()
   const [tokenizer, setTokenizer] = useState({ })
   const tokens = useMemo(() =>
     tokenizeContent(tokenizer.tokenize, content),
@@ -34,6 +34,10 @@ function App() {
     setClientHeight(mainRef.current?.clientHeight)
   }, [mainRef])
   const [selectedToken, setSelectedToken] = useState()
+
+  useEffect(() => {
+    setContent(initialContent.data[chapter])
+  }, [chapter])
 
   useEffect(() => {
     initTokenizerAsync().then(tokenize => setTokenizer({ tokenize }))
@@ -112,10 +116,14 @@ function App() {
     setScrollTop(mainRef.current.scrollTop)
   }
 
+  const handleChapterChange = i => {
+    setChapter(i)
+  }
+
   return (
     <div className="App">
       <ReadingProgressBar progress={progress}/>
-      <Header word={selectedToken} wordsCount={wordsCount} knownWordsCount={knownWordsCount}/>
+      <Header word={selectedToken} wordsCount={wordsCount} knownWordsCount={knownWordsCount} onChapterChange={handleChapterChange}/>
       <div className="App-main">
         <textarea className="App-input" value={content} onChange={handleChange}>
         </textarea>

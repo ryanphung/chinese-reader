@@ -1,8 +1,13 @@
 import './Header.scss'
 import DictPane from '../DictPane/DictPane'
 
-function Header({ word, wordsCount, knownWordsCount }) {
+function Header({ word, wordsCount, knownWordsCount, onChapterChange }) {
   const ease = knownWordsCount / wordsCount
+
+  function handleChapterChange(e) {
+    onChapterChange(e.target.value)
+  }
+
   return (
     <div className="Header">
       <DictPane word={word}/>
@@ -27,6 +32,15 @@ function Header({ word, wordsCount, knownWordsCount }) {
             ease < .98 ? "You're reading in \"intensive reading\" zone. We recommend reading at ease level of 98%." :
             'This book is at the right level for you.'
           }
+        </div>
+        <div className="Header-message">
+          <select onChange={handleChapterChange}>
+            {
+              Array.from(Array(26).keys()).map(i =>
+                <option key={String(i)} value={i}>Chapter {i + 1}</option>
+              )
+            }
+          </select>
         </div>
       </div>
     </div>
