@@ -5,6 +5,11 @@
   display: inline-block;
 }
 
+.App-output *::selection {
+  background-color: transparent;
+  color: #0092cc;
+}
+
 .Word-matched {
   cursor: pointer;
 }

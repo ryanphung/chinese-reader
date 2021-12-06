@@ -1,7 +1,7 @@
 import './Header.scss'
 import DictPane from '../DictPane/DictPane'
 
-function Header({ word, wordsCount, knownWordsCount, onChapterChange }) {
+function Header({ word, wordsCount, knownWordsCount, onChapterChange, onSettingsClick }) {
   const ease = knownWordsCount / wordsCount
 
   function handleChapterChange(e) {
@@ -34,6 +34,7 @@ function Header({ word, wordsCount, knownWordsCount, onChapterChange }) {
           }
         </div>
         <div className="Header-message">
+          <button style={{ marginRight: 10 }} onClick={onSettingsClick}>Settings</button>
           <select onChange={handleChapterChange}>
             {
               Array.from(Array(26).keys()).map(i =>

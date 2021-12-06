@@ -4,6 +4,7 @@ import rsh from './data/rsh.json'
 import initialContent from './data/content.json'
 import Word from './Word/Word'
 import Header from './Header/Header'
+import Settings from './Settings/Settings'
 import ReadingProgressBar from './ReadingProgressBar/ReadingProgressBar'
 import { initTokenizerAsync, tokenizeContent } from './AppController'
 
@@ -16,6 +17,8 @@ const rshMap = _toMap(rsh)
 const rsh1Map = _toMap(rsh1)
 
 function App() {
+  const [isSettingsVisible, setIsSettingsVisible] = useState(false)
+  const [settings, setSettings] = useState({})
   const [chapter, setChapter] = useState(0)
   const [content, setContent] = useState()
   const [tokenizer, setTokenizer] = useState({ })
@@ -55,6 +58,17 @@ function App() {
   }, [updateScrollHeight])
 
   useEffect(() => {
+    const v = localStorage.getItem("settings")
+    let o
+    try {
+      o = JSON.parse(v)
+    } catch (e) {
+      console.warn(e)
+    }
+    setSettings(o || {})
+  }, [])
+
+  useEffect(() => {
     const v = localStorage.getItem("vocabularyDb")
     let o
     try {
@@ -83,6 +97,10 @@ function App() {
   useEffect(() => {
     localStorage.setItem("vocabularyDb", JSON.stringify(vocabularyDb))
   }, [vocabularyDb])
+
+  useEffect(() => {
+    localStorage.setItem("settings", JSON.stringify(settings))
+  }, [settings])
 
   const { wordsCount, knownWordsCount } = useMemo(() => {
     const wordTokens = tokens.filter(token => token.matches.length)
@@ -123,7 +141,19 @@ function App() {
   return (
     <div className="App">
       <ReadingProgressBar progress={progress}/>
-      <Header word={selectedToken} wordsCount={wordsCount} knownWordsCount={knownWordsCount} onChapterChange={handleChapterChange}/>
+      <Header
+        word={selectedToken}
+        wordsCount={wordsCount}
+        knownWordsCount={knownWordsCount}
+        onChapterChange={handleChapterChange}
+        onSettingsClick={() => setIsSettingsVisible(true)}
+      />
+      <Settings
+        isVisible={isSettingsVisible}
+        settings={settings}
+        onSettingsUpdate={setSettings}
+        onClose={() => setIsSettingsVisible(false)}
+      />
       <div className="App-main">
         <textarea className="App-input" value={content} onChange={handleChange}>
         </textarea>
@@ -137,6 +167,7 @@ function App() {
                 rshFrame={rshMap[token.text]}
                 onClick={handleWordClick}
                 onHover={handleWordHover}
+                settings={settings}
               />
             )
           }

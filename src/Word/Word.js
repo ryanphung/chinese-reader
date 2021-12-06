@@ -4,7 +4,7 @@ import './Word.css'
 import hanvietify from '../utils/hanviet'
 import { extractKeywordFromDictEntry, getHigherFrequencyDictEntry } from '../utils/chinese'
 
-function Word({ token, rshFrame, vocabularyDb, onClick, onHover }) {
+function Word({ token, rshFrame, vocabularyDb, onClick, onHover, settings={} }) {
   const char = token.text
   const matched = !!token.matches.length
   const isLineBreak = char === '\n'
@@ -26,6 +26,8 @@ function Word({ token, rshFrame, vocabularyDb, onClick, onHover }) {
   const showPinyin = true//vocabularyLevel !== 4
   // const showHanviet = showPinyin
   // const showKeyword = showPinyin
+  const { transcriptMethod='pinyin' } = settings
+  const transcript = transcriptMethod === 'pinyin' ? pinyin : hanviet
 
   return (
     isLineBreak ?
@@ -43,16 +45,11 @@ function Word({ token, rshFrame, vocabularyDb, onClick, onHover }) {
         <div className="Word-keyword">
           {showKeyword ? keyword : '\u00A0'}
         </div>
-      }
-      {
-        <div className="Word-hanviet">
-          {showHanviet ? pinyin : '\u00A0'}
-        </div>
-      } */}
+      }*/}
       <div className="Word-pinyin">
         {
-          showPinyin && pinyin ?
-          pinyin.split(' ').map((v, i) => <span key={i}>{v}</span>)
+          showPinyin && transcript ?
+          transcript.split(' ').map((v, i) => <span key={i}>{v}</span>)
           : '\u00A0'
         }
       </div>

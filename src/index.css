@@ -16,3 +16,32 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+select {
+  background-color: rgba(255, 255, 255, .1);
+  color: rgba(255, 255, 255, .7);
+  font-size: .3rem;
+  padding: 5px;
+  cursor: pointer;
+  outline: none;
+}
+
+button {
+  background: rgba(255, 255, 255, .3);
+  border: none;
+  font-size: .3rem;
+  padding: 5px 20px;
+  width: auto;
+  color: rgba(255, 255, 255, .7);
+  cursor: pointer;
+  transition: all .1s ease-in-out;
+  border-radius: 5px;
+}
+
+button:hover {
+  opacity: .8;
+}
+
+button:active {
+  opacity: .3;
+}
