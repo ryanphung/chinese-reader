@@ -62,7 +62,7 @@ function App() {
     } catch (e) {
       console.warn(e)
     }
-    setPinyinLevelDb(o)
+    setPinyinLevelDb(o || {})
   }, [])
 
   useEffect(() => {

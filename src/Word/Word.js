@@ -2,12 +2,14 @@ import { useMemo } from 'react'
 import './Word.css'
 // import pinyinify from 'pinyin'
 import hanvietify from '../utils/hanviet'
+import { extractKeywordFromDictEntry, getHigherFrequencyDictEntry } from '../utils/chinese'
 
 function Word({ token, rshFrame, vocabularyDb, onClick, onHover }) {
   const char = token.text
   const matched = !!token.matches.length
   const isLineBreak = char === '\n'
-  const keyword = token.matches?.[0]?.english?.split?.(/[\/;,]/)?.[0].split?.(' (')?.[0]
+  const dictEntry = useMemo(() => getHigherFrequencyDictEntry(token), [token])
+  const keyword = useMemo(() => extractKeywordFromDictEntry(dictEntry), [dictEntry])
   const hanviet = hanvietify(char)
   // const pinyins = (rshFrame?.pinyin || '').replace('{', '').replace('}', '').replace(/<.*?>/gi, '').split(',')
 
