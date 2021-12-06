@@ -19,7 +19,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "convert": "node ./assets/data/convert.js"
+    "convert": "node ./assets/data/convert.js",
+    "deploy": "git push heroku `git branch --show-current`:master"
   },
   "eslintConfig": {
     "extends": [
