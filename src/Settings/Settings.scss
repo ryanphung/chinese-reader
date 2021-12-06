@@ -11,17 +11,22 @@
   padding: 20px;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: stretch;
 }
 
 .Settings>section {
   display: flex;
   flex-direction: row;
   align-items: center;
+  margin-bottom: 10px;
 }
 
 .Settings>section>span {
   flex: 1;
   text-align: right;
   margin-right: 10px;
+}
+
+.Settings select {
+  min-width: 130px;
 }

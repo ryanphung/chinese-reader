@@ -5,28 +5,33 @@ import hanvietify from '../utils/hanviet'
 import { extractKeywordFromDictEntry, getHigherFrequencyDictEntry } from '../utils/chinese'
 
 function Word({ token, rshFrame, vocabularyDb, onClick, onHover, settings={} }) {
-  const char = token.text
+  const {
+    transcriptMethod='pinyin',
+    script='simplified'
+  } = settings
+  const text = token.text
+  const displayedText = script === 'simplified' ? token.simplified : token.traditional
   const matched = !!token.matches.length
-  const isLineBreak = char === '\n'
+  const isLineBreak = text === '\n'
   const dictEntry = useMemo(() => getHigherFrequencyDictEntry(token), [token])
   const keyword = useMemo(() => extractKeywordFromDictEntry(dictEntry), [dictEntry])
-  const hanviet = hanvietify(char)
+  const hanviet = hanvietify(text)
   // const pinyins = (rshFrame?.pinyin || '').replace('{', '').replace('}', '').replace(/<.*?>/gi, '').split(',')
 
   const pinyin = useMemo(() => {
     if (token.matches.length) {
       return token.matches[0].pinyinPretty
       // return token.matches[0].pinyinPretty
-      // const pinyins = pinyinify(char)
+      // const pinyins = pinyinify(text)
       // return pinyins?.[0]?.join()
     }
   }, [token.matches])
 
-  const vocabularyLevel = vocabularyDb[char]
+  const vocabularyLevel = vocabularyDb[text]
   const showPinyin = true//vocabularyLevel !== 4
   // const showHanviet = showPinyin
   // const showKeyword = showPinyin
-  const { transcriptMethod='pinyin' } = settings
+
   const transcript = transcriptMethod === 'pinyin' ? pinyin : hanviet
 
   return (
@@ -37,7 +42,7 @@ function Word({ token, rshFrame, vocabularyDb, onClick, onHover, settings={} }) 
       matched ? 'Word-matched' : '',
       typeof(vocabularyLevel) === 'number' ? `Word-level-${vocabularyLevel}` : ''
     ].join(' ')}
-      onClick={() => matched && onClick(char)}
+      onClick={() => matched && onClick(text)}
       onMouseEnter={() => matched ? onHover(token) : onHover()}
       onMouseLeave={() => onHover()}
     >
@@ -58,7 +63,7 @@ function Word({ token, rshFrame, vocabularyDb, onClick, onHover, settings={} }) 
           vocabularyLevel === 0 ? '\u00A0' + keyword + '\u00A0' :
           vocabularyLevel === 1 ? '\u00A0' + hanviet + '\u00A0':
           vocabularyLevel === 2 ? '\u00A0' + pinyin + '\u00A0':
-          char === ' ' ? '\u00A0' : char
+          text === ' ' ? '\u00A0' : displayedText
         }
       </div>
     </div>
