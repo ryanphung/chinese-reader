@@ -10,7 +10,7 @@ const customDict = [
   '胡家玮 胡家玮 [hu2 jia1 wei3] /Hu Jia Wei (name)/',
   '郑孟修 郑孟修 [zheng4 meng4 xiu1] /Zheng Meng Xiu (name)/',
   '杨泽于 杨泽于 [yang2 ze2 yu2] /Yang Ze Yu (name)/',
-  '小丸子 小丸子 [xiao3 wan2 zi] /Maruko (name)/'
+  '小丸子 小丸子 [xiao3 wan2 zi5] /Maruko (name)/'
 ]
 
 export async function initTokenizerAsync() {
