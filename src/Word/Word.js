@@ -4,7 +4,7 @@ import './Word.css'
 import hanvietify from '../utils/hanviet'
 import { extractKeywordFromDictEntry, getHigherFrequencyDictEntry } from '../utils/chinese'
 
-function Word({ token, rshFrame, vocabularyDb, onClick, onHover, settings={} }) {
+function Word({ token, rshFrame, vocabularyDb, recommendedVocabularyDb, onClick, onHover, settings={} }) {
   const {
     transcriptMethod='pinyin',
     script='simplified'
@@ -27,7 +27,8 @@ function Word({ token, rshFrame, vocabularyDb, onClick, onHover, settings={} }) 
     }
   }, [token.matches])
 
-  const vocabularyLevel = vocabularyDb[text]
+  const isVocabulary = typeof(vocabularyDb[text]) !== 'undefined'
+  const vocabularyLevel = vocabularyDb[text] ?? recommendedVocabularyDb[text] ?? (matched ? 0 : undefined)
   const showPinyin = true//vocabularyLevel !== 4
   // const showHanviet = showPinyin
   // const showKeyword = showPinyin
@@ -40,7 +41,8 @@ function Word({ token, rshFrame, vocabularyDb, onClick, onHover, settings={} }) 
     <div className={[
       "Word",
       matched ? 'Word-matched' : '',
-      typeof(vocabularyLevel) === 'number' ? `Word-level-${vocabularyLevel}` : ''
+      typeof(vocabularyLevel) === 'number' ? `Word-level-${vocabularyLevel}` : '',
+      isVocabulary ? 'Word-vocabulary' : ''
     ].join(' ')}
       onClick={() => matched && onClick(text)}
       onMouseEnter={() => matched ? onHover(token) : onHover()}

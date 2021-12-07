@@ -3,11 +3,32 @@
 .Word {
   position: relative;
   display: inline-block;
+  color: rgba(255, 255, 255, .5);
+  transition: all .2s ease-in-out;
 }
 
 .App-output *::selection {
   background-color: transparent;
   color: #0092cc;
+}
+
+/* .Word .Word-char::before {
+  content: '';
+  position: absolute;
+  background-color: #0092cc;
+  top: 0;
+  left: 0;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+} */
+
+.Word-vocabulary {
+  color: rgba(255, 255, 255, .8);
+}
+
+.Word:not(.Word-matched) {
+  color: rgba(255, 255, 255, .8);
 }
 
 .Word-matched {
@@ -59,6 +80,7 @@
   transition: all .2s ease-in-out;
   margin-top: 8px;
   margin-bottom: -8px;
+  opacity: 0;
 }
 
 .Word-pinyin span {
@@ -67,21 +89,11 @@
   text-align: center;
 }
 
-.Word-level-0 .Word-pinyin {
-  /* color: #ff3333; */
-}
-
-.Word-level-1 .Word-pinyin {
-  opacity: .75;
-  /* opacity: 0; */
-}
-
-.Word-level-2 .Word-pinyin {
-  opacity: .5;
-}
-
+.Word-level-0 .Word-pinyin,
+.Word-level-1 .Word-pinyin,
+.Word-level-2 .Word-pinyin,
 .Word-level-3 .Word-pinyin {
-  opacity: .25;
+  opacity: 1;
 }
 
 .Word-level-4 .Word-pinyin,
@@ -90,6 +102,7 @@
 }
 
 .Word-char {
+  position: relative;
   transition: all .3s ease-in-out;
 }
 
@@ -101,6 +114,12 @@
 
 .Word-matched:hover {
   color: #0092cc;
+  opacity: .6;
+}
+
+.Word-vocabulary.Word-matched:hover {
+  color: #0092cc;
+  opacity: 1;
 }
 
 .Word-matched:hover::after {

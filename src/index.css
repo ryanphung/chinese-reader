@@ -17,6 +17,14 @@ code {
     monospace;
 }
 
+.p1 {
+  color: #0092cc;
+}
+
+.text-s {
+  font-size: .2rem;
+}
+
 select {
   background-color: rgba(255, 255, 255, .1);
   color: rgba(255, 255, 255, .7);
