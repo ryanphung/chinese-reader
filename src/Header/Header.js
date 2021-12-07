@@ -28,9 +28,9 @@ function Header({ word, wordsCount, knownWordsCount, recommendedVocabularyDb, vo
         </div>
         <div className="Header-message">
           {
-            ease < .9 ? "You're reading in \"pain\" zone. We recommend reading at ease level of at least 90%." :
-            ease < .98 ? "You're reading in \"intensive reading\" zone. We recommend reading at ease level of 98%." :
-            'This book is at the right level for you.'
+            ease < .9 ? "You're reading in \"pain\" zone. When you reach 90%, you will be in \"intensive reading\" zone." :
+            ease < .98 ? "You're reading in \"intensive reading\" zone. When you reach 98%, you will be in \"extensive reading\" zone." :
+            "This book is at the right level for you. You are reading in \"extensive reading\" zone."
           }
         </div>
         <div className="Header-message">
