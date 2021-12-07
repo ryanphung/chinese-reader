@@ -1,17 +1,7 @@
 import chineseTokenizer from 'chinese-tokenizer' // https://github.com/yishn/chinese-tokenizer
+import customDictText from './data/customDict'
 
-const customDict = [
-  '沈佳仪 沈佳仪 [shen3 jia1 yi2] /Shen Jia Yi (name)/',
-  '赖导 赖导 [lai4 dao3] /Lai Dao (name)/',
-  '柯景腾 柯景腾 [ke4 jing3 teng2] /Ke Jing Teng (name)/',
-  '曹国胜 曹国胜 [cao2 guo2 sheng4] /Cao Guo Sheng (name)/',
-  '谢明和 谢明和 [xie4 ming2 he2] /Xia Ming He (name)/',
-  '廖英宏 廖英宏 [liao4 ying1 hong2] /Liao Ying Hong (name)/',
-  '胡家玮 胡家玮 [hu2 jia1 wei3] /Hu Jia Wei (name)/',
-  '郑孟修 郑孟修 [zheng4 meng4 xiu1] /Zheng Meng Xiu (name)/',
-  '杨泽于 杨泽于 [yang2 ze2 yu2] /Yang Ze Yu (name)/',
-  '小丸子 小丸子 [xiao3 wan2 zi5] /Maruko (name)/'
-]
+const customDict = customDictText.split('\n')
 
 export async function initTokenizerAsync() {
   const response = await fetch('data/cedict_ts.u8')
