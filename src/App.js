@@ -26,7 +26,7 @@ function App() {
     tokenizeContent(tokenizer.tokenize, content),
     [content, tokenizer.tokenize]
   )
-  const [vocabularyDb, setPinyinLevelDb] = useState({})
+  const [vocabularyDb, setVocabularyDb] = useState({})
   const mainRef = createRef()
   const [scrollTop, setScrollTop] = useState(0)
   const [scrollHeight, setScrollHeight] = useState(0)
@@ -76,7 +76,7 @@ function App() {
     } catch (e) {
       console.warn(e)
     }
-    setPinyinLevelDb(o || {})
+    setVocabularyDb(o || {})
   }, [])
 
   useEffect(() => {
@@ -88,7 +88,7 @@ function App() {
         else
           newWords[token.text] = 0
     })
-    setPinyinLevelDb(v => ({
+    setVocabularyDb(v => ({
       ...newWords,
       ...v
     }))
@@ -120,7 +120,7 @@ function App() {
   const handleWordClick = char => {
     let v = vocabularyDb[char] || 0
     v = (v + 1) % (MAX_LEVEL + 1)
-    setPinyinLevelDb({
+    setVocabularyDb({
       ...vocabularyDb,
       [char]: v
     })
