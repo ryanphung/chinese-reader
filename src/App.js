@@ -112,7 +112,6 @@ function App() {
   // and tokens changed
   // FIXME: tokens changed or content changed?
   useEffect(() => {
-    console.log('isRecommendationInitialized', isRecommendationInitialized, 'isVocabularyLoaded', isVocabularyLoaded, 'isTokensInitialized', isTokensInitialized)
     if (!isRecommendationInitialized && isVocabularyLoaded && isTokensInitialized) {
       const newWords = {}
       tokens.forEach(token => {
@@ -150,7 +149,7 @@ function App() {
     const wordTokens = tokens.filter(token => token.matches.length)
     // const wordTokensMap = wordTokens.reduce((s, v) => { s[v.text] = true; return s }, {})
     // const uniqueWorkTokens = Object.keys(wordTokensMap)
-    const knownWords = wordTokens.filter(token => vocabularyDb[token.text] === MAX_LEVEL)
+    const knownWords = wordTokens.filter(token => vocabularyDb[token.text] >= 3)
     return {
       wordsCount: wordTokens.length,
       knownWordsCount: knownWords.length
