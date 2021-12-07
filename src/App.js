@@ -38,16 +38,23 @@ function App() {
   }, [mainRef])
   const [selectedToken, setSelectedToken] = useState()
 
+  // initialize the tokenizer on first load
+  useEffect(() => {
+    initTokenizerAsync().then(tokenize => setTokenizer({ tokenize }))
+  }, [])
+
+  // load content when chapter is changed
   useEffect(() => {
     setContent(initialContent.data[chapter])
   }, [chapter])
 
+  // reset recommended vocabulary when content is updated
   useEffect(() => {
-    // reset recommended vocabulary when content is updated
     setRecommendedVocabularyDb({})
     setIsRecommendationInitialized(false)
   }, [content])
 
+  // tokenize content into tokens when content is updated and tokenizer is ready
   useEffect(() => {
     if (tokenizer.tokenize) {
       const tokens = tokenizeContent(tokenizer.tokenize, content)
@@ -55,21 +62,23 @@ function App() {
     }
   }, [content, tokenizer.tokenize])
 
-  useEffect(() => {
-    initTokenizerAsync().then(tokenize => setTokenizer({ tokenize }))
-  }, [])
-
+  // update scroll height when these things are updated (which will affect
+  // how the content is rendered):
+  // - content, vocabulary, or recommendedVocabularyDb
   useEffect(() => {
     updateScrollHeight()
-  }, [content, updateScrollHeight])
+  }, [updateScrollHeight, content, vocabularyDb, recommendedVocabularyDb])
 
+  // on first load, listen to the window resize event to update scroll height
   useEffect(() => {
     window.addEventListener("resize", updateScrollHeight)
     return () => {
+      // remove listener when app is unmounted
       window.removeEventListener("resize", updateScrollHeight)
     }
   }, [updateScrollHeight])
 
+  // load settings on first load
   useEffect(() => {
     const v = localStorage.getItem("settings")
     let o
@@ -81,6 +90,7 @@ function App() {
     setSettings(o || {})
   }, [])
 
+  // load vocabulary db on first load
   useEffect(() => {
     const v = localStorage.getItem("vocabularyDb")
     let o
@@ -93,7 +103,11 @@ function App() {
     setIsVocabularyLoaded(true)
   }, [])
 
-  // initializing the recommendation list
+  // initializing the recommendation list when
+  // we need to (isRecommendationInitialized = false)
+  // and vocabulary db is ready (loaded)
+  // and tokens changed
+  // FIXME: tokens changed or content changed?
   useEffect(() => {
     if (!isRecommendationInitialized && isVocabularyLoaded) {
       const newWords = {}
@@ -113,14 +127,17 @@ function App() {
     }
   }, [isRecommendationInitialized, isVocabularyLoaded, tokens, vocabularyDb])
 
+  // save vocabulary db to local storage whenever it is changed
   useEffect(() => {
     localStorage.setItem("vocabularyDb", JSON.stringify(vocabularyDb))
   }, [vocabularyDb])
 
+  // save recommended vocabulary db to local storage whenever it is changed
   useEffect(() => {
     localStorage.setItem("recommendedVocabularyDb", JSON.stringify(recommendedVocabularyDb))
   }, [recommendedVocabularyDb])
 
+  // save settings to local storage whenever it is changed
   useEffect(() => {
     localStorage.setItem("settings", JSON.stringify(settings))
   }, [settings])
