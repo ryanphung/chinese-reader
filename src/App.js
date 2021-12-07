@@ -84,7 +84,11 @@ function App() {
     setVocabularyDb(o || {})
   }, [])
 
+  // initializing the recommendation list
   useEffect(() => {
+    if (isRecommendationInitialized)
+      return
+
     const newWords = {}
     tokens.forEach(token => {
       if (token.matches.length)
@@ -99,7 +103,7 @@ function App() {
       ...v
     }))
     setIsRecommendationInitialized(true)
-  }, [tokens])
+  }, [tokens, isRecommendationInitialized, vocabularyDb])
 
   useEffect(() => {
     localStorage.setItem("vocabularyDb", JSON.stringify(vocabularyDb))
