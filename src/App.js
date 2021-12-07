@@ -18,6 +18,7 @@ const rsh1Map = _toMap(rsh1)
 function App() {
   const [isRecommendationInitialized, setIsRecommendationInitialized] = useState(false)
   const [isVocabularyLoaded, setIsVocabularyLoaded] = useState(false)
+  const [isTokensInitialized, setIsTokensInitialized] = useState(false)
   const isInitialized = isRecommendationInitialized && isVocabularyLoaded
   const [isSettingsVisible, setIsSettingsVisible] = useState(false)
   const [settings, setSettings] = useState({})
@@ -51,6 +52,7 @@ function App() {
   // reset recommended vocabulary when content is updated
   useEffect(() => {
     setRecommendedVocabularyDb({})
+    setIsTokensInitialized(false)
     setIsRecommendationInitialized(false)
   }, [content])
 
@@ -59,6 +61,7 @@ function App() {
     if (tokenizer.tokenize) {
       const tokens = tokenizeContent(tokenizer.tokenize, content)
       setTokens(tokens)
+      setIsTokensInitialized(true)
     }
   }, [content, tokenizer.tokenize])
 
@@ -109,7 +112,8 @@ function App() {
   // and tokens changed
   // FIXME: tokens changed or content changed?
   useEffect(() => {
-    if (!isRecommendationInitialized && isVocabularyLoaded) {
+    console.log('isRecommendationInitialized', isRecommendationInitialized, 'isVocabularyLoaded', isVocabularyLoaded, 'isTokensInitialized', isTokensInitialized)
+    if (!isRecommendationInitialized && isVocabularyLoaded && isTokensInitialized) {
       const newWords = {}
       tokens.forEach(token => {
         if (token.matches.length)
@@ -125,7 +129,7 @@ function App() {
       }))
       setIsRecommendationInitialized(true)
     }
-  }, [isRecommendationInitialized, isVocabularyLoaded, tokens, vocabularyDb])
+  }, [isRecommendationInitialized, isVocabularyLoaded, isTokensInitialized, tokens, vocabularyDb])
 
   // save vocabulary db to local storage whenever it is changed
   useEffect(() => {
