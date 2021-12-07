@@ -55,9 +55,8 @@ function Word({ token, rshFrame, vocabularyDb, recommendedVocabularyDb, onClick,
       }*/}
       <div className="Word-pinyin">
         {
-          showPinyin && transcript ?
-          transcript.split(' ').map((v, i) => <span key={i}>{v}</span>)
-          : '\u00A0'
+          vocabularyLevel === 2 ? [...displayedText].map((v, i) => <span key={i}>{v}</span>) :
+          transcript ? transcript.split(' ').map((v, i) => <span key={i}>{v}</span>) : '\u00A0'
         }
       </div>
       <div className="Word-char">
