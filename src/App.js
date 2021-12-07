@@ -17,16 +17,14 @@ const rsh1Map = _toMap(rsh1)
 
 function App() {
   const [isRecommendationInitialized, setIsRecommendationInitialized] = useState(false)
-  const isInitialized = isRecommendationInitialized
+  const [isVocabularyLoaded, setIsVocabularyLoaded] = useState(false)
+  const isInitialized = isRecommendationInitialized && isVocabularyLoaded
   const [isSettingsVisible, setIsSettingsVisible] = useState(false)
   const [settings, setSettings] = useState({})
   const [chapter, setChapter] = useState(0)
   const [content, setContent] = useState()
   const [tokenizer, setTokenizer] = useState({ })
-  const tokens = useMemo(() =>
-    tokenizeContent(tokenizer.tokenize, content),
-    [content, tokenizer.tokenize]
-  )
+  const [tokens, setTokens] = useState([])
   const [recommendedVocabularyDb, setRecommendedVocabularyDb] = useState({})
   const [vocabularyDb, setVocabularyDb] = useState({})
   const mainRef = createRef()
@@ -42,10 +40,20 @@ function App() {
 
   useEffect(() => {
     setContent(initialContent.data[chapter])
-    // reset recommended vocabulary when changing chapter
+  }, [chapter])
+
+  useEffect(() => {
+    // reset recommended vocabulary when content is updated
     setRecommendedVocabularyDb({})
     setIsRecommendationInitialized(false)
-  }, [chapter])
+  }, [content])
+
+  useEffect(() => {
+    if (tokenizer.tokenize) {
+      const tokens = tokenizeContent(tokenizer.tokenize, content)
+      setTokens(tokens)
+    }
+  }, [content, tokenizer.tokenize])
 
   useEffect(() => {
     initTokenizerAsync().then(tokenize => setTokenizer({ tokenize }))
@@ -82,28 +90,28 @@ function App() {
       console.warn(e)
     }
     setVocabularyDb(o || {})
+    setIsVocabularyLoaded(true)
   }, [])
 
   // initializing the recommendation list
   useEffect(() => {
-    if (isRecommendationInitialized)
-      return
-
-    const newWords = {}
-    tokens.forEach(token => {
-      if (token.matches.length)
-        if (typeof(vocabularyDb[token.text]) === 'undefined')
-          if ([...token.text].every(char => rsh1Map[char]))
-            newWords[token.text] = MAX_LEVEL
-          // else
-          //   newWords[token.text] = 0
-    })
-    setRecommendedVocabularyDb(v => ({
-      ...newWords,
-      ...v
-    }))
-    setIsRecommendationInitialized(true)
-  }, [tokens, isRecommendationInitialized, vocabularyDb])
+    if (!isRecommendationInitialized && isVocabularyLoaded) {
+      const newWords = {}
+      tokens.forEach(token => {
+        if (token.matches.length)
+          if (typeof(vocabularyDb[token.text]) === 'undefined')
+            if ([...token.text].every(char => rsh1Map[char]))
+              newWords[token.text] = MAX_LEVEL
+            // else
+            //   newWords[token.text] = 0
+      })
+      setRecommendedVocabularyDb(v => ({
+        ...newWords,
+        ...v
+      }))
+      setIsRecommendationInitialized(true)
+    }
+  }, [isRecommendationInitialized, isVocabularyLoaded, tokens, vocabularyDb])
 
   useEffect(() => {
     localStorage.setItem("vocabularyDb", JSON.stringify(vocabularyDb))
