@@ -76,6 +76,8 @@
 } */
 
 .Word-pinyin {
+  display: flex;
+  justify-content: center;
   font-size: .3rem;
   transition: all .2s ease-in-out;
   margin-top: 8px;
