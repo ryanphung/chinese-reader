@@ -7,7 +7,9 @@ import Header from './Header/Header'
 import Settings from './Settings/Settings'
 import ReadingProgressBar from './ReadingProgressBar/ReadingProgressBar'
 import { initTokenizerAsync, tokenizeContent } from './AppController'
+import { upgradeData } from './utils/data'
 
+const VERSION = 1
 const MAX_LEVEL = 4
 const _toMap = list => list.reduce((s, v) => { s[v.hanzi] = v; return s }, {})
 
@@ -83,27 +85,29 @@ function App() {
 
   // load settings on first load
   useEffect(() => {
-    const v = localStorage.getItem("settings")
-    let o
-    try {
-      o = JSON.parse(v)
-    } catch (e) {
-      console.warn(e)
+    function loadAndParse(key) {
+      const v = localStorage.getItem(key)
+      let o
+      try {
+        o = JSON.parse(v)
+      } catch (e) {
+        console.warn(e)
+      }
+      return o
     }
-    setSettings(o || {})
-  }, [])
 
-  // load vocabulary db on first load
-  useEffect(() => {
-    const v = localStorage.getItem("vocabularyDb")
-    let o
-    try {
-      o = JSON.parse(v)
-    } catch (e) {
-      console.warn(e)
+    const data = {
+      settings: loadAndParse("settings") || {},
+      vocabularyDb: loadAndParse("vocabularyDb") || {},
+      version: loadAndParse("version") || 0
     }
-    setVocabularyDb(o || {})
+
+    const { settings, vocabularyDb, version } = upgradeData(data)
+
+    setSettings(settings)
+    setVocabularyDb(vocabularyDb)
     setIsVocabularyLoaded(true)
+    localStorage.setItem("version", JSON.stringify(version))
   }, [])
 
   // initializing the recommendation list when
@@ -118,7 +122,7 @@ function App() {
         if (token.matches.length)
           if (typeof(vocabularyDb[token.text]) === 'undefined')
             if ([...token.text].every(char => rsh1Map[char]))
-              newWords[token.text] = MAX_LEVEL
+              newWords[token.text] = { level: MAX_LEVEL }
             // else
             //   newWords[token.text] = 0
       })
@@ -174,12 +178,12 @@ function App() {
     } else if (!isVocabulary) {
       v = 0
     } else {
-      v = (vocabularyDb[word] + 1) % (MAX_LEVEL + 1)
+      v = (vocabularyDb[word].level + 1) % (MAX_LEVEL + 1)
     }
 
     setVocabularyDb({
       ...vocabularyDb,
-      [word]: v
+      [word]: { level: v }
     })
   }
 
@@ -210,6 +214,7 @@ function App() {
     <div className="App">
       <ReadingProgressBar progress={progress}/>
       <Header
+        version={VERSION}
         word={selectedToken}
         wordsCount={wordsCount}
         knownWordsCount={knownWordsCount}

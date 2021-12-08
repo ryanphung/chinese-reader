@@ -28,7 +28,7 @@ function Word({ token, rshFrame, vocabularyDb, recommendedVocabularyDb, onClick,
   }, [token.matches])
 
   const isVocabulary = typeof(vocabularyDb[text]) !== 'undefined'
-  const vocabularyLevel = vocabularyDb[text] ?? recommendedVocabularyDb[text] ?? (matched ? 0 : undefined)
+  const vocabularyLevel = (vocabularyDb[text] ?? recommendedVocabularyDb[text])?.level ?? (matched ? 0 : undefined)
   const showPinyin = true//vocabularyLevel !== 4
   // const showHanviet = showPinyin
   // const showKeyword = showPinyin
