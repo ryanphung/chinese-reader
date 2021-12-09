@@ -278,8 +278,6 @@ const AppOutput = React.memo(function AppOutput({
   handleWordHover,
   settings
 }) {
-  console.log('re-render')
-
   return (
     <div className="App-output" ref={mainRef} onScroll={onScroll}>
       {

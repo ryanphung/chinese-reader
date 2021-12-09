@@ -1,4 +1,4 @@
-import { Fragment, useMemo } from 'react'
+import React, { Fragment, useMemo } from 'react'
 import './Word.css'
 // import pinyinify from 'pinyin'
 import hanvietify from '../utils/hanviet'
@@ -20,17 +20,11 @@ function Word({ token, rshFrame, vocabularyDb, recommendedVocabularyDb, onClick,
   const pinyin = useMemo(() => {
     if (token.matches.length) {
       return token.matches[0].pinyinPretty
-      // return token.matches[0].pinyinPretty
-      // const pinyins = pinyinify(text)
-      // return pinyins?.[0]?.join()
     }
   }, [token.matches])
 
   const isVocabulary = typeof(vocabularyDb[text]) !== 'undefined'
   const vocabularyLevel = (vocabularyDb[text] ?? recommendedVocabularyDb[text])?.level ?? (matched ? 0 : undefined)
-  // const showPinyin = true
-
-  const transcript = transcriptMethod === 'pinyin' ? pinyin : hanviet
 
   return (
     isLineBreak ?
@@ -45,49 +39,74 @@ function Word({ token, rshFrame, vocabularyDb, recommendedVocabularyDb, onClick,
       onMouseEnter={() => matched ? onHover(token) : onHover()}
       onMouseLeave={() => onHover()}
     >
-      {/* {
-        <div className="Word-keyword">
-          {showKeyword ? keyword : '\u00A0'}
-        </div>
-      }*/}
-      {/* <div className="Word-pinyin">
-        {
-          vocabularyLevel === 2 ? [...displayedText].map((v, i) => <span key={i}>{v}</span>) :
-          transcript ? transcript.split(' ').map((v, i) => <span key={i}>{v}</span>) : '\u00A0'
-        }
-      </div> */}
-      {
-        vocabularyLevel === 0 ? <Fragment>
-          ⟨<span annotation={displayedText}>{keyword}</span>⟩
-        </Fragment> :
-        vocabularyLevel === 1 ? <Fragment>⟨{
-          hanviet.split(' ').map((v, i) =>
-            <span key={i}
-              annotation={displayedText ? [...displayedText][i] : ''}
-            >
-              {v}&nbsp;
-            </span>
-          )
-        }⟩</Fragment> :
-        vocabularyLevel === 2 ? <Fragment>⟨{
-          pinyin.split(' ').map((v, i) =>
-            <span key={i}
-              annotation={displayedText ? [...displayedText][i] : ''}
-            >
-              {v}&nbsp;
-            </span>
-          )
-        }⟩</Fragment> :
-        text === ' ' ? '\u00A0' :
-        [...displayedText].map((v, i) =>
-          <span key={i}
-            annotation={transcript ? transcript.split(' ')[i] : ''}
-          >
+      <InnerWord
+        vocabularyLevel={vocabularyLevel}
+        keyword={keyword}
+        hanviet={hanviet}
+        pinyin={pinyin}
+        text={displayedText}
+        transcriptMethod={transcriptMethod}
+        script={script}
+      />
+    </span>
+  )
+}
+
+const InnerWord = React.memo(function InnerWord({
+  vocabularyLevel,
+  keyword,
+  hanviet,
+  pinyin,
+  transcriptMethod,
+  script,
+  text
+}) {
+  const transcript = useMemo(() =>
+    transcriptMethod === 'pinyin' ? pinyin : hanviet,
+    [transcriptMethod, pinyin, hanviet]
+  )
+
+  return (
+    vocabularyLevel === 0 ? <>⟨<span annotation={text}>{keyword}</span>⟩</> :
+    vocabularyLevel === 1 ? <WordByTranscript transcript={hanviet} text={text}/> :
+    vocabularyLevel === 2 ? <WordByTranscript transcript={pinyin} text={text}/> :
+    <WordByText text={text} transcript={transcript}/>
+  )
+})
+
+function WordByTranscript({
+  transcript,
+  text
+}) {
+  const textSplit = [...text]
+  const transcriptSplit = transcript?.split?.(' ') ?? []
+
+  return (
+    <>⟨{
+      transcriptSplit.map((v, i) =>
+        <Fragment key={i}>
+          <span annotation={textSplit?.[i]}>
             {v}
           </span>
-        )
-      }
-    </span>
+          {!!transcriptSplit[i + 1] && ' '}
+        </Fragment>
+      )
+    }⟩</>
+  )
+}
+
+function WordByText({
+  text,
+  transcript
+}) {
+  const textSplit = [...text]
+  const transcriptSplit = transcript?.split?.(' ') ?? []
+
+  return (
+    text === ' ' ? '\u00A0' :
+    textSplit.map((v, i) =>
+      <span key={i} annotation={transcriptSplit?.[i]}>{v}</span>
+    )
   )
 }
 
