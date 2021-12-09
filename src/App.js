@@ -124,7 +124,7 @@ function App() {
             if ([...token.text].every(char => rsh1Map[char]))
               newWords[token.text] = { level: MAX_LEVEL }
             // else
-            //   newWords[token.text] = 0
+              // newWords[token.text] = { level: 0 }
       })
       setRecommendedVocabularyDb(v => ({
         ...newWords,
@@ -169,7 +169,7 @@ function App() {
     let v
 
     if (isRecommended) {
-      v = recommendedVocabularyDb[word]
+      v = recommendedVocabularyDb[word].level
 
       // remove from recommendation list
       setRecommendedVocabularyDb(

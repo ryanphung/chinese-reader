@@ -1,4 +1,4 @@
-import { useMemo } from 'react'
+import { Fragment, useMemo } from 'react'
 import './Word.css'
 // import pinyinify from 'pinyin'
 import hanvietify from '../utils/hanviet'
@@ -16,7 +16,6 @@ function Word({ token, rshFrame, vocabularyDb, recommendedVocabularyDb, onClick,
   const dictEntry = useMemo(() => getHigherFrequencyDictEntry(token), [token])
   const keyword = useMemo(() => extractKeywordFromDictEntry(dictEntry), [dictEntry])
   const hanviet = hanvietify(text)
-  // const pinyins = (rshFrame?.pinyin || '').replace('{', '').replace('}', '').replace(/<.*?>/gi, '').split(',')
 
   const pinyin = useMemo(() => {
     if (token.matches.length) {
@@ -29,16 +28,14 @@ function Word({ token, rshFrame, vocabularyDb, recommendedVocabularyDb, onClick,
 
   const isVocabulary = typeof(vocabularyDb[text]) !== 'undefined'
   const vocabularyLevel = (vocabularyDb[text] ?? recommendedVocabularyDb[text])?.level ?? (matched ? 0 : undefined)
-  const showPinyin = true//vocabularyLevel !== 4
-  // const showHanviet = showPinyin
-  // const showKeyword = showPinyin
+  const showPinyin = true
 
   const transcript = transcriptMethod === 'pinyin' ? pinyin : hanviet
 
   return (
     isLineBreak ?
-    <div className="Word-line-break"/> :
-    <div className={[
+    <span className="Word-line-break"/> :
+    <span className={[
       "Word",
       matched ? 'Word-matched' : '',
       typeof(vocabularyLevel) === 'number' ? `Word-level-${vocabularyLevel}` : '',
@@ -53,21 +50,44 @@ function Word({ token, rshFrame, vocabularyDb, recommendedVocabularyDb, onClick,
           {showKeyword ? keyword : '\u00A0'}
         </div>
       }*/}
-      <div className="Word-pinyin">
+      {/* <div className="Word-pinyin">
         {
           vocabularyLevel === 2 ? [...displayedText].map((v, i) => <span key={i}>{v}</span>) :
           transcript ? transcript.split(' ').map((v, i) => <span key={i}>{v}</span>) : '\u00A0'
         }
-      </div>
-      <div className="Word-char">
-        {
-          vocabularyLevel === 0 ? '\u00A0' + keyword + '\u00A0' :
-          vocabularyLevel === 1 ? '\u00A0' + hanviet + '\u00A0':
-          vocabularyLevel === 2 ? '\u00A0' + pinyin + '\u00A0':
-          text === ' ' ? '\u00A0' : displayedText
-        }
-      </div>
-    </div>
+      </div> */}
+      {
+        vocabularyLevel === 0 ? <Fragment>
+          ⟨<span annotation={displayedText}>{keyword}</span>⟩
+        </Fragment> :
+        vocabularyLevel === 1 ? <Fragment>⟨{
+          hanviet.split(' ').map((v, i) =>
+            <span key={i}
+              annotation={displayedText ? [...displayedText][i] : ''}
+            >
+              {v}&nbsp;
+            </span>
+          )
+        }⟩</Fragment> :
+        vocabularyLevel === 2 ? <Fragment>⟨{
+          pinyin.split(' ').map((v, i) =>
+            <span key={i}
+              annotation={displayedText ? [...displayedText][i] : ''}
+            >
+              {v}&nbsp;
+            </span>
+          )
+        }⟩</Fragment> :
+        text === ' ' ? '\u00A0' :
+        [...displayedText].map((v, i) =>
+          <span key={i}
+            annotation={transcript ? transcript.split(' ')[i] : ''}
+          >
+            {v}
+          </span>
+        )
+      }
+    </span>
   )
 }
 

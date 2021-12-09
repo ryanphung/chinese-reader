@@ -1,131 +1,89 @@
  /* Colors: https://developer.blackberry.com/design/bb10/color.html */
 
+ .App-output *::selection {
+   /* background-color: rgba(255, 255, 255, .2);
+   color: rgba(255, 255, 255, .8); */
+ }
+
 .Word {
   position: relative;
-  display: inline-block;
-  color: rgba(255, 255, 255, .5);
-  transition: all .2s ease-in-out;
+  display: inline;
+  /* color: rgba(255, 255, 255, .7); */
+  /* background-color: rgba(255, 255, 255, .05); */
+  color: rgba(255, 255, 255, .4);
+  transition: all .3s ease-in-out;
+  margin-right: 4px;
+  line-height: 1.5em;
 }
 
-.App-output *::selection {
-  background-color: transparent;
-  color: #0092cc;
-}
-
-/* .Word .Word-char::before {
-  content: '';
-  position: absolute;
-  background-color: #0092cc;
-  top: 0;
-  left: 0;
-  width: 5px;
-  height: 5px;
-  border-radius: 50%;
-} */
-
-.Word-vocabulary {
-  color: rgba(255, 255, 255, .8);
-}
-
+.Word-vocabulary,
 .Word:not(.Word-matched) {
-  color: rgba(255, 255, 255, .8);
+  color: rgba(255, 255, 255, .7);
+  /* background-color: transparent; */
 }
 
 .Word-matched {
   cursor: pointer;
+  /* may need this for IE */
+  /* border-bottom-width: 2px; */
+  /* border-bottom-style: solid; */
+  /* margin-right: .05rem; */
 }
 
-.Word-matched::after {
-  content : "";
-  position: absolute;
-  left: 5px;
-  bottom: 0;
-  height: 0;
-  right: 5px;
-  border-bottom: 2px solid white;
-  transition: all .3s ease-in-out;
-  opacity: .3;
+/* .Word-matched span, */
+.Word-matched {
+  text-decoration: underline;
+  text-underline-offset: .12em;
+  text-decoration-thickness: 2px;
+  text-decoration-color: rgba(255, 255, 255, .3);
 }
 
-/* .Word-keyword {
-  font-size: .3rem;
-  max-width: 1rem;
-  display: flex;
-  justify-content: center;
-  transition: all .3s ease-in-out;
-  overflow: visible;
-  white-space: nowrap;
-  text-transform: lowercase;
-  opacity: 0;
-  margin-bottom: -4px;
-  color: #dcd427;
+/* .Word-level-4.Word-matched span, */
+.Word-level-4.Word-matched {
+  /* may need this for IE */
+  /* border-bottom-color: rgba(255, 255, 255, 0); */
+  text-decoration-color: rgba(255, 255, 255, 0);
 }
 
-.Word-hanviet {
-  font-size: .3rem;
-  max-width: 1rem;
-  display: flex;
-  justify-content: center;
-  transition: all .3s ease-in-out;
-  overflow: visible;
-  white-space: nowrap;
-  text-transform: lowercase;
-  opacity: 0;
-  margin-bottom: -4px;
-  color: #ff3333;
-} */
-
-.Word-pinyin {
-  display: flex;
-  justify-content: center;
-  font-size: .3rem;
-  transition: all .2s ease-in-out;
-  margin-top: 8px;
-  margin-bottom: -8px;
+.Word.Word-level-4.Word-matched span:after {
   opacity: 0;
 }
 
-.Word-pinyin span {
-  display: inline-block;
-  width: 1rem;
-  text-align: center;
-}
-
-.Word-level-0 .Word-pinyin,
-.Word-level-1 .Word-pinyin,
-.Word-level-2 .Word-pinyin,
-.Word-level-3 .Word-pinyin {
-  opacity: 1;
-}
-
-.Word-level-4 .Word-pinyin,
-.Word-level-4.Word-matched::after {
-  opacity: 0;
-}
-
-.Word-char {
+.Word span {
   position: relative;
-  transition: all .3s ease-in-out;
 }
 
-.Word:hover .Word-keyword,
-.Word:hover .Word-hanviet,
-.Word:hover .Word-pinyin:hover {
-  opacity: 1;
+.Word span:after {
+  content: attr(annotation);
+  position: absolute;
+  top: -0.9em;
+  left: 50%;
+  transform: translateX(-50%);
+  white-space: nowrap;
+  font-size: .3rem;
+  text-decoration: none;
+  text-align: center;
+  line-height: normal;
+}
+
+.Word.Word-level-4.Word-matched:hover span:after {
+  /* opacity: 1; */
 }
 
 .Word-matched:hover {
   color: #0092cc;
-  opacity: .6;
+  opacity: .8;
 }
 
 .Word-vocabulary.Word-matched:hover {
-  color: #0092cc;
   opacity: 1;
 }
 
-.Word-matched:hover::after {
-  border-color: #0092cc;
+/* .Word-matched:hover span, */
+.Word-matched:hover {
+  /* use border for IE */
+  /* border-color: #0092cc; */
+  text-decoration-color: #0092cc;
 }
 
 .Word-line-break {
