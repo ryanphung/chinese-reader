@@ -120,7 +120,7 @@ function App() {
       const newWords = {}
       tokens.forEach(token => {
         if (token.matches.length)
-          if (typeof(vocabularyDb[token.text]) === 'undefined' || !vocabularyDb[token.text].recommended)
+          if (typeof(vocabularyDb[token.text]) === 'undefined')
             if ([...token.text].every(char => rsh1Map[char]))
               newWords[token.text] = { level: MAX_LEVEL }
             // else
@@ -200,7 +200,7 @@ function App() {
   }
 
   const handleChapterChange = i => {
-    setChapter(i)
+    setChapter(+i)
   }
 
   const handleRecommendedClick = () => {
