@@ -163,7 +163,7 @@ function App() {
   const handleChange = event =>
     setContent(event.target.value)
 
-  const handleWordClick = word => {
+  const handleWordClick = (event, word) => {
     const isVocabulary = typeof(vocabularyDb[word]) !== 'undefined'
     const isRecommended = typeof(recommendedVocabularyDb[word]) !== 'undefined'
     let v = {
@@ -182,7 +182,8 @@ function App() {
     } else if (!isVocabulary) {
       v.level = 0
     } else {
-      v.level = (vocabularyDb[word].level + 1) % (MAX_LEVEL + 1)
+      const step = event.shiftKey ? -1 : 1
+      v.level = (vocabularyDb[word].level + step) % (MAX_LEVEL + 1)
     }
 
     setVocabularyDb({

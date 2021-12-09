@@ -41,7 +41,7 @@ function Word({ token, rshFrame, vocabularyDb, recommendedVocabularyDb, onClick,
       typeof(vocabularyLevel) === 'number' ? `Word-level-${vocabularyLevel}` : '',
       isVocabulary ? 'Word-vocabulary' : ''
     ].join(' ')}
-      onClick={() => matched && onClick(text)}
+      onClick={e => matched && onClick(e, text)}
       onMouseEnter={() => matched ? onHover(token) : onHover()}
       onMouseLeave={() => onHover()}
     >
