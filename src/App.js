@@ -1,4 +1,4 @@
-import { useState, useEffect, useMemo, createRef, useCallback } from 'react'
+import React, { useState, useEffect, useMemo, useRef, useCallback } from 'react'
 import './App.css'
 import rsh from './data/rsh.json'
 import initialContent from './data/content.json'
@@ -30,7 +30,7 @@ function App() {
   const [tokens, setTokens] = useState([])
   const [recommendedVocabularyDb, setRecommendedVocabularyDb] = useState({})
   const [vocabularyDb, setVocabularyDb] = useState({})
-  const mainRef = createRef()
+  const mainRef = useRef()
   const [scrollTop, setScrollTop] = useState(0)
   const [scrollHeight, setScrollHeight] = useState(0)
   const [clientHeight, setClientHeight] = useState(0)
@@ -163,7 +163,7 @@ function App() {
   const handleChange = event =>
     setContent(event.target.value)
 
-  const handleWordClick = (event, word) => {
+  const handleWordClick = useCallback((event, word) => {
     const isVocabulary = typeof(vocabularyDb[word]) !== 'undefined'
     const isRecommended = typeof(recommendedVocabularyDb[word]) !== 'undefined'
     let v = {
@@ -190,15 +190,15 @@ function App() {
       ...vocabularyDb,
       [word]: v
     })
-  }
+  }, [vocabularyDb, recommendedVocabularyDb, setRecommendedVocabularyDb, setVocabularyDb, chapter])
 
-  const handleWordHover = token => {
+  const handleWordHover = useCallback(token => {
     setSelectedToken(token)
-  }
+  }, [setSelectedToken])
 
-  const handleScroll = () => {
+  const handleScroll = useCallback(() => {
     setScrollTop(mainRef.current.scrollTop)
-  }
+  }, [setScrollTop])
 
   const handleChapterChange = i => {
     setChapter(+i)
@@ -249,26 +249,56 @@ function App() {
       <div className="App-main">
         <textarea className="App-input" value={content} onChange={handleChange}>
         </textarea>
-        <div className="App-output" ref={mainRef} onScroll={handleScroll}>
-          {
-            isInitialized ?
-            tokens.map((token, i) =>
-              <Word
-                key={i}
-                token={token}
-                vocabularyDb={vocabularyDb}
-                recommendedVocabularyDb={recommendedVocabularyDb}
-                rshFrame={rshMap[token.text]}
-                onClick={handleWordClick}
-                onHover={handleWordHover}
-                settings={settings}
-              />
-            ) : null
-          }
-        </div>
+        <AppOutput
+          mainRef={mainRef}
+          onScroll={handleScroll}
+          isInitialized={isInitialized}
+          tokens={tokens}
+          vocabularyDb={vocabularyDb}
+          recommendedVocabularyDb={recommendedVocabularyDb}
+          rshMap={rshMap}
+          handleWordClick={handleWordClick}
+          handleWordHover={handleWordHover}
+          settings={handleWordHover}
+        />
       </div>
     </div>
   )
 }
 
-export default App;
+const AppOutput = React.memo(function AppOutput({
+  mainRef,
+  onScroll,
+  isInitialized,
+  tokens,
+  vocabularyDb,
+  recommendedVocabularyDb,
+  rshMap,
+  handleWordClick,
+  handleWordHover,
+  settings
+}) {
+  console.log('re-render')
+
+  return (
+    <div className="App-output" ref={mainRef} onScroll={onScroll}>
+      {
+        isInitialized ?
+        tokens.map((token, i) =>
+          <Word
+            key={i}
+            token={token}
+            vocabularyDb={vocabularyDb}
+            recommendedVocabularyDb={recommendedVocabularyDb}
+            rshFrame={rshMap[token.text]}
+            onClick={handleWordClick}
+            onHover={handleWordHover}
+            settings={settings}
+          />
+        ) : null
+      }
+    </div>
+  )
+})
+
+export default App
