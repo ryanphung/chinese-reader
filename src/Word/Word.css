@@ -1,10 +1,5 @@
  /* Colors: https://developer.blackberry.com/design/bb10/color.html */
 
- .App-output *::selection {
-   /* background-color: rgba(255, 255, 255, .2);
-   color: rgba(255, 255, 255, .8); */
- }
-
 .Word {
   position: relative;
   display: inline;
@@ -64,6 +59,7 @@
   text-decoration: none;
   text-align: center;
   line-height: normal;
+  transition: opacity .3s ease-in-out;
 }
 
 .Word.Word-level-4.Word-matched:hover span:after {
