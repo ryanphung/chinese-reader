@@ -76,7 +76,7 @@
 }
 
 .Word-vocabulary.Word-matched:hover {
-  opacity: 1;
+  opacity: .99;
 }
 
 /* .Word-matched:hover span, */
