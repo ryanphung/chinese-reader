@@ -153,7 +153,7 @@ function App() {
     const wordTokens = tokens.filter(token => token.matches.length)
     // const wordTokensMap = wordTokens.reduce((s, v) => { s[v.text] = true; return s }, {})
     // const uniqueWorkTokens = Object.keys(wordTokensMap)
-    const knownWords = wordTokens.filter(token => vocabularyDb[token.text] >= 3)
+    const knownWords = wordTokens.filter(token => vocabularyDb[token.text]?.level >= 3)
     return {
       wordsCount: wordTokens.length,
       knownWordsCount: knownWords.length
