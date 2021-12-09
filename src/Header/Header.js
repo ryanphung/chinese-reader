@@ -14,7 +14,7 @@ function Header({ version, word, wordsCount, knownWordsCount, recommendedVocabul
       <div className="Header-info">
         <div className="Header-stats">
           <div>
-            <span className="text-s">Version</span> {version}
+            <span className="text-s">Version</span> 0.0.{version}
           </div>
           <div>
             <span className="text-s">Known Words</span> {knownWordsCount} / {wordsCount}

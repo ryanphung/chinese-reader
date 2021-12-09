@@ -9,7 +9,7 @@ import ReadingProgressBar from './ReadingProgressBar/ReadingProgressBar'
 import { initTokenizerAsync, tokenizeContent } from './AppController'
 import { upgradeData } from './utils/data'
 
-const VERSION = 1
+const VERSION = 2
 const MAX_LEVEL = 4
 const _toMap = list => list.reduce((s, v) => { s[v.hanzi] = v; return s }, {})
 
@@ -120,7 +120,7 @@ function App() {
       const newWords = {}
       tokens.forEach(token => {
         if (token.matches.length)
-          if (typeof(vocabularyDb[token.text]) === 'undefined')
+          if (typeof(vocabularyDb[token.text]) === 'undefined' || !vocabularyDb[token.text].recommended)
             if ([...token.text].every(char => rsh1Map[char]))
               newWords[token.text] = { level: MAX_LEVEL }
             // else
@@ -167,7 +167,8 @@ function App() {
     const isVocabulary = typeof(vocabularyDb[word]) !== 'undefined'
     const isRecommended = typeof(recommendedVocabularyDb[word]) !== 'undefined'
     let v = {
-      addedAt: Date.now()
+      addedAt: Date.now(),
+      chapter
     }
 
     if (isRecommended) {
@@ -211,7 +212,10 @@ function App() {
         Object.fromEntries(
           Object.entries(recommendedVocabularyDb)
             .map(([k, v]) => [k, {
-              ...v, addedAt: now, recommended: true
+              ...v,
+              addedAt: now,
+              chapter,
+              recommended: true
             }])
         )
       setVocabularyDb(({

@@ -28,7 +28,7 @@ function Word({ token, rshFrame, vocabularyDb, recommendedVocabularyDb, onClick,
 
   const isVocabulary = typeof(vocabularyDb[text]) !== 'undefined'
   const vocabularyLevel = (vocabularyDb[text] ?? recommendedVocabularyDb[text])?.level ?? (matched ? 0 : undefined)
-  const showPinyin = true
+  // const showPinyin = true
 
   const transcript = transcriptMethod === 'pinyin' ? pinyin : hanviet
 
