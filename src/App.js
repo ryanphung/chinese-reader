@@ -166,24 +166,27 @@ function App() {
   const handleWordClick = word => {
     const isVocabulary = typeof(vocabularyDb[word]) !== 'undefined'
     const isRecommended = typeof(recommendedVocabularyDb[word]) !== 'undefined'
-    let v
+    let v = {
+      addedAt: Date.now()
+    }
 
     if (isRecommended) {
-      v = recommendedVocabularyDb[word].level
+      v.level = recommendedVocabularyDb[word].level
+      v.recommended = true
 
       // remove from recommendation list
       setRecommendedVocabularyDb(
         Object.fromEntries(Object.entries(recommendedVocabularyDb).filter(([v]) => v !== word))
       )
     } else if (!isVocabulary) {
-      v = 0
+      v.level = 0
     } else {
-      v = (vocabularyDb[word].level + 1) % (MAX_LEVEL + 1)
+      v.level = (vocabularyDb[word].level + 1) % (MAX_LEVEL + 1)
     }
 
     setVocabularyDb({
       ...vocabularyDb,
-      [word]: { level: v }
+      [word]: v
     })
   }
 
@@ -203,8 +206,16 @@ function App() {
     const res = window.confirm(`Are you sure you want to move ${Object.keys(recommendedVocabularyDb).length} words into your vocabulary? This action is not reversible.`)
     if (res) {
       setRecommendedVocabularyDb({})
+      const now = Date.now()
+      const newVocabularyDb =
+        Object.fromEntries(
+          Object.entries(recommendedVocabularyDb)
+            .map(([k, v]) => [k, {
+              ...v, addedAt: now, recommended: true
+            }])
+        )
       setVocabularyDb(({
-        ...recommendedVocabularyDb,
+        ...newVocabularyDb,
         ...vocabularyDb
       }))
     }
