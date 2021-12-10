@@ -18,6 +18,7 @@ const customDict = `
 许博淳 许博淳 [xu3 bo2 chun2] /Xu Bo Chun (name)/
 阿和 阿和 [a1 he2] /Ah He (name)/
 小咪 小咪 [xiao3 mi1] /Xiao Mi (name)/
+李小华 李小华 [li3 xiao3 hua2] /Li Xiao Hua (name)/
 
 精舍 精舍 [jing1 she4] /Buddhist abode/
 凌波微步 凌波微步 [ling2 bo1 wei1 bu4] /Ling Bo Wei Bu (a kungfu term)/
