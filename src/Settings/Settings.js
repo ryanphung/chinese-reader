@@ -29,7 +29,7 @@ function Settings({
   const {
     transcriptMethod='pinyin',
     script='simplified',
-    recommendation=false
+    recommendation='off'
   } = settings
 
   function handleTranscriptMethodSelectChange(e) {
