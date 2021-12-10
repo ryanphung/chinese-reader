@@ -16,6 +16,7 @@ const customDict = `
 叶淑莲 叶淑莲 [ye4 shu1 lian2] /Ye Shu Lian (name)/
 许君穗 许君穗 [xu3 jun1 sui4] /Xu Jun Sui (name)/
 许博淳 许博淳 [xu3 bo2 chun2] /Xu Bo Chun (name)/
+阿和 阿和 [a1 he2] /Ah He (name)/
 
 精舍 精舍 [jing1 she4] /Buddhist abode/
 凌波微步 凌波微步 [ling2 bo1 wei1 bu4] /Ling Bo Wei Bu (a kungfu term)/
