@@ -1,9 +1,9 @@
 import './Header.scss'
 import DictPane from '../DictPane/DictPane'
-import { extractKeywordFromDictEntry, getHigherFrequencyDictEntry } from '../utils/chinese'
 
-function Header({ word, wordsCount, knownWordsCount, recommendedVocabularyDb, vocabularyDb, onChapterChange, onSettingsClick, onRecommendedClick }) {
+function Header({ word, wordsCount, knownWordsCountInclRecommendation, knownWordsCount, recommendedVocabularyDb, vocabularyDb, onChapterChange, onSettingsClick, onRecommendedClick }) {
   const ease = (knownWordsCount / wordsCount) || 0
+  const easeInclRecommendation = (knownWordsCountInclRecommendation / wordsCount) || 0
 
   function handleChapterChange(e) {
     onChapterChange(e.target.value)
@@ -15,14 +15,6 @@ function Header({ word, wordsCount, knownWordsCount, recommendedVocabularyDb, vo
       <div className="Header-info">
         <div className="Header-stats">
           <div>
-            <span className="text-s uppercase">Known Words</span>
-            <span>{knownWordsCount} / {wordsCount}</span>
-          </div>
-          <div>
-            <span className="text-s uppercase">Ease</span>
-            <span>{Math.round(ease * 100)}%</span>
-          </div>
-          <div>
             <span className="text-s uppercase">Recommended</span>
             <span style={{cursor: 'pointer'}}
               onClick={onRecommendedClick}>
@@ -32,6 +24,22 @@ function Header({ word, wordsCount, knownWordsCount, recommendedVocabularyDb, vo
           <div>
             <span className="text-s uppercase">My Vocabulary</span>
             <span className="p1">{Object.keys(vocabularyDb).length} words</span>
+          </div>
+          <div>
+            <span className="text-s uppercase">Known Words<br/>(incl. recomm.)</span>
+            <span>{knownWordsCountInclRecommendation} / {wordsCount}</span>
+          </div>
+          <div>
+            <span className="text-s uppercase">Known Words<br/>(excl. recomm.)</span>
+            <span className="p1">{knownWordsCount} / {wordsCount}</span>
+          </div>
+          <div>
+            <span className="text-s uppercase">Ease<br/>(incl. recomm.)</span>
+            <span>{Math.round(easeInclRecommendation * 100)}%</span>
+          </div>
+          <div>
+            <span className="text-s uppercase">Ease<br/>(excl. recomm.)</span>
+            <span className="p1">{Math.round(ease * 100)}%</span>
           </div>
         </div>
         {/* <div className="Header-message">
@@ -57,15 +65,15 @@ function Header({ word, wordsCount, knownWordsCount, recommendedVocabularyDb, vo
   )
 }
 
-function VocabularyPanel({vocabularyDb}) {
-  const words = Object.entries(vocabularyDb)
-  const latestWords = words.slice(words.length - 5).reverse()
-
-  return (
-    <section style={{padding: 16}}>
-      { latestWords.map((word, i) => <div key={i}>{word[0]}</div>) }
-    </section>
-  )
-}
+// function VocabularyPanel({vocabularyDb}) {
+//   const words = Object.entries(vocabularyDb)
+//   const latestWords = words.slice(words.length - 5).reverse()
+//
+//   return (
+//     <section style={{padding: 16}}>
+//       { latestWords.map((word, i) => <div key={i}>{word[0]}</div>) }
+//     </section>
+//   )
+// }
 
 export default Header

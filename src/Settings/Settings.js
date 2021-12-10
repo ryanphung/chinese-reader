@@ -1,12 +1,20 @@
 import './Settings.scss'
 
 const RECOMMENDATIONS = [
+  { value: 'off', label: 'Off' },
   ...(
-    [100, 200, 300, 400, 500, 600, 700, 800, 900, 1000]
-      .map(v => ({ value: `top${v}`, label: `Most common ${v} characters` }))
+    [
+      1, 2, 3, 4, 5, 6
+    ].map(v => ({ value: `hsk${v}`, label: `HSK Level ${v}` }))
+  ),
+  ...(
+    [
+      100, 200, 300, 400, 500, 600, 700, 800, 900, 1000,
+      1200, 1400, 1600, 1800, 2000, 2200, 2400, 2600, 2800, 3000
+    ].map(v => ({ value: `top${v}`, label: `Most common ${v} characters` }))
   ),
   { value: 'rsh1', label: 'RSH1 (1,500 characters)' },
-  { value: 'off', label: 'Off' }
+  { value: 'rsh2', label: 'RSH2 (3,000 characters)' }
 ]
 
 const SCRIPTS = [

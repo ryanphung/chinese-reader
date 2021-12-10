@@ -17,12 +17,19 @@ const _toMap = list => list.reduce((s, v) => { s[v.hanzi] = v; return s }, {})
 const rsh1 = rsh.filter(v => v.tags.includes('RSH1'))
 const rshMap = _toMap(rsh)
 const rsh1Map = _toMap(rsh1)
-const charFreqs = [100, 200, 300, 400, 500, 600, 700, 800, 900, 1000]
+const charFreqs = [
+  100, 200, 300, 400, 500, 600, 700, 800, 900, 1000,
+  1200, 1400, 1600, 1800, 2000, 2200, 2400, 2600, 2800, 3000
+]
 const charFreqMaps = Object.fromEntries(charFreqs.map(v => [`top${v}`, _toMap(charFreq.slice(0, v))]))
+const hskLevels = [1, 2, 3, 4, 5, 6]
+const hskMaps = Object.fromEntries(hskLevels.map(v => [`hsk${v}`, _toMap(charFreq.filter(u => u.hskLevel <= v))]))
 const CHARS_MAPS = {
-  "rsh1": rsh1Map,
   "off": {},
-  ...charFreqMaps
+  ...hskMaps,
+  ...charFreqMaps,
+  "rsh1": rsh1Map,
+  "rsh2": rshMap
 }
 
 function App() {
@@ -164,16 +171,19 @@ function App() {
     localStorage.setItem("settings", JSON.stringify(settings))
   }, [settings])
 
-  const { wordsCount, knownWordsCount } = useMemo(() => {
+  const { wordsCount, knownWordsCount, knownWordsCountInclRecommendation } = useMemo(() => {
     const wordTokens = tokens.filter(token => token.matches.length)
     // const wordTokensMap = wordTokens.reduce((s, v) => { s[v.text] = true; return s }, {})
     // const uniqueWorkTokens = Object.keys(wordTokensMap)
     const knownWords = wordTokens.filter(token => vocabularyDb[token.text]?.level >= 3)
+    const knownWordsInclRecommendation =
+      wordTokens.filter(token => vocabularyDb[token.text]?.level >= 3 || recommendedVocabularyDb[token.text])
     return {
       wordsCount: wordTokens.length,
-      knownWordsCount: knownWords.length
+      knownWordsCount: knownWords.length,
+      knownWordsCountInclRecommendation: knownWordsInclRecommendation.length
     }
-  }, [vocabularyDb, tokens])
+  }, [vocabularyDb, recommendedVocabularyDb, tokens])
 
   const handleChange = event =>
     setContent(event.target.value)
@@ -248,6 +258,7 @@ function App() {
         word={selectedToken}
         wordsCount={wordsCount}
         knownWordsCount={knownWordsCount}
+        knownWordsCountInclRecommendation={knownWordsCountInclRecommendation}
         recommendedVocabularyDb={recommendedVocabularyDb}
         vocabularyDb={vocabularyDb}
         onChapterChange={handleChapterChange}
