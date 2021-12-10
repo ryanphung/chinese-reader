@@ -8,6 +8,8 @@
   // min-width: 0 is necessary so that the white-space: nowrap doesn't break flexbox layout
   // ref: https://stackoverflow.com/a/38224283
   // min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .DictPane-hanzi {
