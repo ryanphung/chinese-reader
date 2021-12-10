@@ -1,5 +1,13 @@
 import './Settings.scss'
 
+const RECOMMENDATIONS = [
+  // { value: 'top100', label: 'Most common 100 characters' },
+  // { value: 'top500', label: 'Most common 500 characters' },
+  // { value: 'top1000', label: 'Most common 1000 characters' },
+  { value: 'rsh1', label: 'RSH1 (1,500 characters)' },
+  { value: 'off', label: 'Off' }
+]
+
 const SCRIPTS = [
   { value: 'simplified', label: 'Simplified' },
   { value: 'traditional', label: 'Traditional' }
@@ -19,7 +27,8 @@ function Settings({
 }) {
   const {
     transcriptMethod='pinyin',
-    script='simplified'
+    script='simplified',
+    recommendation=false
   } = settings
 
   function handleTranscriptMethodSelectChange(e) {
@@ -36,11 +45,28 @@ function Settings({
     })
   }
 
+  function handleRecommendationSelectChange(e) {
+    onSettingsUpdate({
+      ...settings,
+      recommendation: e.target.value
+    })
+  }
+
   return (
     isVisible ?
     <section className="Settings">
       <section>
         <span className="text-s">Version</span> 0.0.{version}
+      </section>
+      <section>
+        <span>Recommendation based on:</span>
+        <select onChange={handleRecommendationSelectChange} value={recommendation}>
+          {
+            RECOMMENDATIONS.map((v, i) =>
+              <option key={i} value={v.value}>{v.label}</option>
+            )
+          }
+        </select>
       </section>
       <section>
         <span>Transcript Method:</span>

@@ -24,6 +24,7 @@ function App() {
   const isInitialized = isRecommendationInitialized && isVocabularyLoaded
   const [isSettingsVisible, setIsSettingsVisible] = useState(false)
   const [settings, setSettings] = useState({})
+  const [isSettingsLoaded, setIsSettingsLoaded] = useState(false)
   const [chapter, setChapter] = useState(0)
   const [content, setContent] = useState()
   const [tokenizer, setTokenizer] = useState({ })
@@ -105,6 +106,7 @@ function App() {
     const { settings, vocabularyDb, version } = upgradeData(data)
 
     setSettings(settings)
+    setIsSettingsLoaded(true)
     setVocabularyDb(vocabularyDb)
     setIsVocabularyLoaded(true)
     localStorage.setItem("version", JSON.stringify(version))
@@ -116,23 +118,32 @@ function App() {
   // and tokens changed
   // FIXME: tokens changed or content changed?
   useEffect(() => {
-    if (!isRecommendationInitialized && isVocabularyLoaded && isTokensInitialized) {
-      const newWords = {}
-      tokens.forEach(token => {
-        if (token.matches.length)
-          if (typeof(vocabularyDb[token.text]) === 'undefined')
-            if ([...token.text].every(char => rsh1Map[char]))
-              newWords[token.text] = { level: MAX_LEVEL }
-            // else
-              // newWords[token.text] = { level: 0 }
-      })
-      setRecommendedVocabularyDb(v => ({
-        ...newWords,
-        ...v
-      }))
+    if (!isRecommendationInitialized && isVocabularyLoaded && isTokensInitialized && isSettingsLoaded) {
+      if (settings.recommendation) {
+        const CHARS_MAPS = {
+          "rsh1": rsh1Map,
+          "off": {}
+        }
+        const charsMap = CHARS_MAPS[settings.recommendation]
+
+        const newWords = {}
+        tokens.forEach(token => {
+          if (token.matches.length)
+            if (typeof(vocabularyDb[token.text]) === 'undefined')
+              if ([...token.text].every(char => charsMap[char]))
+                newWords[token.text] = { level: MAX_LEVEL }
+              // else
+                // newWords[token.text] = { level: 0 }
+        })
+        setRecommendedVocabularyDb(newWords)
+      }
       setIsRecommendationInitialized(true)
     }
-  }, [isRecommendationInitialized, isVocabularyLoaded, isTokensInitialized, tokens, vocabularyDb])
+  }, [isRecommendationInitialized, isVocabularyLoaded, isTokensInitialized, isSettingsLoaded, tokens, vocabularyDb, settings.recommendation])
+
+  useEffect(() => {
+    setIsRecommendationInitialized(false)
+  }, [settings.recommendation])
 
   // save vocabulary db to local storage whenever it is changed
   useEffect(() => {
