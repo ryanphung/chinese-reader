@@ -1,6 +1,6 @@
 .App-main {
-  margin-top: 132px;
-  height: calc(100vh - 132px);
+  margin-right: 5rem;
+  height: 100vh;
   background-color: #282c34;
   display: flex;
   flex-direction: row;
@@ -24,14 +24,15 @@
 .App-output {
   flex: 2;
   background-color: rgba(255, 255, 255, 0);
+  box-shadow: 0 0 20px 5px rgba(0, 0, 0, .3);
   color: rgba(255, 255, 255, .8);
   padding: 40px;
   font-family: inherit;
   font-size: 1rem;
   overflow-wrap: anywhere;
   overflow-y: scroll;
-  padding-left: 200px;
-  padding-right: 200px;
+  padding-left: 100px;
+  padding-right: 100px;
 }
 
 .App-output {

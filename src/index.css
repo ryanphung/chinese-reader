@@ -41,7 +41,7 @@ button {
   background: rgba(255, 255, 255, .3);
   border: none;
   font-size: .3rem;
-  padding: 5px 20px;
+  padding: 5px;
   width: auto;
   color: rgba(255, 255, 255, .7);
   cursor: pointer;

@@ -1,16 +1,18 @@
-import { useMemo } from 'react'
+import React, { Fragment, useMemo } from 'react'
 import './DictPane.scss'
 import hanvietify from '../utils/hanviet'
 
-function DictPane({ word }) {
+const DictPane = React.memo(function DictPane({ word }) {
   const hanviet = useMemo(() => hanvietify(word?.text), [word?.text])
   return (
     <div className="DictPane">
-      <div className="DictPane-hanzi">
-        {word?.text}
-      </div>
-      <div className="DictPane-hanviet">
-        {hanviet}
+      <div>
+        <span className="DictPane-hanzi">
+          {word?.text}
+        </span>
+        <span className="DictPane-hanviet">
+          {hanviet}
+        </span>
       </div>
       <div className="DictPane-info">
       {
@@ -20,13 +22,23 @@ function DictPane({ word }) {
               {v.pinyinPretty}
             </div>
             <div className="DictPane-meaning">
-              {v.english}
+              <Meaning meaning={v.english}/>
             </div>
           </div>
         )
       }
       </div>
     </div>
+  )
+})
+
+function Meaning({ meaning }) {
+  const meaningSplit = (meaning || '').split('/')
+  return meaningSplit.map((v, i) =>
+    <Fragment key={i}>
+      {v}
+      {meaningSplit[i + 1] && <span style={{color: 'rgba(255, 255, 255, .4)'}}> / </span>}
+    </Fragment>
   )
 }
 

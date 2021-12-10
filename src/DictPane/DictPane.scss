@@ -1,13 +1,13 @@
 .DictPane {
   display: flex;
   flex: 1;
-  flex-direction: row;
+  flex-direction: column;
   align-items: stretch;
   // background-color: rgba(0, 0, 0, .075);
-  padding: 20px;
+  padding: 16px;
   // min-width: 0 is necessary so that the white-space: nowrap doesn't break flexbox layout
   // ref: https://stackoverflow.com/a/38224283
-  min-width: 0;
+  // min-width: 0;
 }
 
 .DictPane-hanzi {
@@ -31,21 +31,17 @@
 }
 
 .DictPane-line {
-  display: flex;
-  flex-direction: row;
+  margin-top: 8px;
 }
 
 .DictPane-pinyin {
-  display: inline-block;
+  display: inline;
   color: #779933;
   margin-right: 8px;
 }
 
 .DictPane-meaning {
   flex: 1;
-  display: inline-block;
+  display: inline;
   color: rgba(255, 255, 255, .8);
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
 }

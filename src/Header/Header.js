@@ -14,35 +14,42 @@ function Header({ word, wordsCount, knownWordsCount, recommendedVocabularyDb, vo
       <div className="Header-info">
         <div className="Header-stats">
           <div>
-            <span className="text-s uppercase">Known Words</span> {knownWordsCount} / {wordsCount}
+            <span className="text-s uppercase">Known Words</span>
+            <span>{knownWordsCount} / {wordsCount}</span>
           </div>
           <div>
-            <span className="text-s uppercase">Ease</span> {Math.round(ease * 100)}%
+            <span className="text-s uppercase">Ease</span>
+            <span>{Math.round(ease * 100)}%</span>
           </div>
           <div>
-            <span className="text-s uppercase">Recommended</span> <span style={{cursor: 'pointer'}} onClick={onRecommendedClick}>{Object.keys(recommendedVocabularyDb).length}</span>
+            <span className="text-s uppercase">Recommended</span>
+            <span style={{cursor: 'pointer'}}
+              onClick={onRecommendedClick}>
+              {Object.keys(recommendedVocabularyDb).length} words
+            </span>
           </div>
           <div>
-            <span className="text-s uppercase">Vocabulary</span> <span className="p1">{Object.keys(vocabularyDb).length}</span>
+            <span className="text-s uppercase">My Vocabulary</span>
+            <span className="p1">{Object.keys(vocabularyDb).length} words</span>
           </div>
         </div>
-        <div className="Header-message">
+        {/* <div className="Header-message">
           {
             ease < .9 ? <span>You're reading in <strong>pain</strong> zone. When you reach 90%, you will be in <strong>intensive</strong> zone.</span> :
             ease < .98 ? <span>You're reading in <strong>intensive</strong> zone. When you reach 98%, you will be in <strong>extensive</strong> zone.</span> :
             <span>This book is at the right level for you. You are reading in <strong>extensive</strong> zone.</span>
           }
-        </div>
-        <div className="Header-message">
-          <button style={{ marginRight: 10 }} onClick={onSettingsClick}>Settings</button>
-          <select onChange={handleChapterChange}>
-            {
-              Array.from(Array(26).keys()).map(i =>
-                <option key={String(i)} value={i}>Chapter {i + 1}</option>
-              )
-            }
-          </select>
-        </div>
+        </div> */}
+      </div>
+      <div className="Header-message">
+        <select onChange={handleChapterChange} style={{ flex: 1, textAlign: 'center' }}>
+          {
+            Array.from(Array(26).keys()).map(i =>
+              <option key={String(i)} value={i}>Chapter {i + 1}</option>
+            )
+          }
+        </select>
+        <button style={{ flex: 1, marginLeft: 16 }} onClick={onSettingsClick}>Settings</button>
       </div>
     </div>
   )

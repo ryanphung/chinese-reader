@@ -1,17 +1,17 @@
 .Header {
   position: fixed;
   top: 0;
-  left: 0;
   right: 0;
-  height: 132px;
-  background-color: lighten(#282c34, 5%);
-  box-shadow: 0 0 20px 5px rgba(0, 0, 0, .3);
+  bottom: 0;
+  width: 5rem;
+  background-color: lighten(#282c34, 3%);
   color: rgba(255, 255, 255, .6);
   font-size: .3rem;
   display: flex;
   justify-content: center;
   align-items: stretch;
-  flex-direction: row;
+  flex-direction: column;
+  box-shadow: 0 0 20px 5px rgba(0, 0, 0, .1);
 }
 
 .Header-info {
@@ -19,22 +19,31 @@
   justify-content: flex-start;
   align-items: stretch;
   flex-direction: column;
-  padding: 20px;
+  padding: 16px;
 }
 
 .Header-stats {
   display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
   justify-content: flex-end;
-  align-items: center;
+  align-items: flex-end;
+  font-size: .4rem;
+  margin-bottom: -16px;
 }
 
 .Header-stats>div {
-  margin-left: 20px;
+  flex: 1;
+  flex-basis: 50%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 16px;
 }
 
 .Header-message {
   display: flex;
-  justify-content: flex-end;
-  margin-top: 8px;
+  justify-content: flex-start;
+  padding: 16px;
   font-size: .2rem;
+  border-top: 1px solid rgba(0, 0, 0, .5);
 }
