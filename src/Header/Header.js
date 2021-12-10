@@ -42,7 +42,7 @@ function Header({ word, wordsCount, knownWordsCount, recommendedVocabularyDb, vo
           }
         </div> */}
       </div>
-      <VocabularyPanel vocabularyDb={vocabularyDb}/>
+      {/* <VocabularyPanel vocabularyDb={vocabularyDb}/> */}
       <div className="Header-message">
         <select onChange={handleChapterChange} style={{ flex: 1, textAlign: 'center' }}>
           {
