@@ -208,7 +208,7 @@ function App() {
       v.level = 0
     } else {
       const step = event.shiftKey ? -1 : 1
-      v.level = (vocabularyDb[word].level + step) % (MAX_LEVEL + 1)
+      v.level = (vocabularyDb[word].level + step + MAX_LEVEL + 1) % (MAX_LEVEL + 1)
     }
 
     setVocabularyDb({
