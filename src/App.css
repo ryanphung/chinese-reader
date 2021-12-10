@@ -1,5 +1,4 @@
 .App-main {
-  margin-right: 5rem;
   height: 100vh;
   background-color: #282c34;
   display: flex;
@@ -7,6 +6,13 @@
   align-items: stretch;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  .App-main {
+    margin-right: 5rem;
+  }
 }
 
 .App-input {
@@ -31,8 +37,14 @@
   font-size: 1rem;
   overflow-wrap: anywhere;
   overflow-y: scroll;
-  padding-left: 100px;
-  padding-right: 100px;
+}
+
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  .App-output {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
 }
 
 .App-output {

@@ -1,4 +1,5 @@
 .Header {
+  display: none;
   position: fixed;
   top: 0;
   right: 0;
@@ -7,11 +8,17 @@
   background-color: lighten(#282c34, 3%);
   color: rgba(255, 255, 255, .6);
   font-size: .3rem;
-  display: flex;
   justify-content: center;
   align-items: stretch;
   flex-direction: column;
   box-shadow: 0 0 20px 5px rgba(0, 0, 0, .1);
+}
+
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  .Header {
+    display: flex;
+  }
 }
 
 .Header-info {

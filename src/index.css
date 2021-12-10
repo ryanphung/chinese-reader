@@ -1,5 +1,12 @@
 html {
-  font-size: 64px;
+  font-size: 32px;
+}
+
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  html {
+    font-size: 64px;
+  }
 }
 
 body {
