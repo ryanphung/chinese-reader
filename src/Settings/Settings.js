@@ -11,6 +11,7 @@ const TRANSCRIPT_METHODS = [
 ]
 
 function Settings({
+  version,
   isVisible,
   settings={},
   onSettingsUpdate,
@@ -38,6 +39,9 @@ function Settings({
   return (
     isVisible ?
     <section className="Settings">
+      <section>
+        <span className="text-s">Version</span> 0.0.{version}
+      </section>
       <section>
         <span>Transcript Method:</span>
         <select onChange={handleTranscriptMethodSelectChange} value={transcriptMethod}>

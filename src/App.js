@@ -230,7 +230,6 @@ function App() {
     <div className="App">
       <ReadingProgressBar progress={progress}/>
       <Header
-        version={VERSION}
         word={selectedToken}
         wordsCount={wordsCount}
         knownWordsCount={knownWordsCount}
@@ -241,6 +240,7 @@ function App() {
         onRecommendedClick={handleRecommendedClick}
       />
       <Settings
+        version={VERSION}
         isVisible={isSettingsVisible}
         settings={settings}
         onSettingsUpdate={setSettings}
