@@ -1,5 +1,6 @@
 import './Header.scss'
 import DictPane from '../DictPane/DictPane'
+import { extractKeywordFromDictEntry, getHigherFrequencyDictEntry } from '../utils/chinese'
 
 function Header({ word, wordsCount, knownWordsCount, recommendedVocabularyDb, vocabularyDb, onChapterChange, onSettingsClick, onRecommendedClick }) {
   const ease = (knownWordsCount / wordsCount) || 0
@@ -41,6 +42,7 @@ function Header({ word, wordsCount, knownWordsCount, recommendedVocabularyDb, vo
           }
         </div> */}
       </div>
+      <VocabularyPanel vocabularyDb={vocabularyDb}/>
       <div className="Header-message">
         <select onChange={handleChapterChange} style={{ flex: 1, textAlign: 'center' }}>
           {
@@ -52,6 +54,17 @@ function Header({ word, wordsCount, knownWordsCount, recommendedVocabularyDb, vo
         <button style={{ flex: 1, marginLeft: 16 }} onClick={onSettingsClick}>Settings</button>
       </div>
     </div>
+  )
+}
+
+function VocabularyPanel({vocabularyDb}) {
+  const words = Object.entries(vocabularyDb)
+  const latestWords = words.slice(words.length - 5).reverse()
+
+  return (
+    <section style={{padding: 16}}>
+      { latestWords.map((word, i) => <div key={i}>{word[0]}</div>) }
+    </section>
   )
 }
 

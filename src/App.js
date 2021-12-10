@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useMemo, useRef, useCallback } from 'react'
 import './App.css'
 import rsh from './data/rsh.json'
+import charFreq from './data/char-freq.json'
 import initialContent from './data/content.json'
 import Word from './Word/Word'
 import Header from './Header/Header'
@@ -16,6 +17,13 @@ const _toMap = list => list.reduce((s, v) => { s[v.hanzi] = v; return s }, {})
 const rsh1 = rsh.filter(v => v.tags.includes('RSH1'))
 const rshMap = _toMap(rsh)
 const rsh1Map = _toMap(rsh1)
+const charFreqs = [100, 200, 300, 400, 500, 600, 700, 800, 900, 1000]
+const charFreqMaps = Object.fromEntries(charFreqs.map(v => [`top${v}`, _toMap(charFreq.slice(0, v))]))
+const CHARS_MAPS = {
+  "rsh1": rsh1Map,
+  "off": {},
+  ...charFreqMaps
+}
 
 function App() {
   const [isRecommendationInitialized, setIsRecommendationInitialized] = useState(false)
@@ -120,10 +128,6 @@ function App() {
   useEffect(() => {
     if (!isRecommendationInitialized && isVocabularyLoaded && isTokensInitialized && isSettingsLoaded) {
       if (settings.recommendation) {
-        const CHARS_MAPS = {
-          "rsh1": rsh1Map,
-          "off": {}
-        }
         const charsMap = CHARS_MAPS[settings.recommendation]
 
         const newWords = {}

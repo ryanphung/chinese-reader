@@ -1,9 +1,10 @@
 import './Settings.scss'
 
 const RECOMMENDATIONS = [
-  // { value: 'top100', label: 'Most common 100 characters' },
-  // { value: 'top500', label: 'Most common 500 characters' },
-  // { value: 'top1000', label: 'Most common 1000 characters' },
+  ...(
+    [100, 200, 300, 400, 500, 600, 700, 800, 900, 1000]
+      .map(v => ({ value: `top${v}`, label: `Most common ${v} characters` }))
+  ),
   { value: 'rsh1', label: 'RSH1 (1,500 characters)' },
   { value: 'off', label: 'Off' }
 ]

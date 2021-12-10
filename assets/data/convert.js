@@ -69,10 +69,29 @@ function convertPhienAm() {
   }
 }
 
+function convertCharFreq() {
+  try {
+    // read file
+    const tsv = fs.readFileSync(__dirname + '/char-freq.tsv', 'utf8')
+
+    const data = Papa.parse(tsv, { header: true })
+
+    console.log('Parse complete. Example:')
+    console.log(data.data[10])
+
+    // write file
+    fs.writeFileSync(__dirname + '/../../src/data/char-freq.json', JSON.stringify(data.data), 'utf8')
+    console.log('Written to file')
+  } catch (err) {
+    console.error(err)
+  }
+}
+
 function main() {
   convertRsh()
   convertContent()
   convertPhienAm()
+  convertCharFreq()
 }
 
 main()
