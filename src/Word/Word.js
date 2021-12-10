@@ -1,21 +1,16 @@
 import React, { Fragment, useMemo } from 'react'
 import './Word.css'
 // import pinyinify from 'pinyin'
-import hanvietify from '../utils/hanviet'
-import { extractKeywordFromDictEntry, getHigherFrequencyDictEntry } from '../utils/chinese'
 
 function Word({ token, rshFrame, vocabularyDb, recommendedVocabularyDb, onClick, onHover, settings={} }) {
   const {
     transcriptMethod='pinyin',
     script='simplified'
   } = settings
-  const text = token.text
+  const { text, keyword, hanviet } = token
   const displayedText = script === 'simplified' ? token.simplified : token.traditional
   const matched = !!token.matches.length
   const isLineBreak = text === '\n'
-  const dictEntry = useMemo(() => getHigherFrequencyDictEntry(token), [token])
-  const keyword = useMemo(() => extractKeywordFromDictEntry(dictEntry), [dictEntry])
-  const hanviet = hanvietify(text)
 
   const pinyin = useMemo(() => {
     if (token.matches.length) {
