@@ -1,18 +1,15 @@
-import chineseTokenizer from 'chinese-tokenizer' // https://github.com/yishn/chinese-tokenizer
-import customDictText from './data/customDict'
+import chineseTokenizer from './utils/chinese-tokenizer'
+import keywordsText from './data/keywords'
 import { extractKeywordFromDictEntry, getHigherFrequencyDictEntry } from './utils/chinese'
 import hanvietify from './utils/hanviet'
-
-const customDict = customDictText.split('\n')
 
 export async function initTokenizerAsync() {
   const response = await fetch('data/cedict_ts.u8')
   const dict = await response.text()
 
-  const tokenize = chineseTokenizer.load(
-    customDict.join('\n') + '\n'
-    + dict)
-  return tokenize
+  return chineseTokenizer.load(
+    keywordsText + '\n' +
+    dict)
 }
 
 export function enrichToken(tokens) {
