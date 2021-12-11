@@ -285,7 +285,7 @@ function App() {
           rshMap={rshMap}
           handleWordClick={handleWordClick}
           handleWordHover={handleWordHover}
-          settings={handleWordHover}
+          settings={settings}
         />
       </div>
     </div>
