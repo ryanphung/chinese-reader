@@ -21,22 +21,28 @@ export function extractKeywordFromDictEntry(dictEntry) {
 
   // FIXME: get the most popular entry instead of the first entry
 
-  // if there is some texts in () or [], remove them
-  t = t.replace(/\s*\(.*\)\s*|\s*\[.*\]\s*/g, '')
-
-  // first split by the separators ' (''/' ';' ',' and take the first entry only
+  // first split by the separators '/' and take the first entry only
   t = t?.split?.(/ \(|[/;,]/)?.[0] || ''
-
-  t = t.trim()
 
   // if the text is in a parentheses, remove the parentheses
   t = t.replace(/^\((.*?)\)$/, '$1')
+
+  // if there is some texts in () or [], remove them
+  t = t.replace(/\s*\(.*\)\s*|\s*\[.*\]\s*/g, '')
+
+  // first split by the separators '/'' (' ';' ',' and take the first entry only
+  t = t?.split?.(/ \(|[/;,]/)?.[0] || ''
+
+  t = t.trim()
 
   // remove some common marker texts
   t = t.replace(/lit\. |fig\. |surname /g, '')
 
   // remove all Chinese texts
   t = t.replace(/\p{Script=Han}+/ug, '')
+
+  // remove the first "to ", for example: "to have to" -> "have to"
+  t = t.replace(/^to\s/, '')
 
   return t
 }
