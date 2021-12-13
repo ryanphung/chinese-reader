@@ -21,6 +21,8 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "convert": "node ./assets/data/convert.js",
+    "clipboard:copy": "pbcopy < ./assets/saved/vocabularyDb.txt",
+    "clipboard:paste": "pbpaste > ./assets/saved/vocabularyDb.txt",
     "deploy": "git push -f heroku `git branch --show-current`:master"
   },
   "eslintConfig": {
