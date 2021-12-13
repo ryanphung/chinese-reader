@@ -1,3 +1,33 @@
+body {
+  --primary-color: #0092cc;
+  --secondary-color: #dcd427;
+  --tertiary-color: #779933;
+}
+
+body.sepia {
+  --app-background-color: #DFD8CA;
+  --paper-background-color: rgb(248, 241, 227);
+  --paper-shadow-color: rgba(0, 0, 0, .2);
+  --text-color: rgba(79, 50, 28, 1);
+  --text-color-light: rgba(79, 50, 28, .72);
+  --text-underline-color: rgba(79, 50, 28, 0.5);
+  --text-underline-color-light: rgba(79, 50, 28, 0.2);
+  --button-background-color: rgba(0, 0, 0, .1);
+  --select-background-color: rgba(0, 0, 0, .1);
+}
+
+body.dark {
+  --app-background-color: #323233;/*rgb(40, 44, 52);*/
+  --paper-background-color: rgb(74, 74, 77);
+  --paper-shadow-color: rgba(0, 0, 0, .2);
+  --text-color: rgba(255, 255, 255, .7);
+  --text-color-light: rgba(255, 255, 255, .4);
+  --text-underline-color: rgba(255, 255, 255, .4);
+  --text-underline-color-light: rgba(255, 255, 255, .2);
+  --button-background-color: rgba(255, 255, 255, .1);
+  --select-background-color: rgba(0, 0, 0, .1);
+}
+
 html {
   font-size: 32px;
 }
@@ -16,6 +46,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: var(--app-background-color);
+  color: var(--text-color);
 }
 
 code {
@@ -24,7 +56,7 @@ code {
 }
 
 .p1 {
-  color: #0092cc;
+  color: var(--primary-color);
 }
 
 .text-s {
@@ -36,8 +68,8 @@ code {
 }
 
 select {
-  background-color: rgba(255, 255, 255, .1);
-  color: rgba(255, 255, 255, .7);
+  background-color: var(--select-background-color);
+  color: var(--text-color);
   font-size: .3rem;
   padding: 5px;
   cursor: pointer;
@@ -45,12 +77,12 @@ select {
 }
 
 button {
-  background: rgba(255, 255, 255, .3);
+  background-color: var(--button-background-color);
   border: none;
   font-size: .3rem;
   padding: 5px;
   width: auto;
-  color: rgba(255, 255, 255, .7);
+  color: var(--text-color);
   cursor: pointer;
   transition: all .1s ease-in-out;
   border-radius: 5px;

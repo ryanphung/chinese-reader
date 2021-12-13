@@ -171,6 +171,11 @@ function App() {
     localStorage.setItem("settings", JSON.stringify(settings))
   }, [settings])
 
+  useEffect(() => {
+    const theme = settings?.theme || 'dark'
+    document.body.classList = theme
+  }, [settings?.theme])
+
   const { wordsCount, knownWordsCount, knownWordsCountInclRecommendation } = useMemo(() => {
     const wordTokens = tokens.filter(token => token.matches.length)
     // const wordTokensMap = wordTokens.reduce((s, v) => { s[v.text] = true; return s }, {})
@@ -228,6 +233,7 @@ function App() {
   const handleChapterChange = i => {
     setChapter(+i)
   }
+
 
   const handleRecommendedClick = () => {
     const res = window.confirm(`Are you sure you want to move ${Object.keys(recommendedVocabularyDb).length} words into your vocabulary? This action is not reversible.`)
@@ -306,21 +312,23 @@ const AppOutput = React.memo(function AppOutput({
 }) {
   return (
     <div className="App-output" ref={mainRef} onScroll={onScroll}>
-      {
-        isInitialized ?
-        tokens.map((token, i) =>
-          <Word
-            key={i}
-            token={token}
-            vocabularyDb={vocabularyDb}
-            recommendedVocabularyDb={recommendedVocabularyDb}
-            rshFrame={rshMap[token.text]}
-            onClick={handleWordClick}
-            onHover={handleWordHover}
-            settings={settings}
-          />
-        ) : null
-      }
+      <div className="App-paper">
+        {
+          isInitialized ?
+          tokens.map((token, i) =>
+            <Word
+              key={i}
+              token={token}
+              vocabularyDb={vocabularyDb}
+              recommendedVocabularyDb={recommendedVocabularyDb}
+              rshFrame={rshMap[token.text]}
+              onClick={handleWordClick}
+              onHover={handleWordHover}
+              settings={settings}
+            />
+          ) : null
+        }
+      </div>
     </div>
   )
 })

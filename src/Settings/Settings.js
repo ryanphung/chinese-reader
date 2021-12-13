@@ -27,6 +27,11 @@ const TRANSCRIPT_METHODS = [
   { value: 'hanviet', label: 'Hán Việt' }
 ]
 
+const THEMES = [
+  { value: 'sepia', label: 'Sepia' },
+  { value: 'dark', label: 'Dark' }
+]
+
 function Settings({
   version,
   isVisible,
@@ -37,7 +42,8 @@ function Settings({
   const {
     transcriptMethod='pinyin',
     script='simplified',
-    recommendation='off'
+    recommendation='off',
+    theme='dark'
   } = settings
 
   function handleTranscriptMethodSelectChange(e) {
@@ -58,6 +64,13 @@ function Settings({
     onSettingsUpdate({
       ...settings,
       recommendation: e.target.value
+    })
+  }
+
+  function handleThemeSelectChange(e) {
+    onSettingsUpdate({
+      ...settings,
+      theme: e.target.value
     })
   }
 
@@ -92,6 +105,16 @@ function Settings({
         <select onChange={handleScriptSelectChange} value={script}>
           {
             SCRIPTS.map((v, i) =>
+              <option key={i} value={v.value}>{v.label}</option>
+            )
+          }
+        </select>
+      </section>
+      <section>
+        <span>Theme:</span>
+        <select onChange={handleThemeSelectChange} value={theme}>
+          {
+            THEMES.map((v, i) =>
               <option key={i} value={v.value}>{v.label}</option>
             )
           }

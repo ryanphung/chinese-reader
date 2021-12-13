@@ -3,9 +3,7 @@
 .Word {
   position: relative;
   display: inline;
-  /* color: rgba(255, 255, 255, .7); */
-  /* background-color: rgba(255, 255, 255, .05); */
-  color: rgba(255, 255, 255, .4);
+  color: var(--text-color-light);
   transition: all .3s ease-in-out;
   margin-right: 4px;
   line-height: 1.5em;
@@ -13,8 +11,7 @@
 
 .Word-vocabulary,
 .Word:not(.Word-matched) {
-  color: rgba(255, 255, 255, .7);
-  /* background-color: transparent; */
+  color: var(--text-color);
 }
 
 .Word-matched {
@@ -30,14 +27,13 @@
   text-decoration: underline;
   text-underline-offset: .12em;
   text-decoration-thickness: 2px;
-  text-decoration-color: rgba(255, 255, 255, .3);
+  text-decoration-color: var(--text-underline-color-light);
 }
 
 /* .Word-level-4.Word-matched span, */
 .Word-level-4.Word-matched {
   /* may need this for IE */
-  /* border-bottom-color: rgba(255, 255, 255, 0); */
-  text-decoration-color: rgba(255, 255, 255, 0);
+  text-decoration-color: var(--text-underline-color);
 }
 
 .Word.Word-level-4.Word-matched span:after {

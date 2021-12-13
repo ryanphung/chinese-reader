@@ -37,7 +37,7 @@ function Meaning({ meaning }) {
   return meaningSplit.map((v, i) =>
     <Fragment key={i}>
       {v}
-      {meaningSplit[i + 1] && <span style={{color: 'rgba(255, 255, 255, .4)'}}> / </span>}
+      {meaningSplit[i + 1] && <span className="DictPane-separator"> / </span>}
     </Fragment>
   )
 }
