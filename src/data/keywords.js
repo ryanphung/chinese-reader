@@ -29,6 +29,7 @@ const keywords = `
 一直 一直 [yi1 zhi2] /always/
 個 个 [ge5] /a/
 故事 故事 [gu4 shi5] /story/
+鹿鼎記 鹿鼎记 [lu4 ding3 ji5] /Lu Ding Ji (a classic novel)/
 `
 
 export default keywords
