@@ -1,4 +1,4 @@
-import chineseTokenizer from './utils/chinese-tokenizer'
+import { load } from './utils/chinese-tokenizer'
 import keywordsText from './data/keywords'
 import { extractKeywordFromDictEntry, getHigherFrequencyDictEntry } from './utils/chinese'
 import hanvietify from './utils/hanviet'
@@ -7,7 +7,7 @@ export async function initTokenizerAsync() {
   const response = await fetch('data/cedict_ts.u8')
   const dict = await response.text()
 
-  return chineseTokenizer.load(
+  return load(
     keywordsText + '\n' +
     dict)
 }
