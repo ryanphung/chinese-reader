@@ -7,11 +7,11 @@ const chinesePunctuation = [
     '！', '（', '）', '，', '：', '；', '？'
 ]
 
-exports.loadFile = function(path) {
+export function loadFile(path) {
     return exports.load(readFileSync(path, 'utf-8'))
 }
 
-exports.load = function(contents) {
+export function load(contents) {
     let dictionary = new Cedict()
     dictionary.load(contents)
 
