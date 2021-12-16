@@ -15,11 +15,13 @@ body.sepia {
   --text-underline-color-light: rgba(79, 50, 28, 0.2);
   --button-background-color: rgba(0, 0, 0, .1);
   --select-background-color: rgba(0, 0, 0, .1);
+  --reading-progress-bar-color: rgb(0, 146, 204, .5);
 }
 
 body.dark {
   --app-background-color: #323233;/*rgb(40, 44, 52);*/
   --paper-background-color: rgb(74, 74, 77);
+  --modal-background-color: rgba(74, 74, 77, .97);
   --paper-shadow-color: rgba(0, 0, 0, .2);
   --text-color: rgba(255, 255, 255, .7);
   --text-color-light: rgba(255, 255, 255, .4);
@@ -27,6 +29,7 @@ body.dark {
   --text-underline-color-light: rgba(255, 255, 255, .2);
   --button-background-color: rgba(255, 255, 255, .1);
   --select-background-color: rgba(0, 0, 0, .1);
+  --reading-progress-bar-color: rgb(0, 146, 204, .5);
 }
 
 html {

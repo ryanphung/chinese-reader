@@ -1,8 +1,7 @@
 .ReadingProgressBar {
   position: fixed;
   height: 5px;
-  background-color: white;
-  opacity: .2;
+  background-color: var(--reading-progress-bar-color);
   top: 0;
   left: 0;
   z-index: 1000;

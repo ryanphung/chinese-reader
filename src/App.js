@@ -258,7 +258,7 @@ function App() {
   }
 
   return (
-    <div className="App">
+    <div className="App" onScroll={handleScroll} ref={mainRef}>
       <ReadingProgressBar progress={progress}/>
       <Header
         word={selectedToken}
@@ -282,8 +282,6 @@ function App() {
         <textarea className="App-input" value={content} onChange={handleChange}>
         </textarea>
         <AppOutput
-          mainRef={mainRef}
-          onScroll={handleScroll}
           isInitialized={isInitialized}
           tokens={tokens}
           vocabularyDb={vocabularyDb}
