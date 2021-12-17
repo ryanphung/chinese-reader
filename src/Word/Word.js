@@ -62,10 +62,11 @@ const InnerWord = React.memo(function InnerWord({
   )
 
   return (
-    vocabularyLevel === 0 ? <>⟨<span annotation={text}>{keyword}</span>⟩</> :
-    vocabularyLevel === 1 ? <WordByTranscript transcript={hanviet} text={text}/> :
-    vocabularyLevel === 2 ? <WordByTranscript transcript={pinyin} text={text}/> :
-    <WordByText text={text} transcript={transcript}/>
+    vocabularyLevel === 0 ? <WordByText text={text} transcript={transcript} meaning={keyword}/> :
+    vocabularyLevel === 1 ? <WordByText text={text} transcript={transcript} meaning=""/> :
+    vocabularyLevel === 2 ? <WordByText text={text} transcript="" meaning={keyword}/> :
+    vocabularyLevel === 3 ? <WordByText text={text} transcript={hanviet} meaning=""/> :
+    <WordByText text={text} transcript="" meaning=""/>
   )
 })
 
@@ -92,16 +93,21 @@ function WordByTranscript({
 
 function WordByText({
   text,
-  transcript
+  transcript,
+  meaning
 }) {
   const textSplit = [...text]
   const transcriptSplit = transcript?.split?.(' ') ?? []
 
   return (
     text === ' ' ? '\u00A0' :
-    textSplit.map((v, i) =>
-      <span key={i} annotation={transcriptSplit?.[i]}>{v}</span>
-    )
+    <span annotation2={meaning}>
+      {
+        textSplit.map((v, i) =>
+          <span key={i} annotation={transcriptSplit?.[i]}>{v}</span>
+        )
+      }
+    </span>
   )
 }
 

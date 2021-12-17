@@ -2,16 +2,24 @@
 
 .Word {
   position: relative;
-  display: inline;
+  display: inline-block;
   color: var(--text-color-light);
   transition: all .3s ease-in-out;
   margin-right: 4px;
-  line-height: 1.5em;
+  line-height: 1.8em;
+}
+
+.Word-matched {
+  text-decoration: underline;
+  text-underline-offset: .12em;
+  text-decoration-thickness: 2px;
+  text-decoration-color: var(--text-underline-color-light);
 }
 
 .Word-vocabulary,
 .Word:not(.Word-matched) {
   color: var(--text-color);
+  text-decoration-color: var(--text-underline-color);
 }
 
 .Word-matched {
@@ -22,18 +30,9 @@
   /* margin-right: .05rem; */
 }
 
-/* .Word-matched span, */
-.Word-matched {
-  text-decoration: underline;
-  text-underline-offset: .12em;
-  text-decoration-thickness: 2px;
-  text-decoration-color: var(--text-underline-color-light);
-}
-
-/* .Word-level-4.Word-matched span, */
 .Word-level-4.Word-matched {
   /* may need this for IE */
-  text-decoration-color: var(--text-underline-color);
+  text-decoration-color: transparent;
 }
 
 .Word.Word-level-4.Word-matched span:after {
@@ -47,7 +46,7 @@
 .Word span:after {
   content: attr(annotation);
   position: absolute;
-  top: -0.9em;
+  top: -0.8em;
   left: 50%;
   transform: translateX(-50%);
   white-space: nowrap;
@@ -56,6 +55,27 @@
   text-align: center;
   line-height: normal;
   transition: opacity .3s ease-in-out;
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.Word span:before {
+  content: attr(annotation2);
+  position: absolute;
+  bottom: -0.9em;
+  left: 50%;
+  transform: translateX(-50%);
+  white-space: nowrap;
+  font-size: .24rem;
+  text-decoration: none;
+  text-align: center;
+  line-height: normal;
+  transition: opacity .3s ease-in-out;
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-transform: uppercase;
 }
 
 .Word.Word-level-4.Word-matched:hover span:after {
