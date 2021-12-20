@@ -25,7 +25,7 @@ function convertRsh() {
     console.log(data.data[10])
 
     // write file
-    fs.writeFileSync(__dirname + '/../../src/data/rsh.json', JSON.stringify(data.data), 'utf8')
+    fs.writeFileSync(__dirname + '/../../src/data/rsh.json', JSON.stringify(data.data, null, 2), 'utf8')
     console.log('Written to file')
   } catch (err) {
     console.error(err)
@@ -44,7 +44,7 @@ function convertContent() {
     // write file
     fs.writeFileSync(__dirname + '/../../src/data/content.json', JSON.stringify({
       data: chapters
-    }), 'utf8')
+    }, null, 2), 'utf8')
     console.log('Written to file')
   } catch (err) {
     console.error(err)
@@ -62,7 +62,7 @@ function convertPhienAm() {
     console.log(dataMap['第'])
 
     // write file
-    fs.writeFileSync(__dirname + '/../../src/data/phienam.json', JSON.stringify(dataMap), 'utf8')
+    fs.writeFileSync(__dirname + '/../../src/data/phienam.json', JSON.stringify(dataMap, null, 2), 'utf8')
     console.log('Written to file')
   } catch (err) {
     console.error(err)
@@ -80,7 +80,7 @@ function convertCharFreq() {
     console.log(data.data[10])
 
     // write file
-    fs.writeFileSync(__dirname + '/../../src/data/char-freq.json', JSON.stringify(data.data), 'utf8')
+    fs.writeFileSync(__dirname + '/../../src/data/char-freq.json', JSON.stringify(data.data, null, 2), 'utf8')
     console.log('Written to file')
   } catch (err) {
     console.error(err)
