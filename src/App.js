@@ -89,11 +89,14 @@ function App() {
     const content = initialContent.data[chapter]
     setContent(initialContent.data[chapter])
 
+    if (isTokensInitialized)
+      return
+
     let tokens = (loadAndParse("tokens") || [])[chapter]
 
     if (!tokens?.length)
       if (tokenizer.tokenize && tokenizer.dictionary) {
-        tokens = tokenizeContent(tokenizer.dictionary, tokenizer.tokenize, content)
+        tokens = tokenizeContent(tokenizer.tokenize, tokenizer.dictionary, content)
       }
 
     if (tokens?.length) {
@@ -101,14 +104,19 @@ function App() {
       setIsTokensInitialized(true)
     }
 
-  }, [chapter, tokenizer.tokenize, tokenizer.dictionary])
+  }, [chapter, isTokensInitialized, tokenizer.tokenize, tokenizer.dictionary])
 
   // reset recommended vocabulary when content is updated
   useEffect(() => {
-    setRecommendedVocabularyDb({})
-    setIsTokensInitialized(false)
-    setIsRecommendationInitialized(false)
-  }, [content])
+    async function doIt() {
+      await setTokens([])
+      await setRecommendedVocabularyDb({})
+      await setIsTokensInitialized(false)
+      await setIsRecommendationInitialized(false)
+    }
+
+    doIt()
+  }, [chapter])
 
   // update scroll height when these things are updated (which will affect
   // how the content is rendered):
@@ -174,10 +182,13 @@ function App() {
 
   // save tokens into db
   useEffect(() => {
+    if (!isTokensInitialized)
+      return
+
     const storedTokens = loadAndParse("tokens") || []
     storedTokens[chapter] = tokens
     localStorage.setItem("tokens", JSON.stringify(storedTokens))
-  }, [tokens, chapter])
+  }, [tokens, chapter, isTokensInitialized])
 
   // save vocabulary db to local storage whenever it is changed
   useEffect(() => {
@@ -251,14 +262,49 @@ function App() {
       setHoveredTokenPosition(tokenPosition)
   }, [selectedToken, setHoveredTokenPosition])
 
-  const handleWordClick = useCallback((e, tokenPosition) => {
+  const handleWordActionClick = useCallback((event, tokenPosition) => {
+    const token = tokens[tokenPosition.sentenceId][tokenPosition.tokenId]
+    const text = token.text
+    const isVocabulary = typeof(vocabularyDb[text]) !== 'undefined'
+    const isRecommended = typeof(recommendedVocabularyDb[text]) !== 'undefined'
+    let v = {
+      addedAt: Date.now(),
+      chapter
+    }
+
+    if (isRecommended) {
+      v.level = recommendedVocabularyDb[text].level
+      v.recommended = true
+
+      // remove from recommendation list
+      setRecommendedVocabularyDb(
+        Object.fromEntries(Object.entries(recommendedVocabularyDb).filter(([v]) => v !== text))
+      )
+    } else if (!isVocabulary) {
+      v.level = 0
+    } else {
+      const step = /*event.shiftKey ? -1 :*/ 1
+      v.level = (vocabularyDb[text].level + step + MAX_LEVEL + 1) % (MAX_LEVEL + 1)
+    }
+
+    setVocabularyDb({
+      ...vocabularyDb,
+      [text]: v
+    })
+  }, [
+    vocabularyDb, recommendedVocabularyDb, setRecommendedVocabularyDb, setVocabularyDb, chapter, tokens
+  ])
+
+  const handleWordClick = useCallback((event, tokenPosition) => {
     if (selectedTokenPosition?.sentenceId === tokenPosition?.sentenceId &&
       selectedTokenPosition?.tokenId === tokenPosition?.tokenId)
       setSelectedTokenPosition()
     else
       setSelectedTokenPosition(tokenPosition)
     setHoveredTokenPosition()
-  }, [selectedTokenPosition, setSelectedTokenPosition, setHoveredTokenPosition])
+  }, [
+    selectedTokenPosition, setSelectedTokenPosition, setHoveredTokenPosition
+  ])
 
   const handleSelection = useCallback(({ sentenceId, start, end, text }) => {
     if (start === end)
@@ -278,6 +324,7 @@ function App() {
       sentenceId,
       tokenId: newTokenId
     })
+    setHoveredTokenPosition()
 
     window.getSelection().removeAllRanges()
   }, [setSelectedTokenPosition, tokens, setTokens, tokenizer.tokenize, tokenizer.dictionary])
@@ -361,8 +408,8 @@ function App() {
           hoveredTokenPosition={hoveredTokenPosition}
           vocabularyDb={vocabularyDb}
           recommendedVocabularyDb={recommendedVocabularyDb}
-          rshMap={rshMap}
           handleWordClick={handleWordClick}
+          handleWordActionClick={handleWordActionClick}
           handleWordHover={handleWordHover}
           handleSelection={handleSelection}
           settings={settings}
@@ -381,8 +428,8 @@ const AppOutput = React.memo(function AppOutput({
   hoveredTokenPosition,
   vocabularyDb,
   recommendedVocabularyDb,
-  rshMap,
   handleWordClick,
+  handleWordActionClick,
   handleWordHover,
   handleSelection,
   settings
@@ -448,12 +495,12 @@ const AppOutput = React.memo(function AppOutput({
               key={i}
               id={i}
               sentence={sentence}
-              selectedTokenPosition={selectedTokenPosition}
-              hoveredTokenPosition={hoveredTokenPosition}
+              selectedTokenPosition={selectedTokenPosition?.sentenceId === i ? selectedTokenPosition : null}
+              hoveredTokenPosition={hoveredTokenPosition?.sentenceId === i ? hoveredTokenPosition : null}
               vocabularyDb={vocabularyDb}
               recommendedVocabularyDb={recommendedVocabularyDb}
-              rshMap={rshMap}
               onWordClick={handleWordClick}
+              onWordActionClick={handleWordActionClick}
               onWordHover={handleWordHover}
               settings={settings}/>
           ) : null
@@ -472,6 +519,7 @@ const Sentence = React.memo(function Sentence({
   recommendedVocabularyDb,
   rshMap,
   onWordClick,
+  onWordActionClick,
   onWordHover,
   settings
 }) {
@@ -482,12 +530,12 @@ const Sentence = React.memo(function Sentence({
           <Word
             key={i}
             token={token}
-            selectedTokenPosition={selectedTokenPosition}
-            hoveredTokenPosition={hoveredTokenPosition}
+            selectedTokenPosition={selectedTokenPosition?.tokenId === i ? selectedTokenPosition : null}
+            hoveredTokenPosition={hoveredTokenPosition?.tokenId === i ? hoveredTokenPosition : null}
             vocabularyDb={vocabularyDb}
             recommendedVocabularyDb={recommendedVocabularyDb}
-            rshFrame={rshMap[token.text]}
             onClick={onWordClick}
+            onActionClick={onWordActionClick}
             onHover={onWordHover}
             settings={settings}
           />

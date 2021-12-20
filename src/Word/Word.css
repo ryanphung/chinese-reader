@@ -3,23 +3,68 @@
 .Word {
   position: relative;
   display: inline-block;
-  color: var(--text-color-light);
   transition: all .3s ease-in-out;
-  margin-right: 4px;
+  margin-right: 2px;
+  margin-bottom: 2px;
   line-height: 1.8em;
+  border-radius: 10px;
+  color: var(--text-color);
+  border: 2px solid transparent;
 }
 
 .Word-matched {
-  text-decoration: underline;
-  text-underline-offset: .12em;
+  /* text-decoration: underline; */
+  /* text-underline-offset: .12em;
   text-decoration-thickness: 2px;
-  text-decoration-color: var(--text-underline-color-light);
+  text-decoration-color: var(--text-underline-color-light); */
+}
+
+.Word-recommended {
+  /* color: var(--tertiary-color); */
+  background-color: rgb(119, 153, 51, .15);
+  /* background-color: rgba(0, 146, 204, .2); */
+  /* background-color: rgba(0, 0, 0, .075); */
+  /* background-color: rgba(0, 0, 0, .1); */
+}
+
+/* .Word-recommended:after {
+  content: '•';
+  position: absolute;
+  font-size: .5rem;
+  top: 5px;
+  right: 5px;
+  line-height: 12px;
+  color: var(--primary-color);
+} */
+
+.Word-new {
+  /* color: var(--text-color-light); */
+  background-color: rgba(0, 0, 0, .1);
+}
+
+.Word-vocabulary.Word-level-0 {
+  background-color: rgba(0, 146, 204, .25);
+}
+
+.Word-vocabulary.Word-level-1 {
+  background-color: rgba(0, 146, 204, .20);
+}
+
+.Word-vocabulary.Word-level-2 {
+  background-color: rgba(0, 146, 204, .15);
+}
+
+.Word-vocabulary.Word-level-3 {
+  background-color: rgba(0, 146, 204, .1);
 }
 
 .Word-vocabulary,
 .Word:not(.Word-matched) {
-  color: var(--text-color);
   text-decoration-color: var(--text-underline-color);
+}
+
+.Word-matched:not(.Word-vocabulary) {
+
 }
 
 .Word-matched {
@@ -31,9 +76,9 @@
 }
 
 .Word-selected {
-  /* background-color: rgba(0, 0, 0, .1); */
   color: var(--primary-color);
   text-decoration-color: var(--primary-color);
+  border-color: var(--primary-color);
 }
 
 .Word-hovered {
@@ -41,13 +86,9 @@
   text-decoration-color: var(--primary-color);
 }
 
-.Word-level-4.Word-matched {
+.Word-level-4.Word-matched:not(.Word-selected):not(.Word-hovered) {
   /* may need this for IE */
   text-decoration-color: transparent;
-}
-
-.Word.Word-level-4.Word-matched span:after {
-  opacity: 0;
 }
 
 .Word span {
@@ -94,8 +135,7 @@
 }
 
 .Word-matched:hover {
-  /* color: var(--secondary-color); */
-  opacity: .75;
+  /* opacity: .75; */
 }
 
 .Word-vocabulary.Word-matched:hover {
@@ -112,4 +152,50 @@
 .Word-line-break {
   display: block;
   margin-bottom: 60px;
+}
+
+.Word-action-popup {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: -15px;
+  left: 50%;
+  transform: translateX(-50%) translateY(-100%);
+  background-color: var(--modal-background-color);
+  box-shadow: 0 0 20px 0px var(--paper-shadow-color);
+  border-radius: 7px;
+  padding: 22px;
+  font-size: .2rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  line-height: 24px;
+  color: var(--primary-color);
+  white-space: nowrap;
+  transition: all .3s ease-in-out;
+  user-select: none;
+  animation: fadein .3s ease-in-out;
+}
+
+.Word-action-popup:hover {
+  color: var(--text-color);
+}
+
+.Word-action-popup::after {
+  content: '';
+  position: absolute;
+  bottom: -10px;
+  width: 0px;
+  height: 0px;
+  border-top: 10px solid var(--modal-background-color);
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }

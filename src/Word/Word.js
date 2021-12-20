@@ -1,8 +1,9 @@
-import React, { useMemo } from 'react'
+import React, { useMemo, useCallback } from 'react'
 import './Word.css'
 // import pinyinify from 'pinyin'
+import * as Icon from 'react-feather'
 
-function Word({ token, selectedTokenPosition, hoveredTokenPosition, rshFrame, vocabularyDb, recommendedVocabularyDb, onClick, onHover, settings={} }) {
+const Word = React.memo(function Word({ token, selectedTokenPosition, hoveredTokenPosition, vocabularyDb, recommendedVocabularyDb, onClick, onActionClick, onHover, settings={} }) {
   const {
     transcriptMethod='pinyin',
     script='simplified'
@@ -16,10 +17,12 @@ function Word({ token, selectedTokenPosition, hoveredTokenPosition, rshFrame, vo
     hoveredTokenPosition?.tokenId === token?.tokenId
   const displayedText = script === 'simplified' ? token.simplified : token.traditional
   const isLineBreak = text === '\n'
+  const isRecommended = typeof(recommendedVocabularyDb[text]) !== 'undefined'
   const isVocabulary = typeof(vocabularyDb[text]) !== 'undefined'
+  const isNew = isWord && !isRecommended && !isVocabulary
   const vocabularyLevel = (vocabularyDb[text] ?? recommendedVocabularyDb[text])?.level ?? (isWord ? 0 : undefined)
 
-  function handleClick(e) {
+  const handleClick = useCallback(function handleClick(e) {
     if (!isWord) return
 
     if (!onClick instanceof Function) return
@@ -28,7 +31,14 @@ function Word({ token, selectedTokenPosition, hoveredTokenPosition, rshFrame, vo
       sentenceId: token.sentenceId,
       tokenId: token.tokenId
     })
-  }
+  }, [isWord, onClick, token.sentenceId, token.tokenId])
+
+  const handleActionClick = useCallback(function handleActionClick(e) {
+    onActionClick(e, {
+      sentenceId: token.sentenceId,
+      tokenId: token.tokenId
+    })
+  }, [onActionClick, token.sentenceId, token.tokenId])
 
   return (
     isLineBreak ?
@@ -37,26 +47,66 @@ function Word({ token, selectedTokenPosition, hoveredTokenPosition, rshFrame, vo
       "Word",
       isWord ? 'Word-matched' : '',
       typeof(vocabularyLevel) === 'number' ? `Word-level-${vocabularyLevel}` : '',
+      isRecommended ? 'Word-recommended' : '',
       isVocabulary ? 'Word-vocabulary' : '',
+      isNew ? 'Word-new' : '',
       isSelected ? 'Word-selected' : '',
       isHovered ? 'Word-hovered' : ''
     ].join(' ')}
-      onClick={handleClick}
       onMouseEnter={() => isWord ? onHover(token) : onHover()}
       onMouseLeave={() => onHover()}
     >
-      <InnerWord
-        vocabularyLevel={vocabularyLevel}
-        keyword={keyword}
-        hanviet={hanviet}
-        pinyin={pinyin}
-        text={displayedText}
-        transcriptMethod={transcriptMethod}
-        script={script}
-      />
+      <span onClick={handleClick}>
+        <InnerWord
+          vocabularyLevel={vocabularyLevel}
+          keyword={keyword}
+          hanviet={hanviet}
+          pinyin={pinyin}
+          text={displayedText}
+          transcriptMethod={transcriptMethod}
+          script={script}
+        />
+      </span>
+      {
+        isWord && (isHovered || isSelected) &&
+        <WordActionPopup
+          handleActionClick={handleActionClick}
+          isVocabulary={isVocabulary}
+          isRecommended={isRecommended}
+          vocabularyLevel={vocabularyLevel}
+        />
+      }
     </span>
   )
-}
+})
+
+const WordActionPopup = React.memo(function WordActionPopup({
+  handleActionClick,
+  isVocabulary,
+  isRecommended,
+  vocabularyLevel
+}) {
+  return (
+    <div className="Word-action-popup" onClick={handleActionClick}>
+      {
+        !isVocabulary &&
+        (
+          isRecommended ?
+          <div>Add Recommended Word</div> :
+          <div>Add New Word</div>
+        )
+      }
+      {
+        isVocabulary &&
+        (
+          (vocabularyLevel < 4) ?
+          `Level ${vocabularyLevel}` :
+          <Icon.Check size={24}/>
+        )
+      }
+    </div>
+  )
+})
 
 const InnerWord = React.memo(function InnerWord({
   vocabularyLevel,
@@ -65,7 +115,8 @@ const InnerWord = React.memo(function InnerWord({
   pinyin,
   transcriptMethod,
   script,
-  text
+  text,
+  onClick
 }) {
   const transcript = useMemo(() =>
     transcriptMethod === 'pinyin' ? pinyin : hanviet,
@@ -73,11 +124,11 @@ const InnerWord = React.memo(function InnerWord({
   )
 
   return (
-    vocabularyLevel === 0 ? <WordByText text={text} transcript={transcript} meaning={keyword}/> :
-    vocabularyLevel === 1 ? <WordByText text={text} transcript={transcript} meaning=""/> :
-    vocabularyLevel === 2 ? <WordByText text={text} transcript="" meaning={keyword}/> :
-    vocabularyLevel === 3 ? <WordByText text={text} transcript={hanviet} meaning=""/> :
-    <WordByText text={text} transcript="" meaning=""/>
+    vocabularyLevel === 0 ? <WordByText onClick={onClick} text={text} transcript={transcript} meaning={keyword}/> :
+    vocabularyLevel === 1 ? <WordByText onClick={onClick} text={text} transcript={transcript} meaning=""/> :
+    vocabularyLevel === 2 ? <WordByText onClick={onClick} text={text} transcript="" meaning={keyword}/> :
+    vocabularyLevel === 3 ? <WordByText onClick={onClick} text={text} transcript={hanviet} meaning=""/> :
+    <WordByText onClick={onClick} text={text} transcript="" meaning=""/>
   )
 })
 
@@ -105,14 +156,15 @@ const InnerWord = React.memo(function InnerWord({
 function WordByText({
   text,
   transcript,
-  meaning
+  meaning,
+  onClick
 }) {
   const textSplit = [...text]
   const transcriptSplit = transcript?.split?.(' ') ?? []
 
   return (
     text === ' ' ? '\u00A0' :
-    <span annotation2={meaning}>
+    <span onClick={onClick} annotation2={meaning}>
       {
         textSplit.map((v, i) =>
           <span key={i} annotation={transcriptSplit?.[i]}>{v}</span>
