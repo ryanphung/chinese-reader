@@ -313,6 +313,10 @@ function App() {
   }
 
   const handleTokenUpdate = useCallback(updatedToken => {
+    if (!updatedToken.isWord) {
+      setSelectedTokenPosition()
+      setHoveredTokenPosition()
+    }
     setTokens(tokens.map((sentence, i) =>
       i === updatedToken.sentenceId ?
       sentence.map((token, j) =>
@@ -321,7 +325,7 @@ function App() {
       ) :
       sentence
     ))
-  }, [tokens, setTokens])
+  }, [tokens, setTokens, setSelectedTokenPosition, setHoveredTokenPosition])
 
   return (
     <div className="App" onScroll={handleScroll} ref={mainRef}>

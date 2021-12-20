@@ -33,6 +33,7 @@
   margin-top: 16px;
   padding-top: 12px;
   border-top: 1px solid var(--divider-color);
+  font-size: 0.25rem;
 }
 
 .DictPane-line {
@@ -57,4 +58,25 @@
 
 .DictPane-clickable {
   cursor: pointer;
+}
+
+.DictPane-delete-icon {
+  margin-right: 4px;
+}
+
+.DictPane-edit-icon {
+  margin-left: 4px;
+}
+
+.DictPane-hoverable-icon {
+  color: var(--text-color);
+  opacity: 0;
+  width: 0;
+  margin: 0;
+  transition: all .3s ease-in-out;
+}
+
+.DictPane-hoverable:hover .DictPane-hoverable-icon {
+  opacity: 1;
+  width: 16px;
 }
