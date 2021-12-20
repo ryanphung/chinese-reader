@@ -1,6 +1,5 @@
 import React, { Fragment, useMemo } from 'react'
 import './DictPane.scss'
-import hanvietify from '../utils/hanviet'
 import * as Icon from 'react-feather'
 
 const DictPane = React.memo(function DictPane({
