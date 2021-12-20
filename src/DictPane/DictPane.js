@@ -55,6 +55,7 @@ const DictPane = React.memo(function DictPane({
         <span className="DictPane-hanzi DictPane-hoverable">
           <Icon.Trash2 size={16} className="DictPane-delete-icon DictPane-hoverable-icon DictPane-clickable" onClick={handleDeleteTokenClick}/>
           {displayedText}
+          <br/>
         </span>
         {
           !!hanviet &&
@@ -68,7 +69,6 @@ const DictPane = React.memo(function DictPane({
         {
           !!pinyin &&
           <>
-            <br/>
             <span className="DictPane-pinyin DictPane-clickable DictPane-hoverable" onClick={handlePinyinClick}>
               {pinyin}
               <Icon.Edit2 size={16} className="DictPane-edit-icon DictPane-hoverable-icon"/>
