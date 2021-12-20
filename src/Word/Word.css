@@ -30,6 +30,12 @@
   /* margin-right: .05rem; */
 }
 
+.Word-selected {
+  /* background-color: rgba(0, 0, 0, .1); */
+  color: var(--primary-color);
+  text-decoration-color: var(--primary-color);
+}
+
 .Word-level-4.Word-matched {
   /* may need this for IE */
   text-decoration-color: transparent;
@@ -83,8 +89,8 @@
 }
 
 .Word-matched:hover {
-  color: #0092cc;
-  opacity: .8;
+  /* color: var(--secondary-color); */
+  opacity: .75;
 }
 
 .Word-vocabulary.Word-matched:hover {
@@ -95,7 +101,7 @@
 .Word-matched:hover {
   /* use border for IE */
   /* border-color: #0092cc; */
-  text-decoration-color: #0092cc;
+  /* text-decoration-color: var(--secondary-color); */
 }
 
 .Word-line-break {

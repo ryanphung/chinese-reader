@@ -15,7 +15,7 @@ export function load(contents) {
     let dictionary = new Cedict()
     dictionary.load(contents)
 
-    return function tokenize(text) {
+    function tokenize(text) {
         text = Array.from(text.replace(/\r/g, ''))
 
         let result = []
@@ -135,5 +135,10 @@ export function load(contents) {
         }
 
         return result
+    }
+
+    return {
+      dictionary,
+      tokenize
     }
 }

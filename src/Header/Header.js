@@ -1,7 +1,13 @@
 import './Header.scss'
 import DictPane from '../DictPane/DictPane'
 
-function Header({ word, wordsCount, knownWordsCountInclRecommendation, knownWordsCount, recommendedVocabularyDb, vocabularyDb, onChapterChange, onSettingsClick, onRecommendedClick }) {
+function Header({
+  sentenceId, tokenId, token,
+  wordsCount, knownWordsCountInclRecommendation, knownWordsCount,
+  recommendedVocabularyDb, vocabularyDb,
+  onChapterChange, onSettingsClick, onRecommendedClick,
+  dictionary, settings, onTokenUpdate
+}) {
   const ease = (knownWordsCount / wordsCount) || 0
   const easeInclRecommendation = (knownWordsCountInclRecommendation / wordsCount) || 0
 
@@ -11,7 +17,12 @@ function Header({ word, wordsCount, knownWordsCountInclRecommendation, knownWord
 
   return (
     <div className="Header">
-      <DictPane word={word}/>
+      <DictPane
+        token={token}
+        dictionary={dictionary}
+        settings={settings}
+        onTokenUpdate={onTokenUpdate}
+      />
       <div className="Header-info">
         <div className="Header-stats">
           <div>

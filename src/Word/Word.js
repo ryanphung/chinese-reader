@@ -2,36 +2,43 @@ import React, { Fragment, useMemo } from 'react'
 import './Word.css'
 // import pinyinify from 'pinyin'
 
-function Word({ token, rshFrame, vocabularyDb, recommendedVocabularyDb, onClick, onHover, settings={} }) {
+function Word({ token, selectedTokenPosition, rshFrame, vocabularyDb, recommendedVocabularyDb, onClick, onHover, settings={} }) {
   const {
     transcriptMethod='pinyin',
     script='simplified'
   } = settings
-  const { text, keyword, hanviet } = token
+  const { text, keyword, hanviet, pinyin, isWord } = token
+  const isSelected =
+    selectedTokenPosition?.sentenceId === token?.sentenceId &&
+    selectedTokenPosition?.tokenId === token?.tokenId
   const displayedText = script === 'simplified' ? token.simplified : token.traditional
-  const matched = !!token.matches.length
   const isLineBreak = text === '\n'
-
-  const pinyin = useMemo(() => {
-    if (token.matches.length) {
-      return token.matches[0].pinyinPretty
-    }
-  }, [token.matches])
-
   const isVocabulary = typeof(vocabularyDb[text]) !== 'undefined'
-  const vocabularyLevel = (vocabularyDb[text] ?? recommendedVocabularyDb[text])?.level ?? (matched ? 0 : undefined)
+  const vocabularyLevel = (vocabularyDb[text] ?? recommendedVocabularyDb[text])?.level ?? (isWord ? 0 : undefined)
+
+  function handleClick(e) {
+    if (!isWord) return
+
+    if (!onClick instanceof Function) return
+
+    onClick(e, {
+      sentenceId: token.sentenceId,
+      tokenId: token.tokenId
+    })
+  }
 
   return (
     isLineBreak ?
     <span className="Word-line-break"/> :
     <span className={[
       "Word",
-      matched ? 'Word-matched' : '',
+      isWord ? 'Word-matched' : '',
       typeof(vocabularyLevel) === 'number' ? `Word-level-${vocabularyLevel}` : '',
-      isVocabulary ? 'Word-vocabulary' : ''
+      isVocabulary ? 'Word-vocabulary' : '',
+      isSelected ? 'Word-selected' : ''
     ].join(' ')}
-      onClick={e => matched && onClick(e, text)}
-      onMouseEnter={() => matched ? onHover(token) : onHover()}
+      onClick={handleClick}
+      onMouseEnter={() => isWord ? onHover(token) : onHover()}
       onMouseLeave={() => onHover()}
     >
       <InnerWord
