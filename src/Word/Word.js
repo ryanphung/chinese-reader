@@ -1,4 +1,4 @@
-import React, { Fragment, useMemo } from 'react'
+import React, { useMemo } from 'react'
 import './Word.css'
 // import pinyinify from 'pinyin'
 
@@ -81,26 +81,26 @@ const InnerWord = React.memo(function InnerWord({
   )
 })
 
-function WordByTranscript({
-  transcript,
-  text
-}) {
-  const textSplit = [...text]
-  const transcriptSplit = transcript?.split?.(' ') ?? []
-
-  return (
-    <>⟨{
-      transcriptSplit.map((v, i) =>
-        <Fragment key={i}>
-          <span annotation={textSplit?.[i]}>
-            {v}
-          </span>
-          {!!transcriptSplit[i + 1] && ' '}
-        </Fragment>
-      )
-    }⟩</>
-  )
-}
+// function WordByTranscript({
+//   transcript,
+//   text
+// }) {
+//   const textSplit = [...text]
+//   const transcriptSplit = transcript?.split?.(' ') ?? []
+//
+//   return (
+//     <>⟨{
+//       transcriptSplit.map((v, i) =>
+//         <Fragment key={i}>
+//           <span annotation={textSplit?.[i]}>
+//             {v}
+//           </span>
+//           {!!transcriptSplit[i + 1] && ' '}
+//         </Fragment>
+//       )
+//     }⟩</>
+//   )
+// }
 
 function WordByText({
   text,
