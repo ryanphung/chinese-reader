@@ -69,7 +69,6 @@ function App() {
     setClientHeight(mainRef.current?.clientHeight)
   }, [mainRef])
   const [selectedTokenPosition, setSelectedTokenPosition] = useState()
-  console.log(selectedTokenPosition)
   const selectedToken = useMemo(
     () => tokens?.[selectedTokenPosition?.sentenceId]?.[selectedTokenPosition?.tokenId],
     [tokens, selectedTokenPosition?.sentenceId, selectedTokenPosition?.tokenId])
