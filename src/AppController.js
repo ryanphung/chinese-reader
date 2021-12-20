@@ -69,7 +69,7 @@ export function splitSentences(tokens) {
 }
 
 export function tokenizeContent(tokenize, dictionary, content) {
-  if (!tokenize instanceof Function)
+  if (!(tokenize instanceof Function))
     return []
 
   return splitSentences(enrichTokens(dictionary, tokenize(content)))
