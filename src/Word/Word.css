@@ -36,6 +36,11 @@
   text-decoration-color: var(--primary-color);
 }
 
+.Word-hovered {
+  color: var(--primary-color);
+  text-decoration-color: var(--primary-color);
+}
+
 .Word-level-4.Word-matched {
   /* may need this for IE */
   text-decoration-color: transparent;

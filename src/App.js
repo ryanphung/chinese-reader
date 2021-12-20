@@ -72,6 +72,10 @@ function App() {
   const selectedToken = useMemo(
     () => tokens?.[selectedTokenPosition?.sentenceId]?.[selectedTokenPosition?.tokenId],
     [tokens, selectedTokenPosition?.sentenceId, selectedTokenPosition?.tokenId])
+  const [hoveredTokenPosition, setHoveredTokenPosition] = useState()
+  const hoveredToken = useMemo(
+    () => tokens?.[hoveredTokenPosition?.sentenceId]?.[hoveredTokenPosition?.tokenId],
+    [tokens, hoveredTokenPosition?.sentenceId, hoveredTokenPosition?.tokenId])
 
   // initialize the tokenizer on first load
   useEffect(() => {
@@ -243,8 +247,9 @@ function App() {
   // }, [vocabularyDb, recommendedVocabularyDb, setRecommendedVocabularyDb, setVocabularyDb, chapter])
 
   const handleWordHover = useCallback(tokenPosition => {
-    // setSelectedTokenPosition(tokenPosition)
-  }, [setSelectedTokenPosition])
+    if (!selectedToken)
+      setHoveredTokenPosition(tokenPosition)
+  }, [selectedToken, setHoveredTokenPosition])
 
   const handleWordClick = useCallback((e, tokenPosition) => {
     if (selectedTokenPosition?.sentenceId === tokenPosition?.sentenceId &&
@@ -252,7 +257,8 @@ function App() {
       setSelectedTokenPosition()
     else
       setSelectedTokenPosition(tokenPosition)
-  }, [selectedTokenPosition, setSelectedTokenPosition])
+    setHoveredTokenPosition()
+  }, [selectedTokenPosition, setSelectedTokenPosition, setHoveredTokenPosition])
 
   const handleSelection = useCallback(({ sentenceId, start, end, text }) => {
     if (start === end)
@@ -321,7 +327,7 @@ function App() {
     <div className="App" onScroll={handleScroll} ref={mainRef}>
       <ReadingProgressBar progress={progress}/>
       <Header
-        token={selectedToken}
+        token={selectedToken || hoveredToken}
         wordsCount={wordsCount}
         knownWordsCount={knownWordsCount}
         knownWordsCountInclRecommendation={knownWordsCountInclRecommendation}
@@ -348,6 +354,7 @@ function App() {
           isInitialized={isInitialized}
           tokens={tokens}
           selectedTokenPosition={selectedTokenPosition}
+          hoveredTokenPosition={hoveredTokenPosition}
           vocabularyDb={vocabularyDb}
           recommendedVocabularyDb={recommendedVocabularyDb}
           rshMap={rshMap}
@@ -367,6 +374,7 @@ const AppOutput = React.memo(function AppOutput({
   isInitialized,
   tokens,
   selectedTokenPosition,
+  hoveredTokenPosition,
   vocabularyDb,
   recommendedVocabularyDb,
   rshMap,
@@ -437,6 +445,7 @@ const AppOutput = React.memo(function AppOutput({
               id={i}
               sentence={sentence}
               selectedTokenPosition={selectedTokenPosition}
+              hoveredTokenPosition={hoveredTokenPosition}
               vocabularyDb={vocabularyDb}
               recommendedVocabularyDb={recommendedVocabularyDb}
               rshMap={rshMap}
@@ -454,6 +463,7 @@ const Sentence = React.memo(function Sentence({
   id,
   sentence,
   selectedTokenPosition,
+  hoveredTokenPosition,
   vocabularyDb,
   recommendedVocabularyDb,
   rshMap,
@@ -469,6 +479,7 @@ const Sentence = React.memo(function Sentence({
             key={i}
             token={token}
             selectedTokenPosition={selectedTokenPosition}
+            hoveredTokenPosition={hoveredTokenPosition}
             vocabularyDb={vocabularyDb}
             recommendedVocabularyDb={recommendedVocabularyDb}
             rshFrame={rshMap[token.text]}

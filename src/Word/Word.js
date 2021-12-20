@@ -2,7 +2,7 @@ import React, { Fragment, useMemo } from 'react'
 import './Word.css'
 // import pinyinify from 'pinyin'
 
-function Word({ token, selectedTokenPosition, rshFrame, vocabularyDb, recommendedVocabularyDb, onClick, onHover, settings={} }) {
+function Word({ token, selectedTokenPosition, hoveredTokenPosition, rshFrame, vocabularyDb, recommendedVocabularyDb, onClick, onHover, settings={} }) {
   const {
     transcriptMethod='pinyin',
     script='simplified'
@@ -11,6 +11,9 @@ function Word({ token, selectedTokenPosition, rshFrame, vocabularyDb, recommende
   const isSelected =
     selectedTokenPosition?.sentenceId === token?.sentenceId &&
     selectedTokenPosition?.tokenId === token?.tokenId
+  const isHovered =
+    hoveredTokenPosition?.sentenceId === token?.sentenceId &&
+    hoveredTokenPosition?.tokenId === token?.tokenId
   const displayedText = script === 'simplified' ? token.simplified : token.traditional
   const isLineBreak = text === '\n'
   const isVocabulary = typeof(vocabularyDb[text]) !== 'undefined'
@@ -35,7 +38,8 @@ function Word({ token, selectedTokenPosition, rshFrame, vocabularyDb, recommende
       isWord ? 'Word-matched' : '',
       typeof(vocabularyLevel) === 'number' ? `Word-level-${vocabularyLevel}` : '',
       isVocabulary ? 'Word-vocabulary' : '',
-      isSelected ? 'Word-selected' : ''
+      isSelected ? 'Word-selected' : '',
+      isHovered ? 'Word-hovered' : ''
     ].join(' ')}
       onClick={handleClick}
       onMouseEnter={() => isWord ? onHover(token) : onHover()}
