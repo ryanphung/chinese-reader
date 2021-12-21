@@ -546,30 +546,19 @@
       "isWord": false
     },
     {
+      "text": "七点",
+      "simplified": "七点",
+      "traditional": "七点",
+      "keyword": "7 o'clock",
+      "hanviet": "thất điểm",
+      "pinyin": "qī diǎn",
+      "isWord": true,
       "sid": 3,
-      "tid": 21,
-      "text": "七",
-      "simplified": "七",
-      "traditional": "七",
-      "keyword": "seven",
-      "hanviet": "thất",
-      "pinyin": "qī",
-      "isWord": true
+      "tid": 21
     },
     {
       "sid": 3,
       "tid": 22,
-      "text": "点",
-      "simplified": "点",
-      "traditional": "點",
-      "keyword": "point",
-      "hanviet": "điểm",
-      "pinyin": "diǎn",
-      "isWord": true
-    },
-    {
-      "sid": 3,
-      "tid": 23,
       "text": "就",
       "simplified": "就",
       "traditional": "就",
@@ -580,7 +569,7 @@
     },
     {
       "sid": 3,
-      "tid": 24,
+      "tid": 23,
       "text": "坐",
       "simplified": "坐",
       "traditional": "坐",
@@ -598,7 +587,7 @@
       "pinyin": "zài",
       "isWord": true,
       "sid": 3,
-      "tid": 25
+      "tid": 24
     },
     {
       "text": "位子",
@@ -609,11 +598,11 @@
       "pinyin": "wèi zi",
       "isWord": true,
       "sid": 3,
-      "tid": 26
+      "tid": 25
     },
     {
       "sid": 3,
-      "tid": 27,
+      "tid": 26,
       "text": "上",
       "simplified": "上",
       "traditional": "上",
@@ -624,7 +613,7 @@
     },
     {
       "sid": 3,
-      "tid": 28,
+      "tid": 27,
       "text": "温习",
       "simplified": "温习",
       "traditional": "溫習",
@@ -635,7 +624,7 @@
     },
     {
       "sid": 3,
-      "tid": 29,
+      "tid": 28,
       "text": "功课",
       "simplified": "功课",
       "traditional": "功課",
@@ -646,7 +635,7 @@
     },
     {
       "sid": 3,
-      "tid": 30,
+      "tid": 29,
       "text": "。",
       "simplified": "。",
       "traditional": "。",
@@ -815,7 +804,7 @@
       "text": "将",
       "simplified": "将",
       "traditional": "將",
-      "keyword": "use",
+      "keyword": "take",
       "hanviet": "tương",
       "pinyin": "jiāng",
       "isWord": true

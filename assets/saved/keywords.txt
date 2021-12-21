@@ -19,7 +19,7 @@
 班 班 [ban1] /class/
 二 二 [er4] /two/
 年級 年级 [nian2 ji2] /grade/
-個 个 [ge5] /a/
+個 个 [ge4] /a/
 堅信 坚信 [jian1 xin4] /believe firmly/
 自己 自己 [zi4 ji3] /oneself/
 雜亂 杂乱 [za2 luan4] /messy/
@@ -322,7 +322,7 @@
 再度 再度 [zai4 du4] /once more/
 蟬聯 蝉联 [chan2 lian2] /to defend (championship)/
 意外 意外 [yi4 wai4] /unexpected/
-冷 冷 [Leng3] /cold/
+冷 冷 [leng3] /cold/
 硬 硬 [ying4] /hard/
 黑板 黑板 [hei1 ban3] /blackboard/
 前 前 [qian2] /front/
@@ -396,7 +396,7 @@
 女生 女生 [nü3 sheng1] /girl/
 功課 功课 [gong1 ke4] /homework/
 人緣 人缘 [ren2 yuan2] /relations/
-佳 佳 [Jia1] /good/
+佳 佳 [jia1] /good/
 連 连 [Lian2] /even/
 無法 无法 [wu2 fa3] /unable/
 生起 生起 [sheng1 qi3] /give rise/
@@ -430,7 +430,7 @@
 責任 责任 [ze2 ren4] /responsibility/
 無奈 无奈 [wu2 nai4] /exasperated/
 而 而 [er2] /and/
-恐怖 恐怖 [kong3 bu4] /terrible/
+恐怖 恐怖 [kong3 bu4] /terrorize/
 極點 极点 [ji2 dian3] /extreme point/
 瘦弱 瘦弱 [shou4 ruo4] /thin and weak/
 嚴加 严加 [yan2 jia1] /sternly/
@@ -466,8 +466,6 @@
 臉孔 脸孔 [lian3 kong3] /face/
 我們 我们 [wo3 men5] /we/
 這麼 这么 [zhe4 me5] /like this/
-  [5] /unknown/
-Chapter 2 Chapter 2 [5] /unknown/
 歐巴桑 欧巴桑 [ou1 ba5 sang1] /older female/
 呢 呢 [ne5] /ne/
 實在 实在 [shi2 zai4] /really/
@@ -486,7 +484,7 @@ Chapter 2 Chapter 2 [5] /unknown/
 總是 总是 [zong3 shi4] /always/
 到得 到得 [dao4 de2] /arrive at/
 早 早 [zao3] /early/
-七 七 [qi1] /seven/
+七点 七点 [qi1 dian3] /7 o'clock/
 位子 位子 [wei4 zi5] /seat/
 溫習 温习 [wen1 xi2] /review/
 早上 早上 [zao3 shang5] /early morning/
@@ -498,7 +496,7 @@ Chapter 2 Chapter 2 [5] /unknown/
 眼 眼 [yan3] /eye/
 惺忪 惺忪 [xing1 song1] /drowsy-eyed/
 早餐 早餐 [zao3 can1] /breakfast/
-摔 摔 [shuai1] /thrown/
+摔 摔 [shuai1] /throw/
 進 进 [jin4] /go in/
 習慣 习惯 [xi2 guan4] /habit/
 立刻 立刻 [li4 ke4] /immediate/
@@ -554,7 +552,8 @@ Chapter 2 Chapter 2 [5] /unknown/
 事無大小 事无大小 [shi4 wu2 da4 xiao3] /no matter small or big things/
 雞毛蒜皮 鸡毛蒜皮 [ji1 mao2 suan4 pi2] /chicken feathers and garlic skins/
 般 般 [ban1] /sort/
-事情 事情 [shi4 qing5] /affair/
+小事 小事 [xiao3 shi4] /trifle/
+情 情 [qing2] /feeling/
 能 能 [neng2] /can/
 得很 得很 [de5 hen3] /very/
 高興 高兴 [gao1 xing4] /happy/
@@ -566,7 +565,6 @@ Chapter 2 Chapter 2 [5] /unknown/
 喜孜孜 喜孜孜 [xi3 zi1 zi1] /euphoria/
 聊 聊 [liao2] /chat/
 生活 生活 [sheng1 huo2] /life/
-小事 小事 [xiao3 shi4] /trifle/
 模樣 模样 [mu2 yang4] /look/
 常 常 [chang2] /always/
 啼笑皆非 啼笑皆非 [ti2 xiao4 jie1 fei1] /not to know whether to laugh or cry/
@@ -579,7 +577,7 @@ Chapter 2 Chapter 2 [5] /unknown/
 瞎扯淡 瞎扯淡 [xia1 che3 dan4] /talk nonsense/
 表面上 表面上 [biao3 mian4 shang5] /outwardly/
 裝作 装作 [zhuang1 zuo4] /pretend/
-副 副 [fu4] /expression (classifier)/
+副 副 [fu4] /expression/
 意興 意兴 [yi4 xing4] /interest/
 闌珊 阑珊 [lan2 shan1] /waning/
 逗 逗 [dou4] /tease/
@@ -605,7 +603,7 @@ Chapter 2 Chapter 2 [5] /unknown/
 轉身 转身 [zhuan3 shen1] /turn round/
 死 死 [si3] /die/
 熬夜 熬夜 [ao2 ye4] /stay up late/
-收 收 [shou1] /put away/
+收 收 [shou1] /collect/
 眼中 眼中 [yan3 zhong1] /in one's eyes/
 絲 丝 [si1] /bit/
 愧疚 愧疚 [kui4 jiu4] /feel guilty/
@@ -626,7 +624,7 @@ Chapter 2 Chapter 2 [5] /unknown/
 混 混 [hun2] /mingle/
 畫 画 [hua4] /draw/
 揉 揉 [rou2] /rub/
-對了 对了 [dui4 le5] /Correct!/
+對了 对了 [dui4 le5] /Oh, btw/
 櫻桃 樱桃 [ying1 tao2] /cherry/
 小丸子 小丸子 [xiao3 wan2 zi5] /Maruko/
 好笑 好笑 [hao3 xiao4] /funny/
@@ -646,11 +644,12 @@ Chapter 2 Chapter 2 [5] /unknown/
 感覺 感觉 [gan3 jue2] /feeling/
 像 像 [xiang4] /like/
 優秀 优秀 [you1 xiu4] /outstanding/
+好学生 好学生 [hao3 xue2 sheng1] /good student/
 老是 老是 [lao3 shi5] /always/
 巴 巴 [ba1] /cling/
 任何 任何 [ren4 he2] /any/
 角度 角度 [jiao3 du4] /angle/
-糟糕 糟糕 [zao1 gao1] /too bad/
+糟糕 糟糕 [zao1 gao1] /terrible/
 壞 坏 [huai4] /bad/
 進行 进行 [jin4 xing2] /carry out/
 晨報 晨报 [chen2 bao4] /morning newspaper/
