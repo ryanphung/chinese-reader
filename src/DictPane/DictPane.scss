@@ -68,6 +68,10 @@
   margin-left: 4px;
 }
 
+.DictPane-check-icon {
+  margin-left: 4px;
+}
+
 .DictPane-hoverable-icon {
   color: var(--text-color);
   opacity: 0;
@@ -79,4 +83,8 @@
 .DictPane-hoverable:hover .DictPane-hoverable-icon {
   opacity: 1;
   width: 16px;
+}
+
+.DictPane-hoverable-underline:hover {
+  text-decoration: underline;
 }

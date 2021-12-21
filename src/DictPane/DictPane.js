@@ -21,8 +21,8 @@ const DictPane = React.memo(function DictPane({
       })
   }
 
-  function handlePinyinClick() {
-    const t = prompt('Update pinyin', pinyin)
+  function handlePinyinClick(event, newPinyin) {
+    const t = prompt('Update pinyin', newPinyin ?? pinyin)
     if (t)
       onTokenUpdate({
         tokenPosition,
@@ -45,8 +45,8 @@ const DictPane = React.memo(function DictPane({
       })
   }
 
-  function handleKeywordClick() {
-    const t = prompt('Enter a new keyword', keyword)
+  function handleKeywordClick(event, newKeyword) {
+    const t = prompt('Enter a new keyword', newKeyword ?? keyword)
     if (t)
       onTokenUpdate({
         tokenPosition,
@@ -105,11 +105,11 @@ const DictPane = React.memo(function DictPane({
           {
             entries?.map?.((v, i) =>
               <div key={i} className="DictPane-line">
-                <div className="DictPane-pinyin">
+                <div className="DictPane-pinyin DictPane-clickable DictPane-hoverable-underline" onClick={event => handlePinyinClick(event, v.pinyinPretty)}>
                   {v.pinyinPretty}
                 </div>
                 <div className="DictPane-meaning">
-                  <Meaning meaning={v.english}/>
+                  <Meaning meaning={v.english} onMeaningClick={handleKeywordClick}/>
                 </div>
               </div>
             )
@@ -120,11 +120,13 @@ const DictPane = React.memo(function DictPane({
   )
 })
 
-function Meaning({ meaning }) {
+function Meaning({ meaning, onMeaningClick }) {
   const meaningSplit = (meaning || '').split('/')
   return meaningSplit.map((v, i) =>
     <Fragment key={i}>
-      {v}
+      <span className="DictPane-clickable DictPane-hoverable-underline" onClick={event => onMeaningClick(event, v)}>
+        {v}
+      </span>
       {meaningSplit[i + 1] && <span className="DictPane-separator"> / </span>}
     </Fragment>
   )
