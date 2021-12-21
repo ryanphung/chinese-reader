@@ -103,7 +103,7 @@ function enrichVocabulary() {
   try {
     let tokensMap = {}
 
-    for (let i = 0; i < 1; i++)
+    for (let i = 0; i <= 1; i++)
       tokensMap = tokenFileToMap(__dirname + `/../../src/data/tokens-${i}.json`, tokensMap)
 
     console.log('Parse complete. Example:')
@@ -114,15 +114,15 @@ function enrichVocabulary() {
         .filter(([key, word]) => word.keyword)
         .map(([key, word]) =>
           [
-            word.simplified,
             word.traditional,
+            word.simplified,
             `[${pinyinTextToneToNumber(word.pinyin)}]`,
             `/${word.keyword}/`
           ].join(' ')
     )
 
     console.log('Parse complete. Example:')
-    console.log(dictionarEntries[1])
+    console.log(dictionarEntries[dictionarEntries.length - 1])
 
     // write file
     fs.writeFileSync(__dirname + '/../saved/keywords.txt', dictionarEntries.join('\n'), 'utf8')
