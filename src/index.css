@@ -41,6 +41,10 @@ body.dark {
   --word-new-background-color: rgba(255, 255, 255, .13);
 }
 
+a {
+  color: var(--primary-color);
+}
+
 html {
   font-size: 32px;
 }
