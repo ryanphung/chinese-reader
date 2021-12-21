@@ -18,6 +18,9 @@ body.sepia {
   --select-background-color: rgba(0, 0, 0, .1);
   --reading-progress-bar-color: rgb(0, 146, 204, .5);
   --divider-color: rgba(79, 50, 28, 0.2);
+  --popup-background-color: rgb(248, 241, 227);
+  --word-recommended-background-color: rgb(119, 153, 51, .15);
+  --word-new-background-color: rgba(0, 0, 0, .1);;
 }
 
 body.dark {
@@ -33,6 +36,9 @@ body.dark {
   --select-background-color: rgba(0, 0, 0, .1);
   --reading-progress-bar-color: rgb(0, 146, 204, .5);
   --divider-color: rgba(255, 255, 255, .2);
+  --popup-background-color: rgba(84, 84, 87);
+  --word-recommended-background-color: rgb(139, 173, 51, .20);
+  --word-new-background-color: rgba(255, 255, 255, .13);
 }
 
 html {
