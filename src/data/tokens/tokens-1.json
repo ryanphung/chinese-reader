@@ -3239,26 +3239,26 @@
       "isWord": true
     },
     {
+      "text": "小",
+      "simplified": "小",
+      "traditional": "小",
+      "keyword": "small",
+      "hanviet": "tiểu",
+      "pinyin": "xiǎo",
+      "isWord": true,
       "sid": 17,
-      "tid": 30,
-      "text": "小事",
-      "simplified": "小事",
-      "traditional": "小事",
-      "keyword": "trifle",
-      "hanviet": "tiểu sự",
-      "pinyin": "xiǎo shì",
-      "isWord": true
+      "tid": 30
     },
     {
+      "text": "事情",
+      "simplified": "事情",
+      "traditional": "事情",
+      "keyword": "affair",
+      "hanviet": "sự tình",
+      "pinyin": "shì qing",
+      "isWord": true,
       "sid": 17,
-      "tid": 31,
-      "text": "情",
-      "simplified": "情",
-      "traditional": "情",
-      "keyword": "feeling",
-      "hanviet": "tình",
-      "pinyin": "qíng",
-      "isWord": true
+      "tid": 31
     },
     {
       "sid": 17,
@@ -3659,15 +3659,15 @@
       "isWord": true
     },
     {
-      "sid": 20,
-      "tid": 8,
       "text": "模样",
       "simplified": "模样",
       "traditional": "模樣",
       "keyword": "look",
       "hanviet": "mô dạng",
       "pinyin": "mú yàng",
-      "isWord": true
+      "isWord": true,
+      "sid": 20,
+      "tid": 8
     },
     {
       "sid": 20,
