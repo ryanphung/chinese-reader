@@ -42,8 +42,7 @@ function enrichVocabulary() {
         traditional: token.traditional,
         keyword: token.keyword,
         hanviet: token.hanviet,
-        pinyin: token.pinyin,
-        sid: token.sid
+        pinyin: token.pinyin
       }
     })
 

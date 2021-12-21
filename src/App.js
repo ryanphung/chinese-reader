@@ -96,7 +96,7 @@ function App() {
     if (data.isTokensInitialized)
       return
 
-    debugger
+    // debugger
 
     // first try to load from tokens saved locally
     let tokens = loadAndParse(`tokens-${data.chapter}`)
@@ -268,7 +268,7 @@ function App() {
   }, [selectedToken, setHoveredTokenPosition])
 
   const handleWordActionClick = useCallback((event, tokenPosition) => {
-    debugger
+    // debugger
     const token = data.tokens[tokenPosition.sid][tokenPosition.tid]
     const text = token.text
     const isVocabulary = typeof(vocabularyDb[text]) !== 'undefined'
@@ -319,10 +319,6 @@ function App() {
       return
 
     const { sentence, newTokenId } = retokenizeSentence(tokenizer.tokenize, tokenizer.dictionary, data.tokens[sid], start, end)
-    sentence.forEach((token, i) => {
-      token.sid = sid
-      token.tid = i
-    })
 
     const newTokens = data.tokens.map((v, i) => i === sid ? sentence : v)
 
@@ -377,7 +373,9 @@ function App() {
     }
   }
 
-  const handleTokenUpdate = useCallback(updatedToken => {
+  const handleTokenUpdate = useCallback(({
+    tokenPosition: updatedTokenPosition,
+    token: updatedToken}) => {
     if (!updatedToken.isWord) {
       setSelectedTokenPosition()
       setHoveredTokenPosition()
@@ -385,9 +383,9 @@ function App() {
     setData(old => ({
       ...old,
       tokens: data.tokens.map((sentence, i) =>
-        i === updatedToken.sid ?
+        i === updatedTokenPosition.sid ?
         sentence.map((token, j) =>
-          j === updatedToken.tid ?
+          j === updatedTokenPosition.tid ?
           updatedToken : token
         ) :
         sentence
@@ -399,6 +397,7 @@ function App() {
     <div className="App" onScroll={handleScroll} ref={mainRef}>
       <ReadingProgressBar progress={progress}/>
       <Header
+        tokenPosition={selectedTokenPosition || hoveredTokenPosition}
         token={selectedToken || hoveredToken}
         wordsCount={wordsCount}
         knownWordsCount={knownWordsCount}
@@ -574,6 +573,10 @@ const Sentence = React.memo(function Sentence({
         sentence.map((token, i) =>
           <Word
             key={i}
+            tokenPosition={{
+              sid: id,
+              tid: i
+            }}
             token={token}
             selectedTokenPosition={selectedTokenPosition?.tid === i ? selectedTokenPosition : null}
             hoveredTokenPosition={hoveredTokenPosition?.tid === i ? hoveredTokenPosition : null}

@@ -3,18 +3,18 @@ import './Word.css'
 // import pinyinify from 'pinyin'
 import * as Icon from 'react-feather'
 
-const Word = React.memo(function Word({ token, selectedTokenPosition, hoveredTokenPosition, vocabularyDb, recommendedVocabularyDb, onClick, onActionClick, onHover, hoverDisabled, settings={} }) {
+const Word = React.memo(function Word({ tokenPosition, token, selectedTokenPosition, hoveredTokenPosition, vocabularyDb, recommendedVocabularyDb, onClick, onActionClick, onHover, hoverDisabled, settings={} }) {
   const {
     transcriptMethod='pinyin',
     script='simplified'
   } = settings
   const { text, keyword, hanviet, pinyin, isWord } = token
   const isSelected =
-    selectedTokenPosition?.sid === token?.sid &&
-    selectedTokenPosition?.tid === token?.tid
+    selectedTokenPosition?.sid === tokenPosition.sid &&
+    selectedTokenPosition?.tid === tokenPosition.tid
   const isHovered =
-    hoveredTokenPosition?.sid === token?.sid &&
-    hoveredTokenPosition?.tid === token?.tid
+    hoveredTokenPosition?.sid === tokenPosition.sid &&
+    hoveredTokenPosition?.tid === tokenPosition.tid
   const displayedText = script === 'simplified' ? token.simplified : token.traditional
   const isLineBreak = text === '\n'
   const isRecommended = typeof(recommendedVocabularyDb[text]) !== 'undefined'
@@ -28,18 +28,17 @@ const Word = React.memo(function Word({ token, selectedTokenPosition, hoveredTok
     if (!onClick instanceof Function) return
 
     onClick(e, {
-      sid: token.sid,
-      tid: token.tid
+      sid: tokenPosition.sid,
+      tid: tokenPosition.tid
     })
-  }, [isWord, onClick, token.sid, token.tid])
+  }, [isWord, onClick, tokenPosition.sid, tokenPosition.tid])
 
   const handleActionClick = useCallback(function handleActionClick(e) {
-    debugger
     onActionClick(e, {
-      sid: token.sid,
-      tid: token.tid
+      sid: tokenPosition.sid,
+      tid: tokenPosition.tid
     })
-  }, [onActionClick, token.sid, token.tid])
+  }, [onActionClick, tokenPosition.sid, tokenPosition.tid])
 
   return (
     isLineBreak ?

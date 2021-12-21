@@ -51,11 +51,7 @@ export function splitSentences(tokens) {
   let sentence = []
 
   for (let token of tokens) {
-    sentence.push({
-      sid: results.length,
-      tid: sentence.length,
-      ...token
-    })
+    sentence.push(token)
 
     if (token.text === '。' || token.text === '\n') {
       results.push(sentence)

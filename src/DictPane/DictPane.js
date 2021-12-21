@@ -3,6 +3,7 @@ import './DictPane.scss'
 import * as Icon from 'react-feather'
 
 const DictPane = React.memo(function DictPane({
+  tokenPosition,
   token={}, dictionary, settings={},
   onTokenUpdate
 }) {
@@ -12,8 +13,11 @@ const DictPane = React.memo(function DictPane({
     const t = window.confirm('Are you sure you want to delete this token?')
     if (t)
       onTokenUpdate({
-        ...token,
-        isWord: false
+        tokenPosition,
+        token: {
+          ...token,
+          isWord: false
+        }
       })
   }
 
@@ -21,8 +25,11 @@ const DictPane = React.memo(function DictPane({
     const t = prompt('Update pinyin', pinyin)
     if (t)
       onTokenUpdate({
-        ...token,
-        pinyin: t
+        tokenPosition,
+        token: {
+          ...token,
+          pinyin: t
+        }
       })
   }
 
@@ -30,8 +37,11 @@ const DictPane = React.memo(function DictPane({
     const t = prompt('Update hanviet', hanviet)
     if (t)
       onTokenUpdate({
-        ...token,
-        hanviet: t
+        tokenPosition,
+        token: {
+          ...token,
+          hanviet: t
+        }
       })
   }
 
@@ -39,8 +49,11 @@ const DictPane = React.memo(function DictPane({
     const t = prompt('Enter a new keyword', keyword)
     if (t)
       onTokenUpdate({
-        ...token,
-        keyword: t
+        tokenPosition,
+        token: {
+          ...token,
+          keyword: t
+        }
       })
   }
 

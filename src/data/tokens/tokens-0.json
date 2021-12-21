@@ -1,8 +1,6 @@
 [
   [
     {
-      "sid": 0,
-      "tid": 0,
       "text": "Chapter",
       "simplified": "Chapter",
       "traditional": "Chapter",
@@ -10,8 +8,6 @@
       "isWord": false
     },
     {
-      "sid": 0,
-      "tid": 1,
       "text": " ",
       "simplified": " ",
       "traditional": " ",
@@ -19,8 +15,6 @@
       "isWord": false
     },
     {
-      "sid": 0,
-      "tid": 2,
       "text": "1",
       "simplified": "1",
       "traditional": "1",
@@ -28,8 +22,6 @@
       "isWord": false
     },
     {
-      "sid": 0,
-      "tid": 3,
       "text": "\n",
       "simplified": "\n",
       "traditional": "\n",
@@ -39,8 +31,6 @@
   ],
   [
     {
-      "sid": 1,
-      "tid": 0,
       "text": "故事",
       "simplified": "故事",
       "traditional": "故事",
@@ -50,8 +40,6 @@
       "isWord": true
     },
     {
-      "sid": 1,
-      "tid": 1,
       "text": "，",
       "simplified": "，",
       "traditional": "，",
@@ -59,8 +47,6 @@
       "isWord": false
     },
     {
-      "sid": 1,
-      "tid": 2,
       "text": "应该",
       "simplified": "应该",
       "traditional": "應該",
@@ -70,8 +56,6 @@
       "isWord": true
     },
     {
-      "sid": 1,
-      "tid": 3,
       "text": "从",
       "simplified": "从",
       "traditional": "从",
@@ -81,8 +65,6 @@
       "isWord": true
     },
     {
-      "sid": 1,
-      "tid": 4,
       "text": "那",
       "simplified": "那",
       "traditional": "那",
@@ -114,8 +96,6 @@
       "tid": 6
     },
     {
-      "sid": 1,
-      "tid": 7,
       "text": "墙",
       "simplified": "墙",
       "traditional": "墻",
@@ -125,8 +105,6 @@
       "isWord": true
     },
     {
-      "sid": 1,
-      "tid": 8,
       "text": "开始",
       "simplified": "开始",
       "traditional": "開始",
@@ -136,8 +114,6 @@
       "isWord": true
     },
     {
-      "sid": 1,
-      "tid": 9,
       "text": "说起",
       "simplified": "说起",
       "traditional": "說起",
@@ -147,8 +123,6 @@
       "isWord": true
     },
     {
-      "sid": 1,
-      "tid": 10,
       "text": "。",
       "simplified": "。",
       "traditional": "。",
@@ -158,8 +132,6 @@
   ],
   [
     {
-      "sid": 2,
-      "tid": 0,
       "text": "\n",
       "simplified": "\n",
       "traditional": "\n",
@@ -169,8 +141,6 @@
   ],
   [
     {
-      "sid": 3,
-      "tid": 0,
       "text": "1990",
       "simplified": "1990",
       "traditional": "1990",
@@ -178,8 +148,6 @@
       "isWord": false
     },
     {
-      "sid": 3,
-      "tid": 1,
       "text": "年",
       "simplified": "年",
       "traditional": "年",
@@ -189,8 +157,6 @@
       "isWord": true
     },
     {
-      "sid": 3,
-      "tid": 2,
       "text": "夏天",
       "simplified": "夏天",
       "traditional": "夏天",
@@ -200,8 +166,6 @@
       "isWord": true
     },
     {
-      "sid": 3,
-      "tid": 3,
       "text": "，",
       "simplified": "，",
       "traditional": "，",
@@ -209,8 +173,6 @@
       "isWord": false
     },
     {
-      "sid": 3,
-      "tid": 4,
       "text": "彰化",
       "simplified": "彰化",
       "traditional": "彰化",
@@ -220,8 +182,6 @@
       "isWord": true
     },
     {
-      "sid": 3,
-      "tid": 5,
       "text": "精诚",
       "simplified": "精诚",
       "traditional": "精誠",
@@ -231,8 +191,6 @@
       "isWord": true
     },
     {
-      "sid": 3,
-      "tid": 6,
       "text": "中学",
       "simplified": "中学",
       "traditional": "中學",
@@ -242,8 +200,6 @@
       "isWord": true
     },
     {
-      "sid": 3,
-      "tid": 7,
       "text": "国中",
       "simplified": "国中",
       "traditional": "國中",
@@ -253,8 +209,6 @@
       "isWord": true
     },
     {
-      "sid": 3,
-      "tid": 8,
       "text": "部",
       "simplified": "部",
       "traditional": "部",
@@ -264,8 +218,6 @@
       "isWord": true
     },
     {
-      "sid": 3,
-      "tid": 9,
       "text": "，",
       "simplified": "，",
       "traditional": "，",
@@ -273,8 +225,6 @@
       "isWord": false
     },
     {
-      "sid": 3,
-      "tid": 10,
       "text": "美术",
       "simplified": "美术",
       "traditional": "美術",
@@ -284,8 +234,6 @@
       "isWord": true
     },
     {
-      "sid": 3,
-      "tid": 11,
       "text": "甲",
       "simplified": "甲",
       "traditional": "甲",
@@ -295,8 +243,6 @@
       "isWord": true
     },
     {
-      "sid": 3,
-      "tid": 12,
       "text": "班",
       "simplified": "班",
       "traditional": "班",
@@ -306,8 +252,6 @@
       "isWord": true
     },
     {
-      "sid": 3,
-      "tid": 13,
       "text": "二",
       "simplified": "二",
       "traditional": "二",
@@ -317,8 +261,6 @@
       "isWord": true
     },
     {
-      "sid": 3,
-      "tid": 14,
       "text": "年级",
       "simplified": "年级",
       "traditional": "年級",
@@ -328,8 +270,6 @@
       "isWord": true
     },
     {
-      "sid": 3,
-      "tid": 15,
       "text": "。",
       "simplified": "。",
       "traditional": "。",
@@ -339,8 +279,6 @@
   ],
   [
     {
-      "sid": 4,
-      "tid": 0,
       "text": "\n",
       "simplified": "\n",
       "traditional": "\n",
@@ -350,8 +288,6 @@
   ],
   [
     {
-      "sid": 5,
-      "tid": 0,
       "text": "一",
       "simplified": "一",
       "traditional": "一",
@@ -361,8 +297,6 @@
       "isWord": true
     },
     {
-      "sid": 5,
-      "tid": 1,
       "text": "个",
       "simplified": "个",
       "traditional": "個",
@@ -372,8 +306,6 @@
       "isWord": true
     },
     {
-      "sid": 5,
-      "tid": 2,
       "text": "坚信",
       "simplified": "坚信",
       "traditional": "堅信",
@@ -383,8 +315,6 @@
       "isWord": true
     },
     {
-      "sid": 5,
-      "tid": 3,
       "text": "自己",
       "simplified": "自己",
       "traditional": "自己",
@@ -394,8 +324,6 @@
       "isWord": true
     },
     {
-      "sid": 5,
-      "tid": 4,
       "text": "杂乱",
       "simplified": "杂乱",
       "traditional": "雜亂",
@@ -405,8 +333,6 @@
       "isWord": true
     },
     {
-      "sid": 5,
-      "tid": 5,
       "text": "的",
       "simplified": "的",
       "traditional": "的",
@@ -416,8 +342,6 @@
       "isWord": true
     },
     {
-      "sid": 5,
-      "tid": 6,
       "text": "自然",
       "simplified": "自然",
       "traditional": "自然",
@@ -427,8 +351,6 @@
       "isWord": true
     },
     {
-      "sid": 5,
-      "tid": 7,
       "text": "卷发",
       "simplified": "卷发",
       "traditional": "捲髮",
@@ -460,8 +382,6 @@
       "tid": 9
     },
     {
-      "sid": 5,
-      "tid": 10,
       "text": "一",
       "simplified": "一",
       "traditional": "一",
@@ -471,8 +391,6 @@
       "isWord": true
     },
     {
-      "sid": 5,
-      "tid": 11,
       "text": "天",
       "simplified": "天",
       "traditional": "天",
@@ -482,8 +400,6 @@
       "isWord": true
     },
     {
-      "sid": 5,
-      "tid": 12,
       "text": "会",
       "simplified": "会",
       "traditional": "會",
@@ -493,8 +409,6 @@
       "isWord": true
     },
     {
-      "sid": 5,
-      "tid": 13,
       "text": "通通",
       "simplified": "通通",
       "traditional": "通通",
@@ -515,8 +429,6 @@
       "tid": 14
     },
     {
-      "sid": 5,
-      "tid": 15,
       "text": "的",
       "simplified": "的",
       "traditional": "的",
@@ -526,8 +438,6 @@
       "isWord": true
     },
     {
-      "sid": 5,
-      "tid": 16,
       "text": "男孩",
       "simplified": "男孩",
       "traditional": "男孩",
@@ -537,8 +447,6 @@
       "isWord": true
     },
     {
-      "sid": 5,
-      "tid": 17,
       "text": "，",
       "simplified": "，",
       "traditional": "，",
@@ -546,8 +454,6 @@
       "isWord": false
     },
     {
-      "sid": 5,
-      "tid": 18,
       "text": "由于",
       "simplified": "由于",
       "traditional": "由於",
@@ -557,8 +463,6 @@
       "isWord": true
     },
     {
-      "sid": 5,
-      "tid": 19,
       "text": "太",
       "simplified": "太",
       "traditional": "太",
@@ -568,8 +472,6 @@
       "isWord": true
     },
     {
-      "sid": 5,
-      "tid": 20,
       "text": "喜欢",
       "simplified": "喜欢",
       "traditional": "喜歡",
@@ -579,8 +481,6 @@
       "isWord": true
     },
     {
-      "sid": 5,
-      "tid": 21,
       "text": "在",
       "simplified": "在",
       "traditional": "在",
@@ -612,8 +512,6 @@
       "tid": 23
     },
     {
-      "sid": 5,
-      "tid": 24,
       "text": "、",
       "simplified": "、",
       "traditional": "、",
@@ -621,8 +519,6 @@
       "isWord": false
     },
     {
-      "sid": 5,
-      "tid": 25,
       "text": "爱",
       "simplified": "爱",
       "traditional": "愛",
@@ -632,8 +528,6 @@
       "isWord": true
     },
     {
-      "sid": 5,
-      "tid": 26,
       "text": "跟",
       "simplified": "跟",
       "traditional": "跟",
@@ -643,8 +537,6 @@
       "isWord": true
     },
     {
-      "sid": 5,
-      "tid": 27,
       "text": "周遭",
       "simplified": "周遭",
       "traditional": "周遭",
@@ -654,8 +546,6 @@
       "isWord": true
     },
     {
-      "sid": 5,
-      "tid": 28,
       "text": "同学",
       "simplified": "同学",
       "traditional": "同學",
@@ -665,8 +555,6 @@
       "isWord": true
     },
     {
-      "sid": 5,
-      "tid": 29,
       "text": "抬杠",
       "simplified": "抬杠",
       "traditional": "抬槓",
@@ -676,8 +564,6 @@
       "isWord": true
     },
     {
-      "sid": 5,
-      "tid": 30,
       "text": "，",
       "simplified": "，",
       "traditional": "，",
@@ -685,8 +571,6 @@
       "isWord": false
     },
     {
-      "sid": 5,
-      "tid": 31,
       "text": "终于",
       "simplified": "终于",
       "traditional": "終於",
@@ -696,8 +580,6 @@
       "isWord": true
     },
     {
-      "sid": 5,
-      "tid": 32,
       "text": "被",
       "simplified": "被",
       "traditional": "被",
@@ -707,8 +589,6 @@
       "isWord": true
     },
     {
-      "sid": 5,
-      "tid": 33,
       "text": "赖导",
       "simplified": "赖导",
       "traditional": "賴導",
@@ -718,8 +598,6 @@
       "isWord": true
     },
     {
-      "sid": 5,
-      "tid": 34,
       "text": "罚",
       "simplified": "罚",
       "traditional": "罰",
@@ -729,8 +607,6 @@
       "isWord": true
     },
     {
-      "sid": 5,
-      "tid": 35,
       "text": "坐",
       "simplified": "坐",
       "traditional": "坐",
@@ -762,8 +638,6 @@
       "tid": 37
     },
     {
-      "sid": 5,
-      "tid": 38,
       "text": "的",
       "simplified": "的",
       "traditional": "的",
@@ -773,8 +647,6 @@
       "isWord": true
     },
     {
-      "sid": 5,
-      "tid": 39,
       "text": "最",
       "simplified": "最",
       "traditional": "㝡",
@@ -784,8 +656,6 @@
       "isWord": true
     },
     {
-      "sid": 5,
-      "tid": 40,
       "text": "角落",
       "simplified": "角落",
       "traditional": "角落",
@@ -795,8 +665,6 @@
       "isWord": true
     },
     {
-      "sid": 5,
-      "tid": 41,
       "text": "。",
       "simplified": "。",
       "traditional": "。",
@@ -806,8 +674,6 @@
   ],
   [
     {
-      "sid": 6,
-      "tid": 0,
       "text": "\n",
       "simplified": "\n",
       "traditional": "\n",
@@ -817,8 +683,6 @@
   ],
   [
     {
-      "sid": 7,
-      "tid": 0,
       "text": "唯一",
       "simplified": "唯一",
       "traditional": "唯一",
@@ -828,8 +692,6 @@
       "isWord": true
     },
     {
-      "sid": 7,
-      "tid": 1,
       "text": "的",
       "simplified": "的",
       "traditional": "的",
@@ -839,8 +701,6 @@
       "isWord": true
     },
     {
-      "sid": 7,
-      "tid": 2,
       "text": "邻座",
       "simplified": "邻座",
       "traditional": "鄰座",
@@ -850,8 +710,6 @@
       "isWord": true
     },
     {
-      "sid": 7,
-      "tid": 3,
       "text": "，",
       "simplified": "，",
       "traditional": "，",
@@ -859,8 +717,6 @@
       "isWord": false
     },
     {
-      "sid": 7,
-      "tid": 4,
       "text": "是",
       "simplified": "是",
       "traditional": "是",
@@ -892,8 +748,6 @@
       "tid": 6
     },
     {
-      "sid": 7,
-      "tid": 7,
       "text": "光秃秃",
       "simplified": "光秃秃",
       "traditional": "光禿禿",
@@ -903,8 +757,6 @@
       "isWord": true
     },
     {
-      "sid": 7,
-      "tid": 8,
       "text": "的",
       "simplified": "的",
       "traditional": "的",
@@ -914,8 +766,6 @@
       "isWord": true
     },
     {
-      "sid": 7,
-      "tid": 9,
       "text": "墙壁",
       "simplified": "墙壁",
       "traditional": "牆壁",
@@ -925,8 +775,6 @@
       "isWord": true
     },
     {
-      "sid": 7,
-      "tid": 10,
       "text": "。",
       "simplified": "。",
       "traditional": "。",
@@ -936,8 +784,6 @@
   ],
   [
     {
-      "sid": 8,
-      "tid": 0,
       "text": "\n",
       "simplified": "\n",
       "traditional": "\n",
@@ -947,8 +793,6 @@
   ],
   [
     {
-      "sid": 9,
-      "tid": 0,
       "text": "“",
       "simplified": "“",
       "traditional": "“",
@@ -956,8 +800,6 @@
       "isWord": false
     },
     {
-      "sid": 9,
-      "tid": 1,
       "text": "柯景腾",
       "simplified": "柯景腾",
       "traditional": "柯景騰",
@@ -967,8 +809,6 @@
       "isWord": true
     },
     {
-      "sid": 9,
-      "tid": 2,
       "text": "，",
       "simplified": "，",
       "traditional": "，",
@@ -976,8 +816,6 @@
       "isWord": false
     },
     {
-      "sid": 9,
-      "tid": 3,
       "text": "现在",
       "simplified": "现在",
       "traditional": "現在",
@@ -987,8 +825,6 @@
       "isWord": true
     },
     {
-      "sid": 9,
-      "tid": 4,
       "text": "看",
       "simplified": "看",
       "traditional": "看",
@@ -998,8 +834,6 @@
       "isWord": true
     },
     {
-      "sid": 9,
-      "tid": 5,
       "text": "你",
       "simplified": "你",
       "traditional": "你",
@@ -1009,8 +843,6 @@
       "isWord": true
     },
     {
-      "sid": 9,
-      "tid": 6,
       "text": "怎么",
       "simplified": "怎么",
       "traditional": "怎麼",
@@ -1020,8 +852,6 @@
       "isWord": true
     },
     {
-      "sid": 9,
-      "tid": 7,
       "text": "吵闹",
       "simplified": "吵闹",
       "traditional": "吵鬧",
@@ -1031,8 +861,6 @@
       "isWord": true
     },
     {
-      "sid": 9,
-      "tid": 8,
       "text": "！",
       "simplified": "！",
       "traditional": "！",
@@ -1040,8 +868,6 @@
       "isWord": false
     },
     {
-      "sid": 9,
-      "tid": 9,
       "text": "”",
       "simplified": "”",
       "traditional": "”",
@@ -1049,8 +875,6 @@
       "isWord": false
     },
     {
-      "sid": 9,
-      "tid": 10,
       "text": "赖导",
       "simplified": "赖导",
       "traditional": "賴導",
@@ -1060,8 +884,6 @@
       "isWord": true
     },
     {
-      "sid": 9,
-      "tid": 11,
       "text": "冷笑",
       "simplified": "冷笑",
       "traditional": "冷笑",
@@ -1071,8 +893,6 @@
       "isWord": true
     },
     {
-      "sid": 9,
-      "tid": 12,
       "text": "，",
       "simplified": "，",
       "traditional": "，",
@@ -1080,8 +900,6 @@
       "isWord": false
     },
     {
-      "sid": 9,
-      "tid": 13,
       "text": "在",
       "simplified": "在",
       "traditional": "在",
@@ -1091,8 +909,6 @@
       "isWord": true
     },
     {
-      "sid": 9,
-      "tid": 14,
       "text": "讲台",
       "simplified": "讲台",
       "traditional": "講臺",
@@ -1102,8 +918,6 @@
       "isWord": true
     },
     {
-      "sid": 9,
-      "tid": 15,
       "text": "上",
       "simplified": "上",
       "traditional": "上",
@@ -1113,8 +927,6 @@
       "isWord": true
     },
     {
-      "sid": 9,
-      "tid": 16,
       "text": "睥睨",
       "simplified": "睥睨",
       "traditional": "睥睨",
@@ -1124,8 +936,6 @@
       "isWord": true
     },
     {
-      "sid": 9,
-      "tid": 17,
       "text": "正",
       "simplified": "正",
       "traditional": "正",
@@ -1135,8 +945,6 @@
       "isWord": true
     },
     {
-      "sid": 9,
-      "tid": 18,
       "text": "忙着",
       "simplified": "忙着",
       "traditional": "忙著",
@@ -1146,8 +954,6 @@
       "isWord": true
     },
     {
-      "sid": 9,
-      "tid": 19,
       "text": "搬",
       "simplified": "搬",
       "traditional": "搬",
@@ -1157,8 +963,6 @@
       "isWord": true
     },
     {
-      "sid": 9,
-      "tid": 20,
       "text": "抽屉",
       "simplified": "抽屉",
       "traditional": "抽屜",
@@ -1168,8 +972,6 @@
       "isWord": true
     },
     {
-      "sid": 9,
-      "tid": 21,
       "text": "的",
       "simplified": "的",
       "traditional": "的",
@@ -1179,8 +981,6 @@
       "isWord": true
     },
     {
-      "sid": 9,
-      "tid": 22,
       "text": "我",
       "simplified": "我",
       "traditional": "我",
@@ -1190,8 +990,6 @@
       "isWord": true
     },
     {
-      "sid": 9,
-      "tid": 23,
       "text": "。",
       "simplified": "。",
       "traditional": "。",
@@ -1201,8 +999,6 @@
   ],
   [
     {
-      "sid": 10,
-      "tid": 0,
       "text": "\n",
       "simplified": "\n",
       "traditional": "\n",
@@ -1212,8 +1008,6 @@
   ],
   [
     {
-      "sid": 11,
-      "tid": 0,
       "text": "“",
       "simplified": "“",
       "traditional": "“",
@@ -1221,8 +1015,6 @@
       "isWord": false
     },
     {
-      "sid": 11,
-      "tid": 1,
       "text": "是的",
       "simplified": "是的",
       "traditional": "是的",
@@ -1232,8 +1024,6 @@
       "isWord": true
     },
     {
-      "sid": 11,
-      "tid": 2,
       "text": "，",
       "simplified": "，",
       "traditional": "，",
@@ -1241,8 +1031,6 @@
       "isWord": false
     },
     {
-      "sid": 11,
-      "tid": 3,
       "text": "我",
       "simplified": "我",
       "traditional": "我",
@@ -1252,8 +1040,6 @@
       "isWord": true
     },
     {
-      "sid": 11,
-      "tid": 4,
       "text": "一定",
       "simplified": "一定",
       "traditional": "一定",
@@ -1263,8 +1049,6 @@
       "isWord": true
     },
     {
-      "sid": 11,
-      "tid": 5,
       "text": "会",
       "simplified": "会",
       "traditional": "會",
@@ -1274,8 +1058,6 @@
       "isWord": true
     },
     {
-      "sid": 11,
-      "tid": 6,
       "text": "好好",
       "simplified": "好好",
       "traditional": "好好",
@@ -1285,8 +1067,6 @@
       "isWord": true
     },
     {
-      "sid": 11,
-      "tid": 7,
       "text": "反省",
       "simplified": "反省",
       "traditional": "反省",
@@ -1296,8 +1076,6 @@
       "isWord": true
     },
     {
-      "sid": 11,
-      "tid": 8,
       "text": "的",
       "simplified": "的",
       "traditional": "的",
@@ -1307,8 +1085,6 @@
       "isWord": true
     },
     {
-      "sid": 11,
-      "tid": 9,
       "text": "。",
       "simplified": "。",
       "traditional": "。",
@@ -1318,8 +1094,6 @@
   ],
   [
     {
-      "sid": 12,
-      "tid": 0,
       "text": "”",
       "simplified": "”",
       "traditional": "”",
@@ -1327,8 +1101,6 @@
       "isWord": false
     },
     {
-      "sid": 12,
-      "tid": 1,
       "text": "我",
       "simplified": "我",
       "traditional": "我",
@@ -1338,8 +1110,6 @@
       "isWord": true
     },
     {
-      "sid": 12,
-      "tid": 2,
       "text": "打包",
       "simplified": "打包",
       "traditional": "打包",
@@ -1349,8 +1119,6 @@
       "isWord": true
     },
     {
-      "sid": 12,
-      "tid": 3,
       "text": "好",
       "simplified": "好",
       "traditional": "好",
@@ -1360,8 +1128,6 @@
       "isWord": true
     },
     {
-      "sid": 12,
-      "tid": 4,
       "text": "抽屉",
       "simplified": "抽屉",
       "traditional": "抽屜",
@@ -1371,8 +1137,6 @@
       "isWord": true
     },
     {
-      "sid": 12,
-      "tid": 5,
       "text": "里",
       "simplified": "里",
       "traditional": "裏",
@@ -1382,8 +1146,6 @@
       "isWord": true
     },
     {
-      "sid": 12,
-      "tid": 6,
       "text": "乱七八糟",
       "simplified": "乱七八糟",
       "traditional": "亂七八糟",
@@ -1393,8 +1155,6 @@
       "isWord": true
     },
     {
-      "sid": 12,
-      "tid": 7,
       "text": "的",
       "simplified": "的",
       "traditional": "的",
@@ -1404,8 +1164,6 @@
       "isWord": true
     },
     {
-      "sid": 12,
-      "tid": 8,
       "text": "参考书",
       "simplified": "参考书",
       "traditional": "參考書",
@@ -1415,8 +1173,6 @@
       "isWord": true
     },
     {
-      "sid": 12,
-      "tid": 9,
       "text": "跟",
       "simplified": "跟",
       "traditional": "跟",
@@ -1437,8 +1193,6 @@
       "tid": 10
     },
     {
-      "sid": 12,
-      "tid": 11,
       "text": "，",
       "simplified": "，",
       "traditional": "，",
@@ -1446,8 +1200,6 @@
       "isWord": false
     },
     {
-      "sid": 12,
-      "tid": 12,
       "text": "正经八百",
       "simplified": "正经八百",
       "traditional": "正經八百",
@@ -1457,8 +1209,6 @@
       "isWord": true
     },
     {
-      "sid": 12,
-      "tid": 13,
       "text": "挤出",
       "simplified": "挤出",
       "traditional": "擠出",
@@ -1468,8 +1218,6 @@
       "isWord": true
     },
     {
-      "sid": 12,
-      "tid": 14,
       "text": "一",
       "simplified": "一",
       "traditional": "一",
@@ -1479,8 +1227,6 @@
       "isWord": true
     },
     {
-      "sid": 12,
-      "tid": 15,
       "text": "张",
       "simplified": "张",
       "traditional": "張",
@@ -1490,8 +1236,6 @@
       "isWord": true
     },
     {
-      "sid": 12,
-      "tid": 16,
       "text": "痛定思痛",
       "simplified": "痛定思痛",
       "traditional": "痛定思痛",
@@ -1501,8 +1245,6 @@
       "isWord": true
     },
     {
-      "sid": 12,
-      "tid": 17,
       "text": "的",
       "simplified": "的",
       "traditional": "的",
@@ -1512,8 +1254,6 @@
       "isWord": true
     },
     {
-      "sid": 12,
-      "tid": 18,
       "text": "脸",
       "simplified": "脸",
       "traditional": "臉",
@@ -1523,8 +1263,6 @@
       "isWord": true
     },
     {
-      "sid": 12,
-      "tid": 19,
       "text": "。",
       "simplified": "。",
       "traditional": "。",
@@ -1534,8 +1272,6 @@
   ],
   [
     {
-      "sid": 13,
-      "tid": 0,
       "text": "\n",
       "simplified": "\n",
       "traditional": "\n",
@@ -1545,8 +1281,6 @@
   ],
   [
     {
-      "sid": 14,
-      "tid": 0,
       "text": "妈的",
       "simplified": "妈的",
       "traditional": "媽的",
@@ -1556,8 +1290,6 @@
       "isWord": true
     },
     {
-      "sid": 14,
-      "tid": 1,
       "text": "。",
       "simplified": "。",
       "traditional": "。",
@@ -1567,8 +1299,6 @@
   ],
   [
     {
-      "sid": 15,
-      "tid": 0,
       "text": "你们",
       "simplified": "你们",
       "traditional": "你們",
@@ -1578,8 +1308,6 @@
       "isWord": true
     },
     {
-      "sid": 15,
-      "tid": 1,
       "text": "这",
       "simplified": "这",
       "traditional": "這",
@@ -1589,8 +1317,6 @@
       "isWord": true
     },
     {
-      "sid": 15,
-      "tid": 2,
       "text": "群",
       "simplified": "群",
       "traditional": "羣",
@@ -1611,8 +1337,6 @@
       "tid": 3
     },
     {
-      "sid": 15,
-      "tid": 4,
       "text": "的",
       "simplified": "的",
       "traditional": "的",
@@ -1622,8 +1346,6 @@
       "isWord": true
     },
     {
-      "sid": 15,
-      "tid": 5,
       "text": "烂",
       "simplified": "烂",
       "traditional": "爛",
@@ -1633,8 +1355,6 @@
       "isWord": true
     },
     {
-      "sid": 15,
-      "tid": 6,
       "text": "同学",
       "simplified": "同学",
       "traditional": "同學",
@@ -1644,8 +1364,6 @@
       "isWord": true
     },
     {
-      "sid": 15,
-      "tid": 7,
       "text": "，",
       "simplified": "，",
       "traditional": "，",
@@ -1653,8 +1371,6 @@
       "isWord": false
     },
     {
-      "sid": 15,
-      "tid": 8,
       "text": "我",
       "simplified": "我",
       "traditional": "我",
@@ -1664,8 +1380,6 @@
       "isWord": true
     },
     {
-      "sid": 15,
-      "tid": 9,
       "text": "上课",
       "simplified": "上课",
       "traditional": "上課",
@@ -1675,8 +1389,6 @@
       "isWord": true
     },
     {
-      "sid": 15,
-      "tid": 10,
       "text": "不",
       "simplified": "不",
       "traditional": "不",
@@ -1686,8 +1398,6 @@
       "isWord": true
     },
     {
-      "sid": 15,
-      "tid": 11,
       "text": "收费",
       "simplified": "收费",
       "traditional": "收費",
@@ -1697,8 +1407,6 @@
       "isWord": true
     },
     {
-      "sid": 15,
-      "tid": 12,
       "text": "努力",
       "simplified": "努力",
       "traditional": "努力",
@@ -1708,8 +1416,6 @@
       "isWord": true
     },
     {
-      "sid": 15,
-      "tid": 13,
       "text": "搞笑",
       "simplified": "搞笑",
       "traditional": "搞笑",
@@ -1719,8 +1425,6 @@
       "isWord": true
     },
     {
-      "sid": 15,
-      "tid": 14,
       "text": "，",
       "simplified": "，",
       "traditional": "，",
@@ -1728,8 +1432,6 @@
       "isWord": false
     },
     {
-      "sid": 15,
-      "tid": 15,
       "text": "让",
       "simplified": "让",
       "traditional": "讓",
@@ -1739,8 +1441,6 @@
       "isWord": true
     },
     {
-      "sid": 15,
-      "tid": 16,
       "text": "大家",
       "simplified": "大家",
       "traditional": "大家",
@@ -1750,8 +1450,6 @@
       "isWord": true
     },
     {
-      "sid": 15,
-      "tid": 17,
       "text": "的",
       "simplified": "的",
       "traditional": "的",
@@ -1761,8 +1459,6 @@
       "isWord": true
     },
     {
-      "sid": 15,
-      "tid": 18,
       "text": "青春",
       "simplified": "青春",
       "traditional": "青春",
@@ -1772,8 +1468,6 @@
       "isWord": true
     },
     {
-      "sid": 15,
-      "tid": 19,
       "text": "欢乐",
       "simplified": "欢乐",
       "traditional": "歡樂",
@@ -1783,8 +1477,6 @@
       "isWord": true
     },
     {
-      "sid": 15,
-      "tid": 20,
       "text": "到",
       "simplified": "到",
       "traditional": "到",
@@ -1816,8 +1508,6 @@
       "tid": 22
     },
     {
-      "sid": 15,
-      "tid": 23,
       "text": "，",
       "simplified": "，",
       "traditional": "，",
@@ -1825,8 +1515,6 @@
       "isWord": false
     },
     {
-      "sid": 15,
-      "tid": 24,
       "text": "你们",
       "simplified": "你们",
       "traditional": "你們",
@@ -1836,8 +1524,6 @@
       "isWord": true
     },
     {
-      "sid": 15,
-      "tid": 25,
       "text": "竟然",
       "simplified": "竟然",
       "traditional": "竟然",
@@ -1847,8 +1533,6 @@
       "isWord": true
     },
     {
-      "sid": 15,
-      "tid": 26,
       "text": "这样",
       "simplified": "这样",
       "traditional": "這樣",
@@ -1858,8 +1542,6 @@
       "isWord": true
     },
     {
-      "sid": 15,
-      "tid": 27,
       "text": "对待",
       "simplified": "对待",
       "traditional": "對待",
@@ -1869,8 +1551,6 @@
       "isWord": true
     },
     {
-      "sid": 15,
-      "tid": 28,
       "text": "我",
       "simplified": "我",
       "traditional": "我",
@@ -1880,8 +1560,6 @@
       "isWord": true
     },
     {
-      "sid": 15,
-      "tid": 29,
       "text": "？",
       "simplified": "？",
       "traditional": "？",
@@ -1889,8 +1567,6 @@
       "isWord": false
     },
     {
-      "sid": 15,
-      "tid": 30,
       "text": "我",
       "simplified": "我",
       "traditional": "我",
@@ -1900,8 +1576,6 @@
       "isWord": true
     },
     {
-      "sid": 15,
-      "tid": 31,
       "text": "一边",
       "simplified": "一边",
       "traditional": "一邊",
@@ -1911,8 +1585,6 @@
       "isWord": true
     },
     {
-      "sid": 15,
-      "tid": 32,
       "text": "整理",
       "simplified": "整理",
       "traditional": "整理",
@@ -1922,8 +1594,6 @@
       "isWord": true
     },
     {
-      "sid": 15,
-      "tid": 33,
       "text": "新",
       "simplified": "新",
       "traditional": "新",
@@ -1933,8 +1603,6 @@
       "isWord": true
     },
     {
-      "sid": 15,
-      "tid": 34,
       "text": "桌子",
       "simplified": "桌子",
       "traditional": "桌子",
@@ -1944,8 +1612,6 @@
       "isWord": true
     },
     {
-      "sid": 15,
-      "tid": 35,
       "text": "一边",
       "simplified": "一边",
       "traditional": "一邊",
@@ -1955,8 +1621,6 @@
       "isWord": true
     },
     {
-      "sid": 15,
-      "tid": 36,
       "text": "在",
       "simplified": "在",
       "traditional": "在",
@@ -1966,8 +1630,6 @@
       "isWord": true
     },
     {
-      "sid": 15,
-      "tid": 37,
       "text": "心中",
       "simplified": "心中",
       "traditional": "心中",
@@ -1999,8 +1661,6 @@
       "tid": 39
     },
     {
-      "sid": 15,
-      "tid": 40,
       "text": "。",
       "simplified": "。",
       "traditional": "。",
@@ -2010,8 +1670,6 @@
   ],
   [
     {
-      "sid": 16,
-      "tid": 0,
       "text": "\n",
       "simplified": "\n",
       "traditional": "\n",
@@ -2021,8 +1679,6 @@
   ],
   [
     {
-      "sid": 17,
-      "tid": 0,
       "text": "为了",
       "simplified": "为了",
       "traditional": "為了",
@@ -2032,8 +1688,6 @@
       "isWord": true
     },
     {
-      "sid": 17,
-      "tid": 1,
       "text": "拿到",
       "simplified": "拿到",
       "traditional": "拿到",
@@ -2043,8 +1697,6 @@
       "isWord": true
     },
     {
-      "sid": 17,
-      "tid": 2,
       "text": "每周一次",
       "simplified": "每周一次",
       "traditional": "每週一次",
@@ -2054,8 +1706,6 @@
       "isWord": true
     },
     {
-      "sid": 17,
-      "tid": 3,
       "text": "的",
       "simplified": "的",
       "traditional": "的",
@@ -2065,8 +1715,6 @@
       "isWord": true
     },
     {
-      "sid": 17,
-      "tid": 4,
       "text": "“",
       "simplified": "“",
       "traditional": "“",
@@ -2074,8 +1722,6 @@
       "isWord": false
     },
     {
-      "sid": 17,
-      "tid": 5,
       "text": "荣誉",
       "simplified": "荣誉",
       "traditional": "榮譽",
@@ -2085,8 +1731,6 @@
       "isWord": true
     },
     {
-      "sid": 17,
-      "tid": 6,
       "text": "班",
       "simplified": "班",
       "traditional": "班",
@@ -2096,8 +1740,6 @@
       "isWord": true
     },
     {
-      "sid": 17,
-      "tid": 7,
       "text": "”",
       "simplified": "”",
       "traditional": "”",
@@ -2105,8 +1747,6 @@
       "isWord": false
     },
     {
-      "sid": 17,
-      "tid": 8,
       "text": "奖状",
       "simplified": "奖状",
       "traditional": "獎狀",
@@ -2116,8 +1756,6 @@
       "isWord": true
     },
     {
-      "sid": 17,
-      "tid": 9,
       "text": "，",
       "simplified": "，",
       "traditional": "，",
@@ -2125,8 +1763,6 @@
       "isWord": false
     },
     {
-      "sid": 17,
-      "tid": 10,
       "text": "赖导",
       "simplified": "赖导",
       "traditional": "賴導",
@@ -2158,8 +1794,6 @@
       "tid": 12
     },
     {
-      "sid": 17,
-      "tid": 13,
       "text": "秩序",
       "simplified": "秩序",
       "traditional": "秩序",
@@ -2169,8 +1803,6 @@
       "isWord": true
     },
     {
-      "sid": 17,
-      "tid": 14,
       "text": "的",
       "simplified": "的",
       "traditional": "的",
@@ -2180,8 +1812,6 @@
       "isWord": true
     },
     {
-      "sid": 17,
-      "tid": 15,
       "text": "要求",
       "simplified": "要求",
       "traditional": "要求",
@@ -2191,8 +1821,6 @@
       "isWord": true
     },
     {
-      "sid": 17,
-      "tid": 16,
       "text": "很",
       "simplified": "很",
       "traditional": "很",
@@ -2202,8 +1830,6 @@
       "isWord": true
     },
     {
-      "sid": 17,
-      "tid": 17,
       "text": "高",
       "simplified": "高",
       "traditional": "高",
@@ -2213,8 +1839,6 @@
       "isWord": true
     },
     {
-      "sid": 17,
-      "tid": 18,
       "text": "，",
       "simplified": "，",
       "traditional": "，",
@@ -2222,8 +1846,6 @@
       "isWord": false
     },
     {
-      "sid": 17,
-      "tid": 19,
       "text": "采取",
       "simplified": "采取",
       "traditional": "採取",
@@ -2233,8 +1855,6 @@
       "isWord": true
     },
     {
-      "sid": 17,
-      "tid": 20,
       "text": "的",
       "simplified": "的",
       "traditional": "的",
@@ -2244,8 +1864,6 @@
       "isWord": true
     },
     {
-      "sid": 17,
-      "tid": 21,
       "text": "管理",
       "simplified": "管理",
       "traditional": "管理",
@@ -2255,8 +1873,6 @@
       "isWord": true
     },
     {
-      "sid": 17,
-      "tid": 22,
       "text": "手段",
       "simplified": "手段",
       "traditional": "手段",
@@ -2266,8 +1882,6 @@
       "isWord": true
     },
     {
-      "sid": 17,
-      "tid": 23,
       "text": "也",
       "simplified": "也",
       "traditional": "也",
@@ -2277,8 +1891,6 @@
       "isWord": true
     },
     {
-      "sid": 17,
-      "tid": 24,
       "text": "是",
       "simplified": "是",
       "traditional": "是",
@@ -2288,8 +1900,6 @@
       "isWord": true
     },
     {
-      "sid": 17,
-      "tid": 25,
       "text": "高",
       "simplified": "高",
       "traditional": "高",
@@ -2299,8 +1909,6 @@
       "isWord": true
     },
     {
-      "sid": 17,
-      "tid": 26,
       "text": "规格",
       "simplified": "规格",
       "traditional": "規格",
@@ -2310,8 +1918,6 @@
       "isWord": true
     },
     {
-      "sid": 17,
-      "tid": 27,
       "text": "的",
       "simplified": "的",
       "traditional": "的",
@@ -2321,8 +1927,6 @@
       "isWord": true
     },
     {
-      "sid": 17,
-      "tid": 28,
       "text": "“",
       "simplified": "“",
       "traditional": "“",
@@ -2330,8 +1934,6 @@
       "isWord": false
     },
     {
-      "sid": 17,
-      "tid": 29,
       "text": "狗咬狗",
       "simplified": "狗咬狗",
       "traditional": "狗咬狗",
@@ -2341,8 +1943,6 @@
       "isWord": true
     },
     {
-      "sid": 17,
-      "tid": 30,
       "text": "”",
       "simplified": "”",
       "traditional": "”",
@@ -2350,8 +1950,6 @@
       "isWord": false
     },
     {
-      "sid": 17,
-      "tid": 31,
       "text": "政策",
       "simplified": "政策",
       "traditional": "政策",
@@ -2361,8 +1959,6 @@
       "isWord": true
     },
     {
-      "sid": 17,
-      "tid": 32,
       "text": "。",
       "simplified": "。",
       "traditional": "。",
@@ -2372,8 +1968,6 @@
   ],
   [
     {
-      "sid": 18,
-      "tid": 0,
       "text": "每",
       "simplified": "每",
       "traditional": "每",
@@ -2383,8 +1977,6 @@
       "isWord": true
     },
     {
-      "sid": 18,
-      "tid": 1,
       "text": "个",
       "simplified": "个",
       "traditional": "個",
@@ -2394,8 +1986,6 @@
       "isWord": true
     },
     {
-      "sid": 18,
-      "tid": 2,
       "text": "礼拜一",
       "simplified": "礼拜一",
       "traditional": "禮拜一",
@@ -2405,8 +1995,6 @@
       "isWord": true
     },
     {
-      "sid": 18,
-      "tid": 3,
       "text": "，",
       "simplified": "，",
       "traditional": "，",
@@ -2414,8 +2002,6 @@
       "isWord": false
     },
     {
-      "sid": 18,
-      "tid": 4,
       "text": "全班",
       "simplified": "全班",
       "traditional": "全班",
@@ -2425,8 +2011,6 @@
       "isWord": true
     },
     {
-      "sid": 18,
-      "tid": 5,
       "text": "同学",
       "simplified": "同学",
       "traditional": "同學",
@@ -2436,8 +2020,6 @@
       "isWord": true
     },
     {
-      "sid": 18,
-      "tid": 6,
       "text": "都",
       "simplified": "都",
       "traditional": "都",
@@ -2447,8 +2029,6 @@
       "isWord": true
     },
     {
-      "sid": 18,
-      "tid": 7,
       "text": "得",
       "simplified": "得",
       "traditional": "得",
@@ -2458,8 +2038,6 @@
       "isWord": true
     },
     {
-      "sid": 18,
-      "tid": 8,
       "text": "在",
       "simplified": "在",
       "traditional": "在",
@@ -2469,8 +2047,6 @@
       "isWord": true
     },
     {
-      "sid": 18,
-      "tid": 9,
       "text": "空白",
       "simplified": "空白",
       "traditional": "空白",
@@ -2480,8 +2056,6 @@
       "isWord": true
     },
     {
-      "sid": 18,
-      "tid": 10,
       "text": "测验",
       "simplified": "测验",
       "traditional": "測驗",
@@ -2491,8 +2065,6 @@
       "isWord": true
     },
     {
-      "sid": 18,
-      "tid": 11,
       "text": "纸",
       "simplified": "纸",
       "traditional": "帋",
@@ -2502,8 +2074,6 @@
       "isWord": true
     },
     {
-      "sid": 18,
-      "tid": 12,
       "text": "上",
       "simplified": "上",
       "traditional": "上",
@@ -2513,8 +2083,6 @@
       "isWord": true
     },
     {
-      "sid": 18,
-      "tid": 13,
       "text": "，",
       "simplified": "，",
       "traditional": "，",
@@ -2522,8 +2090,6 @@
       "isWord": false
     },
     {
-      "sid": 18,
-      "tid": 14,
       "text": "匿名",
       "simplified": "匿名",
       "traditional": "匿名",
@@ -2533,8 +2099,6 @@
       "isWord": true
     },
     {
-      "sid": 18,
-      "tid": 15,
       "text": "写下",
       "simplified": "写下",
       "traditional": "寫下",
@@ -2544,8 +2108,6 @@
       "isWord": true
     },
     {
-      "sid": 18,
-      "tid": 16,
       "text": "上周",
       "simplified": "上周",
       "traditional": "上周",
@@ -2555,8 +2117,6 @@
       "isWord": true
     },
     {
-      "sid": 18,
-      "tid": 17,
       "text": "最",
       "simplified": "最",
       "traditional": "㝡",
@@ -2566,8 +2126,6 @@
       "isWord": true
     },
     {
-      "sid": 18,
-      "tid": 18,
       "text": "爱",
       "simplified": "爱",
       "traditional": "愛",
@@ -2577,8 +2135,6 @@
       "isWord": true
     },
     {
-      "sid": 18,
-      "tid": 19,
       "text": "吵闹",
       "simplified": "吵闹",
       "traditional": "吵鬧",
@@ -2588,8 +2144,6 @@
       "isWord": true
     },
     {
-      "sid": 18,
-      "tid": 20,
       "text": "的",
       "simplified": "的",
       "traditional": "的",
@@ -2599,8 +2153,6 @@
       "isWord": true
     },
     {
-      "sid": 18,
-      "tid": 21,
       "text": "三",
       "simplified": "三",
       "traditional": "三",
@@ -2610,8 +2162,6 @@
       "isWord": true
     },
     {
-      "sid": 18,
-      "tid": 22,
       "text": "个人",
       "simplified": "个人",
       "traditional": "個人",
@@ -2621,8 +2171,6 @@
       "isWord": true
     },
     {
-      "sid": 18,
-      "tid": 23,
       "text": "，",
       "simplified": "，",
       "traditional": "，",
@@ -2630,8 +2178,6 @@
       "isWord": false
     },
     {
-      "sid": 18,
-      "tid": 24,
       "text": "交给",
       "simplified": "交给",
       "traditional": "交給",
@@ -2641,8 +2187,6 @@
       "isWord": true
     },
     {
-      "sid": 18,
-      "tid": 25,
       "text": "风纪",
       "simplified": "风纪",
       "traditional": "風紀",
@@ -2652,8 +2196,6 @@
       "isWord": true
     },
     {
-      "sid": 18,
-      "tid": 26,
       "text": "股长",
       "simplified": "股长",
       "traditional": "股長",
@@ -2663,8 +2205,6 @@
       "isWord": true
     },
     {
-      "sid": 18,
-      "tid": 27,
       "text": "曹国胜",
       "simplified": "曹国胜",
       "traditional": "曹國勝",
@@ -2674,8 +2214,6 @@
       "isWord": true
     },
     {
-      "sid": 18,
-      "tid": 28,
       "text": "统计",
       "simplified": "统计",
       "traditional": "統計",
@@ -2685,8 +2223,6 @@
       "isWord": true
     },
     {
-      "sid": 18,
-      "tid": 29,
       "text": "。",
       "simplified": "。",
       "traditional": "。",
@@ -2696,8 +2232,6 @@
   ],
   [
     {
-      "sid": 19,
-      "tid": 0,
       "text": "\n",
       "simplified": "\n",
       "traditional": "\n",
@@ -2707,8 +2241,6 @@
   ],
   [
     {
-      "sid": 20,
-      "tid": 0,
       "text": "每次",
       "simplified": "每次",
       "traditional": "每次",
@@ -2718,8 +2250,6 @@
       "isWord": true
     },
     {
-      "sid": 20,
-      "tid": 1,
       "text": "统计",
       "simplified": "统计",
       "traditional": "統計",
@@ -2729,8 +2259,6 @@
       "isWord": true
     },
     {
-      "sid": 20,
-      "tid": 2,
       "text": "后",
       "simplified": "后",
       "traditional": "后",
@@ -2740,8 +2268,6 @@
       "isWord": true
     },
     {
-      "sid": 20,
-      "tid": 3,
       "text": "的",
       "simplified": "的",
       "traditional": "的",
@@ -2751,8 +2277,6 @@
       "isWord": true
     },
     {
-      "sid": 20,
-      "tid": 4,
       "text": "黑名单",
       "simplified": "黑名单",
       "traditional": "黑名單",
@@ -2762,8 +2286,6 @@
       "isWord": true
     },
     {
-      "sid": 20,
-      "tid": 5,
       "text": "一",
       "simplified": "一",
       "traditional": "一",
@@ -2773,8 +2295,6 @@
       "isWord": true
     },
     {
-      "sid": 20,
-      "tid": 6,
       "text": "出炉",
       "simplified": "出炉",
       "traditional": "出爐",
@@ -2784,8 +2304,6 @@
       "isWord": true
     },
     {
-      "sid": 20,
-      "tid": 7,
       "text": "，",
       "simplified": "，",
       "traditional": "，",
@@ -2815,8 +2333,6 @@
       "tid": 9
     },
     {
-      "sid": 20,
-      "tid": 10,
       "text": "最多",
       "simplified": "最多",
       "traditional": "最多",
@@ -2826,8 +2342,6 @@
       "isWord": true
     },
     {
-      "sid": 20,
-      "tid": 11,
       "text": "人次",
       "simplified": "人次",
       "traditional": "人次",
@@ -2837,8 +2351,6 @@
       "isWord": true
     },
     {
-      "sid": 20,
-      "tid": 12,
       "text": "的",
       "simplified": "的",
       "traditional": "的",
@@ -2848,8 +2360,6 @@
       "isWord": true
     },
     {
-      "sid": 20,
-      "tid": 13,
       "text": "榜首",
       "simplified": "榜首",
       "traditional": "榜首",
@@ -2859,8 +2369,6 @@
       "isWord": true
     },
     {
-      "sid": 20,
-      "tid": 14,
       "text": "就要",
       "simplified": "就要",
       "traditional": "就要",
@@ -2881,8 +2389,6 @@
       "tid": 15
     },
     {
-      "sid": 20,
-      "tid": 16,
       "text": "，",
       "simplified": "，",
       "traditional": "，",
@@ -2890,8 +2396,6 @@
       "isWord": false
     },
     {
-      "sid": 20,
-      "tid": 17,
       "text": "赖导",
       "simplified": "赖导",
       "traditional": "賴導",
@@ -2901,8 +2405,6 @@
       "isWord": true
     },
     {
-      "sid": 20,
-      "tid": 18,
       "text": "会",
       "simplified": "会",
       "traditional": "會",
@@ -2912,8 +2414,6 @@
       "isWord": true
     },
     {
-      "sid": 20,
-      "tid": 19,
       "text": "打电话",
       "simplified": "打电话",
       "traditional": "打電話",
@@ -2923,8 +2423,6 @@
       "isWord": true
     },
     {
-      "sid": 20,
-      "tid": 20,
       "text": "告诉",
       "simplified": "告诉",
       "traditional": "告訴",
@@ -2934,8 +2432,6 @@
       "isWord": true
     },
     {
-      "sid": 20,
-      "tid": 21,
       "text": "家长",
       "simplified": "家长",
       "traditional": "家長",
@@ -2945,8 +2441,6 @@
       "isWord": true
     },
     {
-      "sid": 20,
-      "tid": 22,
       "text": "这位",
       "simplified": "这位",
       "traditional": "這位",
@@ -2956,8 +2450,6 @@
       "isWord": true
     },
     {
-      "sid": 20,
-      "tid": 23,
       "text": "吵闹",
       "simplified": "吵闹",
       "traditional": "吵鬧",
@@ -2967,8 +2459,6 @@
       "isWord": true
     },
     {
-      "sid": 20,
-      "tid": 24,
       "text": "王",
       "simplified": "王",
       "traditional": "王",
@@ -2978,8 +2468,6 @@
       "isWord": true
     },
     {
-      "sid": 20,
-      "tid": 25,
       "text": "在",
       "simplified": "在",
       "traditional": "在",
@@ -2989,8 +2477,6 @@
       "isWord": true
     },
     {
-      "sid": 20,
-      "tid": 26,
       "text": "学校",
       "simplified": "学校",
       "traditional": "學校",
@@ -3000,8 +2486,6 @@
       "isWord": true
     },
     {
-      "sid": 20,
-      "tid": 27,
       "text": "的",
       "simplified": "的",
       "traditional": "的",
@@ -3011,8 +2495,6 @@
       "isWord": true
     },
     {
-      "sid": 20,
-      "tid": 28,
       "text": "所作所为",
       "simplified": "所作所为",
       "traditional": "所作所為",
@@ -3022,8 +2504,6 @@
       "isWord": true
     },
     {
-      "sid": 20,
-      "tid": 29,
       "text": "，",
       "simplified": "，",
       "traditional": "，",
@@ -3031,8 +2511,6 @@
       "isWord": false
     },
     {
-      "sid": 20,
-      "tid": 30,
       "text": "然后",
       "simplified": "然后",
       "traditional": "然後",
@@ -3042,8 +2520,6 @@
       "isWord": true
     },
     {
-      "sid": 20,
-      "tid": 31,
       "text": "罚",
       "simplified": "罚",
       "traditional": "罰",
@@ -3053,8 +2529,6 @@
       "isWord": true
     },
     {
-      "sid": 20,
-      "tid": 32,
       "text": "东",
       "simplified": "东",
       "traditional": "東",
@@ -3064,8 +2538,6 @@
       "isWord": true
     },
     {
-      "sid": 20,
-      "tid": 33,
       "text": "罚",
       "simplified": "罚",
       "traditional": "罰",
@@ -3075,8 +2547,6 @@
       "isWord": true
     },
     {
-      "sid": 20,
-      "tid": 34,
       "text": "西",
       "simplified": "西",
       "traditional": "西",
@@ -3086,8 +2556,6 @@
       "isWord": true
     },
     {
-      "sid": 20,
-      "tid": 35,
       "text": "，",
       "simplified": "，",
       "traditional": "，",
@@ -3095,8 +2563,6 @@
       "isWord": false
     },
     {
-      "sid": 20,
-      "tid": 36,
       "text": "让",
       "simplified": "让",
       "traditional": "讓",
@@ -3106,8 +2572,6 @@
       "isWord": true
     },
     {
-      "sid": 20,
-      "tid": 37,
       "text": "常常",
       "simplified": "常常",
       "traditional": "常常",
@@ -3117,8 +2581,6 @@
       "isWord": true
     },
     {
-      "sid": 20,
-      "tid": 38,
       "text": "荣登",
       "simplified": "荣登",
       "traditional": "榮登",
@@ -3128,8 +2590,6 @@
       "isWord": true
     },
     {
-      "sid": 20,
-      "tid": 39,
       "text": "榜首",
       "simplified": "榜首",
       "traditional": "榜首",
@@ -3139,8 +2599,6 @@
       "isWord": true
     },
     {
-      "sid": 20,
-      "tid": 40,
       "text": "的",
       "simplified": "的",
       "traditional": "的",
@@ -3150,8 +2608,6 @@
       "isWord": true
     },
     {
-      "sid": 20,
-      "tid": 41,
       "text": "我",
       "simplified": "我",
       "traditional": "我",
@@ -3161,8 +2617,6 @@
       "isWord": true
     },
     {
-      "sid": 20,
-      "tid": 42,
       "text": "不胜其扰",
       "simplified": "不胜其扰",
       "traditional": "不勝其擾",
@@ -3172,8 +2626,6 @@
       "isWord": true
     },
     {
-      "sid": 20,
-      "tid": 43,
       "text": "。",
       "simplified": "。",
       "traditional": "。",
@@ -3183,8 +2635,6 @@
   ],
   [
     {
-      "sid": 21,
-      "tid": 0,
       "text": "\n",
       "simplified": "\n",
       "traditional": "\n",
@@ -3194,8 +2644,6 @@
   ],
   [
     {
-      "sid": 22,
-      "tid": 0,
       "text": "对于",
       "simplified": "对于",
       "traditional": "對於",
@@ -3205,8 +2653,6 @@
       "isWord": true
     },
     {
-      "sid": 22,
-      "tid": 1,
       "text": "这",
       "simplified": "这",
       "traditional": "這",
@@ -3216,8 +2662,6 @@
       "isWord": true
     },
     {
-      "sid": 22,
-      "tid": 2,
       "text": "次",
       "simplified": "次",
       "traditional": "次",
@@ -3227,8 +2671,6 @@
       "isWord": true
     },
     {
-      "sid": 22,
-      "tid": 3,
       "text": "我",
       "simplified": "我",
       "traditional": "我",
@@ -3238,8 +2680,6 @@
       "isWord": true
     },
     {
-      "sid": 22,
-      "tid": 4,
       "text": "被",
       "simplified": "被",
       "traditional": "被",
@@ -3249,8 +2689,6 @@
       "isWord": true
     },
     {
-      "sid": 22,
-      "tid": 5,
       "text": "罚",
       "simplified": "罚",
       "traditional": "罰",
@@ -3260,8 +2698,6 @@
       "isWord": true
     },
     {
-      "sid": 22,
-      "tid": 6,
       "text": "坐",
       "simplified": "坐",
       "traditional": "坐",
@@ -3271,8 +2707,6 @@
       "isWord": true
     },
     {
-      "sid": 22,
-      "tid": 7,
       "text": "在",
       "simplified": "在",
       "traditional": "在",
@@ -3282,8 +2716,6 @@
       "isWord": true
     },
     {
-      "sid": 22,
-      "tid": 8,
       "text": "墙壁",
       "simplified": "墙壁",
       "traditional": "牆壁",
@@ -3293,8 +2725,6 @@
       "isWord": true
     },
     {
-      "sid": 22,
-      "tid": 9,
       "text": "旁边",
       "simplified": "旁边",
       "traditional": "旁邊",
@@ -3304,8 +2734,6 @@
       "isWord": true
     },
     {
-      "sid": 22,
-      "tid": 10,
       "text": "、",
       "simplified": "、",
       "traditional": "、",
@@ -3313,8 +2741,6 @@
       "isWord": false
     },
     {
-      "sid": 22,
-      "tid": 11,
       "text": "近乎",
       "simplified": "近乎",
       "traditional": "近乎",
@@ -3324,8 +2750,6 @@
       "isWord": true
     },
     {
-      "sid": 22,
-      "tid": 12,
       "text": "孤岛",
       "simplified": "孤岛",
       "traditional": "孤島",
@@ -3335,8 +2759,6 @@
       "isWord": true
     },
     {
-      "sid": 22,
-      "tid": 13,
       "text": "地",
       "simplified": "地",
       "traditional": "地",
@@ -3346,8 +2768,6 @@
       "isWord": true
     },
     {
-      "sid": 22,
-      "tid": 14,
       "text": "一个人",
       "simplified": "一个人",
       "traditional": "一個人",
@@ -3357,8 +2777,6 @@
       "isWord": true
     },
     {
-      "sid": 22,
-      "tid": 15,
       "text": "上课",
       "simplified": "上课",
       "traditional": "上課",
@@ -3368,8 +2786,6 @@
       "isWord": true
     },
     {
-      "sid": 22,
-      "tid": 16,
       "text": "这",
       "simplified": "这",
       "traditional": "這",
@@ -3379,8 +2795,6 @@
       "isWord": true
     },
     {
-      "sid": 22,
-      "tid": 17,
       "text": "件",
       "simplified": "件",
       "traditional": "件",
@@ -3390,8 +2804,6 @@
       "isWord": true
     },
     {
-      "sid": 22,
-      "tid": 18,
       "text": "事",
       "simplified": "事",
       "traditional": "事",
@@ -3401,8 +2813,6 @@
       "isWord": true
     },
     {
-      "sid": 22,
-      "tid": 19,
       "text": "，",
       "simplified": "，",
       "traditional": "，",
@@ -3410,8 +2820,6 @@
       "isWord": false
     },
     {
-      "sid": 22,
-      "tid": 20,
       "text": "全班",
       "simplified": "全班",
       "traditional": "全班",
@@ -3421,8 +2829,6 @@
       "isWord": true
     },
     {
-      "sid": 22,
-      "tid": 21,
       "text": "四十",
       "simplified": "四十",
       "traditional": "四十",
@@ -3432,8 +2838,6 @@
       "isWord": true
     },
     {
-      "sid": 22,
-      "tid": 22,
       "text": "五",
       "simplified": "五",
       "traditional": "五",
@@ -3443,8 +2847,6 @@
       "isWord": true
     },
     {
-      "sid": 22,
-      "tid": 23,
       "text": "个",
       "simplified": "个",
       "traditional": "個",
@@ -3454,8 +2856,6 @@
       "isWord": true
     },
     {
-      "sid": 22,
-      "tid": 24,
       "text": "同学",
       "simplified": "同学",
       "traditional": "同學",
@@ -3465,8 +2865,6 @@
       "isWord": true
     },
     {
-      "sid": 22,
-      "tid": 25,
       "text": "并不",
       "simplified": "并不",
       "traditional": "並不",
@@ -3476,8 +2874,6 @@
       "isWord": true
     },
     {
-      "sid": 22,
-      "tid": 26,
       "text": "以为",
       "simplified": "以为",
       "traditional": "以為",
@@ -3487,8 +2883,6 @@
       "isWord": true
     },
     {
-      "sid": 22,
-      "tid": 27,
       "text": "然",
       "simplified": "然",
       "traditional": "然",
@@ -3498,8 +2892,6 @@
       "isWord": true
     },
     {
-      "sid": 22,
-      "tid": 28,
       "text": "，",
       "simplified": "，",
       "traditional": "，",
@@ -3507,8 +2899,6 @@
       "isWord": false
     },
     {
-      "sid": 22,
-      "tid": 29,
       "text": "个个",
       "simplified": "个个",
       "traditional": "個個",
@@ -3518,8 +2908,6 @@
       "isWord": true
     },
     {
-      "sid": 22,
-      "tid": 30,
       "text": "都",
       "simplified": "都",
       "traditional": "都",
@@ -3529,8 +2917,6 @@
       "isWord": true
     },
     {
-      "sid": 22,
-      "tid": 31,
       "text": "抱",
       "simplified": "抱",
       "traditional": "抱",
@@ -3540,8 +2926,6 @@
       "isWord": true
     },
     {
-      "sid": 22,
-      "tid": 32,
       "text": "着",
       "simplified": "着",
       "traditional": "著",
@@ -3584,8 +2968,6 @@
       "tid": 35
     },
     {
-      "sid": 22,
-      "tid": 36,
       "text": "的",
       "simplified": "的",
       "traditional": "的",
@@ -3595,8 +2977,6 @@
       "isWord": true
     },
     {
-      "sid": 22,
-      "tid": 37,
       "text": "心态",
       "simplified": "心态",
       "traditional": "心態",
@@ -3606,8 +2986,6 @@
       "isWord": true
     },
     {
-      "sid": 22,
-      "tid": 38,
       "text": "等待",
       "simplified": "等待",
       "traditional": "等待",
@@ -3617,8 +2995,6 @@
       "isWord": true
     },
     {
-      "sid": 22,
-      "tid": 39,
       "text": "接下来",
       "simplified": "接下来",
       "traditional": "接下來",
@@ -3628,8 +3004,6 @@
       "isWord": true
     },
     {
-      "sid": 22,
-      "tid": 40,
       "text": "的",
       "simplified": "的",
       "traditional": "的",
@@ -3639,8 +3013,6 @@
       "isWord": true
     },
     {
-      "sid": 22,
-      "tid": 41,
       "text": "发展",
       "simplified": "发展",
       "traditional": "發展",
@@ -3650,8 +3022,6 @@
       "isWord": true
     },
     {
-      "sid": 22,
-      "tid": 42,
       "text": "。",
       "simplified": "。",
       "traditional": "。",
@@ -3661,8 +3031,6 @@
   ],
   [
     {
-      "sid": 23,
-      "tid": 0,
       "text": "\n",
       "simplified": "\n",
       "traditional": "\n",
@@ -3672,8 +3040,6 @@
   ],
   [
     {
-      "sid": 24,
-      "tid": 0,
       "text": "是的",
       "simplified": "是的",
       "traditional": "是的",
@@ -3683,8 +3049,6 @@
       "isWord": true
     },
     {
-      "sid": 24,
-      "tid": 1,
       "text": "，",
       "simplified": "，",
       "traditional": "，",
@@ -3692,8 +3056,6 @@
       "isWord": false
     },
     {
-      "sid": 24,
-      "tid": 2,
       "text": "身为",
       "simplified": "身为",
       "traditional": "身為",
@@ -3725,8 +3087,6 @@
       "tid": 4
     },
     {
-      "sid": 24,
-      "tid": 5,
       "text": "的",
       "simplified": "的",
       "traditional": "的",
@@ -3736,8 +3096,6 @@
       "isWord": true
     },
     {
-      "sid": 24,
-      "tid": 6,
       "text": "黑名单",
       "simplified": "黑名单",
       "traditional": "黑名單",
@@ -3747,8 +3105,6 @@
       "isWord": true
     },
     {
-      "sid": 24,
-      "tid": 7,
       "text": "榜首",
       "simplified": "榜首",
       "traditional": "榜首",
@@ -3758,8 +3114,6 @@
       "isWord": true
     },
     {
-      "sid": 24,
-      "tid": 8,
       "text": "，",
       "simplified": "，",
       "traditional": "，",
@@ -3767,8 +3121,6 @@
       "isWord": false
     },
     {
-      "sid": 24,
-      "tid": 9,
       "text": "怎么",
       "simplified": "怎么",
       "traditional": "怎麼",
@@ -3778,8 +3130,6 @@
       "isWord": true
     },
     {
-      "sid": 24,
-      "tid": 10,
       "text": "可能",
       "simplified": "可能",
       "traditional": "可能",
@@ -3789,8 +3139,6 @@
       "isWord": true
     },
     {
-      "sid": 24,
-      "tid": 11,
       "text": "被",
       "simplified": "被",
       "traditional": "被",
@@ -3800,8 +3148,6 @@
       "isWord": true
     },
     {
-      "sid": 24,
-      "tid": 12,
       "text": "这种",
       "simplified": "这种",
       "traditional": "這種",
@@ -3811,8 +3157,6 @@
       "isWord": true
     },
     {
-      "sid": 24,
-      "tid": 13,
       "text": "不像样",
       "simplified": "不像样",
       "traditional": "不像樣",
@@ -3822,8 +3166,6 @@
       "isWord": true
     },
     {
-      "sid": 24,
-      "tid": 14,
       "text": "的",
       "simplified": "的",
       "traditional": "的",
@@ -3833,8 +3175,6 @@
       "isWord": true
     },
     {
-      "sid": 24,
-      "tid": 15,
       "text": "处罚",
       "simplified": "处罚",
       "traditional": "處罰",
@@ -3844,8 +3184,6 @@
       "isWord": true
     },
     {
-      "sid": 24,
-      "tid": 16,
       "text": "给",
       "simplified": "给",
       "traditional": "給",
@@ -3855,8 +3193,6 @@
       "isWord": true
     },
     {
-      "sid": 24,
-      "tid": 17,
       "text": "击倒",
       "simplified": "击倒",
       "traditional": "擊倒",
@@ -3866,8 +3202,6 @@
       "isWord": true
     },
     {
-      "sid": 24,
-      "tid": 18,
       "text": "？",
       "simplified": "？",
       "traditional": "？",
@@ -3875,8 +3209,6 @@
       "isWord": false
     },
     {
-      "sid": 24,
-      "tid": 19,
       "text": "\n",
       "simplified": "\n",
       "traditional": "\n",
@@ -3886,8 +3218,6 @@
   ],
   [
     {
-      "sid": 25,
-      "tid": 0,
       "text": "“",
       "simplified": "“",
       "traditional": "“",
@@ -3895,8 +3225,6 @@
       "isWord": false
     },
     {
-      "sid": 25,
-      "tid": 1,
       "text": "哈哈",
       "simplified": "哈哈",
       "traditional": "哈哈",
@@ -3906,8 +3234,6 @@
       "isWord": true
     },
     {
-      "sid": 25,
-      "tid": 2,
       "text": "，",
       "simplified": "，",
       "traditional": "，",
@@ -3915,8 +3241,6 @@
       "isWord": false
     },
     {
-      "sid": 25,
-      "tid": 3,
       "text": "现在",
       "simplified": "现在",
       "traditional": "現在",
@@ -3926,8 +3250,6 @@
       "isWord": true
     },
     {
-      "sid": 25,
-      "tid": 4,
       "text": "你",
       "simplified": "你",
       "traditional": "你",
@@ -3937,8 +3259,6 @@
       "isWord": true
     },
     {
-      "sid": 25,
-      "tid": 5,
       "text": "要",
       "simplified": "要",
       "traditional": "要",
@@ -3948,8 +3268,6 @@
       "isWord": true
     },
     {
-      "sid": 25,
-      "tid": 6,
       "text": "怎么办",
       "simplified": "怎么办",
       "traditional": "怎麼辦",
@@ -3959,8 +3277,6 @@
       "isWord": true
     },
     {
-      "sid": 25,
-      "tid": 7,
       "text": "？",
       "simplified": "？",
       "traditional": "？",
@@ -3968,8 +3284,6 @@
       "isWord": false
     },
     {
-      "sid": 25,
-      "tid": 8,
       "text": "”",
       "simplified": "”",
       "traditional": "”",
@@ -3977,8 +3291,6 @@
       "isWord": false
     },
     {
-      "sid": 25,
-      "tid": 9,
       "text": "杨泽于",
       "simplified": "杨泽于",
       "traditional": "楊澤於",
@@ -3988,8 +3300,6 @@
       "isWord": true
     },
     {
-      "sid": 25,
-      "tid": 10,
       "text": "拨",
       "simplified": "拨",
       "traditional": "撥",
@@ -3999,8 +3309,6 @@
       "isWord": true
     },
     {
-      "sid": 25,
-      "tid": 11,
       "text": "着",
       "simplified": "着",
       "traditional": "著",
@@ -4010,8 +3318,6 @@
       "isWord": true
     },
     {
-      "sid": 25,
-      "tid": 12,
       "text": "头发",
       "simplified": "头发",
       "traditional": "頭髮",
@@ -4021,8 +3327,6 @@
       "isWord": true
     },
     {
-      "sid": 25,
-      "tid": 13,
       "text": "，",
       "simplified": "，",
       "traditional": "，",
@@ -4030,8 +3334,6 @@
       "isWord": false
     },
     {
-      "sid": 25,
-      "tid": 14,
       "text": "他",
       "simplified": "他",
       "traditional": "他",
@@ -4041,8 +3343,6 @@
       "isWord": true
     },
     {
-      "sid": 25,
-      "tid": 15,
       "text": "是",
       "simplified": "是",
       "traditional": "是",
@@ -4052,8 +3352,6 @@
       "isWord": true
     },
     {
-      "sid": 25,
-      "tid": 16,
       "text": "黑名单",
       "simplified": "黑名单",
       "traditional": "黑名單",
@@ -4063,8 +3361,6 @@
       "isWord": true
     },
     {
-      "sid": 25,
-      "tid": 17,
       "text": "的",
       "simplified": "的",
       "traditional": "的",
@@ -4074,8 +3370,6 @@
       "isWord": true
     },
     {
-      "sid": 25,
-      "tid": 18,
       "text": "榜眼",
       "simplified": "榜眼",
       "traditional": "榜眼",
@@ -4085,8 +3379,6 @@
       "isWord": true
     },
     {
-      "sid": 25,
-      "tid": 19,
       "text": "。",
       "simplified": "。",
       "traditional": "。",
@@ -4096,8 +3388,6 @@
   ],
   [
     {
-      "sid": 26,
-      "tid": 0,
       "text": "\n",
       "simplified": "\n",
       "traditional": "\n",
@@ -4107,8 +3397,6 @@
   ],
   [
     {
-      "sid": 27,
-      "tid": 0,
       "text": "“",
       "simplified": "“",
       "traditional": "“",
@@ -4116,8 +3404,6 @@
       "isWord": false
     },
     {
-      "sid": 27,
-      "tid": 1,
       "text": "靠",
       "simplified": "靠",
       "traditional": "靠",
@@ -4127,8 +3413,6 @@
       "isWord": true
     },
     {
-      "sid": 27,
-      "tid": 2,
       "text": "。",
       "simplified": "。",
       "traditional": "。",
@@ -4138,8 +3422,6 @@
   ],
   [
     {
-      "sid": 28,
-      "tid": 0,
       "text": "”",
       "simplified": "”",
       "traditional": "”",
@@ -4147,8 +3429,6 @@
       "isWord": false
     },
     {
-      "sid": 28,
-      "tid": 1,
       "text": "我",
       "simplified": "我",
       "traditional": "我",
@@ -4158,8 +3438,6 @@
       "isWord": true
     },
     {
-      "sid": 28,
-      "tid": 2,
       "text": "很",
       "simplified": "很",
       "traditional": "很",
@@ -4169,8 +3447,6 @@
       "isWord": true
     },
     {
-      "sid": 28,
-      "tid": 3,
       "text": "不服气",
       "simplified": "不服气",
       "traditional": "不服氣",
@@ -4180,8 +3456,6 @@
       "isWord": true
     },
     {
-      "sid": 28,
-      "tid": 4,
       "text": "，",
       "simplified": "，",
       "traditional": "，",
@@ -4189,8 +3463,6 @@
       "isWord": false
     },
     {
-      "sid": 28,
-      "tid": 5,
       "text": "带给",
       "simplified": "带给",
       "traditional": "帶給",
@@ -4200,8 +3472,6 @@
       "isWord": true
     },
     {
-      "sid": 28,
-      "tid": 6,
       "text": "大家",
       "simplified": "大家",
       "traditional": "大家",
@@ -4211,8 +3481,6 @@
       "isWord": true
     },
     {
-      "sid": 28,
-      "tid": 7,
       "text": "欢笑",
       "simplified": "欢笑",
       "traditional": "歡笑",
@@ -4222,8 +3490,6 @@
       "isWord": true
     },
     {
-      "sid": 28,
-      "tid": 8,
       "text": "难道",
       "simplified": "难道",
       "traditional": "難道",
@@ -4233,8 +3499,6 @@
       "isWord": true
     },
     {
-      "sid": 28,
-      "tid": 9,
       "text": "也",
       "simplified": "也",
       "traditional": "也",
@@ -4244,8 +3508,6 @@
       "isWord": true
     },
     {
-      "sid": 28,
-      "tid": 10,
       "text": "是",
       "simplified": "是",
       "traditional": "是",
@@ -4255,8 +3517,6 @@
       "isWord": true
     },
     {
-      "sid": 28,
-      "tid": 11,
       "text": "一种",
       "simplified": "一种",
       "traditional": "一種",
@@ -4266,8 +3526,6 @@
       "isWord": true
     },
     {
-      "sid": 28,
-      "tid": 12,
       "text": "罪",
       "simplified": "罪",
       "traditional": "罪",
@@ -4277,8 +3535,6 @@
       "isWord": true
     },
     {
-      "sid": 28,
-      "tid": 13,
       "text": "？",
       "simplified": "？",
       "traditional": "？",
@@ -4286,8 +3542,6 @@
       "isWord": false
     },
     {
-      "sid": 28,
-      "tid": 14,
       "text": "\n",
       "simplified": "\n",
       "traditional": "\n",
@@ -4297,8 +3551,6 @@
   ],
   [
     {
-      "sid": 29,
-      "tid": 0,
       "text": "“",
       "simplified": "“",
       "traditional": "“",
@@ -4306,8 +3558,6 @@
       "isWord": false
     },
     {
-      "sid": 29,
-      "tid": 1,
       "text": "喂",
       "simplified": "喂",
       "traditional": "喂",
@@ -4317,8 +3567,6 @@
       "isWord": true
     },
     {
-      "sid": 29,
-      "tid": 2,
       "text": "，",
       "simplified": "，",
       "traditional": "，",
@@ -4326,8 +3574,6 @@
       "isWord": false
     },
     {
-      "sid": 29,
-      "tid": 3,
       "text": "说真的",
       "simplified": "说真的",
       "traditional": "說真的",
@@ -4337,8 +3583,6 @@
       "isWord": true
     },
     {
-      "sid": 29,
-      "tid": 4,
       "text": "，",
       "simplified": "，",
       "traditional": "，",
@@ -4346,8 +3590,6 @@
       "isWord": false
     },
     {
-      "sid": 29,
-      "tid": 5,
       "text": "我",
       "simplified": "我",
       "traditional": "我",
@@ -4357,8 +3599,6 @@
       "isWord": true
     },
     {
-      "sid": 29,
-      "tid": 6,
       "text": "没有",
       "simplified": "没有",
       "traditional": "沒有",
@@ -4368,8 +3608,6 @@
       "isWord": true
     },
     {
-      "sid": 29,
-      "tid": 7,
       "text": "写",
       "simplified": "写",
       "traditional": "寫",
@@ -4379,8 +3617,6 @@
       "isWord": true
     },
     {
-      "sid": 29,
-      "tid": 8,
       "text": "你",
       "simplified": "你",
       "traditional": "你",
@@ -4390,8 +3626,6 @@
       "isWord": true
     },
     {
-      "sid": 29,
-      "tid": 9,
       "text": "喔",
       "simplified": "喔",
       "traditional": "喔",
@@ -4401,8 +3635,6 @@
       "isWord": true
     },
     {
-      "sid": 29,
-      "tid": 10,
       "text": "！",
       "simplified": "！",
       "traditional": "！",
@@ -4410,8 +3642,6 @@
       "isWord": false
     },
     {
-      "sid": 29,
-      "tid": 11,
       "text": "”",
       "simplified": "”",
       "traditional": "”",
@@ -4419,8 +3649,6 @@
       "isWord": false
     },
     {
-      "sid": 29,
-      "tid": 12,
       "text": "廖英宏",
       "simplified": "廖英宏",
       "traditional": "廖英宏",
@@ -4430,8 +3658,6 @@
       "isWord": true
     },
     {
-      "sid": 29,
-      "tid": 13,
       "text": "指",
       "simplified": "指",
       "traditional": "指",
@@ -4441,8 +3667,6 @@
       "isWord": true
     },
     {
-      "sid": 29,
-      "tid": 14,
       "text": "的",
       "simplified": "的",
       "traditional": "的",
@@ -4452,8 +3676,6 @@
       "isWord": true
     },
     {
-      "sid": 29,
-      "tid": 15,
       "text": "是",
       "simplified": "是",
       "traditional": "是",
@@ -4463,8 +3685,6 @@
       "isWord": true
     },
     {
-      "sid": 29,
-      "tid": 16,
       "text": "黑名单",
       "simplified": "黑名单",
       "traditional": "黑名單",
@@ -4474,8 +3694,6 @@
       "isWord": true
     },
     {
-      "sid": 29,
-      "tid": 17,
       "text": "的",
       "simplified": "的",
       "traditional": "的",
@@ -4485,8 +3703,6 @@
       "isWord": true
     },
     {
-      "sid": 29,
-      "tid": 18,
       "text": "匿名",
       "simplified": "匿名",
       "traditional": "匿名",
@@ -4496,8 +3712,6 @@
       "isWord": true
     },
     {
-      "sid": 29,
-      "tid": 19,
       "text": "投票",
       "simplified": "投票",
       "traditional": "投票",
@@ -4507,8 +3721,6 @@
       "isWord": true
     },
     {
-      "sid": 29,
-      "tid": 20,
       "text": "。",
       "simplified": "。",
       "traditional": "。",
@@ -4518,8 +3730,6 @@
   ],
   [
     {
-      "sid": 30,
-      "tid": 0,
       "text": "他",
       "simplified": "他",
       "traditional": "他",
@@ -4529,8 +3739,6 @@
       "isWord": true
     },
     {
-      "sid": 30,
-      "tid": 1,
       "text": "本人",
       "simplified": "本人",
       "traditional": "本人",
@@ -4540,8 +3748,6 @@
       "isWord": true
     },
     {
-      "sid": 30,
-      "tid": 2,
       "text": "身为",
       "simplified": "身为",
       "traditional": "身為",
@@ -4551,8 +3757,6 @@
       "isWord": true
     },
     {
-      "sid": 30,
-      "tid": 3,
       "text": "班上",
       "simplified": "班上",
       "traditional": "班上",
@@ -4562,8 +3766,6 @@
       "isWord": true
     },
     {
-      "sid": 30,
-      "tid": 4,
       "text": "的",
       "simplified": "的",
       "traditional": "的",
@@ -4573,8 +3775,6 @@
       "isWord": true
     },
     {
-      "sid": 30,
-      "tid": 5,
       "text": "王牌",
       "simplified": "王牌",
       "traditional": "王牌",
@@ -4584,8 +3784,6 @@
       "isWord": true
     },
     {
-      "sid": 30,
-      "tid": 6,
       "text": "小丑",
       "simplified": "小丑",
       "traditional": "小丑",
@@ -4595,8 +3793,6 @@
       "isWord": true
     },
     {
-      "sid": 30,
-      "tid": 7,
       "text": "，",
       "simplified": "，",
       "traditional": "，",
@@ -4604,8 +3800,6 @@
       "isWord": false
     },
     {
-      "sid": 30,
-      "tid": 8,
       "text": "当然",
       "simplified": "当然",
       "traditional": "當然",
@@ -4615,8 +3809,6 @@
       "isWord": true
     },
     {
-      "sid": 30,
-      "tid": 9,
       "text": "也",
       "simplified": "也",
       "traditional": "也",
@@ -4626,8 +3818,6 @@
       "isWord": true
     },
     {
-      "sid": 30,
-      "tid": 10,
       "text": "是",
       "simplified": "是",
       "traditional": "是",
@@ -4637,8 +3827,6 @@
       "isWord": true
     },
     {
-      "sid": 30,
-      "tid": 11,
       "text": "黑名单",
       "simplified": "黑名单",
       "traditional": "黑名單",
@@ -4648,8 +3836,6 @@
       "isWord": true
     },
     {
-      "sid": 30,
-      "tid": 12,
       "text": "的",
       "simplified": "的",
       "traditional": "的",
@@ -4659,8 +3845,6 @@
       "isWord": true
     },
     {
-      "sid": 30,
-      "tid": 13,
       "text": "常客",
       "simplified": "常客",
       "traditional": "常客",
@@ -4670,8 +3854,6 @@
       "isWord": true
     },
     {
-      "sid": 30,
-      "tid": 14,
       "text": "。",
       "simplified": "。",
       "traditional": "。",
@@ -4681,8 +3863,6 @@
   ],
   [
     {
-      "sid": 31,
-      "tid": 0,
       "text": "\n",
       "simplified": "\n",
       "traditional": "\n",
@@ -4692,8 +3872,6 @@
   ],
   [
     {
-      "sid": 32,
-      "tid": 0,
       "text": "“",
       "simplified": "“",
       "traditional": "“",
@@ -4701,8 +3879,6 @@
       "isWord": false
     },
     {
-      "sid": 32,
-      "tid": 1,
       "text": "我",
       "simplified": "我",
       "traditional": "我",
@@ -4712,8 +3888,6 @@
       "isWord": true
     },
     {
-      "sid": 32,
-      "tid": 2,
       "text": "也",
       "simplified": "也",
       "traditional": "也",
@@ -4723,8 +3897,6 @@
       "isWord": true
     },
     {
-      "sid": 32,
-      "tid": 3,
       "text": "没",
       "simplified": "没",
       "traditional": "沒",
@@ -4734,8 +3906,6 @@
       "isWord": true
     },
     {
-      "sid": 32,
-      "tid": 4,
       "text": "写",
       "simplified": "写",
       "traditional": "寫",
@@ -4745,8 +3915,6 @@
       "isWord": true
     },
     {
-      "sid": 32,
-      "tid": 5,
       "text": "你",
       "simplified": "你",
       "traditional": "你",
@@ -4756,8 +3924,6 @@
       "isWord": true
     },
     {
-      "sid": 32,
-      "tid": 6,
       "text": "啊",
       "simplified": "啊",
       "traditional": "啊",
@@ -4767,8 +3933,6 @@
       "isWord": true
     },
     {
-      "sid": 32,
-      "tid": 7,
       "text": "，",
       "simplified": "，",
       "traditional": "，",
@@ -4776,8 +3940,6 @@
       "isWord": false
     },
     {
-      "sid": 32,
-      "tid": 8,
       "text": "王八蛋",
       "simplified": "王八蛋",
       "traditional": "王八蛋",
@@ -4787,8 +3949,6 @@
       "isWord": true
     },
     {
-      "sid": 32,
-      "tid": 9,
       "text": "你",
       "simplified": "你",
       "traditional": "你",
@@ -4798,8 +3958,6 @@
       "isWord": true
     },
     {
-      "sid": 32,
-      "tid": 10,
       "text": "明明",
       "simplified": "明明",
       "traditional": "明明",
@@ -4809,8 +3967,6 @@
       "isWord": true
     },
     {
-      "sid": 32,
-      "tid": 11,
       "text": "就",
       "simplified": "就",
       "traditional": "就",
@@ -4820,8 +3976,6 @@
       "isWord": true
     },
     {
-      "sid": 32,
-      "tid": 12,
       "text": "比",
       "simplified": "比",
       "traditional": "比",
@@ -4831,8 +3985,6 @@
       "isWord": true
     },
     {
-      "sid": 32,
-      "tid": 13,
       "text": "我",
       "simplified": "我",
       "traditional": "我",
@@ -4842,8 +3994,6 @@
       "isWord": true
     },
     {
-      "sid": 32,
-      "tid": 14,
       "text": "爱",
       "simplified": "爱",
       "traditional": "愛",
@@ -4853,8 +4003,6 @@
       "isWord": true
     },
     {
-      "sid": 32,
-      "tid": 15,
       "text": "闹",
       "simplified": "闹",
       "traditional": "閙",
@@ -4864,8 +4012,6 @@
       "isWord": true
     },
     {
-      "sid": 32,
-      "tid": 16,
       "text": "。",
       "simplified": "。",
       "traditional": "。",
@@ -4875,8 +4021,6 @@
   ],
   [
     {
-      "sid": 33,
-      "tid": 0,
       "text": "”",
       "simplified": "”",
       "traditional": "”",
@@ -4884,8 +4028,6 @@
       "isWord": false
     },
     {
-      "sid": 33,
-      "tid": 1,
       "text": "我",
       "simplified": "我",
       "traditional": "我",
@@ -4895,8 +4037,6 @@
       "isWord": true
     },
     {
-      "sid": 33,
-      "tid": 2,
       "text": "说",
       "simplified": "说",
       "traditional": "說",
@@ -4906,8 +4046,6 @@
       "isWord": true
     },
     {
-      "sid": 33,
-      "tid": 3,
       "text": "。",
       "simplified": "。",
       "traditional": "。",
@@ -4917,8 +4055,6 @@
   ],
   [
     {
-      "sid": 34,
-      "tid": 0,
       "text": "\n",
       "simplified": "\n",
       "traditional": "\n",
@@ -4928,8 +4064,6 @@
   ],
   [
     {
-      "sid": 35,
-      "tid": 0,
       "text": "但",
       "simplified": "但",
       "traditional": "但",
@@ -4939,8 +4073,6 @@
       "isWord": true
     },
     {
-      "sid": 35,
-      "tid": 1,
       "text": "其实",
       "simplified": "其实",
       "traditional": "其實",
@@ -4950,8 +4082,6 @@
       "isWord": true
     },
     {
-      "sid": 35,
-      "tid": 2,
       "text": "我",
       "simplified": "我",
       "traditional": "我",
@@ -4961,8 +4091,6 @@
       "isWord": true
     },
     {
-      "sid": 35,
-      "tid": 3,
       "text": "有",
       "simplified": "有",
       "traditional": "有",
@@ -4972,8 +4100,6 @@
       "isWord": true
     },
     {
-      "sid": 35,
-      "tid": 4,
       "text": "写",
       "simplified": "写",
       "traditional": "寫",
@@ -4983,8 +4109,6 @@
       "isWord": true
     },
     {
-      "sid": 35,
-      "tid": 5,
       "text": "廖英宏",
       "simplified": "廖英宏",
       "traditional": "廖英宏",
@@ -4994,8 +4118,6 @@
       "isWord": true
     },
     {
-      "sid": 35,
-      "tid": 6,
       "text": "，",
       "simplified": "，",
       "traditional": "，",
@@ -5003,8 +4125,6 @@
       "isWord": false
     },
     {
-      "sid": 35,
-      "tid": 7,
       "text": "不",
       "simplified": "不",
       "traditional": "不",
@@ -5014,8 +4134,6 @@
       "isWord": true
     },
     {
-      "sid": 35,
-      "tid": 8,
       "text": "懂",
       "simplified": "懂",
       "traditional": "懂",
@@ -5025,8 +4143,6 @@
       "isWord": true
     },
     {
-      "sid": 35,
-      "tid": 9,
       "text": "自保",
       "simplified": "自保",
       "traditional": "自保",
@@ -5036,8 +4152,6 @@
       "isWord": true
     },
     {
-      "sid": 35,
-      "tid": 10,
       "text": "就",
       "simplified": "就",
       "traditional": "就",
@@ -5047,8 +4161,6 @@
       "isWord": true
     },
     {
-      "sid": 35,
-      "tid": 11,
       "text": "大错特错",
       "simplified": "大错特错",
       "traditional": "大錯特錯",
@@ -5058,8 +4170,6 @@
       "isWord": true
     },
     {
-      "sid": 35,
-      "tid": 12,
       "text": "了",
       "simplified": "了",
       "traditional": "了",
@@ -5069,8 +4179,6 @@
       "isWord": true
     },
     {
-      "sid": 35,
-      "tid": 13,
       "text": "，",
       "simplified": "，",
       "traditional": "，",
@@ -5100,8 +4208,6 @@
       "tid": 15
     },
     {
-      "sid": 35,
-      "tid": 16,
       "text": "匿名",
       "simplified": "匿名",
       "traditional": "匿名",
@@ -5111,8 +4217,6 @@
       "isWord": true
     },
     {
-      "sid": 35,
-      "tid": 17,
       "text": "下",
       "simplified": "下",
       "traditional": "下",
@@ -5122,8 +4226,6 @@
       "isWord": true
     },
     {
-      "sid": 35,
-      "tid": 18,
       "text": "的",
       "simplified": "的",
       "traditional": "的",
@@ -5133,8 +4235,6 @@
       "isWord": true
     },
     {
-      "sid": 35,
-      "tid": 19,
       "text": "白色恐怖",
       "simplified": "白色恐怖",
       "traditional": "白色恐怖",
@@ -5144,8 +4244,6 @@
       "isWord": true
     },
     {
-      "sid": 35,
-      "tid": 20,
       "text": "，",
       "simplified": "，",
       "traditional": "，",
@@ -5153,8 +4251,6 @@
       "isWord": false
     },
     {
-      "sid": 35,
-      "tid": 21,
       "text": "逼",
       "simplified": "逼",
       "traditional": "偪",
@@ -5164,8 +4260,6 @@
       "isWord": true
     },
     {
-      "sid": 35,
-      "tid": 22,
       "text": "得",
       "simplified": "得",
       "traditional": "得",
@@ -5175,8 +4269,6 @@
       "isWord": true
     },
     {
-      "sid": 35,
-      "tid": 23,
       "text": "大家",
       "simplified": "大家",
       "traditional": "大家",
@@ -5186,8 +4278,6 @@
       "isWord": true
     },
     {
-      "sid": 35,
-      "tid": 24,
       "text": "泯灭",
       "simplified": "泯灭",
       "traditional": "泯滅",
@@ -5197,8 +4287,6 @@
       "isWord": true
     },
     {
-      "sid": 35,
-      "tid": 25,
       "text": "友谊",
       "simplified": "友谊",
       "traditional": "友誼",
@@ -5208,8 +4296,6 @@
       "isWord": true
     },
     {
-      "sid": 35,
-      "tid": 26,
       "text": "交换",
       "simplified": "交换",
       "traditional": "交換",
@@ -5219,8 +4305,6 @@
       "isWord": true
     },
     {
-      "sid": 35,
-      "tid": 27,
       "text": "恶魔",
       "simplified": "恶魔",
       "traditional": "惡魔",
@@ -5230,8 +4314,6 @@
       "isWord": true
     },
     {
-      "sid": 35,
-      "tid": 28,
       "text": "的",
       "simplified": "的",
       "traditional": "的",
@@ -5241,8 +4323,6 @@
       "isWord": true
     },
     {
-      "sid": 35,
-      "tid": 29,
       "text": "糖果",
       "simplified": "糖果",
       "traditional": "糖果",
@@ -5252,8 +4332,6 @@
       "isWord": true
     },
     {
-      "sid": 35,
-      "tid": 30,
       "text": "。",
       "simplified": "。",
       "traditional": "。",
@@ -5263,8 +4341,6 @@
   ],
   [
     {
-      "sid": 36,
-      "tid": 0,
       "text": "而且",
       "simplified": "而且",
       "traditional": "而且",
@@ -5274,8 +4350,6 @@
       "isWord": true
     },
     {
-      "sid": 36,
-      "tid": 1,
       "text": "…",
       "simplified": "…",
       "traditional": "…",
@@ -5283,8 +4357,6 @@
       "isWord": false
     },
     {
-      "sid": 36,
-      "tid": 2,
       "text": "…",
       "simplified": "…",
       "traditional": "…",
@@ -5292,8 +4364,6 @@
       "isWord": false
     },
     {
-      "sid": 36,
-      "tid": 3,
       "text": "我",
       "simplified": "我",
       "traditional": "我",
@@ -5303,8 +4373,6 @@
       "isWord": true
     },
     {
-      "sid": 36,
-      "tid": 4,
       "text": "也",
       "simplified": "也",
       "traditional": "也",
@@ -5314,8 +4382,6 @@
       "isWord": true
     },
     {
-      "sid": 36,
-      "tid": 5,
       "text": "不",
       "simplified": "不",
       "traditional": "不",
@@ -5325,8 +4391,6 @@
       "isWord": true
     },
     {
-      "sid": 36,
-      "tid": 6,
       "text": "相信",
       "simplified": "相信",
       "traditional": "相信",
@@ -5336,8 +4400,6 @@
       "isWord": true
     },
     {
-      "sid": 36,
-      "tid": 7,
       "text": "廖英宏",
       "simplified": "廖英宏",
       "traditional": "廖英宏",
@@ -5347,8 +4409,6 @@
       "isWord": true
     },
     {
-      "sid": 36,
-      "tid": 8,
       "text": "没有",
       "simplified": "没有",
       "traditional": "沒有",
@@ -5358,8 +4418,6 @@
       "isWord": true
     },
     {
-      "sid": 36,
-      "tid": 9,
       "text": "写",
       "simplified": "写",
       "traditional": "寫",
@@ -5369,8 +4427,6 @@
       "isWord": true
     },
     {
-      "sid": 36,
-      "tid": 10,
       "text": "我",
       "simplified": "我",
       "traditional": "我",
@@ -5380,8 +4436,6 @@
       "isWord": true
     },
     {
-      "sid": 36,
-      "tid": 11,
       "text": "。",
       "simplified": "。",
       "traditional": "。",
@@ -5391,8 +4445,6 @@
   ],
   [
     {
-      "sid": 37,
-      "tid": 0,
       "text": "\n",
       "simplified": "\n",
       "traditional": "\n",
@@ -5402,8 +4454,6 @@
   ],
   [
     {
-      "sid": 38,
-      "tid": 0,
       "text": "“",
       "simplified": "“",
       "traditional": "“",
@@ -5411,8 +4461,6 @@
       "isWord": false
     },
     {
-      "sid": 38,
-      "tid": 1,
       "text": "柯景腾",
       "simplified": "柯景腾",
       "traditional": "柯景騰",
@@ -5422,8 +4470,6 @@
       "isWord": true
     },
     {
-      "sid": 38,
-      "tid": 2,
       "text": "，",
       "simplified": "，",
       "traditional": "，",
@@ -5431,8 +4477,6 @@
       "isWord": false
     },
     {
-      "sid": 38,
-      "tid": 3,
       "text": "你",
       "simplified": "你",
       "traditional": "你",
@@ -5442,8 +4486,6 @@
       "isWord": true
     },
     {
-      "sid": 38,
-      "tid": 4,
       "text": "现在",
       "simplified": "现在",
       "traditional": "現在",
@@ -5453,8 +4495,6 @@
       "isWord": true
     },
     {
-      "sid": 38,
-      "tid": 5,
       "text": "超",
       "simplified": "超",
       "traditional": "超",
@@ -5464,8 +4504,6 @@
       "isWord": true
     },
     {
-      "sid": 38,
-      "tid": 6,
       "text": "可怜",
       "simplified": "可怜",
       "traditional": "可憐",
@@ -5475,8 +4513,6 @@
       "isWord": true
     },
     {
-      "sid": 38,
-      "tid": 7,
       "text": "的",
       "simplified": "的",
       "traditional": "的",
@@ -5486,8 +4522,6 @@
       "isWord": true
     },
     {
-      "sid": 38,
-      "tid": 8,
       "text": "啦",
       "simplified": "啦",
       "traditional": "啦",
@@ -5497,8 +4531,6 @@
       "isWord": true
     },
     {
-      "sid": 38,
-      "tid": 9,
       "text": "，",
       "simplified": "，",
       "traditional": "，",
@@ -5506,8 +4538,6 @@
       "isWord": false
     },
     {
-      "sid": 38,
-      "tid": 10,
       "text": "只",
       "simplified": "只",
       "traditional": "只",
@@ -5517,8 +4547,6 @@
       "isWord": true
     },
     {
-      "sid": 38,
-      "tid": 11,
       "text": "剩下",
       "simplified": "剩下",
       "traditional": "剩下",
@@ -5528,8 +4556,6 @@
       "isWord": true
     },
     {
-      "sid": 38,
-      "tid": 12,
       "text": "墙壁",
       "simplified": "墙壁",
       "traditional": "牆壁",
@@ -5539,8 +4565,6 @@
       "isWord": true
     },
     {
-      "sid": 38,
-      "tid": 13,
       "text": "可以",
       "simplified": "可以",
       "traditional": "可以",
@@ -5550,8 +4574,6 @@
       "isWord": true
     },
     {
-      "sid": 38,
-      "tid": 14,
       "text": "讲话",
       "simplified": "讲话",
       "traditional": "講話",
@@ -5561,8 +4583,6 @@
       "isWord": true
     },
     {
-      "sid": 38,
-      "tid": 15,
       "text": "。",
       "simplified": "。",
       "traditional": "。",
@@ -5572,8 +4592,6 @@
   ],
   [
     {
-      "sid": 39,
-      "tid": 0,
       "text": "”",
       "simplified": "”",
       "traditional": "”",
@@ -5581,8 +4599,6 @@
       "isWord": false
     },
     {
-      "sid": 39,
-      "tid": 1,
       "text": "绰号",
       "simplified": "绰号",
       "traditional": "綽號",
@@ -5592,8 +4608,6 @@
       "isWord": true
     },
     {
-      "sid": 39,
-      "tid": 2,
       "text": "怪兽",
       "simplified": "怪兽",
       "traditional": "怪獸",
@@ -5603,8 +4617,6 @@
       "isWord": true
     },
     {
-      "sid": 39,
-      "tid": 3,
       "text": "的",
       "simplified": "的",
       "traditional": "的",
@@ -5614,8 +4626,6 @@
       "isWord": true
     },
     {
-      "sid": 39,
-      "tid": 4,
       "text": "郑孟修",
       "simplified": "郑孟修",
       "traditional": "鄭孟修",
@@ -5625,8 +4635,6 @@
       "isWord": true
     },
     {
-      "sid": 39,
-      "tid": 5,
       "text": "，",
       "simplified": "，",
       "traditional": "，",
@@ -5634,8 +4642,6 @@
       "isWord": false
     },
     {
-      "sid": 39,
-      "tid": 6,
       "text": "是",
       "simplified": "是",
       "traditional": "是",
@@ -5645,8 +4651,6 @@
       "isWord": true
     },
     {
-      "sid": 39,
-      "tid": 7,
       "text": "我",
       "simplified": "我",
       "traditional": "我",
@@ -5656,8 +4660,6 @@
       "isWord": true
     },
     {
-      "sid": 39,
-      "tid": 8,
       "text": "的",
       "simplified": "的",
       "traditional": "的",
@@ -5667,8 +4669,6 @@
       "isWord": true
     },
     {
-      "sid": 39,
-      "tid": 9,
       "text": "好",
       "simplified": "好",
       "traditional": "好",
@@ -5678,8 +4678,6 @@
       "isWord": true
     },
     {
-      "sid": 39,
-      "tid": 10,
       "text": "哥们",
       "simplified": "哥们",
       "traditional": "哥們",
@@ -5689,8 +4687,6 @@
       "isWord": true
     },
     {
-      "sid": 39,
-      "tid": 11,
       "text": "，",
       "simplified": "，",
       "traditional": "，",
@@ -5698,8 +4694,6 @@
       "isWord": false
     },
     {
-      "sid": 39,
-      "tid": 12,
       "text": "家",
       "simplified": "家",
       "traditional": "傢",
@@ -5709,8 +4703,6 @@
       "isWord": true
     },
     {
-      "sid": 39,
-      "tid": 13,
       "text": "住",
       "simplified": "住",
       "traditional": "住",
@@ -5720,8 +4712,6 @@
       "isWord": true
     },
     {
-      "sid": 39,
-      "tid": 14,
       "text": "鹿港",
       "simplified": "鹿港",
       "traditional": "鹿港",
@@ -5731,8 +4721,6 @@
       "isWord": true
     },
     {
-      "sid": 39,
-      "tid": 15,
       "text": "，",
       "simplified": "，",
       "traditional": "，",
@@ -5740,8 +4728,6 @@
       "isWord": false
     },
     {
-      "sid": 39,
-      "tid": 16,
       "text": "每天",
       "simplified": "每天",
       "traditional": "每天",
@@ -5751,8 +4737,6 @@
       "isWord": true
     },
     {
-      "sid": 39,
-      "tid": 17,
       "text": "搭",
       "simplified": "搭",
       "traditional": "搭",
@@ -5762,8 +4746,6 @@
       "isWord": true
     },
     {
-      "sid": 39,
-      "tid": 18,
       "text": "校车",
       "simplified": "校车",
       "traditional": "校車",
@@ -5773,8 +4755,6 @@
       "isWord": true
     },
     {
-      "sid": 39,
-      "tid": 19,
       "text": "上下",
       "simplified": "上下",
       "traditional": "上下",
@@ -5784,8 +4764,6 @@
       "isWord": true
     },
     {
-      "sid": 39,
-      "tid": 20,
       "text": "学",
       "simplified": "学",
       "traditional": "學",
@@ -5795,8 +4773,6 @@
       "isWord": true
     },
     {
-      "sid": 39,
-      "tid": 21,
       "text": "。",
       "simplified": "。",
       "traditional": "。",
@@ -5806,8 +4782,6 @@
   ],
   [
     {
-      "sid": 40,
-      "tid": 0,
       "text": "\n",
       "simplified": "\n",
       "traditional": "\n",
@@ -5817,8 +4791,6 @@
   ],
   [
     {
-      "sid": 41,
-      "tid": 0,
       "text": "“",
       "simplified": "“",
       "traditional": "“",
@@ -5826,8 +4798,6 @@
       "isWord": false
     },
     {
-      "sid": 41,
-      "tid": 1,
       "text": "靠",
       "simplified": "靠",
       "traditional": "靠",
@@ -5837,8 +4807,6 @@
       "isWord": true
     },
     {
-      "sid": 41,
-      "tid": 2,
       "text": "。",
       "simplified": "。",
       "traditional": "。",
@@ -5848,8 +4816,6 @@
   ],
   [
     {
-      "sid": 42,
-      "tid": 0,
       "text": "”",
       "simplified": "”",
       "traditional": "”",
@@ -5857,8 +4823,6 @@
       "isWord": false
     },
     {
-      "sid": 42,
-      "tid": 1,
       "text": "我",
       "simplified": "我",
       "traditional": "我",
@@ -5868,8 +4832,6 @@
       "isWord": true
     },
     {
-      "sid": 42,
-      "tid": 2,
       "text": "比",
       "simplified": "比",
       "traditional": "比",
@@ -5879,8 +4841,6 @@
       "isWord": true
     },
     {
-      "sid": 42,
-      "tid": 3,
       "text": "中指",
       "simplified": "中指",
       "traditional": "中指",
@@ -5890,8 +4850,6 @@
       "isWord": true
     },
     {
-      "sid": 42,
-      "tid": 4,
       "text": "。",
       "simplified": "。",
       "traditional": "。",
@@ -5901,8 +4859,6 @@
   ],
   [
     {
-      "sid": 43,
-      "tid": 0,
       "text": "\n",
       "simplified": "\n",
       "traditional": "\n",
@@ -5912,8 +4868,6 @@
   ],
   [
     {
-      "sid": 44,
-      "tid": 0,
       "text": "大家",
       "simplified": "大家",
       "traditional": "大家",
@@ -5923,8 +4877,6 @@
       "isWord": true
     },
     {
-      "sid": 44,
-      "tid": 1,
       "text": "安静",
       "simplified": "安静",
       "traditional": "安靜",
@@ -5934,8 +4886,6 @@
       "isWord": true
     },
     {
-      "sid": 44,
-      "tid": 2,
       "text": "上课",
       "simplified": "上课",
       "traditional": "上課",
@@ -5945,8 +4895,6 @@
       "isWord": true
     },
     {
-      "sid": 44,
-      "tid": 3,
       "text": "我",
       "simplified": "我",
       "traditional": "我",
@@ -5956,8 +4904,6 @@
       "isWord": true
     },
     {
-      "sid": 44,
-      "tid": 4,
       "text": "也",
       "simplified": "也",
       "traditional": "也",
@@ -5967,8 +4913,6 @@
       "isWord": true
     },
     {
-      "sid": 44,
-      "tid": 5,
       "text": "安静",
       "simplified": "安静",
       "traditional": "安靜",
@@ -5978,8 +4922,6 @@
       "isWord": true
     },
     {
-      "sid": 44,
-      "tid": 6,
       "text": "上课",
       "simplified": "上课",
       "traditional": "上課",
@@ -5989,8 +4931,6 @@
       "isWord": true
     },
     {
-      "sid": 44,
-      "tid": 7,
       "text": "，",
       "simplified": "，",
       "traditional": "，",
@@ -5998,8 +4938,6 @@
       "isWord": false
     },
     {
-      "sid": 44,
-      "tid": 8,
       "text": "简直",
       "simplified": "简直",
       "traditional": "簡直",
@@ -6009,8 +4947,6 @@
       "isWord": true
     },
     {
-      "sid": 44,
-      "tid": 9,
       "text": "毫无",
       "simplified": "毫无",
       "traditional": "毫無",
@@ -6020,8 +4956,6 @@
       "isWord": true
     },
     {
-      "sid": 44,
-      "tid": 10,
       "text": "创意",
       "simplified": "创意",
       "traditional": "創意",
@@ -6031,8 +4965,6 @@
       "isWord": true
     },
     {
-      "sid": 44,
-      "tid": 11,
       "text": "。",
       "simplified": "。",
       "traditional": "。",
@@ -6042,8 +4974,6 @@
   ],
   [
     {
-      "sid": 45,
-      "tid": 0,
       "text": "\n",
       "simplified": "\n",
       "traditional": "\n",
@@ -6053,8 +4983,6 @@
   ],
   [
     {
-      "sid": 46,
-      "tid": 0,
       "text": "我",
       "simplified": "我",
       "traditional": "我",
@@ -6064,8 +4992,6 @@
       "isWord": true
     },
     {
-      "sid": 46,
-      "tid": 1,
       "text": "玩",
       "simplified": "玩",
       "traditional": "玩",
@@ -6075,8 +5001,6 @@
       "isWord": true
     },
     {
-      "sid": 46,
-      "tid": 2,
       "text": "着",
       "simplified": "着",
       "traditional": "著",
@@ -6086,8 +5010,6 @@
       "isWord": true
     },
     {
-      "sid": 46,
-      "tid": 3,
       "text": "原子笔",
       "simplified": "原子笔",
       "traditional": "原子筆",
@@ -6097,8 +5019,6 @@
       "isWord": true
     },
     {
-      "sid": 46,
-      "tid": 4,
       "text": "，",
       "simplified": "，",
       "traditional": "，",
@@ -6106,8 +5026,6 @@
       "isWord": false
     },
     {
-      "sid": 46,
-      "tid": 5,
       "text": "看",
       "simplified": "看",
       "traditional": "看",
@@ -6117,8 +5035,6 @@
       "isWord": true
     },
     {
-      "sid": 46,
-      "tid": 6,
       "text": "着",
       "simplified": "着",
       "traditional": "著",
@@ -6128,8 +5044,6 @@
       "isWord": true
     },
     {
-      "sid": 46,
-      "tid": 7,
       "text": "右手",
       "simplified": "右手",
       "traditional": "右手",
@@ -6139,8 +5053,6 @@
       "isWord": true
     },
     {
-      "sid": 46,
-      "tid": 8,
       "text": "边",
       "simplified": "边",
       "traditional": "邊",
@@ -6150,8 +5062,6 @@
       "isWord": true
     },
     {
-      "sid": 46,
-      "tid": 9,
       "text": "的",
       "simplified": "的",
       "traditional": "的",
@@ -6161,8 +5071,6 @@
       "isWord": true
     },
     {
-      "sid": 46,
-      "tid": 10,
       "text": "那",
       "simplified": "那",
       "traditional": "那",
@@ -6172,8 +5080,6 @@
       "isWord": true
     },
     {
-      "sid": 46,
-      "tid": 11,
       "text": "面",
       "simplified": "面",
       "traditional": "面",
@@ -6183,8 +5089,6 @@
       "isWord": true
     },
     {
-      "sid": 46,
-      "tid": 12,
       "text": "墙",
       "simplified": "墙",
       "traditional": "墻",
@@ -6194,8 +5098,6 @@
       "isWord": true
     },
     {
-      "sid": 46,
-      "tid": 13,
       "text": "。",
       "simplified": "。",
       "traditional": "。",
@@ -6205,8 +5107,6 @@
   ],
   [
     {
-      "sid": 47,
-      "tid": 0,
       "text": "\n",
       "simplified": "\n",
       "traditional": "\n",
@@ -6216,8 +5116,6 @@
   ],
   [
     {
-      "sid": 48,
-      "tid": 0,
       "text": "区区",
       "simplified": "区区",
       "traditional": "區區",
@@ -6249,8 +5147,6 @@
       "tid": 2
     },
     {
-      "sid": 48,
-      "tid": 3,
       "text": "墙",
       "simplified": "墙",
       "traditional": "墻",
@@ -6260,8 +5156,6 @@
       "isWord": true
     },
     {
-      "sid": 48,
-      "tid": 4,
       "text": "…",
       "simplified": "…",
       "traditional": "…",
@@ -6269,8 +5163,6 @@
       "isWord": false
     },
     {
-      "sid": 48,
-      "tid": 5,
       "text": "…",
       "simplified": "…",
       "traditional": "…",
@@ -6278,8 +5170,6 @@
       "isWord": false
     },
     {
-      "sid": 48,
-      "tid": 6,
       "text": "区区",
       "simplified": "区区",
       "traditional": "區區",
@@ -6311,8 +5201,6 @@
       "tid": 8
     },
     {
-      "sid": 48,
-      "tid": 9,
       "text": "墙",
       "simplified": "墙",
       "traditional": "墻",
@@ -6322,8 +5210,6 @@
       "isWord": true
     },
     {
-      "sid": 48,
-      "tid": 10,
       "text": "？",
       "simplified": "？",
       "traditional": "？",
@@ -6331,8 +5217,6 @@
       "isWord": false
     },
     {
-      "sid": 48,
-      "tid": 11,
       "text": "只是",
       "simplified": "只是",
       "traditional": "只是",
@@ -6342,8 +5226,6 @@
       "isWord": true
     },
     {
-      "sid": 48,
-      "tid": 12,
       "text": "要",
       "simplified": "要",
       "traditional": "要",
@@ -6353,8 +5235,6 @@
       "isWord": true
     },
     {
-      "sid": 48,
-      "tid": 13,
       "text": "给",
       "simplified": "给",
       "traditional": "給",
@@ -6364,8 +5244,6 @@
       "isWord": true
     },
     {
-      "sid": 48,
-      "tid": 14,
       "text": "我",
       "simplified": "我",
       "traditional": "我",
@@ -6375,8 +5253,6 @@
       "isWord": true
     },
     {
-      "sid": 48,
-      "tid": 15,
       "text": "难看",
       "simplified": "难看",
       "traditional": "難看",
@@ -6386,8 +5262,6 @@
       "isWord": true
     },
     {
-      "sid": 48,
-      "tid": 16,
       "text": "罢了",
       "simplified": "罢了",
       "traditional": "罷了",
@@ -6397,8 +5271,6 @@
       "isWord": true
     },
     {
-      "sid": 48,
-      "tid": 17,
       "text": "。",
       "simplified": "。",
       "traditional": "。",
@@ -6408,8 +5280,6 @@
   ],
   [
     {
-      "sid": 49,
-      "tid": 0,
       "text": "\n",
       "simplified": "\n",
       "traditional": "\n",
@@ -6419,8 +5289,6 @@
   ],
   [
     {
-      "sid": 50,
-      "tid": 0,
       "text": "“",
       "simplified": "“",
       "traditional": "“",
@@ -6428,8 +5296,6 @@
       "isWord": false
     },
     {
-      "sid": 50,
-      "tid": 1,
       "text": "我",
       "simplified": "我",
       "traditional": "我",
@@ -6439,8 +5305,6 @@
       "isWord": true
     },
     {
-      "sid": 50,
-      "tid": 2,
       "text": "的",
       "simplified": "的",
       "traditional": "的",
@@ -6450,8 +5314,6 @@
       "isWord": true
     },
     {
-      "sid": 50,
-      "tid": 3,
       "text": "青春",
       "simplified": "青春",
       "traditional": "青春",
@@ -6461,8 +5323,6 @@
       "isWord": true
     },
     {
-      "sid": 50,
-      "tid": 4,
       "text": "，",
       "simplified": "，",
       "traditional": "，",
@@ -6470,8 +5330,6 @@
       "isWord": false
     },
     {
-      "sid": 50,
-      "tid": 5,
       "text": "可不是",
       "simplified": "可不是",
       "traditional": "可不是",
@@ -6503,8 +5361,6 @@
       "tid": 7
     },
     {
-      "sid": 50,
-      "tid": 8,
       "text": "墙",
       "simplified": "墙",
       "traditional": "墻",
@@ -6514,8 +5370,6 @@
       "isWord": true
     },
     {
-      "sid": 50,
-      "tid": 9,
       "text": "。",
       "simplified": "。",
       "traditional": "。",
@@ -6525,8 +5379,6 @@
   ],
   [
     {
-      "sid": 51,
-      "tid": 0,
       "text": "”",
       "simplified": "”",
       "traditional": "”",
@@ -6534,8 +5386,6 @@
       "isWord": false
     },
     {
-      "sid": 51,
-      "tid": 1,
       "text": "我",
       "simplified": "我",
       "traditional": "我",
@@ -6545,8 +5395,6 @@
       "isWord": true
     },
     {
-      "sid": 51,
-      "tid": 2,
       "text": "嗤之以鼻",
       "simplified": "嗤之以鼻",
       "traditional": "嗤之以鼻",
@@ -6556,8 +5404,6 @@
       "isWord": true
     },
     {
-      "sid": 51,
-      "tid": 3,
       "text": "。",
       "simplified": "。",
       "traditional": "。",
@@ -6567,8 +5413,6 @@
   ],
   [
     {
-      "sid": 52,
-      "tid": 0,
       "text": "\n",
       "simplified": "\n",
       "traditional": "\n",
@@ -6578,8 +5422,6 @@
   ],
   [
     {
-      "sid": 53,
-      "tid": 0,
       "text": "于是",
       "simplified": "于是",
       "traditional": "於是",
@@ -6589,8 +5431,6 @@
       "isWord": true
     },
     {
-      "sid": 53,
-      "tid": 1,
       "text": "我",
       "simplified": "我",
       "traditional": "我",
@@ -6600,8 +5440,6 @@
       "isWord": true
     },
     {
-      "sid": 53,
-      "tid": 2,
       "text": "开始",
       "simplified": "开始",
       "traditional": "開始",
@@ -6611,8 +5449,6 @@
       "isWord": true
     },
     {
-      "sid": 53,
-      "tid": 3,
       "text": "跟",
       "simplified": "跟",
       "traditional": "跟",
@@ -6622,8 +5458,6 @@
       "isWord": true
     },
     {
-      "sid": 53,
-      "tid": 4,
       "text": "墙壁",
       "simplified": "墙壁",
       "traditional": "牆壁",
@@ -6633,8 +5467,6 @@
       "isWord": true
     },
     {
-      "sid": 53,
-      "tid": 5,
       "text": "说话",
       "simplified": "说话",
       "traditional": "說話",
@@ -6644,8 +5476,6 @@
       "isWord": true
     },
     {
-      "sid": 53,
-      "tid": 6,
       "text": "，",
       "simplified": "，",
       "traditional": "，",
@@ -6664,8 +5494,6 @@
       "tid": 7
     },
     {
-      "sid": 53,
-      "tid": 8,
       "text": "用",
       "simplified": "用",
       "traditional": "用",
@@ -6675,8 +5503,6 @@
       "isWord": true
     },
     {
-      "sid": 53,
-      "tid": 9,
       "text": "原子笔",
       "simplified": "原子笔",
       "traditional": "原子筆",
@@ -6686,8 +5512,6 @@
       "isWord": true
     },
     {
-      "sid": 53,
-      "tid": 10,
       "text": "在",
       "simplified": "在",
       "traditional": "在",
@@ -6697,8 +5521,6 @@
       "isWord": true
     },
     {
-      "sid": 53,
-      "tid": 11,
       "text": "墙壁",
       "simplified": "墙壁",
       "traditional": "牆壁",
@@ -6708,8 +5530,6 @@
       "isWord": true
     },
     {
-      "sid": 53,
-      "tid": 12,
       "text": "上",
       "simplified": "上",
       "traditional": "上",
@@ -6719,8 +5539,6 @@
       "isWord": true
     },
     {
-      "sid": 53,
-      "tid": 13,
       "text": "涂鸦",
       "simplified": "涂鸦",
       "traditional": "塗鴉",
@@ -6741,8 +5559,6 @@
       "tid": 14
     },
     {
-      "sid": 53,
-      "tid": 15,
       "text": "，",
       "simplified": "，",
       "traditional": "，",
@@ -6750,8 +5566,6 @@
       "isWord": false
     },
     {
-      "sid": 53,
-      "tid": 16,
       "text": "一个人",
       "simplified": "一个人",
       "traditional": "一個人",
@@ -6772,8 +5586,6 @@
       "tid": 17
     },
     {
-      "sid": 53,
-      "tid": 18,
       "text": "很",
       "simplified": "很",
       "traditional": "很",
@@ -6794,8 +5606,6 @@
       "tid": 19
     },
     {
-      "sid": 53,
-      "tid": 20,
       "text": "却",
       "simplified": "却",
       "traditional": "㕁",
@@ -6805,8 +5615,6 @@
       "isWord": true
     },
     {
-      "sid": 53,
-      "tid": 21,
       "text": "默不作声",
       "simplified": "默不作声",
       "traditional": "默不作聲",
@@ -6816,8 +5624,6 @@
       "isWord": true
     },
     {
-      "sid": 53,
-      "tid": 22,
       "text": "的",
       "simplified": "的",
       "traditional": "的",
@@ -6827,8 +5633,6 @@
       "isWord": true
     },
     {
-      "sid": 53,
-      "tid": 23,
       "text": "墙壁",
       "simplified": "墙壁",
       "traditional": "牆壁",
@@ -6838,8 +5642,6 @@
       "isWord": true
     },
     {
-      "sid": 53,
-      "tid": 24,
       "text": "讨论",
       "simplified": "讨论",
       "traditional": "討論",
@@ -6849,8 +5651,6 @@
       "isWord": true
     },
     {
-      "sid": 53,
-      "tid": 25,
       "text": "起",
       "simplified": "起",
       "traditional": "起",
@@ -6860,8 +5660,6 @@
       "isWord": true
     },
     {
-      "sid": 53,
-      "tid": 26,
       "text": "漫画",
       "simplified": "漫画",
       "traditional": "漫畫",
@@ -6871,8 +5669,6 @@
       "isWord": true
     },
     {
-      "sid": 53,
-      "tid": 27,
       "text": "的",
       "simplified": "的",
       "traditional": "的",
@@ -6882,8 +5678,6 @@
       "isWord": true
     },
     {
-      "sid": 53,
-      "tid": 28,
       "text": "连载",
       "simplified": "连载",
       "traditional": "連載",
@@ -6893,8 +5687,6 @@
       "isWord": true
     },
     {
-      "sid": 53,
-      "tid": 29,
       "text": "内容",
       "simplified": "内容",
       "traditional": "內容",
@@ -6904,8 +5696,6 @@
       "isWord": true
     },
     {
-      "sid": 53,
-      "tid": 30,
       "text": "，",
       "simplified": "，",
       "traditional": "，",
@@ -6913,8 +5703,6 @@
       "isWord": false
     },
     {
-      "sid": 53,
-      "tid": 31,
       "text": "有时",
       "simplified": "有时",
       "traditional": "有時",
@@ -6924,8 +5712,6 @@
       "isWord": true
     },
     {
-      "sid": 53,
-      "tid": 32,
       "text": "还",
       "simplified": "还",
       "traditional": "還",
@@ -6935,8 +5721,6 @@
       "isWord": true
     },
     {
-      "sid": 53,
-      "tid": 33,
       "text": "故意",
       "simplified": "故意",
       "traditional": "故意",
@@ -6946,8 +5730,6 @@
       "isWord": true
     },
     {
-      "sid": 53,
-      "tid": 34,
       "text": "提高",
       "simplified": "提高",
       "traditional": "提高",
@@ -6957,8 +5739,6 @@
       "isWord": true
     },
     {
-      "sid": 53,
-      "tid": 35,
       "text": "分贝",
       "simplified": "分贝",
       "traditional": "分貝",
@@ -6968,8 +5748,6 @@
       "isWord": true
     },
     {
-      "sid": 53,
-      "tid": 36,
       "text": "，",
       "simplified": "，",
       "traditional": "，",
@@ -6977,8 +5755,6 @@
       "isWord": false
     },
     {
-      "sid": 53,
-      "tid": 37,
       "text": "让",
       "simplified": "让",
       "traditional": "讓",
@@ -6988,8 +5764,6 @@
       "isWord": true
     },
     {
-      "sid": 53,
-      "tid": 38,
       "text": "大家",
       "simplified": "大家",
       "traditional": "大家",
@@ -6999,8 +5773,6 @@
       "isWord": true
     },
     {
-      "sid": 53,
-      "tid": 39,
       "text": "知道",
       "simplified": "知道",
       "traditional": "知道",
@@ -7010,8 +5782,6 @@
       "isWord": true
     },
     {
-      "sid": 53,
-      "tid": 40,
       "text": "我",
       "simplified": "我",
       "traditional": "我",
@@ -7021,8 +5791,6 @@
       "isWord": true
     },
     {
-      "sid": 53,
-      "tid": 41,
       "text": "即使",
       "simplified": "即使",
       "traditional": "即使",
@@ -7032,8 +5800,6 @@
       "isWord": true
     },
     {
-      "sid": 53,
-      "tid": 42,
       "text": "身处",
       "simplified": "身处",
       "traditional": "身處",
@@ -7043,8 +5809,6 @@
       "isWord": true
     },
     {
-      "sid": 53,
-      "tid": 43,
       "text": "劣势",
       "simplified": "劣势",
       "traditional": "劣勢",
@@ -7054,8 +5818,6 @@
       "isWord": true
     },
     {
-      "sid": 53,
-      "tid": 44,
       "text": "，",
       "simplified": "，",
       "traditional": "，",
@@ -7063,8 +5825,6 @@
       "isWord": false
     },
     {
-      "sid": 53,
-      "tid": 45,
       "text": "还是",
       "simplified": "还是",
       "traditional": "還是",
@@ -7074,8 +5834,6 @@
       "isWord": true
     },
     {
-      "sid": 53,
-      "tid": 46,
       "text": "不停",
       "simplified": "不停",
       "traditional": "不停",
@@ -7085,8 +5843,6 @@
       "isWord": true
     },
     {
-      "sid": 53,
-      "tid": 47,
       "text": "地",
       "simplified": "地",
       "traditional": "地",
@@ -7096,8 +5852,6 @@
       "isWord": true
     },
     {
-      "sid": 53,
-      "tid": 48,
       "text": "战斗",
       "simplified": "战斗",
       "traditional": "戰鬥",
@@ -7107,8 +5861,6 @@
       "isWord": true
     },
     {
-      "sid": 53,
-      "tid": 49,
       "text": "。",
       "simplified": "。",
       "traditional": "。",
@@ -7118,8 +5870,6 @@
   ],
   [
     {
-      "sid": 54,
-      "tid": 0,
       "text": "\n",
       "simplified": "\n",
       "traditional": "\n",
@@ -7129,8 +5879,6 @@
   ],
   [
     {
-      "sid": 55,
-      "tid": 0,
       "text": "一",
       "simplified": "一",
       "traditional": "一",
@@ -7140,8 +5888,6 @@
       "isWord": true
     },
     {
-      "sid": 55,
-      "tid": 1,
       "text": "个",
       "simplified": "个",
       "traditional": "個",
@@ -7151,8 +5897,6 @@
       "isWord": true
     },
     {
-      "sid": 55,
-      "tid": 2,
       "text": "礼拜",
       "simplified": "礼拜",
       "traditional": "禮拜",
@@ -7162,8 +5906,6 @@
       "isWord": true
     },
     {
-      "sid": 55,
-      "tid": 3,
       "text": "后",
       "simplified": "后",
       "traditional": "后",
@@ -7173,8 +5915,6 @@
       "isWord": true
     },
     {
-      "sid": 55,
-      "tid": 4,
       "text": "，",
       "simplified": "，",
       "traditional": "，",
@@ -7182,8 +5922,6 @@
       "isWord": false
     },
     {
-      "sid": 55,
-      "tid": 5,
       "text": "跟",
       "simplified": "跟",
       "traditional": "跟",
@@ -7193,8 +5931,6 @@
       "isWord": true
     },
     {
-      "sid": 55,
-      "tid": 6,
       "text": "墙壁",
       "simplified": "墙壁",
       "traditional": "牆壁",
@@ -7204,8 +5940,6 @@
       "isWord": true
     },
     {
-      "sid": 55,
-      "tid": 7,
       "text": "说话",
       "simplified": "说话",
       "traditional": "說話",
@@ -7215,8 +5949,6 @@
       "isWord": true
     },
     {
-      "sid": 55,
-      "tid": 8,
       "text": "的",
       "simplified": "的",
       "traditional": "的",
@@ -7226,8 +5958,6 @@
       "isWord": true
     },
     {
-      "sid": 55,
-      "tid": 9,
       "text": "我",
       "simplified": "我",
       "traditional": "我",
@@ -7237,8 +5967,6 @@
       "isWord": true
     },
     {
-      "sid": 55,
-      "tid": 10,
       "text": "再度",
       "simplified": "再度",
       "traditional": "再度",
@@ -7248,8 +5976,6 @@
       "isWord": true
     },
     {
-      "sid": 55,
-      "tid": 11,
       "text": "蝉联",
       "simplified": "蝉联",
       "traditional": "蟬聯",
@@ -7259,8 +5985,6 @@
       "isWord": true
     },
     {
-      "sid": 55,
-      "tid": 12,
       "text": "黑名单",
       "simplified": "黑名单",
       "traditional": "黑名單",
@@ -7270,8 +5994,6 @@
       "isWord": true
     },
     {
-      "sid": 55,
-      "tid": 13,
       "text": "榜首",
       "simplified": "榜首",
       "traditional": "榜首",
@@ -7281,8 +6003,6 @@
       "isWord": true
     },
     {
-      "sid": 55,
-      "tid": 14,
       "text": "。",
       "simplified": "。",
       "traditional": "。",
@@ -7292,8 +6012,6 @@
   ],
   [
     {
-      "sid": 56,
-      "tid": 0,
       "text": "\n",
       "simplified": "\n",
       "traditional": "\n",
@@ -7303,8 +6021,6 @@
   ],
   [
     {
-      "sid": 57,
-      "tid": 0,
       "text": "毫无",
       "simplified": "毫无",
       "traditional": "毫無",
@@ -7314,8 +6030,6 @@
       "isWord": true
     },
     {
-      "sid": 57,
-      "tid": 1,
       "text": "意外",
       "simplified": "意外",
       "traditional": "意外",
@@ -7325,8 +6039,6 @@
       "isWord": true
     },
     {
-      "sid": 57,
-      "tid": 2,
       "text": "。",
       "simplified": "。",
       "traditional": "。",
@@ -7336,8 +6048,6 @@
   ],
   [
     {
-      "sid": 58,
-      "tid": 0,
       "text": "\n",
       "simplified": "\n",
       "traditional": "\n",
@@ -7347,8 +6057,6 @@
   ],
   [
     {
-      "sid": 59,
-      "tid": 0,
       "text": "冷",
       "simplified": "冷",
       "traditional": "冷",
@@ -7358,8 +6066,6 @@
       "isWord": true
     },
     {
-      "sid": 59,
-      "tid": 1,
       "text": "硬",
       "simplified": "硬",
       "traditional": "硬",
@@ -7369,8 +6075,6 @@
       "isWord": true
     },
     {
-      "sid": 59,
-      "tid": 2,
       "text": "的",
       "simplified": "的",
       "traditional": "的",
@@ -7380,8 +6084,6 @@
       "isWord": true
     },
     {
-      "sid": 59,
-      "tid": 3,
       "text": "黑板",
       "simplified": "黑板",
       "traditional": "黑板",
@@ -7391,8 +6093,6 @@
       "isWord": true
     },
     {
-      "sid": 59,
-      "tid": 4,
       "text": "前",
       "simplified": "前",
       "traditional": "前",
@@ -7402,8 +6102,6 @@
       "isWord": true
     },
     {
-      "sid": 59,
-      "tid": 5,
       "text": "，",
       "simplified": "，",
       "traditional": "，",
@@ -7411,8 +6109,6 @@
       "isWord": false
     },
     {
-      "sid": 59,
-      "tid": 6,
       "text": "赖导",
       "simplified": "赖导",
       "traditional": "賴導",
@@ -7422,8 +6118,6 @@
       "isWord": true
     },
     {
-      "sid": 59,
-      "tid": 7,
       "text": "气",
       "simplified": "气",
       "traditional": "氣",
@@ -7433,8 +6127,6 @@
       "isWord": true
     },
     {
-      "sid": 59,
-      "tid": 8,
       "text": "得",
       "simplified": "得",
       "traditional": "得",
@@ -7444,8 +6136,6 @@
       "isWord": true
     },
     {
-      "sid": 59,
-      "tid": 9,
       "text": "全身",
       "simplified": "全身",
       "traditional": "全身",
@@ -7455,8 +6145,6 @@
       "isWord": true
     },
     {
-      "sid": 59,
-      "tid": 10,
       "text": "发抖",
       "simplified": "发抖",
       "traditional": "發抖",
@@ -7466,8 +6154,6 @@
       "isWord": true
     },
     {
-      "sid": 59,
-      "tid": 11,
       "text": "，",
       "simplified": "，",
       "traditional": "，",
@@ -7475,8 +6161,6 @@
       "isWord": false
     },
     {
-      "sid": 59,
-      "tid": 12,
       "text": "看",
       "simplified": "看",
       "traditional": "看",
@@ -7486,8 +6170,6 @@
       "isWord": true
     },
     {
-      "sid": 59,
-      "tid": 13,
       "text": "着",
       "simplified": "着",
       "traditional": "著",
@@ -7497,8 +6179,6 @@
       "isWord": true
     },
     {
-      "sid": 59,
-      "tid": 14,
       "text": "满脸",
       "simplified": "满脸",
       "traditional": "滿臉",
@@ -7508,8 +6188,6 @@
       "isWord": true
     },
     {
-      "sid": 59,
-      "tid": 15,
       "text": "无辜",
       "simplified": "无辜",
       "traditional": "無辜",
@@ -7519,8 +6197,6 @@
       "isWord": true
     },
     {
-      "sid": 59,
-      "tid": 16,
       "text": "的",
       "simplified": "的",
       "traditional": "的",
@@ -7530,8 +6206,6 @@
       "isWord": true
     },
     {
-      "sid": 59,
-      "tid": 17,
       "text": "我",
       "simplified": "我",
       "traditional": "我",
@@ -7541,8 +6215,6 @@
       "isWord": true
     },
     {
-      "sid": 59,
-      "tid": 18,
       "text": "。",
       "simplified": "。",
       "traditional": "。",
@@ -7552,8 +6224,6 @@
   ],
   [
     {
-      "sid": 60,
-      "tid": 0,
       "text": "\n",
       "simplified": "\n",
       "traditional": "\n",
@@ -7563,8 +6233,6 @@
   ],
   [
     {
-      "sid": 61,
-      "tid": 0,
       "text": "“",
       "simplified": "“",
       "traditional": "“",
@@ -7572,8 +6240,6 @@
       "isWord": false
     },
     {
-      "sid": 61,
-      "tid": 1,
       "text": "柯景腾",
       "simplified": "柯景腾",
       "traditional": "柯景騰",
@@ -7583,8 +6249,6 @@
       "isWord": true
     },
     {
-      "sid": 61,
-      "tid": 2,
       "text": "，",
       "simplified": "，",
       "traditional": "，",
@@ -7592,8 +6256,6 @@
       "isWord": false
     },
     {
-      "sid": 61,
-      "tid": 3,
       "text": "你",
       "simplified": "你",
       "traditional": "你",
@@ -7603,8 +6265,6 @@
       "isWord": true
     },
     {
-      "sid": 61,
-      "tid": 4,
       "text": "是",
       "simplified": "是",
       "traditional": "是",
@@ -7625,8 +6285,6 @@
       "tid": 5
     },
     {
-      "sid": 61,
-      "tid": 6,
       "text": "？",
       "simplified": "？",
       "traditional": "？",
@@ -7634,8 +6292,6 @@
       "isWord": false
     },
     {
-      "sid": 61,
-      "tid": 7,
       "text": "干吗",
       "simplified": "干吗",
       "traditional": "幹嗎",
@@ -7645,8 +6301,6 @@
       "isWord": true
     },
     {
-      "sid": 61,
-      "tid": 8,
       "text": "跟",
       "simplified": "跟",
       "traditional": "跟",
@@ -7656,8 +6310,6 @@
       "isWord": true
     },
     {
-      "sid": 61,
-      "tid": 9,
       "text": "墙壁",
       "simplified": "墙壁",
       "traditional": "牆壁",
@@ -7667,8 +6319,6 @@
       "isWord": true
     },
     {
-      "sid": 61,
-      "tid": 10,
       "text": "讲话",
       "simplified": "讲话",
       "traditional": "講話",
@@ -7678,8 +6328,6 @@
       "isWord": true
     },
     {
-      "sid": 61,
-      "tid": 11,
       "text": "！",
       "simplified": "！",
       "traditional": "！",
@@ -7687,8 +6335,6 @@
       "isWord": false
     },
     {
-      "sid": 61,
-      "tid": 12,
       "text": "”",
       "simplified": "”",
       "traditional": "”",
@@ -7696,8 +6342,6 @@
       "isWord": false
     },
     {
-      "sid": 61,
-      "tid": 13,
       "text": "赖导",
       "simplified": "赖导",
       "traditional": "賴導",
@@ -7707,8 +6351,6 @@
       "isWord": true
     },
     {
-      "sid": 61,
-      "tid": 14,
       "text": "的",
       "simplified": "的",
       "traditional": "的",
@@ -7718,8 +6360,6 @@
       "isWord": true
     },
     {
-      "sid": 61,
-      "tid": 15,
       "text": "额头",
       "simplified": "额头",
       "traditional": "額頭",
@@ -7729,8 +6369,6 @@
       "isWord": true
     },
     {
-      "sid": 61,
-      "tid": 16,
       "text": "爆出",
       "simplified": "爆出",
       "traditional": "爆出",
@@ -7740,8 +6378,6 @@
       "isWord": true
     },
     {
-      "sid": 61,
-      "tid": 17,
       "text": "青筋",
       "simplified": "青筋",
       "traditional": "青筋",
@@ -7751,8 +6387,6 @@
       "isWord": true
     },
     {
-      "sid": 61,
-      "tid": 18,
       "text": "。",
       "simplified": "。",
       "traditional": "。",
@@ -7762,8 +6396,6 @@
   ],
   [
     {
-      "sid": 62,
-      "tid": 0,
       "text": "\n",
       "simplified": "\n",
       "traditional": "\n",
@@ -7773,8 +6405,6 @@
   ],
   [
     {
-      "sid": 63,
-      "tid": 0,
       "text": "“",
       "simplified": "“",
       "traditional": "“",
@@ -7782,8 +6412,6 @@
       "isWord": false
     },
     {
-      "sid": 63,
-      "tid": 1,
       "text": "老师",
       "simplified": "老师",
       "traditional": "老師",
@@ -7793,8 +6421,6 @@
       "isWord": true
     },
     {
-      "sid": 63,
-      "tid": 2,
       "text": "，",
       "simplified": "，",
       "traditional": "，",
@@ -7802,8 +6428,6 @@
       "isWord": false
     },
     {
-      "sid": 63,
-      "tid": 3,
       "text": "我",
       "simplified": "我",
       "traditional": "我",
@@ -7813,8 +6437,6 @@
       "isWord": true
     },
     {
-      "sid": 63,
-      "tid": 4,
       "text": "已经",
       "simplified": "已经",
       "traditional": "已經",
@@ -7824,8 +6446,6 @@
       "isWord": true
     },
     {
-      "sid": 63,
-      "tid": 5,
       "text": "在",
       "simplified": "在",
       "traditional": "在",
@@ -7835,8 +6455,6 @@
       "isWord": true
     },
     {
-      "sid": 63,
-      "tid": 6,
       "text": "好好",
       "simplified": "好好",
       "traditional": "好好",
@@ -7846,8 +6464,6 @@
       "isWord": true
     },
     {
-      "sid": 63,
-      "tid": 7,
       "text": "反省",
       "simplified": "反省",
       "traditional": "反省",
@@ -7857,8 +6473,6 @@
       "isWord": true
     },
     {
-      "sid": 63,
-      "tid": 8,
       "text": "了",
       "simplified": "了",
       "traditional": "了",
@@ -7868,8 +6482,6 @@
       "isWord": true
     },
     {
-      "sid": 63,
-      "tid": 9,
       "text": "，",
       "simplified": "，",
       "traditional": "，",
@@ -7877,8 +6489,6 @@
       "isWord": false
     },
     {
-      "sid": 63,
-      "tid": 10,
       "text": "我",
       "simplified": "我",
       "traditional": "我",
@@ -7888,8 +6498,6 @@
       "isWord": true
     },
     {
-      "sid": 63,
-      "tid": 11,
       "text": "会",
       "simplified": "会",
       "traditional": "會",
@@ -7899,8 +6507,6 @@
       "isWord": true
     },
     {
-      "sid": 63,
-      "tid": 12,
       "text": "尽量",
       "simplified": "尽量",
       "traditional": "儘量",
@@ -7910,8 +6516,6 @@
       "isWord": true
     },
     {
-      "sid": 63,
-      "tid": 13,
       "text": "克制",
       "simplified": "克制",
       "traditional": "克制",
@@ -7921,8 +6525,6 @@
       "isWord": true
     },
     {
-      "sid": 63,
-      "tid": 14,
       "text": "跟",
       "simplified": "跟",
       "traditional": "跟",
@@ -7932,8 +6534,6 @@
       "isWord": true
     },
     {
-      "sid": 63,
-      "tid": 15,
       "text": "墙壁",
       "simplified": "墙壁",
       "traditional": "牆壁",
@@ -7943,8 +6543,6 @@
       "isWord": true
     },
     {
-      "sid": 63,
-      "tid": 16,
       "text": "讲话",
       "simplified": "讲话",
       "traditional": "講話",
@@ -7954,8 +6552,6 @@
       "isWord": true
     },
     {
-      "sid": 63,
-      "tid": 17,
       "text": "的",
       "simplified": "的",
       "traditional": "的",
@@ -7965,8 +6561,6 @@
       "isWord": true
     },
     {
-      "sid": 63,
-      "tid": 18,
       "text": "冲动",
       "simplified": "冲动",
       "traditional": "衝動",
@@ -7976,8 +6570,6 @@
       "isWord": true
     },
     {
-      "sid": 63,
-      "tid": 19,
       "text": "。",
       "simplified": "。",
       "traditional": "。",
@@ -7987,8 +6579,6 @@
   ],
   [
     {
-      "sid": 64,
-      "tid": 0,
       "text": "”",
       "simplified": "”",
       "traditional": "”",
@@ -7996,8 +6586,6 @@
       "isWord": false
     },
     {
-      "sid": 64,
-      "tid": 1,
       "text": "我",
       "simplified": "我",
       "traditional": "我",
@@ -8007,8 +6595,6 @@
       "isWord": true
     },
     {
-      "sid": 64,
-      "tid": 2,
       "text": "难为情",
       "simplified": "难为情",
       "traditional": "難為情",
@@ -8018,8 +6604,6 @@
       "isWord": true
     },
     {
-      "sid": 64,
-      "tid": 3,
       "text": "地",
       "simplified": "地",
       "traditional": "地",
@@ -8029,8 +6613,6 @@
       "isWord": true
     },
     {
-      "sid": 64,
-      "tid": 4,
       "text": "抓",
       "simplified": "抓",
       "traditional": "抓",
@@ -8040,8 +6622,6 @@
       "isWord": true
     },
     {
-      "sid": 64,
-      "tid": 5,
       "text": "头",
       "simplified": "头",
       "traditional": "頭",
@@ -8051,8 +6631,6 @@
       "isWord": true
     },
     {
-      "sid": 64,
-      "tid": 6,
       "text": "，",
       "simplified": "，",
       "traditional": "，",
@@ -8060,8 +6638,6 @@
       "isWord": false
     },
     {
-      "sid": 64,
-      "tid": 7,
       "text": "手指",
       "simplified": "手指",
       "traditional": "手指",
@@ -8071,8 +6647,6 @@
       "isWord": true
     },
     {
-      "sid": 64,
-      "tid": 8,
       "text": "在",
       "simplified": "在",
       "traditional": "在",
@@ -8082,8 +6656,6 @@
       "isWord": true
     },
     {
-      "sid": 64,
-      "tid": 9,
       "text": "脑袋",
       "simplified": "脑袋",
       "traditional": "腦袋",
@@ -8093,8 +6665,6 @@
       "isWord": true
     },
     {
-      "sid": 64,
-      "tid": 10,
       "text": "后面",
       "simplified": "后面",
       "traditional": "後面",
@@ -8104,8 +6674,6 @@
       "isWord": true
     },
     {
-      "sid": 64,
-      "tid": 11,
       "text": "比",
       "simplified": "比",
       "traditional": "比",
@@ -8115,8 +6683,6 @@
       "isWord": true
     },
     {
-      "sid": 64,
-      "tid": 12,
       "text": "了",
       "simplified": "了",
       "traditional": "了",
@@ -8148,8 +6714,6 @@
       "tid": 14
     },
     {
-      "sid": 64,
-      "tid": 15,
       "text": "，",
       "simplified": "，",
       "traditional": "，",
@@ -8157,8 +6721,6 @@
       "isWord": false
     },
     {
-      "sid": 64,
-      "tid": 16,
       "text": "全班",
       "simplified": "全班",
       "traditional": "全班",
@@ -8168,8 +6730,6 @@
       "isWord": true
     },
     {
-      "sid": 64,
-      "tid": 17,
       "text": "同学",
       "simplified": "同学",
       "traditional": "同學",
@@ -8179,8 +6739,6 @@
       "isWord": true
     },
     {
-      "sid": 64,
-      "tid": 18,
       "text": "竭力",
       "simplified": "竭力",
       "traditional": "竭力",
@@ -8212,8 +6770,6 @@
       "tid": 20
     },
     {
-      "sid": 64,
-      "tid": 21,
       "text": "笑意",
       "simplified": "笑意",
       "traditional": "笑意",
@@ -8223,8 +6779,6 @@
       "isWord": true
     },
     {
-      "sid": 64,
-      "tid": 22,
       "text": "。",
       "simplified": "。",
       "traditional": "。",
@@ -8234,8 +6788,6 @@
   ],
   [
     {
-      "sid": 65,
-      "tid": 0,
       "text": "\n",
       "simplified": "\n",
       "traditional": "\n",
@@ -8245,8 +6797,6 @@
   ],
   [
     {
-      "sid": 66,
-      "tid": 0,
       "text": "赖导",
       "simplified": "赖导",
       "traditional": "賴導",
@@ -8256,8 +6806,6 @@
       "isWord": true
     },
     {
-      "sid": 66,
-      "tid": 1,
       "text": "痛苦",
       "simplified": "痛苦",
       "traditional": "痛苦",
@@ -8267,8 +6815,6 @@
       "isWord": true
     },
     {
-      "sid": 66,
-      "tid": 2,
       "text": "地",
       "simplified": "地",
       "traditional": "地",
@@ -8278,8 +6824,6 @@
       "isWord": true
     },
     {
-      "sid": 66,
-      "tid": 3,
       "text": "闭上",
       "simplified": "闭上",
       "traditional": "閉上",
@@ -8289,8 +6833,6 @@
       "isWord": true
     },
     {
-      "sid": 66,
-      "tid": 4,
       "text": "眼睛",
       "simplified": "眼睛",
       "traditional": "眼睛",
@@ -8300,8 +6842,6 @@
       "isWord": true
     },
     {
-      "sid": 66,
-      "tid": 5,
       "text": "，",
       "simplified": "，",
       "traditional": "，",
@@ -8309,8 +6849,6 @@
       "isWord": false
     },
     {
-      "sid": 66,
-      "tid": 6,
       "text": "眼皮底下",
       "simplified": "眼皮底下",
       "traditional": "眼皮底下",
@@ -8320,8 +6858,6 @@
       "isWord": true
     },
     {
-      "sid": 66,
-      "tid": 7,
       "text": "转",
       "simplified": "转",
       "traditional": "轉",
@@ -8331,8 +6867,6 @@
       "isWord": true
     },
     {
-      "sid": 66,
-      "tid": 8,
       "text": "着",
       "simplified": "着",
       "traditional": "著",
@@ -8342,8 +6876,6 @@
       "isWord": true
     },
     {
-      "sid": 66,
-      "tid": 9,
       "text": "各种",
       "simplified": "各种",
       "traditional": "各種",
@@ -8353,8 +6885,6 @@
       "isWord": true
     },
     {
-      "sid": 66,
-      "tid": 10,
       "text": "压制",
       "simplified": "压制",
       "traditional": "壓制",
@@ -8364,8 +6894,6 @@
       "isWord": true
     },
     {
-      "sid": 66,
-      "tid": 11,
       "text": "我",
       "simplified": "我",
       "traditional": "我",
@@ -8375,8 +6903,6 @@
       "isWord": true
     },
     {
-      "sid": 66,
-      "tid": 12,
       "text": "的",
       "simplified": "的",
       "traditional": "的",
@@ -8397,8 +6923,6 @@
       "tid": 13
     },
     {
-      "sid": 66,
-      "tid": 14,
       "text": "，",
       "simplified": "，",
       "traditional": "，",
@@ -8406,8 +6930,6 @@
       "isWord": false
     },
     {
-      "sid": 66,
-      "tid": 15,
       "text": "全班",
       "simplified": "全班",
       "traditional": "全班",
@@ -8417,8 +6939,6 @@
       "isWord": true
     },
     {
-      "sid": 66,
-      "tid": 16,
       "text": "屏息",
       "simplified": "屏息",
       "traditional": "屏息",
@@ -8428,8 +6948,6 @@
       "isWord": true
     },
     {
-      "sid": 66,
-      "tid": 17,
       "text": "以",
       "simplified": "以",
       "traditional": "㕥",
@@ -8439,8 +6957,6 @@
       "isWord": true
     },
     {
-      "sid": 66,
-      "tid": 18,
       "text": "待",
       "simplified": "待",
       "traditional": "待",
@@ -8450,8 +6966,6 @@
       "isWord": true
     },
     {
-      "sid": 66,
-      "tid": 19,
       "text": "赖导",
       "simplified": "赖导",
       "traditional": "賴導",
@@ -8461,8 +6975,6 @@
       "isWord": true
     },
     {
-      "sid": 66,
-      "tid": 20,
       "text": "的",
       "simplified": "的",
       "traditional": "的",
@@ -8472,8 +6984,6 @@
       "isWord": true
     },
     {
-      "sid": 66,
-      "tid": 21,
       "text": "大爆炸",
       "simplified": "大爆炸",
       "traditional": "大爆炸",
@@ -8483,8 +6993,6 @@
       "isWord": true
     },
     {
-      "sid": 66,
-      "tid": 22,
       "text": "。",
       "simplified": "。",
       "traditional": "。",
@@ -8494,8 +7002,6 @@
   ],
   [
     {
-      "sid": 67,
-      "tid": 0,
       "text": "当时",
       "simplified": "当时",
       "traditional": "當時",
@@ -8505,8 +7011,6 @@
       "isWord": true
     },
     {
-      "sid": 67,
-      "tid": 1,
       "text": "的",
       "simplified": "的",
       "traditional": "的",
@@ -8516,8 +7020,6 @@
       "isWord": true
     },
     {
-      "sid": 67,
-      "tid": 2,
       "text": "我",
       "simplified": "我",
       "traditional": "我",
@@ -8527,8 +7029,6 @@
       "isWord": true
     },
     {
-      "sid": 67,
-      "tid": 3,
       "text": "非常",
       "simplified": "非常",
       "traditional": "非常",
@@ -8538,8 +7038,6 @@
       "isWord": true
     },
     {
-      "sid": 67,
-      "tid": 4,
       "text": "享受",
       "simplified": "享受",
       "traditional": "享受",
@@ -8549,8 +7047,6 @@
       "isWord": true
     },
     {
-      "sid": 67,
-      "tid": 5,
       "text": "这样",
       "simplified": "这样",
       "traditional": "這樣",
@@ -8560,8 +7056,6 @@
       "isWord": true
     },
     {
-      "sid": 67,
-      "tid": 6,
       "text": "的",
       "simplified": "的",
       "traditional": "的",
@@ -8571,8 +7065,6 @@
       "isWord": true
     },
     {
-      "sid": 67,
-      "tid": 7,
       "text": "氛围",
       "simplified": "氛围",
       "traditional": "氛圍",
@@ -8582,8 +7074,6 @@
       "isWord": true
     },
     {
-      "sid": 67,
-      "tid": 8,
       "text": "，",
       "simplified": "，",
       "traditional": "，",
@@ -8591,8 +7081,6 @@
       "isWord": false
     },
     {
-      "sid": 67,
-      "tid": 9,
       "text": "幼稚",
       "simplified": "幼稚",
       "traditional": "幼稚",
@@ -8602,8 +7090,6 @@
       "isWord": true
     },
     {
-      "sid": 67,
-      "tid": 10,
       "text": "地",
       "simplified": "地",
       "traditional": "地",
@@ -8613,8 +7099,6 @@
       "isWord": true
     },
     {
-      "sid": 67,
-      "tid": 11,
       "text": "将",
       "simplified": "将",
       "traditional": "將",
@@ -8624,8 +7108,6 @@
       "isWord": true
     },
     {
-      "sid": 67,
-      "tid": 12,
       "text": "这种",
       "simplified": "这种",
       "traditional": "這種",
@@ -8635,8 +7117,6 @@
       "isWord": true
     },
     {
-      "sid": 67,
-      "tid": 13,
       "text": "惩罚",
       "simplified": "惩罚",
       "traditional": "懲罰",
@@ -8646,8 +7126,6 @@
       "isWord": true
     },
     {
-      "sid": 67,
-      "tid": 14,
       "text": "对待",
       "simplified": "对待",
       "traditional": "對待",
@@ -8657,8 +7135,6 @@
       "isWord": true
     },
     {
-      "sid": 67,
-      "tid": 15,
       "text": "当作",
       "simplified": "当作",
       "traditional": "當作",
@@ -8668,8 +7144,6 @@
       "isWord": true
     },
     {
-      "sid": 67,
-      "tid": 16,
       "text": "是",
       "simplified": "是",
       "traditional": "是",
@@ -8679,8 +7153,6 @@
       "isWord": true
     },
     {
-      "sid": 67,
-      "tid": 17,
       "text": "聚光灯",
       "simplified": "聚光灯",
       "traditional": "聚光燈",
@@ -8690,8 +7162,6 @@
       "isWord": true
     },
     {
-      "sid": 67,
-      "tid": 18,
       "text": "下",
       "simplified": "下",
       "traditional": "下",
@@ -8701,8 +7171,6 @@
       "isWord": true
     },
     {
-      "sid": 67,
-      "tid": 19,
       "text": "的",
       "simplified": "的",
       "traditional": "的",
@@ -8712,8 +7180,6 @@
       "isWord": true
     },
     {
-      "sid": 67,
-      "tid": 20,
       "text": "骄傲",
       "simplified": "骄傲",
       "traditional": "驕傲",
@@ -8723,8 +7189,6 @@
       "isWord": true
     },
     {
-      "sid": 67,
-      "tid": 21,
       "text": "。",
       "simplified": "。",
       "traditional": "。",
@@ -8734,8 +7198,6 @@
   ],
   [
     {
-      "sid": 68,
-      "tid": 0,
       "text": "\n",
       "simplified": "\n",
       "traditional": "\n",
@@ -8745,8 +7207,6 @@
   ],
   [
     {
-      "sid": 69,
-      "tid": 0,
       "text": "来",
       "simplified": "来",
       "traditional": "來",
@@ -8756,8 +7216,6 @@
       "isWord": true
     },
     {
-      "sid": 69,
-      "tid": 1,
       "text": "吧",
       "simplified": "吧",
       "traditional": "吧",
@@ -8767,8 +7225,6 @@
       "isWord": true
     },
     {
-      "sid": 69,
-      "tid": 2,
       "text": "！",
       "simplified": "！",
       "traditional": "！",
@@ -8776,8 +7232,6 @@
       "isWord": false
     },
     {
-      "sid": 69,
-      "tid": 3,
       "text": "赖导",
       "simplified": "赖导",
       "traditional": "賴導",
@@ -8787,8 +7241,6 @@
       "isWord": true
     },
     {
-      "sid": 69,
-      "tid": 4,
       "text": "！",
       "simplified": "！",
       "traditional": "！",
@@ -8796,8 +7248,6 @@
       "isWord": false
     },
     {
-      "sid": 69,
-      "tid": 5,
       "text": "展现",
       "simplified": "展现",
       "traditional": "展現",
@@ -8807,8 +7257,6 @@
       "isWord": true
     },
     {
-      "sid": 69,
-      "tid": 6,
       "text": "你",
       "simplified": "你",
       "traditional": "你",
@@ -8818,8 +7266,6 @@
       "isWord": true
     },
     {
-      "sid": 69,
-      "tid": 7,
       "text": "身为",
       "simplified": "身为",
       "traditional": "身為",
@@ -8829,8 +7275,6 @@
       "isWord": true
     },
     {
-      "sid": 69,
-      "tid": 8,
       "text": "名师",
       "simplified": "名师",
       "traditional": "名師",
@@ -8840,8 +7284,6 @@
       "isWord": true
     },
     {
-      "sid": 69,
-      "tid": 9,
       "text": "的",
       "simplified": "的",
       "traditional": "的",
@@ -8851,8 +7293,6 @@
       "isWord": true
     },
     {
-      "sid": 69,
-      "tid": 10,
       "text": "气魄",
       "simplified": "气魄",
       "traditional": "氣魄",
@@ -8862,8 +7302,6 @@
       "isWord": true
     },
     {
-      "sid": 69,
-      "tid": 11,
       "text": "！",
       "simplified": "！",
       "traditional": "！",
@@ -8871,8 +7309,6 @@
       "isWord": false
     },
     {
-      "sid": 69,
-      "tid": 12,
       "text": "\n",
       "simplified": "\n",
       "traditional": "\n",
@@ -8882,8 +7318,6 @@
   ],
   [
     {
-      "sid": 70,
-      "tid": 0,
       "text": "“",
       "simplified": "“",
       "traditional": "“",
@@ -8891,8 +7325,6 @@
       "isWord": false
     },
     {
-      "sid": 70,
-      "tid": 1,
       "text": "柯景腾",
       "simplified": "柯景腾",
       "traditional": "柯景騰",
@@ -8902,8 +7334,6 @@
       "isWord": true
     },
     {
-      "sid": 70,
-      "tid": 2,
       "text": "。",
       "simplified": "。",
       "traditional": "。",
@@ -8913,8 +7343,6 @@
   ],
   [
     {
-      "sid": 71,
-      "tid": 0,
       "text": "”",
       "simplified": "”",
       "traditional": "”",
@@ -8922,8 +7350,6 @@
       "isWord": false
     },
     {
-      "sid": 71,
-      "tid": 1,
       "text": "赖导",
       "simplified": "赖导",
       "traditional": "賴導",
@@ -8933,8 +7359,6 @@
       "isWord": true
     },
     {
-      "sid": 71,
-      "tid": 2,
       "text": "深深",
       "simplified": "深深",
       "traditional": "深深",
@@ -8944,8 +7368,6 @@
       "isWord": true
     },
     {
-      "sid": 71,
-      "tid": 3,
       "text": "吐",
       "simplified": "吐",
       "traditional": "吐",
@@ -8955,8 +7377,6 @@
       "isWord": true
     },
     {
-      "sid": 71,
-      "tid": 4,
       "text": "出",
       "simplified": "出",
       "traditional": "出",
@@ -8966,8 +7386,6 @@
       "isWord": true
     },
     {
-      "sid": 71,
-      "tid": 5,
       "text": "一口",
       "simplified": "一口",
       "traditional": "一口",
@@ -8977,8 +7395,6 @@
       "isWord": true
     },
     {
-      "sid": 71,
-      "tid": 6,
       "text": "浊",
       "simplified": "浊",
       "traditional": "濁",
@@ -8988,8 +7404,6 @@
       "isWord": true
     },
     {
-      "sid": 71,
-      "tid": 7,
       "text": "气",
       "simplified": "气",
       "traditional": "氣",
@@ -8999,8 +7413,6 @@
       "isWord": true
     },
     {
-      "sid": 71,
-      "tid": 8,
       "text": "。",
       "simplified": "。",
       "traditional": "。",
@@ -9010,8 +7422,6 @@
   ],
   [
     {
-      "sid": 72,
-      "tid": 0,
       "text": "\n",
       "simplified": "\n",
       "traditional": "\n",
@@ -9021,8 +7431,6 @@
   ],
   [
     {
-      "sid": 73,
-      "tid": 0,
       "text": "“",
       "simplified": "“",
       "traditional": "“",
@@ -9030,8 +7438,6 @@
       "isWord": false
     },
     {
-      "sid": 73,
-      "tid": 1,
       "text": "是的",
       "simplified": "是的",
       "traditional": "是的",
@@ -9041,8 +7447,6 @@
       "isWord": true
     },
     {
-      "sid": 73,
-      "tid": 2,
       "text": "老师",
       "simplified": "老师",
       "traditional": "老師",
@@ -9052,8 +7456,6 @@
       "isWord": true
     },
     {
-      "sid": 73,
-      "tid": 3,
       "text": "。",
       "simplified": "。",
       "traditional": "。",
@@ -9063,8 +7465,6 @@
   ],
   [
     {
-      "sid": 74,
-      "tid": 0,
       "text": "”",
       "simplified": "”",
       "traditional": "”",
@@ -9072,8 +7472,6 @@
       "isWord": false
     },
     {
-      "sid": 74,
-      "tid": 1,
       "text": "我",
       "simplified": "我",
       "traditional": "我",
@@ -9083,8 +7481,6 @@
       "isWord": true
     },
     {
-      "sid": 74,
-      "tid": 2,
       "text": "诚恳",
       "simplified": "诚恳",
       "traditional": "誠懇",
@@ -9094,8 +7490,6 @@
       "isWord": true
     },
     {
-      "sid": 74,
-      "tid": 3,
       "text": "地",
       "simplified": "地",
       "traditional": "地",
@@ -9105,8 +7499,6 @@
       "isWord": true
     },
     {
-      "sid": 74,
-      "tid": 4,
       "text": "看",
       "simplified": "看",
       "traditional": "看",
@@ -9116,8 +7508,6 @@
       "isWord": true
     },
     {
-      "sid": 74,
-      "tid": 5,
       "text": "着",
       "simplified": "着",
       "traditional": "著",
@@ -9127,8 +7517,6 @@
       "isWord": true
     },
     {
-      "sid": 74,
-      "tid": 6,
       "text": "赖导",
       "simplified": "赖导",
       "traditional": "賴導",
@@ -9138,8 +7526,6 @@
       "isWord": true
     },
     {
-      "sid": 74,
-      "tid": 7,
       "text": "。",
       "simplified": "。",
       "traditional": "。",
@@ -9149,8 +7535,6 @@
   ],
   [
     {
-      "sid": 75,
-      "tid": 0,
       "text": "\n",
       "simplified": "\n",
       "traditional": "\n",
@@ -9160,8 +7544,6 @@
   ],
   [
     {
-      "sid": 76,
-      "tid": 0,
       "text": "“",
       "simplified": "“",
       "traditional": "“",
@@ -9169,8 +7551,6 @@
       "isWord": false
     },
     {
-      "sid": 76,
-      "tid": 1,
       "text": "你",
       "simplified": "你",
       "traditional": "你",
@@ -9180,8 +7560,6 @@
       "isWord": true
     },
     {
-      "sid": 76,
-      "tid": 2,
       "text": "坐",
       "simplified": "坐",
       "traditional": "坐",
@@ -9191,8 +7569,6 @@
       "isWord": true
     },
     {
-      "sid": 76,
-      "tid": 3,
       "text": "到",
       "simplified": "到",
       "traditional": "到",
@@ -9202,8 +7578,6 @@
       "isWord": true
     },
     {
-      "sid": 76,
-      "tid": 4,
       "text": "沈佳仪",
       "simplified": "沈佳仪",
       "traditional": "沈佳儀",
@@ -9213,8 +7587,6 @@
       "isWord": true
     },
     {
-      "sid": 76,
-      "tid": 5,
       "text": "前面",
       "simplified": "前面",
       "traditional": "前面",
@@ -9224,8 +7596,6 @@
       "isWord": true
     },
     {
-      "sid": 76,
-      "tid": 6,
       "text": "。",
       "simplified": "。",
       "traditional": "。",
@@ -9235,8 +7605,6 @@
   ],
   [
     {
-      "sid": 77,
-      "tid": 0,
       "text": "”",
       "simplified": "”",
       "traditional": "”",
@@ -9244,8 +7612,6 @@
       "isWord": false
     },
     {
-      "sid": 77,
-      "tid": 1,
       "text": "赖导",
       "simplified": "赖导",
       "traditional": "賴導",
@@ -9255,8 +7621,6 @@
       "isWord": true
     },
     {
-      "sid": 77,
-      "tid": 2,
       "text": "睁开",
       "simplified": "睁开",
       "traditional": "睜開",
@@ -9266,8 +7630,6 @@
       "isWord": true
     },
     {
-      "sid": 77,
-      "tid": 3,
       "text": "眼睛",
       "simplified": "眼睛",
       "traditional": "眼睛",
@@ -9277,8 +7639,6 @@
       "isWord": true
     },
     {
-      "sid": 77,
-      "tid": 4,
       "text": "，",
       "simplified": "，",
       "traditional": "，",
@@ -9286,8 +7646,6 @@
       "isWord": false
     },
     {
-      "sid": 77,
-      "tid": 5,
       "text": "血丝",
       "simplified": "血丝",
       "traditional": "血絲",
@@ -9297,8 +7655,6 @@
       "isWord": true
     },
     {
-      "sid": 77,
-      "tid": 6,
       "text": "满",
       "simplified": "满",
       "traditional": "滿",
@@ -9308,8 +7664,6 @@
       "isWord": true
     },
     {
-      "sid": 77,
-      "tid": 7,
       "text": "布",
       "simplified": "布",
       "traditional": "佈",
@@ -9319,8 +7673,6 @@
       "isWord": true
     },
     {
-      "sid": 77,
-      "tid": 8,
       "text": "。",
       "simplified": "。",
       "traditional": "。",
@@ -9330,8 +7682,6 @@
   ],
   [
     {
-      "sid": 78,
-      "tid": 0,
       "text": "\n",
       "simplified": "\n",
       "traditional": "\n",
@@ -9341,8 +7691,6 @@
   ],
   [
     {
-      "sid": 79,
-      "tid": 0,
       "text": "“",
       "simplified": "“",
       "traditional": "“",
@@ -9350,8 +7698,6 @@
       "isWord": false
     },
     {
-      "sid": 79,
-      "tid": 1,
       "text": "啊",
       "simplified": "啊",
       "traditional": "啊",
@@ -9361,8 +7707,6 @@
       "isWord": true
     },
     {
-      "sid": 79,
-      "tid": 2,
       "text": "？",
       "simplified": "？",
       "traditional": "？",
@@ -9370,8 +7714,6 @@
       "isWord": false
     },
     {
-      "sid": 79,
-      "tid": 3,
       "text": "”",
       "simplified": "”",
       "traditional": "”",
@@ -9379,8 +7721,6 @@
       "isWord": false
     },
     {
-      "sid": 79,
-      "tid": 4,
       "text": "我",
       "simplified": "我",
       "traditional": "我",
@@ -9390,8 +7730,6 @@
       "isWord": true
     },
     {
-      "sid": 79,
-      "tid": 5,
       "text": "不解",
       "simplified": "不解",
       "traditional": "不解",
@@ -9401,8 +7739,6 @@
       "isWord": true
     },
     {
-      "sid": 79,
-      "tid": 6,
       "text": "。",
       "simplified": "。",
       "traditional": "。",
@@ -9412,8 +7748,6 @@
   ],
   [
     {
-      "sid": 80,
-      "tid": 0,
       "text": "\n",
       "simplified": "\n",
       "traditional": "\n",
@@ -9423,8 +7757,6 @@
   ],
   [
     {
-      "sid": 81,
-      "tid": 0,
       "text": "什么",
       "simplified": "什么",
       "traditional": "什麼",
@@ -9434,8 +7766,6 @@
       "isWord": true
     },
     {
-      "sid": 81,
-      "tid": 1,
       "text": "跟",
       "simplified": "跟",
       "traditional": "跟",
@@ -9445,8 +7775,6 @@
       "isWord": true
     },
     {
-      "sid": 81,
-      "tid": 2,
       "text": "什么",
       "simplified": "什么",
       "traditional": "什麼",
@@ -9456,8 +7784,6 @@
       "isWord": true
     },
     {
-      "sid": 81,
-      "tid": 3,
       "text": "啊",
       "simplified": "啊",
       "traditional": "啊",
@@ -9467,8 +7793,6 @@
       "isWord": true
     },
     {
-      "sid": 81,
-      "tid": 4,
       "text": "。",
       "simplified": "。",
       "traditional": "。",
@@ -9478,8 +7802,6 @@
   ],
   [
     {
-      "sid": 82,
-      "tid": 0,
       "text": "\n",
       "simplified": "\n",
       "traditional": "\n",
@@ -9489,8 +7811,6 @@
   ],
   [
     {
-      "sid": 83,
-      "tid": 0,
       "text": "沈佳仪",
       "simplified": "沈佳仪",
       "traditional": "沈佳儀",
@@ -9500,8 +7820,6 @@
       "isWord": true
     },
     {
-      "sid": 83,
-      "tid": 1,
       "text": "是",
       "simplified": "是",
       "traditional": "是",
@@ -9511,8 +7829,6 @@
       "isWord": true
     },
     {
-      "sid": 83,
-      "tid": 2,
       "text": "班上",
       "simplified": "班上",
       "traditional": "班上",
@@ -9522,8 +7838,6 @@
       "isWord": true
     },
     {
-      "sid": 83,
-      "tid": 3,
       "text": "最",
       "simplified": "最",
       "traditional": "㝡",
@@ -9533,8 +7847,6 @@
       "isWord": true
     },
     {
-      "sid": 83,
-      "tid": 4,
       "text": "乖巧",
       "simplified": "乖巧",
       "traditional": "乖巧",
@@ -9544,8 +7856,6 @@
       "isWord": true
     },
     {
-      "sid": 83,
-      "tid": 5,
       "text": "的",
       "simplified": "的",
       "traditional": "的",
@@ -9555,8 +7865,6 @@
       "isWord": true
     },
     {
-      "sid": 83,
-      "tid": 6,
       "text": "女生",
       "simplified": "女生",
       "traditional": "女生",
@@ -9566,8 +7874,6 @@
       "isWord": true
     },
     {
-      "sid": 83,
-      "tid": 7,
       "text": "，",
       "simplified": "，",
       "traditional": "，",
@@ -9575,8 +7881,6 @@
       "isWord": false
     },
     {
-      "sid": 83,
-      "tid": 8,
       "text": "功课",
       "simplified": "功课",
       "traditional": "功課",
@@ -9586,8 +7890,6 @@
       "isWord": true
     },
     {
-      "sid": 83,
-      "tid": 9,
       "text": "好",
       "simplified": "好",
       "traditional": "好",
@@ -9597,8 +7899,6 @@
       "isWord": true
     },
     {
-      "sid": 83,
-      "tid": 10,
       "text": "，",
       "simplified": "，",
       "traditional": "，",
@@ -9606,8 +7906,6 @@
       "isWord": false
     },
     {
-      "sid": 83,
-      "tid": 11,
       "text": "人缘",
       "simplified": "人缘",
       "traditional": "人緣",
@@ -9617,8 +7915,6 @@
       "isWord": true
     },
     {
-      "sid": 83,
-      "tid": 12,
       "text": "佳",
       "simplified": "佳",
       "traditional": "佳",
@@ -9628,8 +7924,6 @@
       "isWord": true
     },
     {
-      "sid": 83,
-      "tid": 13,
       "text": "，",
       "simplified": "，",
       "traditional": "，",
@@ -9637,8 +7931,6 @@
       "isWord": false
     },
     {
-      "sid": 83,
-      "tid": 14,
       "text": "是",
       "simplified": "是",
       "traditional": "是",
@@ -9648,8 +7940,6 @@
       "isWord": true
     },
     {
-      "sid": 83,
-      "tid": 15,
       "text": "个",
       "simplified": "个",
       "traditional": "個",
@@ -9659,8 +7949,6 @@
       "isWord": true
     },
     {
-      "sid": 83,
-      "tid": 16,
       "text": "连",
       "simplified": "连",
       "traditional": "連",
@@ -9670,8 +7958,6 @@
       "isWord": true
     },
     {
-      "sid": 83,
-      "tid": 17,
       "text": "女生",
       "simplified": "女生",
       "traditional": "女生",
@@ -9681,8 +7967,6 @@
       "isWord": true
     },
     {
-      "sid": 83,
-      "tid": 18,
       "text": "都",
       "simplified": "都",
       "traditional": "都",
@@ -9692,8 +7976,6 @@
       "isWord": true
     },
     {
-      "sid": 83,
-      "tid": 19,
       "text": "无法",
       "simplified": "无法",
       "traditional": "無法",
@@ -9714,8 +7996,6 @@
       "tid": 20
     },
     {
-      "sid": 83,
-      "tid": 21,
       "text": "嫉妒",
       "simplified": "嫉妒",
       "traditional": "嫉妒",
@@ -9725,8 +8005,6 @@
       "isWord": true
     },
     {
-      "sid": 83,
-      "tid": 22,
       "text": "心",
       "simplified": "心",
       "traditional": "心",
@@ -9736,8 +8014,6 @@
       "isWord": true
     },
     {
-      "sid": 83,
-      "tid": 23,
       "text": "的",
       "simplified": "的",
       "traditional": "的",
@@ -9747,8 +8023,6 @@
       "isWord": true
     },
     {
-      "sid": 83,
-      "tid": 24,
       "text": "女孩子",
       "simplified": "女孩子",
       "traditional": "女孩子",
@@ -9758,8 +8032,6 @@
       "isWord": true
     },
     {
-      "sid": 83,
-      "tid": 25,
       "text": "。",
       "simplified": "。",
       "traditional": "。",
@@ -9769,8 +8041,6 @@
   ],
   [
     {
-      "sid": 84,
-      "tid": 0,
       "text": "短",
       "simplified": "短",
       "traditional": "短",
@@ -9780,8 +8050,6 @@
       "isWord": true
     },
     {
-      "sid": 84,
-      "tid": 1,
       "text": "发",
       "simplified": "发",
       "traditional": "發",
@@ -9791,8 +8059,6 @@
       "isWord": true
     },
     {
-      "sid": 84,
-      "tid": 2,
       "text": "，",
       "simplified": "，",
       "traditional": "，",
@@ -9800,8 +8066,6 @@
       "isWord": false
     },
     {
-      "sid": 84,
-      "tid": 3,
       "text": "有点",
       "simplified": "有点",
       "traditional": "有點",
@@ -9811,8 +8075,6 @@
       "isWord": true
     },
     {
-      "sid": 84,
-      "tid": 4,
       "text": "小",
       "simplified": "小",
       "traditional": "小",
@@ -9822,8 +8084,6 @@
       "isWord": true
     },
     {
-      "sid": 84,
-      "tid": 5,
       "text": "雀斑",
       "simplified": "雀斑",
       "traditional": "雀斑",
@@ -9833,8 +8093,6 @@
       "isWord": true
     },
     {
-      "sid": 84,
-      "tid": 6,
       "text": "，",
       "simplified": "，",
       "traditional": "，",
@@ -9842,8 +8100,6 @@
       "isWord": false
     },
     {
-      "sid": 84,
-      "tid": 7,
       "text": "气质",
       "simplified": "气质",
       "traditional": "氣質",
@@ -9853,8 +8109,6 @@
       "isWord": true
     },
     {
-      "sid": 84,
-      "tid": 8,
       "text": "出众",
       "simplified": "出众",
       "traditional": "出眾",
@@ -9864,8 +8118,6 @@
       "isWord": true
     },
     {
-      "sid": 84,
-      "tid": 9,
       "text": "。",
       "simplified": "。",
       "traditional": "。",
@@ -9875,8 +8127,6 @@
   ],
   [
     {
-      "sid": 85,
-      "tid": 0,
       "text": "\n",
       "simplified": "\n",
       "traditional": "\n",
@@ -9886,8 +8136,6 @@
   ],
   [
     {
-      "sid": 86,
-      "tid": 0,
       "text": "气质",
       "simplified": "气质",
       "traditional": "氣質",
@@ -9897,8 +8145,6 @@
       "isWord": true
     },
     {
-      "sid": 86,
-      "tid": 1,
       "text": "出众",
       "simplified": "出众",
       "traditional": "出眾",
@@ -9908,8 +8154,6 @@
       "isWord": true
     },
     {
-      "sid": 86,
-      "tid": 2,
       "text": "到",
       "simplified": "到",
       "traditional": "到",
@@ -9919,8 +8163,6 @@
       "isWord": true
     },
     {
-      "sid": 86,
-      "tid": 3,
       "text": "，",
       "simplified": "，",
       "traditional": "，",
@@ -9928,8 +8170,6 @@
       "isWord": false
     },
     {
-      "sid": 86,
-      "tid": 4,
       "text": "连",
       "simplified": "连",
       "traditional": "連",
@@ -9939,8 +8179,6 @@
       "isWord": true
     },
     {
-      "sid": 86,
-      "tid": 5,
       "text": "我",
       "simplified": "我",
       "traditional": "我",
@@ -9950,8 +8188,6 @@
       "isWord": true
     },
     {
-      "sid": 86,
-      "tid": 6,
       "text": "这种",
       "simplified": "这种",
       "traditional": "這種",
@@ -9961,8 +8197,6 @@
       "isWord": true
     },
     {
-      "sid": 86,
-      "tid": 7,
       "text": "自大狂",
       "simplified": "自大狂",
       "traditional": "自大狂",
@@ -9972,8 +8206,6 @@
       "isWord": true
     },
     {
-      "sid": 86,
-      "tid": 8,
       "text": "比赛",
       "simplified": "比赛",
       "traditional": "比賽",
@@ -9983,8 +8215,6 @@
       "isWord": true
     },
     {
-      "sid": 86,
-      "tid": 9,
       "text": "冠军",
       "simplified": "冠军",
       "traditional": "冠軍",
@@ -9994,8 +8224,6 @@
       "isWord": true
     },
     {
-      "sid": 86,
-      "tid": 10,
       "text": "在",
       "simplified": "在",
       "traditional": "在",
@@ -10005,8 +8233,6 @@
       "isWord": true
     },
     {
-      "sid": 86,
-      "tid": 11,
       "text": "她",
       "simplified": "她",
       "traditional": "她",
@@ -10016,8 +8242,6 @@
       "isWord": true
     },
     {
-      "sid": 86,
-      "tid": 12,
       "text": "面前",
       "simplified": "面前",
       "traditional": "面前",
@@ -10027,8 +8251,6 @@
       "isWord": true
     },
     {
-      "sid": 86,
-      "tid": 13,
       "text": "，",
       "simplified": "，",
       "traditional": "，",
@@ -10036,8 +8258,6 @@
       "isWord": false
     },
     {
-      "sid": 86,
-      "tid": 14,
       "text": "都",
       "simplified": "都",
       "traditional": "都",
@@ -10047,8 +8267,6 @@
       "isWord": true
     },
     {
-      "sid": 86,
-      "tid": 15,
       "text": "感到",
       "simplified": "感到",
       "traditional": "感到",
@@ -10058,8 +8276,6 @@
       "isWord": true
     },
     {
-      "sid": 86,
-      "tid": 16,
       "text": "自惭形秽",
       "simplified": "自惭形秽",
       "traditional": "自慚形穢",
@@ -10069,8 +8285,6 @@
       "isWord": true
     },
     {
-      "sid": 86,
-      "tid": 17,
       "text": "。",
       "simplified": "。",
       "traditional": "。",
@@ -10080,8 +8294,6 @@
   ],
   [
     {
-      "sid": 87,
-      "tid": 0,
       "text": "\n",
       "simplified": "\n",
       "traditional": "\n",
@@ -10091,8 +8303,6 @@
   ],
   [
     {
-      "sid": 88,
-      "tid": 0,
       "text": "“",
       "simplified": "“",
       "traditional": "“",
@@ -10100,8 +8310,6 @@
       "isWord": false
     },
     {
-      "sid": 88,
-      "tid": 1,
       "text": "沈佳仪",
       "simplified": "沈佳仪",
       "traditional": "沈佳儀",
@@ -10111,8 +8319,6 @@
       "isWord": true
     },
     {
-      "sid": 88,
-      "tid": 2,
       "text": "，",
       "simplified": "，",
       "traditional": "，",
@@ -10120,8 +8326,6 @@
       "isWord": false
     },
     {
-      "sid": 88,
-      "tid": 3,
       "text": "从今以后",
       "simplified": "从今以后",
       "traditional": "從今以後",
@@ -10131,8 +8335,6 @@
       "isWord": true
     },
     {
-      "sid": 88,
-      "tid": 4,
       "text": "柯景腾",
       "simplified": "柯景腾",
       "traditional": "柯景騰",
@@ -10142,8 +8344,6 @@
       "isWord": true
     },
     {
-      "sid": 88,
-      "tid": 5,
       "text": "这个",
       "simplified": "这个",
       "traditional": "這個",
@@ -10175,8 +8375,6 @@
       "tid": 7
     },
     {
-      "sid": 88,
-      "tid": 8,
       "text": "就",
       "simplified": "就",
       "traditional": "就",
@@ -10186,8 +8384,6 @@
       "isWord": true
     },
     {
-      "sid": 88,
-      "tid": 9,
       "text": "交给",
       "simplified": "交给",
       "traditional": "交給",
@@ -10197,8 +8393,6 @@
       "isWord": true
     },
     {
-      "sid": 88,
-      "tid": 10,
       "text": "你",
       "simplified": "你",
       "traditional": "你",
@@ -10208,8 +8402,6 @@
       "isWord": true
     },
     {
-      "sid": 88,
-      "tid": 11,
       "text": "了",
       "simplified": "了",
       "traditional": "了",
@@ -10219,8 +8411,6 @@
       "isWord": true
     },
     {
-      "sid": 88,
-      "tid": 12,
       "text": "。",
       "simplified": "。",
       "traditional": "。",
@@ -10230,8 +8420,6 @@
   ],
   [
     {
-      "sid": 89,
-      "tid": 0,
       "text": "”",
       "simplified": "”",
       "traditional": "”",
@@ -10239,8 +8427,6 @@
       "isWord": false
     },
     {
-      "sid": 89,
-      "tid": 1,
       "text": "赖导",
       "simplified": "赖导",
       "traditional": "賴導",
@@ -10250,8 +8436,6 @@
       "isWord": true
     },
     {
-      "sid": 89,
-      "tid": 2,
       "text": "语重心长",
       "simplified": "语重心长",
       "traditional": "語重心長",
@@ -10261,8 +8445,6 @@
       "isWord": true
     },
     {
-      "sid": 89,
-      "tid": 3,
       "text": "。",
       "simplified": "。",
       "traditional": "。",
@@ -10272,8 +8454,6 @@
   ],
   [
     {
-      "sid": 90,
-      "tid": 0,
       "text": "\n",
       "simplified": "\n",
       "traditional": "\n",
@@ -10283,8 +8463,6 @@
   ],
   [
     {
-      "sid": 91,
-      "tid": 0,
       "text": "沈佳仪",
       "simplified": "沈佳仪",
       "traditional": "沈佳儀",
@@ -10294,8 +8472,6 @@
       "isWord": true
     },
     {
-      "sid": 91,
-      "tid": 1,
       "text": "皱起",
       "simplified": "皱起",
       "traditional": "皺起",
@@ -10305,8 +8481,6 @@
       "isWord": true
     },
     {
-      "sid": 91,
-      "tid": 2,
       "text": "眉头",
       "simplified": "眉头",
       "traditional": "眉頭",
@@ -10316,8 +8490,6 @@
       "isWord": true
     },
     {
-      "sid": 91,
-      "tid": 3,
       "text": "，",
       "simplified": "，",
       "traditional": "，",
@@ -10325,8 +8497,6 @@
       "isWord": false
     },
     {
-      "sid": 91,
-      "tid": 4,
       "text": "深深",
       "simplified": "深深",
       "traditional": "深深",
@@ -10336,8 +8506,6 @@
       "isWord": true
     },
     {
-      "sid": 91,
-      "tid": 5,
       "text": "叹",
       "simplified": "叹",
       "traditional": "嘆",
@@ -10347,8 +8515,6 @@
       "isWord": true
     },
     {
-      "sid": 91,
-      "tid": 6,
       "text": "了",
       "simplified": "了",
       "traditional": "了",
@@ -10380,8 +8546,6 @@
       "tid": 8
     },
     {
-      "sid": 91,
-      "tid": 9,
       "text": "，",
       "simplified": "，",
       "traditional": "，",
@@ -10389,8 +8553,6 @@
       "isWord": false
     },
     {
-      "sid": 91,
-      "tid": 10,
       "text": "似乎",
       "simplified": "似乎",
       "traditional": "似乎",
@@ -10400,8 +8562,6 @@
       "isWord": true
     },
     {
-      "sid": 91,
-      "tid": 11,
       "text": "对",
       "simplified": "对",
       "traditional": "對",
@@ -10411,8 +8571,6 @@
       "isWord": true
     },
     {
-      "sid": 91,
-      "tid": 12,
       "text": "“",
       "simplified": "“",
       "traditional": "“",
@@ -10420,8 +8578,6 @@
       "isWord": false
     },
     {
-      "sid": 91,
-      "tid": 13,
       "text": "我",
       "simplified": "我",
       "traditional": "我",
@@ -10431,8 +8587,6 @@
       "isWord": true
     },
     {
-      "sid": 91,
-      "tid": 14,
       "text": "”",
       "simplified": "”",
       "traditional": "”",
@@ -10440,8 +8594,6 @@
       "isWord": false
     },
     {
-      "sid": 91,
-      "tid": 15,
       "text": "这个",
       "simplified": "这个",
       "traditional": "這個",
@@ -10451,8 +8603,6 @@
       "isWord": true
     },
     {
-      "sid": 91,
-      "tid": 16,
       "text": "“",
       "simplified": "“",
       "traditional": "“",
@@ -10460,8 +8610,6 @@
       "isWord": false
     },
     {
-      "sid": 91,
-      "tid": 17,
       "text": "责任",
       "simplified": "责任",
       "traditional": "責任",
@@ -10471,8 +8619,6 @@
       "isWord": true
     },
     {
-      "sid": 91,
-      "tid": 18,
       "text": "”",
       "simplified": "”",
       "traditional": "”",
@@ -10480,8 +8626,6 @@
       "isWord": false
     },
     {
-      "sid": 91,
-      "tid": 19,
       "text": "感到",
       "simplified": "感到",
       "traditional": "感到",
@@ -10491,8 +8635,6 @@
       "isWord": true
     },
     {
-      "sid": 91,
-      "tid": 20,
       "text": "很",
       "simplified": "很",
       "traditional": "很",
@@ -10502,8 +8644,6 @@
       "isWord": true
     },
     {
-      "sid": 91,
-      "tid": 21,
       "text": "无奈",
       "simplified": "无奈",
       "traditional": "無奈",
@@ -10513,8 +8653,6 @@
       "isWord": true
     },
     {
-      "sid": 91,
-      "tid": 22,
       "text": "。",
       "simplified": "。",
       "traditional": "。",
@@ -10524,8 +8662,6 @@
   ],
   [
     {
-      "sid": 92,
-      "tid": 0,
       "text": "\n",
       "simplified": "\n",
       "traditional": "\n",
@@ -10535,8 +8671,6 @@
   ],
   [
     {
-      "sid": 93,
-      "tid": 0,
       "text": "而",
       "simplified": "而",
       "traditional": "而",
@@ -10546,8 +8680,6 @@
       "isWord": true
     },
     {
-      "sid": 93,
-      "tid": 1,
       "text": "我",
       "simplified": "我",
       "traditional": "我",
@@ -10557,8 +8689,6 @@
       "isWord": true
     },
     {
-      "sid": 93,
-      "tid": 2,
       "text": "，",
       "simplified": "，",
       "traditional": "，",
@@ -10566,8 +8696,6 @@
       "isWord": false
     },
     {
-      "sid": 93,
-      "tid": 3,
       "text": "恐怖",
       "simplified": "恐怖",
       "traditional": "恐怖",
@@ -10599,8 +8727,6 @@
       "tid": 5
     },
     {
-      "sid": 93,
-      "tid": 6,
       "text": "极点",
       "simplified": "极点",
       "traditional": "極點",
@@ -10610,8 +8736,6 @@
       "isWord": true
     },
     {
-      "sid": 93,
-      "tid": 7,
       "text": "的",
       "simplified": "的",
       "traditional": "的",
@@ -10621,8 +8745,6 @@
       "isWord": true
     },
     {
-      "sid": 93,
-      "tid": 8,
       "text": "黑名单",
       "simplified": "黑名单",
       "traditional": "黑名單",
@@ -10632,8 +8754,6 @@
       "isWord": true
     },
     {
-      "sid": 93,
-      "tid": 9,
       "text": "榜首",
       "simplified": "榜首",
       "traditional": "榜首",
@@ -10643,8 +8763,6 @@
       "isWord": true
     },
     {
-      "sid": 93,
-      "tid": 10,
       "text": "，",
       "simplified": "，",
       "traditional": "，",
@@ -10652,8 +8770,6 @@
       "isWord": false
     },
     {
-      "sid": 93,
-      "tid": 11,
       "text": "竟然",
       "simplified": "竟然",
       "traditional": "竟然",
@@ -10663,8 +8779,6 @@
       "isWord": true
     },
     {
-      "sid": 93,
-      "tid": 12,
       "text": "要",
       "simplified": "要",
       "traditional": "要",
@@ -10674,8 +8788,6 @@
       "isWord": true
     },
     {
-      "sid": 93,
-      "tid": 13,
       "text": "给",
       "simplified": "给",
       "traditional": "給",
@@ -10685,8 +8797,6 @@
       "isWord": true
     },
     {
-      "sid": 93,
-      "tid": 14,
       "text": "一",
       "simplified": "一",
       "traditional": "一",
@@ -10696,8 +8806,6 @@
       "isWord": true
     },
     {
-      "sid": 93,
-      "tid": 15,
       "text": "个",
       "simplified": "个",
       "traditional": "個",
@@ -10707,8 +8815,6 @@
       "isWord": true
     },
     {
-      "sid": 93,
-      "tid": 16,
       "text": "瘦弱",
       "simplified": "瘦弱",
       "traditional": "瘦弱",
@@ -10718,8 +8824,6 @@
       "isWord": true
     },
     {
-      "sid": 93,
-      "tid": 17,
       "text": "的",
       "simplified": "的",
       "traditional": "的",
@@ -10729,8 +8833,6 @@
       "isWord": true
     },
     {
-      "sid": 93,
-      "tid": 18,
       "text": "女孩子",
       "simplified": "女孩子",
       "traditional": "女孩子",
@@ -10740,8 +8842,6 @@
       "isWord": true
     },
     {
-      "sid": 93,
-      "tid": 19,
       "text": "严加",
       "simplified": "严加",
       "traditional": "嚴加",
@@ -10751,8 +8851,6 @@
       "isWord": true
     },
     {
-      "sid": 93,
-      "tid": 20,
       "text": "管教",
       "simplified": "管教",
       "traditional": "管教",
@@ -10762,8 +8860,6 @@
       "isWord": true
     },
     {
-      "sid": 93,
-      "tid": 21,
       "text": "？",
       "simplified": "？",
       "traditional": "？",
@@ -10771,8 +8867,6 @@
       "isWord": false
     },
     {
-      "sid": 93,
-      "tid": 22,
       "text": "全班",
       "simplified": "全班",
       "traditional": "全班",
@@ -10782,8 +8876,6 @@
       "isWord": true
     },
     {
-      "sid": 93,
-      "tid": 23,
       "text": "同学",
       "simplified": "同学",
       "traditional": "同學",
@@ -10793,8 +8885,6 @@
       "isWord": true
     },
     {
-      "sid": 93,
-      "tid": 24,
       "text": "开始",
       "simplified": "开始",
       "traditional": "開始",
@@ -10804,8 +8894,6 @@
       "isWord": true
     },
     {
-      "sid": 93,
-      "tid": 25,
       "text": "发出",
       "simplified": "发出",
       "traditional": "發出",
@@ -10815,8 +8903,6 @@
       "isWord": true
     },
     {
-      "sid": 93,
-      "tid": 26,
       "text": "幸灾乐祸",
       "simplified": "幸灾乐祸",
       "traditional": "幸災樂禍",
@@ -10826,8 +8912,6 @@
       "isWord": true
     },
     {
-      "sid": 93,
-      "tid": 27,
       "text": "的",
       "simplified": "的",
       "traditional": "的",
@@ -10837,8 +8921,6 @@
       "isWord": true
     },
     {
-      "sid": 93,
-      "tid": 28,
       "text": "嘘声",
       "simplified": "嘘声",
       "traditional": "噓聲",
@@ -10848,8 +8930,6 @@
       "isWord": true
     },
     {
-      "sid": 93,
-      "tid": 29,
       "text": "，",
       "simplified": "，",
       "traditional": "，",
@@ -10857,8 +8937,6 @@
       "isWord": false
     },
     {
-      "sid": 93,
-      "tid": 30,
       "text": "杨泽于",
       "simplified": "杨泽于",
       "traditional": "楊澤於",
@@ -10868,8 +8946,6 @@
       "isWord": true
     },
     {
-      "sid": 93,
-      "tid": 31,
       "text": "甚至",
       "simplified": "甚至",
       "traditional": "甚至",
@@ -10879,8 +8955,6 @@
       "isWord": true
     },
     {
-      "sid": 93,
-      "tid": 32,
       "text": "忍不住",
       "simplified": "忍不住",
       "traditional": "忍不住",
@@ -10890,8 +8964,6 @@
       "isWord": true
     },
     {
-      "sid": 93,
-      "tid": 33,
       "text": "大笑",
       "simplified": "大笑",
       "traditional": "大笑",
@@ -10901,8 +8973,6 @@
       "isWord": true
     },
     {
-      "sid": 93,
-      "tid": 34,
       "text": "了",
       "simplified": "了",
       "traditional": "了",
@@ -10912,8 +8982,6 @@
       "isWord": true
     },
     {
-      "sid": 93,
-      "tid": 35,
       "text": "出来",
       "simplified": "出来",
       "traditional": "出來",
@@ -10923,8 +8991,6 @@
       "isWord": true
     },
     {
-      "sid": 93,
-      "tid": 36,
       "text": "。",
       "simplified": "。",
       "traditional": "。",
@@ -10934,8 +9000,6 @@
   ],
   [
     {
-      "sid": 94,
-      "tid": 0,
       "text": "靠",
       "simplified": "靠",
       "traditional": "靠",
@@ -10945,8 +9009,6 @@
       "isWord": true
     },
     {
-      "sid": 94,
-      "tid": 1,
       "text": "！",
       "simplified": "！",
       "traditional": "！",
@@ -10954,8 +9016,6 @@
       "isWord": false
     },
     {
-      "sid": 94,
-      "tid": 2,
       "text": "\n",
       "simplified": "\n",
       "traditional": "\n",
@@ -10965,8 +9025,6 @@
   ],
   [
     {
-      "sid": 95,
-      "tid": 0,
       "text": "“",
       "simplified": "“",
       "traditional": "“",
@@ -10974,8 +9032,6 @@
       "isWord": false
     },
     {
-      "sid": 95,
-      "tid": 1,
       "text": "老师",
       "simplified": "老师",
       "traditional": "老師",
@@ -10985,8 +9041,6 @@
       "isWord": true
     },
     {
-      "sid": 95,
-      "tid": 2,
       "text": "，",
       "simplified": "，",
       "traditional": "，",
@@ -10994,8 +9048,6 @@
       "isWord": false
     },
     {
-      "sid": 95,
-      "tid": 3,
       "text": "我",
       "simplified": "我",
       "traditional": "我",
@@ -11005,8 +9057,6 @@
       "isWord": true
     },
     {
-      "sid": 95,
-      "tid": 4,
       "text": "已经",
       "simplified": "已经",
       "traditional": "已經",
@@ -11016,8 +9066,6 @@
       "isWord": true
     },
     {
-      "sid": 95,
-      "tid": 5,
       "text": "在",
       "simplified": "在",
       "traditional": "在",
@@ -11027,8 +9075,6 @@
       "isWord": true
     },
     {
-      "sid": 95,
-      "tid": 6,
       "text": "反省",
       "simplified": "反省",
       "traditional": "反省",
@@ -11038,8 +9084,6 @@
       "isWord": true
     },
     {
-      "sid": 95,
-      "tid": 7,
       "text": "了",
       "simplified": "了",
       "traditional": "了",
@@ -11049,8 +9093,6 @@
       "isWord": true
     },
     {
-      "sid": 95,
-      "tid": 8,
       "text": "。",
       "simplified": "。",
       "traditional": "。",
@@ -11060,8 +9102,6 @@
   ],
   [
     {
-      "sid": 96,
-      "tid": 0,
       "text": "真",
       "simplified": "真",
       "traditional": "真",
@@ -11071,8 +9111,6 @@
       "isWord": true
     },
     {
-      "sid": 96,
-      "tid": 1,
       "text": "的",
       "simplified": "的",
       "traditional": "的",
@@ -11082,8 +9120,6 @@
       "isWord": true
     },
     {
-      "sid": 96,
-      "tid": 2,
       "text": "！",
       "simplified": "！",
       "traditional": "！",
@@ -11091,8 +9127,6 @@
       "isWord": false
     },
     {
-      "sid": 96,
-      "tid": 3,
       "text": "真",
       "simplified": "真",
       "traditional": "真",
@@ -11102,8 +9136,6 @@
       "isWord": true
     },
     {
-      "sid": 96,
-      "tid": 4,
       "text": "的",
       "simplified": "的",
       "traditional": "的",
@@ -11113,8 +9145,6 @@
       "isWord": true
     },
     {
-      "sid": 96,
-      "tid": 5,
       "text": "好好",
       "simplified": "好好",
       "traditional": "好好",
@@ -11124,8 +9154,6 @@
       "isWord": true
     },
     {
-      "sid": 96,
-      "tid": 6,
       "text": "反省",
       "simplified": "反省",
       "traditional": "反省",
@@ -11135,8 +9163,6 @@
       "isWord": true
     },
     {
-      "sid": 96,
-      "tid": 7,
       "text": "了",
       "simplified": "了",
       "traditional": "了",
@@ -11146,8 +9172,6 @@
       "isWord": true
     },
     {
-      "sid": 96,
-      "tid": 8,
       "text": "！",
       "simplified": "！",
       "traditional": "！",
@@ -11155,8 +9179,6 @@
       "isWord": false
     },
     {
-      "sid": 96,
-      "tid": 9,
       "text": "”",
       "simplified": "”",
       "traditional": "”",
@@ -11164,8 +9186,6 @@
       "isWord": false
     },
     {
-      "sid": 96,
-      "tid": 10,
       "text": "我",
       "simplified": "我",
       "traditional": "我",
@@ -11175,8 +9195,6 @@
       "isWord": true
     },
     {
-      "sid": 96,
-      "tid": 11,
       "text": "震惊",
       "simplified": "震惊",
       "traditional": "震驚",
@@ -11186,8 +9204,6 @@
       "isWord": true
     },
     {
-      "sid": 96,
-      "tid": 12,
       "text": "。",
       "simplified": "。",
       "traditional": "。",
@@ -11197,8 +9213,6 @@
   ],
   [
     {
-      "sid": 97,
-      "tid": 0,
       "text": "\n",
       "simplified": "\n",
       "traditional": "\n",
@@ -11208,8 +9222,6 @@
   ],
   [
     {
-      "sid": 98,
-      "tid": 0,
       "text": "“",
       "simplified": "“",
       "traditional": "“",
@@ -11217,8 +9229,6 @@
       "isWord": false
     },
     {
-      "sid": 98,
-      "tid": 1,
       "text": "沈佳仪",
       "simplified": "沈佳仪",
       "traditional": "沈佳儀",
@@ -11228,8 +9238,6 @@
       "isWord": true
     },
     {
-      "sid": 98,
-      "tid": 2,
       "text": "，",
       "simplified": "，",
       "traditional": "，",
@@ -11237,8 +9245,6 @@
       "isWord": false
     },
     {
-      "sid": 98,
-      "tid": 3,
       "text": "可以",
       "simplified": "可以",
       "traditional": "可以",
@@ -11248,8 +9254,6 @@
       "isWord": true
     },
     {
-      "sid": 98,
-      "tid": 4,
       "text": "吗",
       "simplified": "吗",
       "traditional": "嗎",
@@ -11259,8 +9263,6 @@
       "isWord": true
     },
     {
-      "sid": 98,
-      "tid": 5,
       "text": "？",
       "simplified": "？",
       "traditional": "？",
@@ -11268,8 +9270,6 @@
       "isWord": false
     },
     {
-      "sid": 98,
-      "tid": 6,
       "text": "”",
       "simplified": "”",
       "traditional": "”",
@@ -11277,8 +9277,6 @@
       "isWord": false
     },
     {
-      "sid": 98,
-      "tid": 7,
       "text": "赖导",
       "simplified": "赖导",
       "traditional": "賴導",
@@ -11288,8 +9286,6 @@
       "isWord": true
     },
     {
-      "sid": 98,
-      "tid": 8,
       "text": "竟然",
       "simplified": "竟然",
       "traditional": "竟然",
@@ -11299,8 +9295,6 @@
       "isWord": true
     },
     {
-      "sid": 98,
-      "tid": 9,
       "text": "用",
       "simplified": "用",
       "traditional": "用",
@@ -11310,8 +9304,6 @@
       "isWord": true
     },
     {
-      "sid": 98,
-      "tid": 10,
       "text": "问",
       "simplified": "问",
       "traditional": "問",
@@ -11321,8 +9313,6 @@
       "isWord": true
     },
     {
-      "sid": 98,
-      "tid": 11,
       "text": "句",
       "simplified": "句",
       "traditional": "句",
@@ -11332,8 +9322,6 @@
       "isWord": true
     },
     {
-      "sid": 98,
-      "tid": 12,
       "text": "，",
       "simplified": "，",
       "traditional": "，",
@@ -11341,8 +9329,6 @@
       "isWord": false
     },
     {
-      "sid": 98,
-      "tid": 13,
       "text": "可见",
       "simplified": "可见",
       "traditional": "可見",
@@ -11352,8 +9338,6 @@
       "isWord": true
     },
     {
-      "sid": 98,
-      "tid": 14,
       "text": "沈佳仪",
       "simplified": "沈佳仪",
       "traditional": "沈佳儀",
@@ -11374,8 +9358,6 @@
       "tid": 15
     },
     {
-      "sid": 98,
-      "tid": 16,
       "text": "的",
       "simplified": "的",
       "traditional": "的",
@@ -11385,8 +9367,6 @@
       "isWord": true
     },
     {
-      "sid": 98,
-      "tid": 17,
       "text": "地位",
       "simplified": "地位",
       "traditional": "地位",
@@ -11396,8 +9376,6 @@
       "isWord": true
     },
     {
-      "sid": 98,
-      "tid": 18,
       "text": "。",
       "simplified": "。",
       "traditional": "。",
@@ -11407,8 +9385,6 @@
   ],
   [
     {
-      "sid": 99,
-      "tid": 0,
       "text": "\n",
       "simplified": "\n",
       "traditional": "\n",
@@ -11418,8 +9394,6 @@
   ],
   [
     {
-      "sid": 100,
-      "tid": 0,
       "text": "“",
       "simplified": "“",
       "traditional": "“",
@@ -11427,8 +9401,6 @@
       "isWord": false
     },
     {
-      "sid": 100,
-      "tid": 1,
       "text": "嗯",
       "simplified": "嗯",
       "traditional": "嗯",
@@ -11438,8 +9410,6 @@
       "isWord": true
     },
     {
-      "sid": 100,
-      "tid": 2,
       "text": "。",
       "simplified": "。",
       "traditional": "。",
@@ -11449,8 +9419,6 @@
   ],
   [
     {
-      "sid": 101,
-      "tid": 0,
       "text": "”",
       "simplified": "”",
       "traditional": "”",
@@ -11458,8 +9426,6 @@
       "isWord": false
     },
     {
-      "sid": 101,
-      "tid": 1,
       "text": "沈佳仪",
       "simplified": "沈佳仪",
       "traditional": "沈佳儀",
@@ -11469,8 +9435,6 @@
       "isWord": true
     },
     {
-      "sid": 101,
-      "tid": 2,
       "text": "勉为其难",
       "simplified": "勉为其难",
       "traditional": "勉為其難",
@@ -11491,8 +9455,6 @@
       "tid": 3
     },
     {
-      "sid": 101,
-      "tid": 4,
       "text": "，",
       "simplified": "，",
       "traditional": "，",
@@ -11500,8 +9462,6 @@
       "isWord": false
     },
     {
-      "sid": 101,
-      "tid": 5,
       "text": "我",
       "simplified": "我",
       "traditional": "我",
@@ -11511,8 +9471,6 @@
       "isWord": true
     },
     {
-      "sid": 101,
-      "tid": 6,
       "text": "整个",
       "simplified": "整个",
       "traditional": "整個",
@@ -11522,8 +9480,6 @@
       "isWord": true
     },
     {
-      "sid": 101,
-      "tid": 7,
       "text": "脑袋",
       "simplified": "脑袋",
       "traditional": "腦袋",
@@ -11533,8 +9489,6 @@
       "isWord": true
     },
     {
-      "sid": 101,
-      "tid": 8,
       "text": "顿时",
       "simplified": "顿时",
       "traditional": "頓時",
@@ -11544,8 +9498,6 @@
       "isWord": true
     },
     {
-      "sid": 101,
-      "tid": 9,
       "text": "一",
       "simplified": "一",
       "traditional": "一",
@@ -11555,8 +9507,6 @@
       "isWord": true
     },
     {
-      "sid": 101,
-      "tid": 10,
       "text": "片",
       "simplified": "片",
       "traditional": "片",
@@ -11566,8 +9516,6 @@
       "isWord": true
     },
     {
-      "sid": 101,
-      "tid": 11,
       "text": "受尽",
       "simplified": "受尽",
       "traditional": "受盡",
@@ -11577,8 +9525,6 @@
       "isWord": true
     },
     {
-      "sid": 101,
-      "tid": 12,
       "text": "屈辱",
       "simplified": "屈辱",
       "traditional": "屈辱",
@@ -11588,8 +9534,6 @@
       "isWord": true
     },
     {
-      "sid": 101,
-      "tid": 13,
       "text": "的",
       "simplified": "的",
       "traditional": "的",
@@ -11599,8 +9543,6 @@
       "isWord": true
     },
     {
-      "sid": 101,
-      "tid": 14,
       "text": "空白",
       "simplified": "空白",
       "traditional": "空白",
@@ -11610,8 +9552,6 @@
       "isWord": true
     },
     {
-      "sid": 101,
-      "tid": 15,
       "text": "。",
       "simplified": "。",
       "traditional": "。",
@@ -11621,8 +9561,6 @@
   ],
   [
     {
-      "sid": 102,
-      "tid": 0,
       "text": "\n",
       "simplified": "\n",
       "traditional": "\n",
@@ -11632,8 +9570,6 @@
   ],
   [
     {
-      "sid": 103,
-      "tid": 0,
       "text": "于是",
       "simplified": "于是",
       "traditional": "於是",
@@ -11643,8 +9579,6 @@
       "isWord": true
     },
     {
-      "sid": 103,
-      "tid": 1,
       "text": "故事",
       "simplified": "故事",
       "traditional": "故事",
@@ -11654,8 +9588,6 @@
       "isWord": true
     },
     {
-      "sid": 103,
-      "tid": 2,
       "text": "的",
       "simplified": "的",
       "traditional": "的",
@@ -11665,8 +9597,6 @@
       "isWord": true
     },
     {
-      "sid": 103,
-      "tid": 3,
       "text": "镜头",
       "simplified": "镜头",
       "traditional": "鏡頭",
@@ -11676,8 +9606,6 @@
       "isWord": true
     },
     {
-      "sid": 103,
-      "tid": 4,
       "text": "，",
       "simplified": "，",
       "traditional": "，",
@@ -11685,8 +9613,6 @@
       "isWord": false
     },
     {
-      "sid": 103,
-      "tid": 5,
       "text": "从",
       "simplified": "从",
       "traditional": "从",
@@ -11696,8 +9622,6 @@
       "isWord": true
     },
     {
-      "sid": 103,
-      "tid": 6,
       "text": "那",
       "simplified": "那",
       "traditional": "那",
@@ -11729,8 +9653,6 @@
       "tid": 8
     },
     {
-      "sid": 103,
-      "tid": 9,
       "text": "涂鸦",
       "simplified": "涂鸦",
       "traditional": "塗鴉",
@@ -11751,8 +9673,6 @@
       "tid": 10
     },
     {
-      "sid": 103,
-      "tid": 11,
       "text": "的",
       "simplified": "的",
       "traditional": "的",
@@ -11762,8 +9682,6 @@
       "isWord": true
     },
     {
-      "sid": 103,
-      "tid": 12,
       "text": "墙壁",
       "simplified": "墙壁",
       "traditional": "牆壁",
@@ -11773,8 +9691,6 @@
       "isWord": true
     },
     {
-      "sid": 103,
-      "tid": 13,
       "text": "，",
       "simplified": "，",
       "traditional": "，",
@@ -11782,8 +9698,6 @@
       "isWord": false
     },
     {
-      "sid": 103,
-      "tid": 14,
       "text": "悄悄",
       "simplified": "悄悄",
       "traditional": "悄悄",
@@ -11804,8 +9718,6 @@
       "tid": 15
     },
     {
-      "sid": 103,
-      "tid": 16,
       "text": "沈佳仪",
       "simplified": "沈佳仪",
       "traditional": "沈佳儀",
@@ -11815,8 +9727,6 @@
       "isWord": true
     },
     {
-      "sid": 103,
-      "tid": 17,
       "text": "清秀",
       "simplified": "清秀",
       "traditional": "清秀",
@@ -11826,8 +9736,6 @@
       "isWord": true
     },
     {
-      "sid": 103,
-      "tid": 18,
       "text": "脸孔",
       "simplified": "脸孔",
       "traditional": "臉孔",
@@ -11837,8 +9745,6 @@
       "isWord": true
     },
     {
-      "sid": 103,
-      "tid": 19,
       "text": "上",
       "simplified": "上",
       "traditional": "上",
@@ -11848,8 +9754,6 @@
       "isWord": true
     },
     {
-      "sid": 103,
-      "tid": 20,
       "text": "的",
       "simplified": "的",
       "traditional": "的",
@@ -11859,8 +9763,6 @@
       "isWord": true
     },
     {
-      "sid": 103,
-      "tid": 21,
       "text": "小",
       "simplified": "小",
       "traditional": "小",
@@ -11870,8 +9772,6 @@
       "isWord": true
     },
     {
-      "sid": 103,
-      "tid": 22,
       "text": "雀斑",
       "simplified": "雀斑",
       "traditional": "雀斑",
@@ -11881,8 +9781,6 @@
       "isWord": true
     },
     {
-      "sid": 103,
-      "tid": 23,
       "text": "。",
       "simplified": "。",
       "traditional": "。",
@@ -11892,8 +9790,6 @@
   ],
   [
     {
-      "sid": 104,
-      "tid": 0,
       "text": "\n",
       "simplified": "\n",
       "traditional": "\n",
@@ -11903,8 +9799,6 @@
   ],
   [
     {
-      "sid": 105,
-      "tid": 0,
       "text": "我",
       "simplified": "我",
       "traditional": "我",
@@ -11914,8 +9808,6 @@
       "isWord": true
     },
     {
-      "sid": 105,
-      "tid": 1,
       "text": "的",
       "simplified": "的",
       "traditional": "的",
@@ -11925,8 +9817,6 @@
       "isWord": true
     },
     {
-      "sid": 105,
-      "tid": 2,
       "text": "青春",
       "simplified": "青春",
       "traditional": "青春",
@@ -11936,8 +9826,6 @@
       "isWord": true
     },
     {
-      "sid": 105,
-      "tid": 3,
       "text": "，",
       "simplified": "，",
       "traditional": "，",
@@ -11945,8 +9833,6 @@
       "isWord": false
     },
     {
-      "sid": 105,
-      "tid": 4,
       "text": "不",
       "simplified": "不",
       "traditional": "不",
@@ -11956,8 +9842,6 @@
       "isWord": true
     },
     {
-      "sid": 105,
-      "tid": 5,
       "text": "，",
       "simplified": "，",
       "traditional": "，",
@@ -11965,8 +9849,6 @@
       "isWord": false
     },
     {
-      "sid": 105,
-      "tid": 6,
       "text": "我们",
       "simplified": "我们",
       "traditional": "我們",
@@ -11976,8 +9858,6 @@
       "isWord": true
     },
     {
-      "sid": 105,
-      "tid": 7,
       "text": "的",
       "simplified": "的",
       "traditional": "的",
@@ -11987,8 +9867,6 @@
       "isWord": true
     },
     {
-      "sid": 105,
-      "tid": 8,
       "text": "青春",
       "simplified": "青春",
       "traditional": "青春",
@@ -11998,8 +9876,6 @@
       "isWord": true
     },
     {
-      "sid": 105,
-      "tid": 9,
       "text": "，",
       "simplified": "，",
       "traditional": "，",
@@ -12007,8 +9883,6 @@
       "isWord": false
     },
     {
-      "sid": 105,
-      "tid": 10,
       "text": "就",
       "simplified": "就",
       "traditional": "就",
@@ -12018,8 +9892,6 @@
       "isWord": true
     },
     {
-      "sid": 105,
-      "tid": 11,
       "text": "这么",
       "simplified": "这么",
       "traditional": "這麼",
@@ -12029,8 +9901,6 @@
       "isWord": true
     },
     {
-      "sid": 105,
-      "tid": 12,
       "text": "开始",
       "simplified": "开始",
       "traditional": "開始",
@@ -12040,8 +9910,6 @@
       "isWord": true
     },
     {
-      "sid": 105,
-      "tid": 13,
       "text": "。",
       "simplified": "。",
       "traditional": "。",
@@ -12051,8 +9919,6 @@
   ],
   [
     {
-      "sid": 106,
-      "tid": 0,
       "text": "\n",
       "simplified": "\n",
       "traditional": "\n",
