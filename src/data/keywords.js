@@ -20,7 +20,7 @@ const keywords = `
 班 班 [ban1] /class/
 二 二 [er4] /two/
 年級 年级 [nian2 ji2] /grade/
-個 个 [ge5] /a/
+個 个 [ge4] /a/
 堅信 坚信 [jian1 xin4] /believe firmly/
 自己 自己 [zi4 ji3] /oneself/
 雜亂 杂乱 [za2 luan4] /messy/
@@ -704,7 +704,7 @@ Chapter 2 Chapter 2 [5] /unknown/
 說 说 [shuo1] /say/
 囉唆 啰唆 [luo1 suo5] /annoying/
 一直 一直 [yi1 zhi2] /always/
-個 个 [ge5] /a/
+個 个 [ge4] /a/
 故事 故事 [gu4 shi5] /story/
 鹿鼎記 鹿鼎记 [lu4 ding3 ji5] /Lu Ding Ji (a classic novel)/
 `
