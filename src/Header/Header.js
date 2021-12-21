@@ -2,7 +2,7 @@ import './Header.scss'
 import DictPane from '../DictPane/DictPane'
 
 function Header({
-  sentenceId, tokenId, token,
+  sid, tid, token,
   wordsCount, knownWordsCountInclRecommendation, knownWordsCount,
   recommendedVocabularyDb, vocabularyDb,
   onChapterChange, onSettingsClick, onRecommendedClick,

@@ -43,7 +43,7 @@ function enrichVocabulary() {
         keyword: token.keyword,
         hanviet: token.hanviet,
         pinyin: token.pinyin,
-        sentenceId: token.sentenceId
+        sid: token.sid
       }
     })
 

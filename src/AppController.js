@@ -52,8 +52,8 @@ export function splitSentences(tokens) {
 
   for (let token of tokens) {
     sentence.push({
-      sentenceId: results.length,
-      tokenId: sentence.length,
+      sid: results.length,
+      tid: sentence.length,
       ...token
     })
 
@@ -112,6 +112,9 @@ function findTokenIndex(sentence, offset) {
  * Force tokenizing a sentence with a selected text
  **/
 export function retokenizeSentence(tokenize, dictionary, sentence, start, end) {
+  // console.log('sentence', sentence)
+  // console.log('start', start)
+  // console.log('end', end)
   if (!tokenize instanceof Function)
     return []
 
@@ -124,17 +127,27 @@ export function retokenizeSentence(tokenize, dictionary, sentence, start, end) {
   // - tokensAfter: [9]
   const startTokenIndex = findTokenIndex(sentence, start)
   const endTokenIndex = findTokenIndex(sentence, end - 1) + 1
+  // console.log('startTokenIndex', startTokenIndex)
+  // console.log('endTokenIndex', endTokenIndex)
 
   const tokensBefore = sentence.slice(0, startTokenIndex)
   const tokensSelected = sentence.slice(startTokenIndex, endTokenIndex)
   const tokensAfter = sentence.slice(endTokenIndex)
+  // console.log('tokensBefore', tokensBefore)
+  // console.log('tokensSelected', tokensSelected)
+  // console.log('tokensAfter', tokensAfter)
 
   const beforeTokensText = getSentenceText(tokensBefore)
   const selectedTokensText = getSentenceText(tokensSelected)
+  // console.log('beforeTokensText', beforeTokensText)
+  // console.log('selectedTokensText', selectedTokensText)
 
   const beforeText = selectedTokensText.slice(0, start - beforeTokensText.length)
   const selectedText = selectedTokensText.slice(start - beforeTokensText.length, end - beforeTokensText.length)
   const afterText = selectedTokensText.slice(end - beforeTokensText.length)
+  // console.log('beforeText', beforeText)
+  // console.log('selectedText', selectedText)
+  // console.log('afterText', afterText)
 
   const tokensFromBeforeText = enrichTokens(dictionary, tokenize(beforeText))
   let tokenFromSelectedText = enrichToken(dictionary, getDictionaryEntries(dictionary, selectedText))
@@ -143,6 +156,20 @@ export function retokenizeSentence(tokenize, dictionary, sentence, start, end) {
     tokenFromSelectedText.keyword = 'unknown'
   }
   const tokensFromAfterText = enrichTokens(dictionary, tokenize(afterText))
+  // console.log('tokensFromBeforeText', tokensFromBeforeText)
+  // console.log('tokenFromSelectedText', tokenFromSelectedText)
+  // console.log('tokensFromAfterText', tokensFromAfterText)
+
+  // console.log('return', {
+  //   sentence: [
+  //     ...tokensBefore,
+  //     ...tokensFromBeforeText,
+  //     ...[tokenFromSelectedText],
+  //     ...tokensFromAfterText,
+  //     ...tokensAfter
+  //   ],
+  //   newTokenId: tokensBefore.length + tokensFromBeforeText.length
+  // })
 
   return {
     sentence: [

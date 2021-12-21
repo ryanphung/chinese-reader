@@ -3,18 +3,18 @@ import './Word.css'
 // import pinyinify from 'pinyin'
 import * as Icon from 'react-feather'
 
-const Word = React.memo(function Word({ token, selectedTokenPosition, hoveredTokenPosition, vocabularyDb, recommendedVocabularyDb, onClick, onActionClick, onHover, settings={} }) {
+const Word = React.memo(function Word({ token, selectedTokenPosition, hoveredTokenPosition, vocabularyDb, recommendedVocabularyDb, onClick, onActionClick, onHover, hoverDisabled, settings={} }) {
   const {
     transcriptMethod='pinyin',
     script='simplified'
   } = settings
   const { text, keyword, hanviet, pinyin, isWord } = token
   const isSelected =
-    selectedTokenPosition?.sentenceId === token?.sentenceId &&
-    selectedTokenPosition?.tokenId === token?.tokenId
+    selectedTokenPosition?.sid === token?.sid &&
+    selectedTokenPosition?.tid === token?.tid
   const isHovered =
-    hoveredTokenPosition?.sentenceId === token?.sentenceId &&
-    hoveredTokenPosition?.tokenId === token?.tokenId
+    hoveredTokenPosition?.sid === token?.sid &&
+    hoveredTokenPosition?.tid === token?.tid
   const displayedText = script === 'simplified' ? token.simplified : token.traditional
   const isLineBreak = text === '\n'
   const isRecommended = typeof(recommendedVocabularyDb[text]) !== 'undefined'
@@ -28,17 +28,18 @@ const Word = React.memo(function Word({ token, selectedTokenPosition, hoveredTok
     if (!onClick instanceof Function) return
 
     onClick(e, {
-      sentenceId: token.sentenceId,
-      tokenId: token.tokenId
+      sid: token.sid,
+      tid: token.tid
     })
-  }, [isWord, onClick, token.sentenceId, token.tokenId])
+  }, [isWord, onClick, token.sid, token.tid])
 
   const handleActionClick = useCallback(function handleActionClick(e) {
+    debugger
     onActionClick(e, {
-      sentenceId: token.sentenceId,
-      tokenId: token.tokenId
+      sid: token.sid,
+      tid: token.tid
     })
-  }, [onActionClick, token.sentenceId, token.tokenId])
+  }, [onActionClick, token.sid, token.tid])
 
   return (
     isLineBreak ?
@@ -56,19 +57,18 @@ const Word = React.memo(function Word({ token, selectedTokenPosition, hoveredTok
       onMouseEnter={() => isWord ? onHover(token) : onHover()}
       onMouseLeave={() => onHover()}
     >
-      <span onClick={handleClick}>
-        <InnerWord
-          vocabularyLevel={vocabularyLevel}
-          keyword={keyword}
-          hanviet={hanviet}
-          pinyin={pinyin}
-          text={displayedText}
-          transcriptMethod={transcriptMethod}
-          script={script}
-        />
-      </span>
+      <InnerWord
+        vocabularyLevel={vocabularyLevel}
+        keyword={keyword}
+        hanviet={hanviet}
+        pinyin={pinyin}
+        text={displayedText}
+        transcriptMethod={transcriptMethod}
+        script={script}
+        onClick={handleClick}
+      />
       {
-        isWord && (isHovered || isSelected) &&
+        !hoverDisabled && isWord && (isHovered || isSelected) &&
         <WordActionPopup
           handleActionClick={handleActionClick}
           isVocabulary={isVocabulary}
@@ -167,7 +167,7 @@ function WordByText({
     <span onClick={onClick} annotation2={meaning}>
       {
         textSplit.map((v, i) =>
-          <span key={i} annotation={transcriptSplit?.[i]}>{v}</span>
+          <span key={i} annotation={transcriptSplit?.[i] || undefined}>{v}</span>
         )
       }
     </span>

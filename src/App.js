@@ -2,6 +2,7 @@ import React, { useState, useEffect, useMemo, useRef, useCallback } from 'react'
 import './App.css'
 import rsh from './data/rsh.json'
 import charFreq from './data/char-freq.json'
+import savedTokens from './data/tokens'
 import initialContent from './data/content.json'
 import Word from './Word/Word'
 import Header from './Header/Header'
@@ -47,16 +48,18 @@ function loadAndParse(key) {
 function App() {
   const [isRecommendationInitialized, setIsRecommendationInitialized] = useState(false)
   const [isVocabularyLoaded, setIsVocabularyLoaded] = useState(false)
-  const [isTokensInitialized, setIsTokensInitialized] = useState(false)
   const isInitialized = isRecommendationInitialized && isVocabularyLoaded
   const [isSettingsVisible, setIsSettingsVisible] = useState(false)
   const [settings, setSettings] = useState({})
   const [isSettingsLoaded, setIsSettingsLoaded] = useState(false)
-  const [chapter, setChapter] = useState(0)
   const [content, setContent] = useState()
   const [tokenizer, setTokenizer] = useState({ })
-  const [tokens, setTokens] = useState([])
-  const flattenedTokens = useMemo(() => _.flatten(tokens), [tokens])
+  const [data, setData] = useState({
+    isTokensInitialized: false,
+    tokens: [],
+    chapter: 0
+  })
+  const flattenedTokens = useMemo(() => _.flatten(data.tokens), [data.tokens])
   const [recommendedVocabularyDb, setRecommendedVocabularyDb] = useState({})
   const [vocabularyDb, setVocabularyDb] = useState({})
   const mainRef = useRef()
@@ -70,12 +73,12 @@ function App() {
   }, [mainRef])
   const [selectedTokenPosition, setSelectedTokenPosition] = useState()
   const selectedToken = useMemo(
-    () => tokens?.[selectedTokenPosition?.sentenceId]?.[selectedTokenPosition?.tokenId],
-    [tokens, selectedTokenPosition?.sentenceId, selectedTokenPosition?.tokenId])
+    () => data.tokens?.[selectedTokenPosition?.sid]?.[selectedTokenPosition?.tid],
+    [data.tokens, selectedTokenPosition?.sid, selectedTokenPosition?.tid])
   const [hoveredTokenPosition, setHoveredTokenPosition] = useState()
   const hoveredToken = useMemo(
-    () => tokens?.[hoveredTokenPosition?.sentenceId]?.[hoveredTokenPosition?.tokenId],
-    [tokens, hoveredTokenPosition?.sentenceId, hoveredTokenPosition?.tokenId])
+    () => data.tokens?.[hoveredTokenPosition?.sid]?.[hoveredTokenPosition?.tid],
+    [data.tokens, hoveredTokenPosition?.sid, hoveredTokenPosition?.tid])
 
   // initialize the tokenizer on first load
   useEffect(() => {
@@ -86,37 +89,40 @@ function App() {
   // also, load tokens
   // or try to tokenize contents
   useEffect(() => {
-    const content = initialContent.data[chapter]
-    setContent(initialContent.data[chapter])
+    // debugger
+    const content = initialContent.data[data.chapter]
+    setContent(initialContent.data[data.chapter])
 
-    if (isTokensInitialized)
+    if (data.isTokensInitialized)
       return
 
-    let tokens = (loadAndParse("tokens") || [])[chapter]
+    debugger
 
-    if (!tokens?.length)
+    // first try to load from tokens saved locally
+    let tokens = loadAndParse(`tokens-${data.chapter}`)
+
+    if (!tokens?.length) {
+      // then try to load from data file
+      tokens = savedTokens[data.chapter]
+    }
+
+    // finally, try to tokenize
+    if (!tokens?.length) {
       if (tokenizer.tokenize && tokenizer.dictionary) {
         tokens = tokenizeContent(tokenizer.tokenize, tokenizer.dictionary, content)
       }
+    }
 
+    // debugger
     if (tokens?.length) {
-      setTokens(tokens)
-      setIsTokensInitialized(true)
+      setData(old => ({
+        ...old,
+        isTokensInitialized: true,
+        tokens
+      }))
     }
 
-  }, [chapter, isTokensInitialized, tokenizer.tokenize, tokenizer.dictionary])
-
-  // reset recommended vocabulary when content is updated
-  useEffect(() => {
-    async function doIt() {
-      await setTokens([])
-      await setRecommendedVocabularyDb({})
-      await setIsTokensInitialized(false)
-      await setIsRecommendationInitialized(false)
-    }
-
-    doIt()
-  }, [chapter])
+  }, [data.chapter, data.isTokensInitialized, tokenizer.tokenize, tokenizer.dictionary])
 
   // update scroll height when these things are updated (which will affect
   // how the content is rendered):
@@ -157,7 +163,8 @@ function App() {
   // and tokens changed
   // FIXME: tokens changed or content changed?
   useEffect(() => {
-    if (!isRecommendationInitialized && isVocabularyLoaded && isTokensInitialized && isSettingsLoaded) {
+    // debugger
+    if (!isRecommendationInitialized && isVocabularyLoaded && data.isTokensInitialized && isSettingsLoaded) {
       if (settings.recommendation) {
         const charsMap = CHARS_MAPS[settings.recommendation]
 
@@ -174,21 +181,19 @@ function App() {
       }
       setIsRecommendationInitialized(true)
     }
-  }, [isRecommendationInitialized, isVocabularyLoaded, isTokensInitialized, isSettingsLoaded, flattenedTokens, vocabularyDb, settings.recommendation])
+  }, [isRecommendationInitialized, isVocabularyLoaded, data.isTokensInitialized, isSettingsLoaded, flattenedTokens, vocabularyDb, settings.recommendation])
 
-  useEffect(() => {
-    setIsRecommendationInitialized(false)
-  }, [settings.recommendation])
+  // useEffect(() => {
+  //   setIsRecommendationInitialized(false)
+  // }, [settings.recommendation])
 
   // save tokens into db
   useEffect(() => {
-    if (!isTokensInitialized)
+    if (!data.isTokensInitialized)
       return
 
-    const storedTokens = loadAndParse("tokens") || []
-    storedTokens[chapter] = tokens
-    localStorage.setItem("tokens", JSON.stringify(storedTokens))
-  }, [tokens, chapter, isTokensInitialized])
+    localStorage.setItem(`tokens-${data.chapter}`, JSON.stringify(data.tokens))
+  }, [data.isTokensInitialized, data.tokens, data.chapter])
 
   // save vocabulary db to local storage whenever it is changed
   useEffect(() => {
@@ -263,13 +268,14 @@ function App() {
   }, [selectedToken, setHoveredTokenPosition])
 
   const handleWordActionClick = useCallback((event, tokenPosition) => {
-    const token = tokens[tokenPosition.sentenceId][tokenPosition.tokenId]
+    debugger
+    const token = data.tokens[tokenPosition.sid][tokenPosition.tid]
     const text = token.text
     const isVocabulary = typeof(vocabularyDb[text]) !== 'undefined'
     const isRecommended = typeof(recommendedVocabularyDb[text]) !== 'undefined'
     let v = {
       addedAt: Date.now(),
-      chapter
+      chapter: data.chapter
     }
 
     if (isRecommended) {
@@ -292,12 +298,12 @@ function App() {
       [text]: v
     })
   }, [
-    vocabularyDb, recommendedVocabularyDb, setRecommendedVocabularyDb, setVocabularyDb, chapter, tokens
+    vocabularyDb, recommendedVocabularyDb, setRecommendedVocabularyDb, setVocabularyDb, data.chapter, data.tokens
   ])
 
   const handleWordClick = useCallback((event, tokenPosition) => {
-    if (selectedTokenPosition?.sentenceId === tokenPosition?.sentenceId &&
-      selectedTokenPosition?.tokenId === tokenPosition?.tokenId)
+    if (selectedTokenPosition?.sid === tokenPosition?.sid &&
+      selectedTokenPosition?.tid === tokenPosition?.tid)
       setSelectedTokenPosition()
     else
       setSelectedTokenPosition(tokenPosition)
@@ -306,35 +312,47 @@ function App() {
     selectedTokenPosition, setSelectedTokenPosition, setHoveredTokenPosition
   ])
 
-  const handleSelection = useCallback(({ sentenceId, start, end, text }) => {
+  const handleSelection = useCallback(({ sid, start, end, text }) => {
+    console.log(start, end, text)
+
     if (start === end)
       return
 
-    const { sentence, newTokenId } = retokenizeSentence(tokenizer.tokenize, tokenizer.dictionary, tokens[sentenceId], start, end)
+    const { sentence, newTokenId } = retokenizeSentence(tokenizer.tokenize, tokenizer.dictionary, data.tokens[sid], start, end)
     sentence.forEach((token, i) => {
-      token.sentenceId = sentenceId
-      token.tokenId = i
+      token.sid = sid
+      token.tid = i
     })
 
-    const newTokens = tokens.map((v, i) => i === sentenceId ? sentence : v)
+    const newTokens = data.tokens.map((v, i) => i === sid ? sentence : v)
 
-    setTokens(newTokens)
+    setData(old => ({
+      ...old,
+      tokens: newTokens
+    }))
 
     setSelectedTokenPosition({
-      sentenceId,
-      tokenId: newTokenId
+      sid,
+      tid: newTokenId
     })
     setHoveredTokenPosition()
 
     window.getSelection().removeAllRanges()
-  }, [setSelectedTokenPosition, tokens, setTokens, tokenizer.tokenize, tokenizer.dictionary])
+  }, [setSelectedTokenPosition, data.tokens, setData, tokenizer.tokenize, tokenizer.dictionary])
 
   const handleScroll = useCallback(() => {
     setScrollTop(mainRef.current.scrollTop)
   }, [setScrollTop])
 
   const handleChapterChange = i => {
-    setChapter(+i)
+    setData(old => ({
+      ...old,
+      isTokensInitialized: false,
+      tokens: [],
+      chapter: +i
+    }))
+    setRecommendedVocabularyDb({})
+    setIsRecommendationInitialized(false)
   }
 
   const handleRecommendedClick = () => {
@@ -348,7 +366,7 @@ function App() {
             .map(([k, v]) => [k, {
               ...v,
               addedAt: now,
-              chapter,
+              chapter: data.chapter,
               recommended: true
             }])
         )
@@ -364,15 +382,18 @@ function App() {
       setSelectedTokenPosition()
       setHoveredTokenPosition()
     }
-    setTokens(tokens.map((sentence, i) =>
-      i === updatedToken.sentenceId ?
-      sentence.map((token, j) =>
-        j === updatedToken.tokenId ?
-        updatedToken : token
-      ) :
-      sentence
-    ))
-  }, [tokens, setTokens, setSelectedTokenPosition, setHoveredTokenPosition])
+    setData(old => ({
+      ...old,
+      tokens: data.tokens.map((sentence, i) =>
+        i === updatedToken.sid ?
+        sentence.map((token, j) =>
+          j === updatedToken.tid ?
+          updatedToken : token
+        ) :
+        sentence
+      )
+    }))
+  }, [data.tokens, setData, setSelectedTokenPosition, setHoveredTokenPosition])
 
   return (
     <div className="App" onScroll={handleScroll} ref={mainRef}>
@@ -403,7 +424,7 @@ function App() {
         </textarea>
         <AppOutput
           isInitialized={isInitialized}
-          tokens={tokens}
+          tokens={data.tokens}
           selectedTokenPosition={selectedTokenPosition}
           hoveredTokenPosition={hoveredTokenPosition}
           vocabularyDb={vocabularyDb}
@@ -434,6 +455,9 @@ const AppOutput = React.memo(function AppOutput({
   handleSelection,
   settings
 }) {
+  const [isMouseDown, setIsMouseDown] = useState(false)
+  const [isSelecting, setIsSelecting] = useState(false)
+
   function calculateOffset(element, relativeOffset, checkTopElementFn) {
     if (checkTopElementFn(element))
       return relativeOffset
@@ -443,18 +467,35 @@ const AppOutput = React.memo(function AppOutput({
 
     while (current) {
       current = current.previousElementSibling
-      if (current)
+      if (current && current.tagName === 'SPAN') // only consider "span"
         offset += current.textContent.length
     }
 
     return calculateOffset(element.parentElement, offset, checkTopElementFn)
   }
 
+  function handleMouseDown() {
+    setIsSelecting(false)
+    setIsMouseDown(true)
+  }
+
+  function handleMouseMove() {
+    if (isMouseDown) {
+      setIsSelecting(true)
+    }
+  }
+
   function handleMouseUp() {
+    setIsMouseDown(false)
+    setIsSelecting(false)
+
     if (!handleSelection instanceof Function)
       return
 
     const selection = window.getSelection()
+
+    if (!selection.toString())
+      return
 
     const $startSentence = selection.anchorNode.parentElement.closest('[sentence]')
     const $endSentence = selection.extentNode.parentElement.closest('[sentence]')
@@ -478,7 +519,7 @@ const AppOutput = React.memo(function AppOutput({
     )
 
     handleSelection({
-      sentenceId: startSentenceId,
+      sid: startSentenceId,
       start: startOffset < endOffset ? startOffset : endOffset,
       end: startOffset < endOffset ? endOffset : startOffset,
       text: selection.toString()
@@ -487,7 +528,7 @@ const AppOutput = React.memo(function AppOutput({
 
   return (
     <div className="App-output" ref={mainRef} onScroll={onScroll}>
-      <div className="App-paper" onMouseUp={handleMouseUp}>
+      <div className="App-paper" onMouseUp={handleMouseUp} onMouseDown={handleMouseDown} onMouseMove={handleMouseMove}>
         {
           isInitialized ?
           tokens.map((sentence, i) =>
@@ -495,14 +536,15 @@ const AppOutput = React.memo(function AppOutput({
               key={i}
               id={i}
               sentence={sentence}
-              selectedTokenPosition={selectedTokenPosition?.sentenceId === i ? selectedTokenPosition : null}
-              hoveredTokenPosition={hoveredTokenPosition?.sentenceId === i ? hoveredTokenPosition : null}
+              selectedTokenPosition={selectedTokenPosition?.sid === i ? selectedTokenPosition : null}
+              hoveredTokenPosition={hoveredTokenPosition?.sid === i ? hoveredTokenPosition : null}
               vocabularyDb={vocabularyDb}
               recommendedVocabularyDb={recommendedVocabularyDb}
               onWordClick={handleWordClick}
               onWordActionClick={handleWordActionClick}
               onWordHover={handleWordHover}
-              settings={settings}/>
+              settings={settings}
+              hoverDisabled={isSelecting}/>
           ) : null
         }
       </div>
@@ -521,7 +563,8 @@ const Sentence = React.memo(function Sentence({
   onWordClick,
   onWordActionClick,
   onWordHover,
-  settings
+  settings,
+  hoverDisabled
 }) {
   return (
     <div sentence={id} style={{ display: 'inline' }}>
@@ -530,14 +573,15 @@ const Sentence = React.memo(function Sentence({
           <Word
             key={i}
             token={token}
-            selectedTokenPosition={selectedTokenPosition?.tokenId === i ? selectedTokenPosition : null}
-            hoveredTokenPosition={hoveredTokenPosition?.tokenId === i ? hoveredTokenPosition : null}
+            selectedTokenPosition={selectedTokenPosition?.tid === i ? selectedTokenPosition : null}
+            hoveredTokenPosition={hoveredTokenPosition?.tid === i ? hoveredTokenPosition : null}
             vocabularyDb={vocabularyDb}
             recommendedVocabularyDb={recommendedVocabularyDb}
             onClick={onWordClick}
             onActionClick={onWordActionClick}
             onHover={onWordHover}
             settings={settings}
+            hoverDisabled={hoverDisabled}
           />
         )
       }
