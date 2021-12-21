@@ -1,4 +1,5 @@
 import './Settings.scss'
+import fileDownload from 'js-file-download'
 
 const RECOMMENDATIONS = [
   { value: 'off', label: 'Off' },
@@ -37,7 +38,9 @@ function Settings({
   isVisible,
   settings={},
   onSettingsUpdate,
-  onClose
+  onClose,
+  vocabularyDb,
+  tokens
 }) {
   const {
     transcriptMethod='pinyin',
@@ -72,6 +75,14 @@ function Settings({
       ...settings,
       theme: e.target.value
     })
+  }
+
+  function handleDownloadTokensClick() {
+    fileDownload(JSON.stringify(tokens, null, 2), 'tokens.json', 'text/json')
+  }
+
+  function handleDownloadVocabularyClick() {
+    fileDownload(JSON.stringify(vocabularyDb, null, 2), 'vocabulary-db.json', 'text/json')
   }
 
   return (
@@ -120,7 +131,13 @@ function Settings({
           }
         </select>
       </section>
-      <button style={{marginTop: 10}} onClick={onClose}>Close</button>
+      <div style={{display: 'flex', gap: 8, marginTop: 10, justifyContent: 'flex-end'}}>
+        <a href="#" onClick={handleDownloadTokensClick}>Download Tokens</a>
+        <a href="#" onClick={handleDownloadVocabularyClick}>Download Vocabulary</a>
+      </div>
+      <div style={{display: 'flex', marginTop: 10, justifyContent: 'flex-end'}}>
+        <button onClick={onClose}>Close</button>
+      </div>
     </section> : null
   )
 }

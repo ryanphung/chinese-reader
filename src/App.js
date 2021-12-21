@@ -418,6 +418,8 @@ function App() {
         settings={settings}
         onSettingsUpdate={setSettings}
         onClose={() => setIsSettingsVisible(false)}
+        vocabularyDb={vocabularyDb}
+        tokens={data.tokens}
       />
       <div className="App-main">
         <textarea className="App-input" value={content} onChange={handleChange}>
