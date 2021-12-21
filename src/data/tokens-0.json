@@ -7354,7 +7354,7 @@
       "traditional": "冷",
       "keyword": "cold",
       "hanviet": "lãnh",
-      "pinyin": "Lěng",
+      "pinyin": "lěng",
       "isWord": true
     },
     {
@@ -9624,7 +9624,7 @@
       "traditional": "佳",
       "keyword": "good",
       "hanviet": "giai",
-      "pinyin": "Jiā",
+      "pinyin": "jiā",
       "isWord": true
     },
     {
@@ -10571,7 +10571,7 @@
       "text": "恐怖",
       "simplified": "恐怖",
       "traditional": "恐怖",
-      "keyword": "terrible",
+      "keyword": "terrorize",
       "hanviet": "khủng phố",
       "pinyin": "kǒng bù",
       "isWord": true
@@ -11118,7 +11118,7 @@
       "text": "好好",
       "simplified": "好好",
       "traditional": "好好",
-      "keyword": "well",
+      "keyword": "properly",
       "hanviet": "hảo hảo",
       "pinyin": "hǎo hǎo",
       "isWord": true
