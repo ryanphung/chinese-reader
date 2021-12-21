@@ -6619,7 +6619,7 @@
     "keyword": "mouth",
     "hanviet": "khẩu",
     "pinyin": "kǒu",
-    "sentenceId": 91
+    "sid": 91
   },
   "流浪狗": {
     "level": 4,
@@ -7411,7 +7411,7 @@
     "keyword": "is precisely",
     "hanviet": "tựu thị",
     "pinyin": "jiù shì",
-    "sentenceId": 35
+    "sid": 35
   },
   "登记": {
     "level": 4,
@@ -9584,7 +9584,7 @@
     "keyword": "story",
     "hanviet": "cố sự",
     "pinyin": "gù shi",
-    "sentenceId": 1
+    "sid": 1
   },
   "应该": {
     "level": 4,
@@ -9596,7 +9596,7 @@
     "keyword": "should be",
     "hanviet": "ứng cai",
     "pinyin": "yīng gāi",
-    "sentenceId": 1
+    "sid": 1
   },
   "从": {
     "level": 4,
@@ -9608,7 +9608,7 @@
     "keyword": "from",
     "hanviet": "tòng",
     "pinyin": "cóng",
-    "sentenceId": 1
+    "sid": 1
   },
   "那": {
     "level": 4,
@@ -9620,7 +9620,7 @@
     "keyword": "that",
     "hanviet": "na",
     "pinyin": "Nā",
-    "sentenceId": 1
+    "sid": 1
   },
   "一面": {
     "level": 4,
@@ -9638,7 +9638,7 @@
     "keyword": "begin",
     "hanviet": "khai thủy",
     "pinyin": "kāi shǐ",
-    "sentenceId": 1
+    "sid": 1
   },
   "说起": {
     "level": 4,
@@ -9650,7 +9650,7 @@
     "keyword": "to mention",
     "hanviet": "thuyết khởi",
     "pinyin": "shuō qǐ",
-    "sentenceId": 1
+    "sid": 1
   },
   "年": {
     "level": 4,
@@ -9662,7 +9662,7 @@
     "keyword": "year",
     "hanviet": "niên",
     "pinyin": "nián",
-    "sentenceId": 3
+    "sid": 3
   },
   "夏天": {
     "level": 4,
@@ -9674,7 +9674,7 @@
     "keyword": "summer",
     "hanviet": "hạ thiên",
     "pinyin": "xià tiān",
-    "sentenceId": 3
+    "sid": 3
   },
   "精诚": {
     "level": 4,
@@ -9686,7 +9686,7 @@
     "keyword": "sincerity",
     "hanviet": "tinh thành",
     "pinyin": "jīng chéng",
-    "sentenceId": 3
+    "sid": 3
   },
   "中学": {
     "level": 4,
@@ -9698,7 +9698,7 @@
     "keyword": "middle school",
     "hanviet": "trung học",
     "pinyin": "zhōng xué",
-    "sentenceId": 3
+    "sid": 3
   },
   "国中": {
     "level": 4,
@@ -9710,7 +9710,7 @@
     "keyword": "junior high school",
     "hanviet": "quốc trung",
     "pinyin": "guó zhōng",
-    "sentenceId": 3
+    "sid": 3
   },
   "部": {
     "level": 4,
@@ -9722,7 +9722,7 @@
     "keyword": "section",
     "hanviet": "bộ",
     "pinyin": "bù",
-    "sentenceId": 3
+    "sid": 3
   },
   "美术": {
     "level": 4,
@@ -9734,7 +9734,7 @@
     "keyword": "art",
     "hanviet": "mĩ thuật",
     "pinyin": "měi shù",
-    "sentenceId": 3
+    "sid": 3
   },
   "甲": {
     "level": 4,
@@ -9746,7 +9746,7 @@
     "keyword": "first",
     "hanviet": "giáp",
     "pinyin": "jiǎ",
-    "sentenceId": 3
+    "sid": 3
   },
   "班": {
     "level": 4,
@@ -9758,7 +9758,7 @@
     "keyword": "class",
     "hanviet": "ban",
     "pinyin": "Bān",
-    "sentenceId": 3
+    "sid": 3
   },
   "二": {
     "level": 4,
@@ -9770,7 +9770,7 @@
     "keyword": "two",
     "hanviet": "nhị",
     "pinyin": "èr",
-    "sentenceId": 3
+    "sid": 3
   },
   "年级": {
     "level": 4,
@@ -9782,7 +9782,7 @@
     "keyword": "grade",
     "hanviet": "niên cấp",
     "pinyin": "nián jí",
-    "sentenceId": 3
+    "sid": 3
   },
   "一": {
     "level": 4,
@@ -9794,7 +9794,7 @@
     "keyword": "one",
     "hanviet": "nhất",
     "pinyin": "yī",
-    "sentenceId": 1
+    "sid": 1
   },
   "个": {
     "level": 4,
@@ -9806,7 +9806,7 @@
     "keyword": "a",
     "hanviet": "cá",
     "pinyin": "ge",
-    "sentenceId": 5
+    "sid": 5
   },
   "坚信": {
     "level": 4,
@@ -9818,7 +9818,7 @@
     "keyword": "believe firmly",
     "hanviet": "kiên tín",
     "pinyin": "jiān xìn",
-    "sentenceId": 5
+    "sid": 5
   },
   "自己": {
     "level": 4,
@@ -9830,7 +9830,7 @@
     "keyword": "oneself",
     "hanviet": "tự kỷ",
     "pinyin": "zì jǐ",
-    "sentenceId": 5
+    "sid": 5
   },
   "杂乱": {
     "level": 4,
@@ -9842,7 +9842,7 @@
     "keyword": "messy",
     "hanviet": "tạp loạn",
     "pinyin": "zá luàn",
-    "sentenceId": 5
+    "sid": 5
   },
   "的": {
     "level": 4,
@@ -9854,7 +9854,7 @@
     "keyword": "of",
     "hanviet": "đích",
     "pinyin": "de",
-    "sentenceId": 5
+    "sid": 5
   },
   "自然": {
     "level": 4,
@@ -9866,7 +9866,7 @@
     "keyword": "natural",
     "hanviet": "tự nhiên",
     "pinyin": "zì rán",
-    "sentenceId": 5
+    "sid": 5
   },
   "终": {
     "level": 4,
@@ -9878,7 +9878,7 @@
     "keyword": "end",
     "hanviet": "chung",
     "pinyin": "zhōng",
-    "sentenceId": 5
+    "sid": 5
   },
   "有": {
     "level": 4,
@@ -9890,7 +9890,7 @@
     "keyword": "have",
     "hanviet": "hữu",
     "pinyin": "yǒu",
-    "sentenceId": 5
+    "sid": 5
   },
   "天": {
     "level": 4,
@@ -9902,7 +9902,7 @@
     "keyword": "day",
     "hanviet": "thiên",
     "pinyin": "tiān",
-    "sentenceId": 5
+    "sid": 5
   },
   "会": {
     "level": 4,
@@ -9914,7 +9914,7 @@
     "keyword": "will",
     "hanviet": "hội",
     "pinyin": "huì",
-    "sentenceId": 5
+    "sid": 5
   },
   "通通": {
     "level": 4,
@@ -9926,7 +9926,7 @@
     "keyword": "entire",
     "hanviet": "thông thông",
     "pinyin": "tōng tōng",
-    "sentenceId": 5
+    "sid": 5
   },
   "直": {
     "level": 4,
@@ -9950,7 +9950,7 @@
     "keyword": "boy",
     "hanviet": "nam hài",
     "pinyin": "nán hái",
-    "sentenceId": 5
+    "sid": 5
   },
   "由于": {
     "level": 4,
@@ -9962,7 +9962,7 @@
     "keyword": "due to",
     "hanviet": "do vu",
     "pinyin": "yóu yú",
-    "sentenceId": 5
+    "sid": 5
   },
   "太": {
     "level": 4,
@@ -9974,7 +9974,7 @@
     "keyword": "too much",
     "hanviet": "thái",
     "pinyin": "tài",
-    "sentenceId": 5
+    "sid": 5
   },
   "喜欢": {
     "level": 4,
@@ -9986,7 +9986,7 @@
     "keyword": "like",
     "hanviet": "hỉ hoan",
     "pinyin": "xǐ huan",
-    "sentenceId": 5
+    "sid": 5
   },
   "在": {
     "level": 4,
@@ -9998,7 +9998,7 @@
     "keyword": "at",
     "hanviet": "tại",
     "pinyin": "zài",
-    "sentenceId": 5
+    "sid": 5
   },
   "上课": {
     "level": 4,
@@ -10010,7 +10010,7 @@
     "keyword": "go to class",
     "hanviet": "thượng khóa",
     "pinyin": "shàng kè",
-    "sentenceId": 15
+    "sid": 15
   },
   "时": {
     "level": 4,
@@ -10040,7 +10040,7 @@
     "keyword": "love",
     "hanviet": "ái",
     "pinyin": "ài",
-    "sentenceId": 5
+    "sid": 5
   },
   "跟": {
     "level": 4,
@@ -10052,7 +10052,7 @@
     "keyword": "with",
     "hanviet": "cân",
     "pinyin": "gēn",
-    "sentenceId": 5
+    "sid": 5
   },
   "同学": {
     "level": 4,
@@ -10064,7 +10064,7 @@
     "keyword": "classmate",
     "hanviet": "đồng học",
     "pinyin": "tóng xué",
-    "sentenceId": 5
+    "sid": 5
   },
   "终于": {
     "level": 4,
@@ -10076,7 +10076,7 @@
     "keyword": "at last",
     "hanviet": "chung vu",
     "pinyin": "zhōng yú",
-    "sentenceId": 5
+    "sid": 5
   },
   "被": {
     "level": 4,
@@ -10088,7 +10088,7 @@
     "keyword": "bei",
     "hanviet": "bị",
     "pinyin": "bèi",
-    "sentenceId": 5
+    "sid": 5
   },
   "坐": {
     "level": 4,
@@ -10100,7 +10100,7 @@
     "keyword": "sit",
     "hanviet": "tọa",
     "pinyin": "Zuò",
-    "sentenceId": 5
+    "sid": 5
   },
   "在教": {
     "level": 4,
@@ -10124,7 +10124,7 @@
     "keyword": "most",
     "hanviet": "tối",
     "pinyin": "zuì",
-    "sentenceId": 5
+    "sid": 5
   },
   "角落": {
     "level": 4,
@@ -10136,7 +10136,7 @@
     "keyword": "corner",
     "hanviet": "giác lạc",
     "pinyin": "jiǎo luò",
-    "sentenceId": 5
+    "sid": 5
   },
   "是": {
     "addedAt": 1639139041861,
@@ -10147,7 +10147,7 @@
     "keyword": "is",
     "hanviet": "thị",
     "pinyin": "shì",
-    "sentenceId": 7
+    "sid": 7
   },
   "现在": {
     "level": 4,
@@ -10159,7 +10159,7 @@
     "keyword": "now",
     "hanviet": "hiện tại",
     "pinyin": "xiàn zài",
-    "sentenceId": 9
+    "sid": 9
   },
   "看": {
     "level": 4,
@@ -10171,7 +10171,7 @@
     "keyword": "see",
     "hanviet": "khán",
     "pinyin": "kān",
-    "sentenceId": 9
+    "sid": 9
   },
   "你": {
     "level": 4,
@@ -10183,7 +10183,7 @@
     "keyword": "you",
     "hanviet": "nhĩ",
     "pinyin": "nǐ",
-    "sentenceId": 9
+    "sid": 9
   },
   "怎么": {
     "level": 4,
@@ -10195,7 +10195,7 @@
     "keyword": "how to",
     "hanviet": "chẩm yêu",
     "pinyin": "zěn me",
-    "sentenceId": 9
+    "sid": 9
   },
   "冷笑": {
     "level": 4,
@@ -10207,7 +10207,7 @@
     "keyword": "sneer",
     "hanviet": "lãnh tiếu",
     "pinyin": "lěng xiào",
-    "sentenceId": 9
+    "sid": 9
   },
   "讲台": {
     "level": 4,
@@ -10219,7 +10219,7 @@
     "keyword": "platform",
     "hanviet": "giảng thai",
     "pinyin": "jiǎng tái",
-    "sentenceId": 9
+    "sid": 9
   },
   "上": {
     "level": 4,
@@ -10231,7 +10231,7 @@
     "keyword": "on top",
     "hanviet": "thượng",
     "pinyin": "shǎng",
-    "sentenceId": 9
+    "sid": 9
   },
   "正": {
     "level": 4,
@@ -10243,7 +10243,7 @@
     "keyword": "right then",
     "hanviet": "chính",
     "pinyin": "zhèng",
-    "sentenceId": 9
+    "sid": 9
   },
   "忙着": {
     "level": 4,
@@ -10255,7 +10255,7 @@
     "keyword": "busy with",
     "hanviet": "mang trứ",
     "pinyin": "máng zhe",
-    "sentenceId": 9
+    "sid": 9
   },
   "搬": {
     "level": 4,
@@ -10267,7 +10267,7 @@
     "keyword": "move",
     "hanviet": "bàn",
     "pinyin": "bān",
-    "sentenceId": 9
+    "sid": 9
   },
   "我": {
     "level": 4,
@@ -10279,7 +10279,7 @@
     "keyword": "I",
     "hanviet": "ngã",
     "pinyin": "wǒ",
-    "sentenceId": 9
+    "sid": 9
   },
   "是的": {
     "level": 4,
@@ -10291,7 +10291,7 @@
     "keyword": "yes",
     "hanviet": "thị đích",
     "pinyin": "shì de",
-    "sentenceId": 11
+    "sid": 11
   },
   "一定": {
     "level": 4,
@@ -10303,7 +10303,7 @@
     "keyword": "surely",
     "hanviet": "nhất định",
     "pinyin": "yī dìng",
-    "sentenceId": 11
+    "sid": 11
   },
   "好好": {
     "level": 4,
@@ -10315,7 +10315,7 @@
     "keyword": "well",
     "hanviet": "hảo hảo",
     "pinyin": "hǎo hǎo",
-    "sentenceId": 11
+    "sid": 11
   },
   "反省": {
     "level": 4,
@@ -10327,7 +10327,7 @@
     "keyword": "reflect",
     "hanviet": "phản tỉnh",
     "pinyin": "fǎn xǐng",
-    "sentenceId": 11
+    "sid": 11
   },
   "打包": {
     "level": 4,
@@ -10339,7 +10339,7 @@
     "keyword": "pack up",
     "hanviet": "đả bao",
     "pinyin": "dǎ bāo",
-    "sentenceId": 12
+    "sid": 12
   },
   "好": {
     "level": 4,
@@ -10351,7 +10351,7 @@
     "keyword": "well",
     "hanviet": "hảo",
     "pinyin": "hǎo",
-    "sentenceId": 12
+    "sid": 12
   },
   "里": {
     "level": 4,
@@ -10363,7 +10363,7 @@
     "keyword": "inside",
     "hanviet": "lí",
     "pinyin": "lǐ",
-    "sentenceId": 12
+    "sid": 12
   },
   "参考书": {
     "level": 4,
@@ -10375,7 +10375,7 @@
     "keyword": "reference book",
     "hanviet": "tham khảo thư",
     "pinyin": "cān kǎo shū",
-    "sentenceId": 12
+    "sid": 12
   },
   "图": {
     "level": 4,
@@ -10393,7 +10393,7 @@
     "keyword": "very serious",
     "hanviet": "chính kinh bát bách",
     "pinyin": "zhèng jīng bā bǎi",
-    "sentenceId": 12
+    "sid": 12
   },
   "张": {
     "level": 4,
@@ -10405,7 +10405,7 @@
     "keyword": "sheet (classifier)",
     "hanviet": "trương",
     "pinyin": "Zhāng",
-    "sentenceId": 12
+    "sid": 12
   },
   "痛定思痛": {
     "level": 3,
@@ -10417,7 +10417,7 @@
     "keyword": "painful",
     "hanviet": "thống định tư thống",
     "pinyin": "tòng dìng sī tòng",
-    "sentenceId": 12
+    "sid": 12
   },
   "脸": {
     "level": 4,
@@ -10429,7 +10429,7 @@
     "keyword": "face",
     "hanviet": "kiểm",
     "pinyin": "liǎn",
-    "sentenceId": 12
+    "sid": 12
   },
   "妈的": {
     "level": 4,
@@ -10441,7 +10441,7 @@
     "keyword": "S.O.B",
     "hanviet": "mụ đích",
     "pinyin": "mā de",
-    "sentenceId": 14
+    "sid": 14
   },
   "你们": {
     "level": 4,
@@ -10453,7 +10453,7 @@
     "keyword": "you",
     "hanviet": "nhĩ môn",
     "pinyin": "nǐ men",
-    "sentenceId": 15
+    "sid": 15
   },
   "这": {
     "level": 4,
@@ -10465,7 +10465,7 @@
     "keyword": "this",
     "hanviet": "giá",
     "pinyin": "zhè",
-    "sentenceId": 15
+    "sid": 15
   },
   "群": {
     "level": 4,
@@ -10477,7 +10477,7 @@
     "keyword": "group",
     "hanviet": "quần",
     "pinyin": "qún",
-    "sentenceId": 15
+    "sid": 15
   },
   "忘恩负义": {
     "level": 4,
@@ -10489,7 +10489,7 @@
     "keyword": "ingratitude",
     "hanviet": "vong ân phụ nghĩa",
     "pinyin": "wàng ēn fù yì",
-    "sentenceId": 15
+    "sid": 15
   },
   "烂": {
     "level": 4,
@@ -10501,7 +10501,7 @@
     "keyword": "crappy",
     "hanviet": "lạn",
     "pinyin": "làn",
-    "sentenceId": 15
+    "sid": 15
   },
   "不": {
     "level": 4,
@@ -10513,7 +10513,7 @@
     "keyword": "not",
     "hanviet": "bất",
     "pinyin": "bù",
-    "sentenceId": 15
+    "sid": 15
   },
   "收费": {
     "level": 4,
@@ -10525,7 +10525,7 @@
     "keyword": "charge a fee",
     "hanviet": "thu phí",
     "pinyin": "shōu fèi",
-    "sentenceId": 15
+    "sid": 15
   },
   "努力": {
     "level": 4,
@@ -10537,7 +10537,7 @@
     "keyword": "try hard",
     "hanviet": "nỗ lực",
     "pinyin": "nǔ lì",
-    "sentenceId": 15
+    "sid": 15
   },
   "让": {
     "level": 4,
@@ -10549,7 +10549,7 @@
     "keyword": "let",
     "hanviet": "nhượng",
     "pinyin": "ràng",
-    "sentenceId": 15
+    "sid": 15
   },
   "大家": {
     "level": 4,
@@ -10561,7 +10561,7 @@
     "keyword": "everyone",
     "hanviet": "đại gia",
     "pinyin": "dà jiā",
-    "sentenceId": 15
+    "sid": 15
   },
   "青春": {
     "level": 4,
@@ -10573,7 +10573,7 @@
     "keyword": "youth",
     "hanviet": "thanh xuân",
     "pinyin": "qīng chūn",
-    "sentenceId": 15
+    "sid": 15
   },
   "欢乐": {
     "level": 4,
@@ -10585,7 +10585,7 @@
     "keyword": "joyous",
     "hanviet": "hoan nhạc",
     "pinyin": "huān lè",
-    "sentenceId": 15
+    "sid": 15
   },
   "到": {
     "level": 4,
@@ -10597,7 +10597,7 @@
     "keyword": "until",
     "hanviet": "đáo",
     "pinyin": "dào",
-    "sentenceId": 15
+    "sid": 15
   },
   "疯": {
     "level": 4,
@@ -10609,7 +10609,7 @@
     "keyword": "insane",
     "hanviet": "phong",
     "pinyin": "fēng",
-    "sentenceId": 15
+    "sid": 15
   },
   "掉": {
     "level": 4,
@@ -10621,7 +10621,7 @@
     "keyword": "(fulfillment)",
     "hanviet": "điệu",
     "pinyin": "diào",
-    "sentenceId": 15
+    "sid": 15
   },
   "竟然": {
     "level": 4,
@@ -10633,7 +10633,7 @@
     "keyword": "actually",
     "hanviet": "cánh nhiên",
     "pinyin": "jìng rán",
-    "sentenceId": 15
+    "sid": 15
   },
   "这样": {
     "level": 4,
@@ -10645,7 +10645,7 @@
     "keyword": "like this",
     "hanviet": "giá dạng",
     "pinyin": "zhè yàng",
-    "sentenceId": 15
+    "sid": 15
   },
   "对待": {
     "level": 4,
@@ -10657,7 +10657,7 @@
     "keyword": "treat",
     "hanviet": "đối đãi",
     "pinyin": "duì dài",
-    "sentenceId": 15
+    "sid": 15
   },
   "一边": {
     "level": 4,
@@ -10669,7 +10669,7 @@
     "keyword": "one side",
     "hanviet": "nhất biên",
     "pinyin": "yī biān",
-    "sentenceId": 15
+    "sid": 15
   },
   "整理": {
     "level": 4,
@@ -10681,7 +10681,7 @@
     "keyword": "arrange",
     "hanviet": "chỉnh lí",
     "pinyin": "zhěng lǐ",
-    "sentenceId": 15
+    "sid": 15
   },
   "新": {
     "level": 4,
@@ -10693,7 +10693,7 @@
     "keyword": "new",
     "hanviet": "tân",
     "pinyin": "Xīn",
-    "sentenceId": 15
+    "sid": 15
   },
   "桌子": {
     "level": 4,
@@ -10705,7 +10705,7 @@
     "keyword": "table",
     "hanviet": "trác tử",
     "pinyin": "zhuō zi",
-    "sentenceId": 15
+    "sid": 15
   },
   "心中": {
     "level": 4,
@@ -10717,7 +10717,7 @@
     "keyword": "in one's heart",
     "hanviet": "tâm trung",
     "pinyin": "xīn zhōng",
-    "sentenceId": 15
+    "sid": 15
   },
   "干": {
     "level": 4,
@@ -10729,7 +10729,7 @@
     "keyword": "do",
     "hanviet": "kiền",
     "pinyin": "gān",
-    "sentenceId": 15
+    "sid": 15
   },
   "骂": {
     "level": 4,
@@ -10741,7 +10741,7 @@
     "keyword": "scold",
     "hanviet": "mạ",
     "pinyin": "mà",
-    "sentenceId": 15
+    "sid": 15
   },
   "为了": {
     "level": 4,
@@ -10753,7 +10753,7 @@
     "keyword": "in order to",
     "hanviet": "vi liễu",
     "pinyin": "wèi le",
-    "sentenceId": 17
+    "sid": 17
   },
   "拿到": {
     "level": 4,
@@ -10765,7 +10765,7 @@
     "keyword": "get",
     "hanviet": "nã đáo",
     "pinyin": "ná dào",
-    "sentenceId": 17
+    "sid": 17
   },
   "每周一次": {
     "level": 4,
@@ -10777,7 +10777,7 @@
     "keyword": "once a week",
     "hanviet": "mỗi chu nhất thứ",
     "pinyin": "měi zhōu yī cì",
-    "sentenceId": 17
+    "sid": 17
   },
   "对上": {
     "level": 4,
@@ -10801,7 +10801,7 @@
     "keyword": "request",
     "hanviet": "yếu cầu",
     "pinyin": "yāo qiú",
-    "sentenceId": 17
+    "sid": 17
   },
   "很": {
     "level": 4,
@@ -10813,7 +10813,7 @@
     "keyword": "very",
     "hanviet": "ngận",
     "pinyin": "hěn",
-    "sentenceId": 17
+    "sid": 17
   },
   "高": {
     "level": 4,
@@ -10825,7 +10825,7 @@
     "keyword": "high",
     "hanviet": "cao",
     "pinyin": "Gāo",
-    "sentenceId": 17
+    "sid": 17
   },
   "采取": {
     "level": 3,
@@ -10837,7 +10837,7 @@
     "keyword": "adopt",
     "hanviet": "thải thủ",
     "pinyin": "cǎi qǔ",
-    "sentenceId": 17
+    "sid": 17
   },
   "管理": {
     "level": 4,
@@ -10849,7 +10849,7 @@
     "keyword": "management",
     "hanviet": "quản lí",
     "pinyin": "guǎn lǐ",
-    "sentenceId": 17
+    "sid": 17
   },
   "手段": {
     "level": 4,
@@ -10861,7 +10861,7 @@
     "keyword": "method",
     "hanviet": "thủ đoạn",
     "pinyin": "shǒu duàn",
-    "sentenceId": 17
+    "sid": 17
   },
   "也": {
     "level": 4,
@@ -10873,7 +10873,7 @@
     "keyword": "also",
     "hanviet": "dã",
     "pinyin": "Yě",
-    "sentenceId": 17
+    "sid": 17
   },
   "规格": {
     "level": 4,
@@ -10885,7 +10885,7 @@
     "keyword": "standard",
     "hanviet": "quy cách",
     "pinyin": "guī gé",
-    "sentenceId": 17
+    "sid": 17
   },
   "政策": {
     "level": 4,
@@ -10897,7 +10897,7 @@
     "keyword": "policy",
     "hanviet": "chính sách",
     "pinyin": "zhèng cè",
-    "sentenceId": 17
+    "sid": 17
   },
   "每": {
     "level": 4,
@@ -10909,7 +10909,7 @@
     "keyword": "each",
     "hanviet": "mỗi",
     "pinyin": "měi",
-    "sentenceId": 18
+    "sid": 18
   },
   "全班": {
     "level": 4,
@@ -10921,7 +10921,7 @@
     "keyword": "entire class",
     "hanviet": "toàn ban",
     "pinyin": "quán bān",
-    "sentenceId": 18
+    "sid": 18
   },
   "都": {
     "level": 4,
@@ -10933,7 +10933,7 @@
     "keyword": "all",
     "hanviet": "đô",
     "pinyin": "dōu",
-    "sentenceId": 18
+    "sid": 18
   },
   "得": {
     "level": 4,
@@ -10945,7 +10945,7 @@
     "keyword": "have to",
     "hanviet": "đắc",
     "pinyin": "děi",
-    "sentenceId": 18
+    "sid": 18
   },
   "空白": {
     "level": 4,
@@ -10957,7 +10957,7 @@
     "keyword": "blank space",
     "hanviet": "không bạch",
     "pinyin": "kòng bái",
-    "sentenceId": 18
+    "sid": 18
   },
   "测验": {
     "level": 4,
@@ -10969,7 +10969,7 @@
     "keyword": "test",
     "hanviet": "trắc nghiệm",
     "pinyin": "cè yàn",
-    "sentenceId": 18
+    "sid": 18
   },
   "纸": {
     "level": 4,
@@ -10981,7 +10981,7 @@
     "keyword": "paper",
     "hanviet": "chỉ",
     "pinyin": "zhǐ",
-    "sentenceId": 18
+    "sid": 18
   },
   "写下": {
     "level": 4,
@@ -10993,7 +10993,7 @@
     "keyword": "write down",
     "hanviet": "tả hạ",
     "pinyin": "xiě xià",
-    "sentenceId": 18
+    "sid": 18
   },
   "上周": {
     "level": 4,
@@ -11005,7 +11005,7 @@
     "keyword": "last week",
     "hanviet": "thượng chu",
     "pinyin": "shàng zhōu",
-    "sentenceId": 18
+    "sid": 18
   },
   "三": {
     "level": 4,
@@ -11017,7 +11017,7 @@
     "keyword": "three",
     "hanviet": "tam",
     "pinyin": "Sān",
-    "sentenceId": 18
+    "sid": 18
   },
   "个人": {
     "level": 4,
@@ -11029,7 +11029,7 @@
     "keyword": "individual",
     "hanviet": "cá nhân",
     "pinyin": "gè rén",
-    "sentenceId": 18
+    "sid": 18
   },
   "交给": {
     "level": 4,
@@ -11041,7 +11041,7 @@
     "keyword": "give",
     "hanviet": "giao cấp",
     "pinyin": "jiāo gěi",
-    "sentenceId": 18
+    "sid": 18
   },
   "风纪": {
     "level": 3,
@@ -11053,7 +11053,7 @@
     "keyword": "discipline",
     "hanviet": "phong kỉ",
     "pinyin": "fēng jì",
-    "sentenceId": 18
+    "sid": 18
   },
   "股长": {
     "level": 3,
@@ -11065,7 +11065,7 @@
     "keyword": "person in charge",
     "hanviet": "cổ trường",
     "pinyin": "gǔ zhǎng",
-    "sentenceId": 18
+    "sid": 18
   },
   "统计": {
     "level": 4,
@@ -11077,7 +11077,7 @@
     "keyword": "count",
     "hanviet": "thống kế",
     "pinyin": "tǒng jì",
-    "sentenceId": 18
+    "sid": 18
   },
   "每次": {
     "level": 4,
@@ -11089,7 +11089,7 @@
     "keyword": "every time",
     "hanviet": "mỗi thứ",
     "pinyin": "měi cì",
-    "sentenceId": 20
+    "sid": 20
   },
   "后": {
     "level": 4,
@@ -11101,7 +11101,7 @@
     "keyword": "after",
     "hanviet": "hậu",
     "pinyin": "hòu",
-    "sentenceId": 20
+    "sid": 20
   },
   "黑名单": {
     "level": 4,
@@ -11113,7 +11113,7 @@
     "keyword": "blacklist",
     "hanviet": "hắc danh đan",
     "pinyin": "hēi míng dān",
-    "sentenceId": 20
+    "sid": 20
   },
   "被告": {
     "level": 4,
@@ -11137,7 +11137,7 @@
     "keyword": "most",
     "hanviet": "tối đa",
     "pinyin": "zuì duō",
-    "sentenceId": 20
+    "sid": 20
   },
   "人次": {
     "level": 4,
@@ -11149,7 +11149,7 @@
     "keyword": "person-times",
     "hanviet": "nhân thứ",
     "pinyin": "rén cì",
-    "sentenceId": 20
+    "sid": 20
   },
   "就要": {
     "level": 4,
@@ -11161,7 +11161,7 @@
     "keyword": "will",
     "hanviet": "tựu yếu",
     "pinyin": "jiù yào",
-    "sentenceId": 20
+    "sid": 20
   },
   "倒": {
     "level": 4,
@@ -11179,7 +11179,7 @@
     "keyword": "big",
     "hanviet": "đại",
     "pinyin": "dà",
-    "sentenceId": 88
+    "sid": 88
   },
   "打电话": {
     "level": 4,
@@ -11191,7 +11191,7 @@
     "keyword": "make a telephone call",
     "hanviet": "đả điện thoại",
     "pinyin": "dǎ diàn huà",
-    "sentenceId": 20
+    "sid": 20
   },
   "告诉": {
     "level": 4,
@@ -11203,7 +11203,7 @@
     "keyword": "inform",
     "hanviet": "cáo tố",
     "pinyin": "gào sù",
-    "sentenceId": 20
+    "sid": 20
   },
   "家长": {
     "level": 4,
@@ -11215,7 +11215,7 @@
     "keyword": "parent",
     "hanviet": "gia trường",
     "pinyin": "jiā zhǎng",
-    "sentenceId": 20
+    "sid": 20
   },
   "这位": {
     "level": 4,
@@ -11227,7 +11227,7 @@
     "keyword": "this person",
     "hanviet": "giá vị",
     "pinyin": "zhè wèi",
-    "sentenceId": 20
+    "sid": 20
   },
   "王": {
     "level": 4,
@@ -11239,7 +11239,7 @@
     "keyword": "king",
     "hanviet": "vương",
     "pinyin": "Wáng",
-    "sentenceId": 20
+    "sid": 20
   },
   "学校": {
     "level": 4,
@@ -11251,7 +11251,7 @@
     "keyword": "school",
     "hanviet": "học giáo",
     "pinyin": "xué xiào",
-    "sentenceId": 20
+    "sid": 20
   },
   "所作所为": {
     "level": 3,
@@ -11263,7 +11263,7 @@
     "keyword": "one's conduct and deeds",
     "hanviet": "sở tác sở vi",
     "pinyin": "suǒ zuò suǒ wéi",
-    "sentenceId": 20
+    "sid": 20
   },
   "然后": {
     "addedAt": 1639134404530,
@@ -11274,7 +11274,7 @@
     "keyword": "afterwards",
     "hanviet": "nhiên hậu",
     "pinyin": "rán hòu",
-    "sentenceId": 20
+    "sid": 20
   },
   "东": {
     "level": 4,
@@ -11286,7 +11286,7 @@
     "keyword": "east",
     "hanviet": "đông",
     "pinyin": "Dōng",
-    "sentenceId": 20
+    "sid": 20
   },
   "西": {
     "level": 4,
@@ -11298,7 +11298,7 @@
     "keyword": "west",
     "hanviet": "tây",
     "pinyin": "Xī",
-    "sentenceId": 20
+    "sid": 20
   },
   "常常": {
     "level": 4,
@@ -11310,7 +11310,7 @@
     "keyword": "frequently",
     "hanviet": "thường thường",
     "pinyin": "cháng cháng",
-    "sentenceId": 20
+    "sid": 20
   },
   "荣登": {
     "level": 3,
@@ -11322,7 +11322,7 @@
     "keyword": "reach the top",
     "hanviet": "vinh đăng",
     "pinyin": "róng dēng",
-    "sentenceId": 20
+    "sid": 20
   },
   "对于": {
     "level": 4,
@@ -11334,7 +11334,7 @@
     "keyword": "regarding",
     "hanviet": "đối vu",
     "pinyin": "duì yú",
-    "sentenceId": 22
+    "sid": 22
   },
   "次": {
     "level": 4,
@@ -11346,7 +11346,7 @@
     "keyword": "time",
     "hanviet": "thứ",
     "pinyin": "cì",
-    "sentenceId": 22
+    "sid": 22
   },
   "旁边": {
     "level": 4,
@@ -11358,7 +11358,7 @@
     "keyword": "side",
     "hanviet": "bàng biên",
     "pinyin": "páng biān",
-    "sentenceId": 22
+    "sid": 22
   },
   "近乎": {
     "level": 4,
@@ -11370,7 +11370,7 @@
     "keyword": "close to",
     "hanviet": "cận hồ",
     "pinyin": "jìn hu",
-    "sentenceId": 22
+    "sid": 22
   },
   "孤岛": {
     "level": 4,
@@ -11382,7 +11382,7 @@
     "keyword": "isolated island",
     "hanviet": "cô đảo",
     "pinyin": "gū dǎo",
-    "sentenceId": 22
+    "sid": 22
   },
   "地": {
     "level": 4,
@@ -11394,7 +11394,7 @@
     "keyword": "-ly",
     "hanviet": "đích",
     "pinyin": "de",
-    "sentenceId": 22
+    "sid": 22
   },
   "一个人": {
     "level": 4,
@@ -11406,7 +11406,7 @@
     "keyword": "by oneself",
     "hanviet": "nhất cá nhân",
     "pinyin": "yī gè rén",
-    "sentenceId": 22
+    "sid": 22
   },
   "件": {
     "level": 4,
@@ -11418,7 +11418,7 @@
     "keyword": "event (classifier)",
     "hanviet": "kiện",
     "pinyin": "jiàn",
-    "sentenceId": 22
+    "sid": 22
   },
   "事": {
     "level": 4,
@@ -11430,7 +11430,7 @@
     "keyword": "matter",
     "hanviet": "sự",
     "pinyin": "shì",
-    "sentenceId": 22
+    "sid": 22
   },
   "四十": {
     "level": 4,
@@ -11442,7 +11442,7 @@
     "keyword": "forty",
     "hanviet": "tứ thập",
     "pinyin": "sì shí",
-    "sentenceId": 22
+    "sid": 22
   },
   "五": {
     "level": 4,
@@ -11454,7 +11454,7 @@
     "keyword": "five",
     "hanviet": "ngũ",
     "pinyin": "wǔ",
-    "sentenceId": 22
+    "sid": 22
   },
   "并不": {
     "level": 4,
@@ -11466,7 +11466,7 @@
     "keyword": "not at all",
     "hanviet": "tịnh bất",
     "pinyin": "bìng bù",
-    "sentenceId": 22
+    "sid": 22
   },
   "以为": {
     "level": 4,
@@ -11478,7 +11478,7 @@
     "keyword": "think",
     "hanviet": "dĩ vi",
     "pinyin": "yǐ wéi",
-    "sentenceId": 22
+    "sid": 22
   },
   "然": {
     "level": 4,
@@ -11490,7 +11490,7 @@
     "keyword": "correct",
     "hanviet": "nhiên",
     "pinyin": "rán",
-    "sentenceId": 22
+    "sid": 22
   },
   "个个": {
     "level": 4,
@@ -11502,7 +11502,7 @@
     "keyword": "each and every",
     "hanviet": "cá cá",
     "pinyin": "gè gè",
-    "sentenceId": 22
+    "sid": 22
   },
   "抱": {
     "level": 4,
@@ -11514,7 +11514,7 @@
     "keyword": "embrace",
     "hanviet": "bão",
     "pinyin": "bào",
-    "sentenceId": 22
+    "sid": 22
   },
   "着": {
     "level": 4,
@@ -11526,7 +11526,7 @@
     "keyword": "-ing",
     "hanviet": "trứ",
     "pinyin": "zhe",
-    "sentenceId": 22
+    "sid": 22
   },
   "看好": {
     "level": 4,
@@ -11544,7 +11544,7 @@
     "keyword": "drama",
     "hanviet": "hí",
     "pinyin": "xì",
-    "sentenceId": 22
+    "sid": 22
   },
   "心态": {
     "level": 4,
@@ -11556,7 +11556,7 @@
     "keyword": "attitude",
     "hanviet": "tâm thái",
     "pinyin": "xīn tài",
-    "sentenceId": 22
+    "sid": 22
   },
   "等待": {
     "level": 4,
@@ -11568,7 +11568,7 @@
     "keyword": "wait for",
     "hanviet": "đẳng đãi",
     "pinyin": "děng dài",
-    "sentenceId": 22
+    "sid": 22
   },
   "接下来": {
     "level": 4,
@@ -11580,7 +11580,7 @@
     "keyword": "next",
     "hanviet": "tiếp hạ lai",
     "pinyin": "jiē xià lái",
-    "sentenceId": 22
+    "sid": 22
   },
   "发展": {
     "level": 4,
@@ -11592,7 +11592,7 @@
     "keyword": "development",
     "hanviet": "phát triển",
     "pinyin": "fā zhǎn",
-    "sentenceId": 22
+    "sid": 22
   },
   "身为": {
     "level": 4,
@@ -11604,7 +11604,7 @@
     "keyword": "as",
     "hanviet": "thân vi",
     "pinyin": "shēn wéi",
-    "sentenceId": 24
+    "sid": 24
   },
   "登": {
     "level": 4,
@@ -11622,7 +11622,7 @@
     "keyword": "possible",
     "hanviet": "khả năng",
     "pinyin": "kě néng",
-    "sentenceId": 24
+    "sid": 24
   },
   "这种": {
     "level": 4,
@@ -11634,7 +11634,7 @@
     "keyword": "this type of",
     "hanviet": "giá chủng",
     "pinyin": "zhè zhǒng",
-    "sentenceId": 24
+    "sid": 24
   },
   "不像样": {
     "level": 4,
@@ -11646,7 +11646,7 @@
     "keyword": "in no shape to be seen",
     "hanviet": "bất tượng dạng",
     "pinyin": "bù xiàng yàng",
-    "sentenceId": 24
+    "sid": 24
   },
   "给": {
     "level": 4,
@@ -11658,7 +11658,7 @@
     "keyword": "to",
     "hanviet": "cấp",
     "pinyin": "gěi",
-    "sentenceId": 24
+    "sid": 24
   },
   "击倒": {
     "level": 4,
@@ -11670,7 +11670,7 @@
     "keyword": "knock down",
     "hanviet": "kích đảo",
     "pinyin": "jī dǎo",
-    "sentenceId": 24
+    "sid": 24
   },
   "哈哈": {
     "level": 4,
@@ -11682,7 +11682,7 @@
     "keyword": "haha",
     "hanviet": "cáp cáp",
     "pinyin": "hā hā",
-    "sentenceId": 25
+    "sid": 25
   },
   "要": {
     "level": 4,
@@ -11694,7 +11694,7 @@
     "keyword": "will",
     "hanviet": "yếu",
     "pinyin": "yāo",
-    "sentenceId": 25
+    "sid": 25
   },
   "怎么办": {
     "level": 4,
@@ -11706,7 +11706,7 @@
     "keyword": "what to do",
     "hanviet": "chẩm yêu bạn",
     "pinyin": "zěn me bàn",
-    "sentenceId": 25
+    "sid": 25
   },
   "头发": {
     "level": 4,
@@ -11718,7 +11718,7 @@
     "keyword": "hair",
     "hanviet": "đầu phát",
     "pinyin": "tóu fa",
-    "sentenceId": 25
+    "sid": 25
   },
   "他": {
     "level": 4,
@@ -11730,7 +11730,7 @@
     "keyword": "he",
     "hanviet": "tha",
     "pinyin": "tā",
-    "sentenceId": 25
+    "sid": 25
   },
   "靠": {
     "level": 4,
@@ -11742,7 +11742,7 @@
     "keyword": "fuck",
     "hanviet": "kháo",
     "pinyin": "kào",
-    "sentenceId": 27
+    "sid": 27
   },
   "不服气": {
     "level": 4,
@@ -11754,7 +11754,7 @@
     "keyword": "unwilling to concede",
     "hanviet": "bất phục khí",
     "pinyin": "bù fú qì",
-    "sentenceId": 28
+    "sid": 28
   },
   "带给": {
     "level": 4,
@@ -11766,7 +11766,7 @@
     "keyword": "provide",
     "hanviet": "đái cấp",
     "pinyin": "dài gěi",
-    "sentenceId": 28
+    "sid": 28
   },
   "欢笑": {
     "level": 4,
@@ -11778,7 +11778,7 @@
     "keyword": "belly-laugh",
     "hanviet": "hoan tiếu",
     "pinyin": "huān xiào",
-    "sentenceId": 28
+    "sid": 28
   },
   "难道": {
     "level": 4,
@@ -11790,7 +11790,7 @@
     "keyword": "could it be",
     "hanviet": "nan đạo",
     "pinyin": "nán dào",
-    "sentenceId": 28
+    "sid": 28
   },
   "一种": {
     "level": 4,
@@ -11802,7 +11802,7 @@
     "keyword": "one kind of",
     "hanviet": "nhất chủng",
     "pinyin": "yī zhǒng",
-    "sentenceId": 28
+    "sid": 28
   },
   "罪": {
     "level": 4,
@@ -11814,7 +11814,7 @@
     "keyword": "crime",
     "hanviet": "tội",
     "pinyin": "zuì",
-    "sentenceId": 28
+    "sid": 28
   },
   "说真的": {
     "level": 4,
@@ -11826,7 +11826,7 @@
     "keyword": "to tell the truth",
     "hanviet": "thuyết chân đích",
     "pinyin": "shuō zhēn de",
-    "sentenceId": 29
+    "sid": 29
   },
   "没有": {
     "level": 4,
@@ -11838,7 +11838,7 @@
     "keyword": "haven't",
     "hanviet": "một hữu",
     "pinyin": "méi yǒu",
-    "sentenceId": 29
+    "sid": 29
   },
   "写": {
     "level": 4,
@@ -11850,7 +11850,7 @@
     "keyword": "write",
     "hanviet": "tả",
     "pinyin": "xiě",
-    "sentenceId": 29
+    "sid": 29
   },
   "指": {
     "level": 4,
@@ -11862,7 +11862,7 @@
     "keyword": "finger",
     "hanviet": "chỉ",
     "pinyin": "zhǐ",
-    "sentenceId": 29
+    "sid": 29
   },
   "投票": {
     "level": 4,
@@ -11874,7 +11874,7 @@
     "keyword": "vote",
     "hanviet": "đầu phiếu",
     "pinyin": "tóu piào",
-    "sentenceId": 29
+    "sid": 29
   },
   "本人": {
     "level": 4,
@@ -11886,7 +11886,7 @@
     "keyword": "himself",
     "hanviet": "bổn nhân",
     "pinyin": "běn rén",
-    "sentenceId": 30
+    "sid": 30
   },
   "班上": {
     "level": 4,
@@ -11898,7 +11898,7 @@
     "keyword": "class",
     "hanviet": "ban thượng",
     "pinyin": "bān shàng",
-    "sentenceId": 30
+    "sid": 30
   },
   "王牌": {
     "level": 4,
@@ -11910,7 +11910,7 @@
     "keyword": "trump card",
     "hanviet": "vương bài",
     "pinyin": "wáng pái",
-    "sentenceId": 30
+    "sid": 30
   },
   "小丑": {
     "level": 4,
@@ -11922,7 +11922,7 @@
     "keyword": "clown",
     "hanviet": "tiểu sửu",
     "pinyin": "xiǎo chǒu",
-    "sentenceId": 30
+    "sid": 30
   },
   "当然": {
     "level": 4,
@@ -11934,7 +11934,7 @@
     "keyword": "of course",
     "hanviet": "đương nhiên",
     "pinyin": "dāng rán",
-    "sentenceId": 30
+    "sid": 30
   },
   "常客": {
     "level": 4,
@@ -11946,7 +11946,7 @@
     "keyword": "frequent visitor",
     "hanviet": "thường khách",
     "pinyin": "cháng kè",
-    "sentenceId": 30
+    "sid": 30
   },
   "没": {
     "level": 4,
@@ -11958,7 +11958,7 @@
     "keyword": "not",
     "hanviet": "một",
     "pinyin": "méi",
-    "sentenceId": 32
+    "sid": 32
   },
   "啊": {
     "level": 4,
@@ -11970,7 +11970,7 @@
     "keyword": "a",
     "hanviet": "a",
     "pinyin": "ā",
-    "sentenceId": 32
+    "sid": 32
   },
   "王八蛋": {
     "level": 4,
@@ -11982,7 +11982,7 @@
     "keyword": "bastard",
     "hanviet": "vương bát đản",
     "pinyin": "wáng bā dàn",
-    "sentenceId": 32
+    "sid": 32
   },
   "明明": {
     "level": 4,
@@ -11994,7 +11994,7 @@
     "keyword": "obviously",
     "hanviet": "minh minh",
     "pinyin": "míng míng",
-    "sentenceId": 32
+    "sid": 32
   },
   "就": {
     "level": 4,
@@ -12006,7 +12006,7 @@
     "keyword": "just",
     "hanviet": "tựu",
     "pinyin": "jiù",
-    "sentenceId": 32
+    "sid": 32
   },
   "比": {
     "level": 4,
@@ -12018,7 +12018,7 @@
     "keyword": "as much as",
     "hanviet": "bỉ",
     "pinyin": "bǐ",
-    "sentenceId": 32
+    "sid": 32
   },
   "说": {
     "level": 4,
@@ -12030,7 +12030,7 @@
     "keyword": "say",
     "hanviet": "thuyết",
     "pinyin": "shuō",
-    "sentenceId": 33
+    "sid": 33
   },
   "但": {
     "level": 4,
@@ -12042,7 +12042,7 @@
     "keyword": "but",
     "hanviet": "đãn",
     "pinyin": "dàn",
-    "sentenceId": 35
+    "sid": 35
   },
   "其实": {
     "level": 4,
@@ -12054,7 +12054,7 @@
     "keyword": "actually",
     "hanviet": "kì thật",
     "pinyin": "qí shí",
-    "sentenceId": 35
+    "sid": 35
   },
   "懂": {
     "level": 4,
@@ -12066,7 +12066,7 @@
     "keyword": "understand",
     "hanviet": "đổng",
     "pinyin": "dǒng",
-    "sentenceId": 35
+    "sid": 35
   },
   "自保": {
     "level": 4,
@@ -12078,7 +12078,7 @@
     "keyword": "self-preservation",
     "hanviet": "tự bảo",
     "pinyin": "zì bǎo",
-    "sentenceId": 35
+    "sid": 35
   },
   "大错特错": {
     "level": 4,
@@ -12090,7 +12090,7 @@
     "keyword": "be gravely mistaken",
     "hanviet": "đại thác đặc thác",
     "pinyin": "dà cuò tè cuò",
-    "sentenceId": 35
+    "sid": 35
   },
   "了": {
     "level": 4,
@@ -12102,7 +12102,7 @@
     "keyword": "le",
     "hanviet": "liễu",
     "pinyin": "le",
-    "sentenceId": 35
+    "sid": 35
   },
   "这就": {
     "level": 4,
@@ -12120,7 +12120,7 @@
     "keyword": "down",
     "hanviet": "hạ",
     "pinyin": "xià",
-    "sentenceId": 35
+    "sid": 35
   },
   "交换": {
     "level": 4,
@@ -12132,7 +12132,7 @@
     "keyword": "exchange",
     "hanviet": "giao hoán",
     "pinyin": "jiāo huàn",
-    "sentenceId": 35
+    "sid": 35
   },
   "恶魔": {
     "level": 4,
@@ -12144,7 +12144,7 @@
     "keyword": "demon",
     "hanviet": "ác ma",
     "pinyin": "è mó",
-    "sentenceId": 35
+    "sid": 35
   },
   "糖果": {
     "level": 4,
@@ -12156,7 +12156,7 @@
     "keyword": "candy",
     "hanviet": "đường quả",
     "pinyin": "táng guǒ",
-    "sentenceId": 35
+    "sid": 35
   },
   "而且": {
     "level": 4,
@@ -12168,7 +12168,7 @@
     "keyword": "but also",
     "hanviet": "nhi thả",
     "pinyin": "ér qiě",
-    "sentenceId": 36
+    "sid": 36
   },
   "相信": {
     "level": 4,
@@ -12180,7 +12180,7 @@
     "keyword": "believe",
     "hanviet": "tương tín",
     "pinyin": "xiāng xìn",
-    "sentenceId": 36
+    "sid": 36
   },
   "超": {
     "level": 4,
@@ -12192,7 +12192,7 @@
     "keyword": "super",
     "hanviet": "siêu",
     "pinyin": "chāo",
-    "sentenceId": 38
+    "sid": 38
   },
   "啦": {
     "level": 4,
@@ -12204,7 +12204,7 @@
     "keyword": "la",
     "hanviet": "lạp",
     "pinyin": "lā",
-    "sentenceId": 38
+    "sid": 38
   },
   "只": {
     "level": 4,
@@ -12216,7 +12216,7 @@
     "keyword": "only",
     "hanviet": "chích",
     "pinyin": "zhǐ",
-    "sentenceId": 38
+    "sid": 38
   },
   "可以": {
     "level": 4,
@@ -12228,7 +12228,7 @@
     "keyword": "can",
     "hanviet": "khả dĩ",
     "pinyin": "kě yǐ",
-    "sentenceId": 38
+    "sid": 38
   },
   "讲话": {
     "level": 4,
@@ -12240,7 +12240,7 @@
     "keyword": "speak",
     "hanviet": "giảng thoại",
     "pinyin": "jiǎng huà",
-    "sentenceId": 38
+    "sid": 38
   },
   "哥们": {
     "level": 4,
@@ -12252,7 +12252,7 @@
     "keyword": "brothers",
     "hanviet": "ca môn",
     "pinyin": "gē men",
-    "sentenceId": 39
+    "sid": 39
   },
   "家": {
     "level": 4,
@@ -12264,7 +12264,7 @@
     "keyword": "family",
     "hanviet": "gia",
     "pinyin": "jiā",
-    "sentenceId": 39
+    "sid": 39
   },
   "住": {
     "level": 4,
@@ -12276,7 +12276,7 @@
     "keyword": "live",
     "hanviet": "trụ",
     "pinyin": "zhù",
-    "sentenceId": 39
+    "sid": 39
   },
   "鹿港": {
     "level": 4,
@@ -12288,7 +12288,7 @@
     "keyword": "Lugang",
     "hanviet": "lộc cảng",
     "pinyin": "Lù gǎng",
-    "sentenceId": 39
+    "sid": 39
   },
   "每天": {
     "addedAt": 1639134405555,
@@ -12299,7 +12299,7 @@
     "keyword": "every day",
     "hanviet": "mỗi thiên",
     "pinyin": "měi tiān",
-    "sentenceId": 39
+    "sid": 39
   },
   "校车": {
     "level": 4,
@@ -12311,7 +12311,7 @@
     "keyword": "school bus",
     "hanviet": "giáo xa",
     "pinyin": "xiào chē",
-    "sentenceId": 39
+    "sid": 39
   },
   "上下": {
     "level": 4,
@@ -12323,7 +12323,7 @@
     "keyword": "up and down",
     "hanviet": "thượng hạ",
     "pinyin": "shàng xià",
-    "sentenceId": 39
+    "sid": 39
   },
   "学": {
     "level": 4,
@@ -12335,7 +12335,7 @@
     "keyword": "study",
     "hanviet": "học",
     "pinyin": "xué",
-    "sentenceId": 39
+    "sid": 39
   },
   "中指": {
     "level": 4,
@@ -12347,7 +12347,7 @@
     "keyword": "middle finger",
     "hanviet": "trung chỉ",
     "pinyin": "zhōng zhǐ",
-    "sentenceId": 42
+    "sid": 42
   },
   "安静": {
     "level": 4,
@@ -12359,7 +12359,7 @@
     "keyword": "quiet",
     "hanviet": "an tĩnh",
     "pinyin": "ān jìng",
-    "sentenceId": 44
+    "sid": 44
   },
   "简直": {
     "level": 4,
@@ -12371,7 +12371,7 @@
     "keyword": "simply",
     "hanviet": "giản trực",
     "pinyin": "jiǎn zhí",
-    "sentenceId": 44
+    "sid": 44
   },
   "创意": {
     "level": 4,
@@ -12383,7 +12383,7 @@
     "keyword": "creative",
     "hanviet": "sang ý",
     "pinyin": "chuàng yì",
-    "sentenceId": 44
+    "sid": 44
   },
   "玩": {
     "level": 4,
@@ -12395,7 +12395,7 @@
     "keyword": "play",
     "hanviet": "ngoạn",
     "pinyin": "wán",
-    "sentenceId": 46
+    "sid": 46
   },
   "原子笔": {
     "level": 4,
@@ -12407,7 +12407,7 @@
     "keyword": "ballpoint pen",
     "hanviet": "nguyên tử bút",
     "pinyin": "yuán zǐ bǐ",
-    "sentenceId": 46
+    "sid": 46
   },
   "右手": {
     "level": 4,
@@ -12419,7 +12419,7 @@
     "keyword": "right hand",
     "hanviet": "hữu thủ",
     "pinyin": "yòu shǒu",
-    "sentenceId": 46
+    "sid": 46
   },
   "边": {
     "level": 4,
@@ -12431,7 +12431,7 @@
     "keyword": "side",
     "hanviet": "biên",
     "pinyin": "biān",
-    "sentenceId": 46
+    "sid": 46
   },
   "面": {
     "level": 4,
@@ -12443,7 +12443,7 @@
     "keyword": "surface (classifier)",
     "hanviet": "diện",
     "pinyin": "miàn",
-    "sentenceId": 1
+    "sid": 1
   },
   "区区": {
     "level": 4,
@@ -12455,7 +12455,7 @@
     "keyword": "insignificant",
     "hanviet": "khu khu",
     "pinyin": "qū qū",
-    "sentenceId": 48
+    "sid": 48
   },
   "只是": {
     "level": 4,
@@ -12467,7 +12467,7 @@
     "keyword": "merely",
     "hanviet": "chích thị",
     "pinyin": "zhǐ shì",
-    "sentenceId": 48
+    "sid": 48
   },
   "难看": {
     "level": 4,
@@ -12479,7 +12479,7 @@
     "keyword": "unsightly",
     "hanviet": "nan khán",
     "pinyin": "nán kàn",
-    "sentenceId": 48
+    "sid": 48
   },
   "可不是": {
     "level": 4,
@@ -12491,7 +12491,7 @@
     "keyword": "that's just the way it is",
     "hanviet": "khả bất thị",
     "pinyin": "kě bu shì",
-    "sentenceId": 50
+    "sid": 50
   },
   "于是": {
     "level": 3,
@@ -12503,7 +12503,7 @@
     "keyword": "thereupon",
     "hanviet": "vu thị",
     "pinyin": "yú shì",
-    "sentenceId": 53
+    "sid": 53
   },
   "说话": {
     "level": 4,
@@ -12515,7 +12515,7 @@
     "keyword": "speak",
     "hanviet": "thuyết thoại",
     "pinyin": "shuō huà",
-    "sentenceId": 53
+    "sid": 53
   },
   "用": {
     "level": 4,
@@ -12527,7 +12527,7 @@
     "keyword": "use",
     "hanviet": "dụng",
     "pinyin": "yòng",
-    "sentenceId": 53
+    "sid": 53
   },
   "留言": {
     "level": 4,
@@ -12539,7 +12539,7 @@
     "keyword": "leave a message",
     "hanviet": "lưu ngôn",
     "pinyin": "liú yán",
-    "sentenceId": 53
+    "sid": 53
   },
   "义气": {
     "level": 4,
@@ -12557,7 +12557,7 @@
     "keyword": "but",
     "hanviet": "khước",
     "pinyin": "què",
-    "sentenceId": 53
+    "sid": 53
   },
   "默不作声": {
     "level": 4,
@@ -12569,7 +12569,7 @@
     "keyword": "keep silent",
     "hanviet": "mặc bất tác thanh",
     "pinyin": "mò bù zuò shēng",
-    "sentenceId": 53
+    "sid": 53
   },
   "讨论": {
     "level": 4,
@@ -12581,7 +12581,7 @@
     "keyword": "discuss",
     "hanviet": "thảo luận",
     "pinyin": "tǎo lùn",
-    "sentenceId": 53
+    "sid": 53
   },
   "起": {
     "level": 4,
@@ -12593,7 +12593,7 @@
     "keyword": "rise",
     "hanviet": "khởi",
     "pinyin": "qǐ",
-    "sentenceId": 53
+    "sid": 53
   },
   "漫画": {
     "level": 4,
@@ -12605,7 +12605,7 @@
     "keyword": "manga",
     "hanviet": "mạn họa",
     "pinyin": "màn huà",
-    "sentenceId": 53
+    "sid": 53
   },
   "连载": {
     "level": 3,
@@ -12617,7 +12617,7 @@
     "keyword": "serialized",
     "hanviet": "liên tái",
     "pinyin": "lián zǎi",
-    "sentenceId": 53
+    "sid": 53
   },
   "内容": {
     "level": 4,
@@ -12629,7 +12629,7 @@
     "keyword": "content",
     "hanviet": "nội dung",
     "pinyin": "nèi róng",
-    "sentenceId": 53
+    "sid": 53
   },
   "有时": {
     "level": 4,
@@ -12641,7 +12641,7 @@
     "keyword": "sometimes",
     "hanviet": "hữu thì",
     "pinyin": "yǒu shí",
-    "sentenceId": 53
+    "sid": 53
   },
   "还": {
     "level": 4,
@@ -12653,7 +12653,7 @@
     "keyword": "still",
     "hanviet": "hoàn",
     "pinyin": "hái",
-    "sentenceId": 53
+    "sid": 53
   },
   "故意": {
     "level": 4,
@@ -12665,7 +12665,7 @@
     "keyword": "deliberately",
     "hanviet": "cố ý",
     "pinyin": "gù yì",
-    "sentenceId": 53
+    "sid": 53
   },
   "提高": {
     "level": 4,
@@ -12677,7 +12677,7 @@
     "keyword": "raise",
     "hanviet": "đề cao",
     "pinyin": "tí gāo",
-    "sentenceId": 53
+    "sid": 53
   },
   "分贝": {
     "level": 4,
@@ -12689,7 +12689,7 @@
     "keyword": "decibel",
     "hanviet": "phân bối",
     "pinyin": "fēn bèi",
-    "sentenceId": 53
+    "sid": 53
   },
   "知道": {
     "level": 4,
@@ -12701,7 +12701,7 @@
     "keyword": "know",
     "hanviet": "tri đạo",
     "pinyin": "zhī dào",
-    "sentenceId": 53
+    "sid": 53
   },
   "即使": {
     "level": 3,
@@ -12713,7 +12713,7 @@
     "keyword": "even if",
     "hanviet": "tức sử",
     "pinyin": "jí shǐ",
-    "sentenceId": 53
+    "sid": 53
   },
   "身处": {
     "level": 4,
@@ -12725,7 +12725,7 @@
     "keyword": "in",
     "hanviet": "thân xử",
     "pinyin": "shēn chǔ",
-    "sentenceId": 53
+    "sid": 53
   },
   "还是": {
     "level": 4,
@@ -12737,7 +12737,7 @@
     "keyword": "nevertheless",
     "hanviet": "hoàn thị",
     "pinyin": "hái shi",
-    "sentenceId": 53
+    "sid": 53
   },
   "不停": {
     "level": 4,
@@ -12749,7 +12749,7 @@
     "keyword": "incessant",
     "hanviet": "bất đình",
     "pinyin": "bù tíng",
-    "sentenceId": 53
+    "sid": 53
   },
   "战斗": {
     "level": 4,
@@ -12761,7 +12761,7 @@
     "keyword": "fight",
     "hanviet": "chiến đấu",
     "pinyin": "zhàn dòu",
-    "sentenceId": 53
+    "sid": 53
   },
   "再度": {
     "level": 4,
@@ -12773,7 +12773,7 @@
     "keyword": "once more",
     "hanviet": "tái độ",
     "pinyin": "zài dù",
-    "sentenceId": 55
+    "sid": 55
   },
   "意外": {
     "level": 4,
@@ -12785,7 +12785,7 @@
     "keyword": "unexpected",
     "hanviet": "ý ngoại",
     "pinyin": "yì wài",
-    "sentenceId": 57
+    "sid": 57
   },
   "冷": {
     "level": 4,
@@ -12797,7 +12797,7 @@
     "keyword": "cold",
     "hanviet": "lãnh",
     "pinyin": "Lěng",
-    "sentenceId": 59
+    "sid": 59
   },
   "硬": {
     "level": 4,
@@ -12809,7 +12809,7 @@
     "keyword": "hard",
     "hanviet": "ngạnh",
     "pinyin": "yìng",
-    "sentenceId": 59
+    "sid": 59
   },
   "黑板": {
     "level": 4,
@@ -12821,7 +12821,7 @@
     "keyword": "blackboard",
     "hanviet": "hắc bản",
     "pinyin": "hēi bǎn",
-    "sentenceId": 59
+    "sid": 59
   },
   "前": {
     "level": 4,
@@ -12833,7 +12833,7 @@
     "keyword": "front",
     "hanviet": "tiền",
     "pinyin": "qián",
-    "sentenceId": 59
+    "sid": 59
   },
   "气": {
     "level": 4,
@@ -12845,7 +12845,7 @@
     "keyword": "angry",
     "hanviet": "khí",
     "pinyin": "qì",
-    "sentenceId": 59
+    "sid": 59
   },
   "全身": {
     "level": 4,
@@ -12857,7 +12857,7 @@
     "keyword": "whole body",
     "hanviet": "toàn thân",
     "pinyin": "quán shēn",
-    "sentenceId": 59
+    "sid": 59
   },
   "满脸": {
     "level": 4,
@@ -12869,7 +12869,7 @@
     "keyword": "across the face",
     "hanviet": "mãn kiểm",
     "pinyin": "mǎn liǎn",
-    "sentenceId": 59
+    "sid": 59
   },
   "一回事": {
     "level": 4,
@@ -12886,7 +12886,7 @@
     "keyword": "why on earth",
     "hanviet": "kiền mạ",
     "pinyin": "gàn má",
-    "sentenceId": 61
+    "sid": 61
   },
   "额头": {
     "level": 4,
@@ -12898,7 +12898,7 @@
     "keyword": "forehead",
     "hanviet": "ngạch đầu",
     "pinyin": "é tóu",
-    "sentenceId": 61
+    "sid": 61
   },
   "老师": {
     "level": 4,
@@ -12910,7 +12910,7 @@
     "keyword": "teacher",
     "hanviet": "lão sư",
     "pinyin": "lǎo shī",
-    "sentenceId": 63
+    "sid": 63
   },
   "已经": {
     "level": 4,
@@ -12922,7 +12922,7 @@
     "keyword": "already",
     "hanviet": "dĩ kinh",
     "pinyin": "yǐ jīng",
-    "sentenceId": 63
+    "sid": 63
   },
   "尽量": {
     "level": 4,
@@ -12934,7 +12934,7 @@
     "keyword": "as much as possible",
     "hanviet": "tẫn lượng",
     "pinyin": "jǐn liàng",
-    "sentenceId": 63
+    "sid": 63
   },
   "克制": {
     "level": 4,
@@ -12946,7 +12946,7 @@
     "keyword": "restrain",
     "hanviet": "khắc chế",
     "pinyin": "kè zhì",
-    "sentenceId": 63
+    "sid": 63
   },
   "冲动": {
     "level": 4,
@@ -12958,7 +12958,7 @@
     "keyword": "have an urge",
     "hanviet": "trùng động",
     "pinyin": "chōng dòng",
-    "sentenceId": 63
+    "sid": 63
   },
   "难为情": {
     "level": 4,
@@ -12970,7 +12970,7 @@
     "keyword": "embarrassed",
     "hanviet": "nan vi tình",
     "pinyin": "nán wéi qíng",
-    "sentenceId": 64
+    "sid": 64
   },
   "抓": {
     "level": 4,
@@ -12982,7 +12982,7 @@
     "keyword": "grab",
     "hanviet": "trảo",
     "pinyin": "zhuā",
-    "sentenceId": 64
+    "sid": 64
   },
   "头": {
     "level": 4,
@@ -12994,7 +12994,7 @@
     "keyword": "head",
     "hanviet": "đầu",
     "pinyin": "tóu",
-    "sentenceId": 64
+    "sid": 64
   },
   "手指": {
     "addedAt": 1639125654665,
@@ -13005,7 +13005,7 @@
     "keyword": "finger",
     "hanviet": "thủ chỉ",
     "pinyin": "shǒu zhǐ",
-    "sentenceId": 64
+    "sid": 64
   },
   "脑袋": {
     "addedAt": 1639128474360,
@@ -13016,7 +13016,7 @@
     "keyword": "head",
     "hanviet": "não đại",
     "pinyin": "nǎo dai",
-    "sentenceId": 64
+    "sid": 64
   },
   "后面": {
     "level": 4,
@@ -13028,7 +13028,7 @@
     "keyword": "back",
     "hanviet": "hậu diện",
     "pinyin": "hòu miàn",
-    "sentenceId": 64
+    "sid": 64
   },
   "根": {
     "level": 4,
@@ -13040,7 +13040,7 @@
     "keyword": "a (classifier)",
     "hanviet": "căn",
     "pinyin": "gēn",
-    "sentenceId": 64
+    "sid": 64
   },
   "忍": {
     "level": 4,
@@ -13052,7 +13052,7 @@
     "keyword": "bear",
     "hanviet": "nhẫn",
     "pinyin": "rěn",
-    "sentenceId": 64
+    "sid": 64
   },
   "笑意": {
     "level": 4,
@@ -13064,7 +13064,7 @@
     "keyword": "smiling expression",
     "hanviet": "tiếu ý",
     "pinyin": "xiào yì",
-    "sentenceId": 64
+    "sid": 64
   },
   "痛苦": {
     "level": 4,
@@ -13076,7 +13076,7 @@
     "keyword": "pain",
     "hanviet": "thống khổ",
     "pinyin": "tòng kǔ",
-    "sentenceId": 66
+    "sid": 66
   },
   "眼睛": {
     "level": 4,
@@ -13088,7 +13088,7 @@
     "keyword": "eye",
     "hanviet": "nhãn tình",
     "pinyin": "yǎn jing",
-    "sentenceId": 66
+    "sid": 66
   },
   "眼皮底下": {
     "level": 4,
@@ -13100,7 +13100,7 @@
     "keyword": "in front of one's eyes",
     "hanviet": "nhãn bì để hạ",
     "pinyin": "yǎn pí dǐ xia",
-    "sentenceId": 66
+    "sid": 66
   },
   "转": {
     "level": 4,
@@ -13112,7 +13112,7 @@
     "keyword": "circle about",
     "hanviet": "chuyển",
     "pinyin": "zhuàn",
-    "sentenceId": 66
+    "sid": 66
   },
   "各种": {
     "level": 4,
@@ -13124,7 +13124,7 @@
     "keyword": "every kind of",
     "hanviet": "các chủng",
     "pinyin": "gè zhǒng",
-    "sentenceId": 66
+    "sid": 66
   },
   "压制": {
     "level": 4,
@@ -13136,7 +13136,7 @@
     "keyword": "suppress",
     "hanviet": "áp chế",
     "pinyin": "yā zhì",
-    "sentenceId": 66
+    "sid": 66
   },
   "念头": {
     "level": 4,
@@ -13148,7 +13148,7 @@
     "keyword": "idea",
     "hanviet": "niệm đầu",
     "pinyin": "niàn tou",
-    "sentenceId": 66
+    "sid": 66
   },
   "以": {
     "level": 4,
@@ -13160,7 +13160,7 @@
     "keyword": "in order to",
     "hanviet": "dĩ",
     "pinyin": "yǐ",
-    "sentenceId": 66
+    "sid": 66
   },
   "待": {
     "level": 4,
@@ -13172,7 +13172,7 @@
     "keyword": "wait",
     "hanviet": "đãi",
     "pinyin": "dài",
-    "sentenceId": 66
+    "sid": 66
   },
   "当时": {
     "level": 4,
@@ -13184,7 +13184,7 @@
     "keyword": "at that time",
     "hanviet": "đương thì",
     "pinyin": "dāng shí",
-    "sentenceId": 67
+    "sid": 67
   },
   "非常": {
     "level": 4,
@@ -13196,7 +13196,7 @@
     "keyword": "very much",
     "hanviet": "phi thường",
     "pinyin": "fēi cháng",
-    "sentenceId": 67
+    "sid": 67
   },
   "享受": {
     "level": 4,
@@ -13208,7 +13208,7 @@
     "keyword": "enjoy",
     "hanviet": "hưởng thụ",
     "pinyin": "xiǎng shòu",
-    "sentenceId": 67
+    "sid": 67
   },
   "将": {
     "level": 4,
@@ -13220,7 +13220,7 @@
     "keyword": "use",
     "hanviet": "tương",
     "pinyin": "jiāng",
-    "sentenceId": 67
+    "sid": 67
   },
   "当作": {
     "level": 4,
@@ -13232,7 +13232,7 @@
     "keyword": "regard as",
     "hanviet": "đương tác",
     "pinyin": "dàng zuò",
-    "sentenceId": 67
+    "sid": 67
   },
   "来": {
     "level": 4,
@@ -13244,7 +13244,7 @@
     "keyword": "come",
     "hanviet": "lai",
     "pinyin": "lái",
-    "sentenceId": 69
+    "sid": 69
   },
   "吧": {
     "level": 4,
@@ -13256,7 +13256,7 @@
     "keyword": "ba",
     "hanviet": "ba",
     "pinyin": "bā",
-    "sentenceId": 69
+    "sid": 69
   },
   "展现": {
     "level": 4,
@@ -13268,7 +13268,7 @@
     "keyword": "reveal",
     "hanviet": "triển hiện",
     "pinyin": "zhǎn xiàn",
-    "sentenceId": 69
+    "sid": 69
   },
   "名师": {
     "level": 4,
@@ -13280,7 +13280,7 @@
     "keyword": "great teacher",
     "hanviet": "danh sư",
     "pinyin": "míng shī",
-    "sentenceId": 69
+    "sid": 69
   },
   "深深": {
     "level": 4,
@@ -13292,7 +13292,7 @@
     "keyword": "deep",
     "hanviet": "thâm thâm",
     "pinyin": "shēn shēn",
-    "sentenceId": 71
+    "sid": 71
   },
   "吐": {
     "level": 4,
@@ -13304,7 +13304,7 @@
     "keyword": "spit",
     "hanviet": "thổ",
     "pinyin": "tǔ",
-    "sentenceId": 71
+    "sid": 71
   },
   "出": {
     "level": 4,
@@ -13316,7 +13316,7 @@
     "keyword": "out",
     "hanviet": "xuất",
     "pinyin": "chū",
-    "sentenceId": 71
+    "sid": 71
   },
   "一口": {
     "level": 4,
@@ -13328,7 +13328,7 @@
     "keyword": "a mouthful",
     "hanviet": "nhất khẩu",
     "pinyin": "yī kǒu",
-    "sentenceId": 71
+    "sid": 71
   },
   "前面": {
     "level": 4,
@@ -13340,7 +13340,7 @@
     "keyword": "in front",
     "hanviet": "tiền diện",
     "pinyin": "qián miàn",
-    "sentenceId": 76
+    "sid": 76
   },
   "血丝": {
     "level": 4,
@@ -13352,7 +13352,7 @@
     "keyword": "bloodshot",
     "hanviet": "huyết ti",
     "pinyin": "xuè sī",
-    "sentenceId": 77
+    "sid": 77
   },
   "满": {
     "level": 4,
@@ -13364,7 +13364,7 @@
     "keyword": "full",
     "hanviet": "mãn",
     "pinyin": "mǎn",
-    "sentenceId": 77
+    "sid": 77
   },
   "布": {
     "level": 4,
@@ -13376,7 +13376,7 @@
     "keyword": "spread",
     "hanviet": "bố",
     "pinyin": "bù",
-    "sentenceId": 77
+    "sid": 77
   },
   "不解": {
     "level": 4,
@@ -13388,7 +13388,7 @@
     "keyword": "not understand",
     "hanviet": "bất giải",
     "pinyin": "bù jiě",
-    "sentenceId": 79
+    "sid": 79
   },
   "什么": {
     "level": 4,
@@ -13400,7 +13400,7 @@
     "keyword": "what",
     "hanviet": "thập yêu",
     "pinyin": "shén me",
-    "sentenceId": 81
+    "sid": 81
   },
   "女生": {
     "level": 4,
@@ -13412,7 +13412,7 @@
     "keyword": "girl",
     "hanviet": "nữ sinh",
     "pinyin": "nǚ shēng",
-    "sentenceId": 83
+    "sid": 83
   },
   "功课": {
     "level": 4,
@@ -13424,7 +13424,7 @@
     "keyword": "homework",
     "hanviet": "công khóa",
     "pinyin": "gōng kè",
-    "sentenceId": 83
+    "sid": 83
   },
   "连": {
     "level": 4,
@@ -13436,7 +13436,7 @@
     "keyword": "even",
     "hanviet": "liên",
     "pinyin": "Lián",
-    "sentenceId": 83
+    "sid": 83
   },
   "无法": {
     "level": 4,
@@ -13448,7 +13448,7 @@
     "keyword": "unable",
     "hanviet": "vô pháp",
     "pinyin": "wú fǎ",
-    "sentenceId": 83
+    "sid": 83
   },
   "生": {
     "level": 4,
@@ -13466,7 +13466,7 @@
     "keyword": "heart",
     "hanviet": "tâm",
     "pinyin": "xīn",
-    "sentenceId": 83
+    "sid": 83
   },
   "女孩子": {
     "level": 4,
@@ -13478,7 +13478,7 @@
     "keyword": "girl",
     "hanviet": "nữ hài tử",
     "pinyin": "nǚ hái zi",
-    "sentenceId": 83
+    "sid": 83
   },
   "短": {
     "level": 4,
@@ -13490,7 +13490,7 @@
     "keyword": "short",
     "hanviet": "đoản",
     "pinyin": "duǎn",
-    "sentenceId": 84
+    "sid": 84
   },
   "发": {
     "level": 4,
@@ -13502,7 +13502,7 @@
     "keyword": "hair",
     "hanviet": "phát",
     "pinyin": "fā",
-    "sentenceId": 84
+    "sid": 84
   },
   "有点": {
     "level": 4,
@@ -13514,7 +13514,7 @@
     "keyword": "a little",
     "hanviet": "hữu điểm",
     "pinyin": "yǒu diǎn",
-    "sentenceId": 84
+    "sid": 84
   },
   "小": {
     "level": 4,
@@ -13526,7 +13526,7 @@
     "keyword": "small",
     "hanviet": "tiểu",
     "pinyin": "xiǎo",
-    "sentenceId": 84
+    "sid": 84
   },
   "气质": {
     "level": 4,
@@ -13538,7 +13538,7 @@
     "keyword": "personality",
     "hanviet": "khí chất",
     "pinyin": "qì zhì",
-    "sentenceId": 84
+    "sid": 84
   },
   "出众": {
     "level": 4,
@@ -13550,7 +13550,7 @@
     "keyword": "outstanding",
     "hanviet": "xuất chúng",
     "pinyin": "chū zhòng",
-    "sentenceId": 84
+    "sid": 84
   },
   "自大狂": {
     "level": 4,
@@ -13562,7 +13562,7 @@
     "keyword": "megalomania",
     "hanviet": "tự đại cuồng",
     "pinyin": "zì dà kuáng",
-    "sentenceId": 86
+    "sid": 86
   },
   "比赛": {
     "level": 4,
@@ -13574,7 +13574,7 @@
     "keyword": "competition",
     "hanviet": "bỉ tái",
     "pinyin": "bǐ sài",
-    "sentenceId": 86
+    "sid": 86
   },
   "冠军": {
     "level": 4,
@@ -13586,7 +13586,7 @@
     "keyword": "champion",
     "hanviet": "quan quân",
     "pinyin": "guàn jūn",
-    "sentenceId": 86
+    "sid": 86
   },
   "她": {
     "level": 4,
@@ -13598,7 +13598,7 @@
     "keyword": "she",
     "hanviet": "tha",
     "pinyin": "tā",
-    "sentenceId": 86
+    "sid": 86
   },
   "面前": {
     "level": 4,
@@ -13610,7 +13610,7 @@
     "keyword": "in front of",
     "hanviet": "diện tiền",
     "pinyin": "miàn qián",
-    "sentenceId": 86
+    "sid": 86
   },
   "感到": {
     "level": 4,
@@ -13622,7 +13622,7 @@
     "keyword": "feel",
     "hanviet": "cảm đáo",
     "pinyin": "gǎn dào",
-    "sentenceId": 86
+    "sid": 86
   },
   "从今以后": {
     "level": 4,
@@ -13634,7 +13634,7 @@
     "keyword": "from now on",
     "hanviet": "tòng kim dĩ hậu",
     "pinyin": "cóng jīn yǐ hòu",
-    "sentenceId": 88
+    "sid": 88
   },
   "这个": {
     "level": 4,
@@ -13646,7 +13646,7 @@
     "keyword": "this",
     "hanviet": "giá cá",
     "pinyin": "zhè ge",
-    "sentenceId": 88
+    "sid": 88
   },
   "大麻": {
     "level": 4,
@@ -13670,7 +13670,7 @@
     "keyword": "earnest words",
     "hanviet": "ngữ trọng tâm trường",
     "pinyin": "yǔ zhòng xīn cháng",
-    "sentenceId": 89
+    "sid": 89
   },
   "口气": {
     "level": 4,
@@ -13688,7 +13688,7 @@
     "keyword": "apparently",
     "hanviet": "tự hồ",
     "pinyin": "sì hū",
-    "sentenceId": 91
+    "sid": 91
   },
   "对": {
     "level": 4,
@@ -13700,7 +13700,7 @@
     "keyword": "treat",
     "hanviet": "đối",
     "pinyin": "duì",
-    "sentenceId": 17
+    "sid": 17
   },
   "责任": {
     "level": 4,
@@ -13712,7 +13712,7 @@
     "keyword": "responsibility",
     "hanviet": "trách nhâm",
     "pinyin": "zé rèn",
-    "sentenceId": 91
+    "sid": 91
   },
   "而": {
     "level": 4,
@@ -13724,7 +13724,7 @@
     "keyword": "and",
     "hanviet": "nhi",
     "pinyin": "ér",
-    "sentenceId": 93
+    "sid": 93
   },
   "到了": {
     "level": 4,
@@ -13742,7 +13742,7 @@
     "keyword": "extreme point",
     "hanviet": "cực điểm",
     "pinyin": "jí diǎn",
-    "sentenceId": 93
+    "sid": 93
   },
   "严加": {
     "level": 4,
@@ -13754,7 +13754,7 @@
     "keyword": "sternly",
     "hanviet": "nghiêm gia",
     "pinyin": "yán jiā",
-    "sentenceId": 93
+    "sid": 93
   },
   "管教": {
     "level": 4,
@@ -13766,7 +13766,7 @@
     "keyword": "discipline",
     "hanviet": "quản giáo",
     "pinyin": "guǎn jiào",
-    "sentenceId": 93
+    "sid": 93
   },
   "发出": {
     "level": 4,
@@ -13778,7 +13778,7 @@
     "keyword": "let out",
     "hanviet": "phát xuất",
     "pinyin": "fā chū",
-    "sentenceId": 93
+    "sid": 93
   },
   "甚至": {
     "level": 4,
@@ -13790,7 +13790,7 @@
     "keyword": "even",
     "hanviet": "thậm chí",
     "pinyin": "shèn zhì",
-    "sentenceId": 93
+    "sid": 93
   },
   "忍不住": {
     "level": 4,
@@ -13802,7 +13802,7 @@
     "keyword": "cannot help",
     "hanviet": "nhẫn bất trụ",
     "pinyin": "rěn bu zhù",
-    "sentenceId": 93
+    "sid": 93
   },
   "大笑": {
     "level": 4,
@@ -13814,7 +13814,7 @@
     "keyword": "laugh heartily",
     "hanviet": "đại tiếu",
     "pinyin": "dà xiào",
-    "sentenceId": 93
+    "sid": 93
   },
   "出来": {
     "level": 4,
@@ -13826,7 +13826,7 @@
     "keyword": "come out",
     "hanviet": "xuất lai",
     "pinyin": "chū lái",
-    "sentenceId": 93
+    "sid": 93
   },
   "真": {
     "level": 4,
@@ -13838,7 +13838,7 @@
     "keyword": "really",
     "hanviet": "chân",
     "pinyin": "zhēn",
-    "sentenceId": 96
+    "sid": 96
   },
   "吗": {
     "level": 4,
@@ -13850,7 +13850,7 @@
     "keyword": "ma",
     "hanviet": "mạ",
     "pinyin": "mǎ",
-    "sentenceId": 98
+    "sid": 98
   },
   "问": {
     "level": 4,
@@ -13862,7 +13862,7 @@
     "keyword": "ask",
     "hanviet": "vấn",
     "pinyin": "wèn",
-    "sentenceId": 98
+    "sid": 98
   },
   "句": {
     "level": 4,
@@ -13874,7 +13874,7 @@
     "keyword": "sentence",
     "hanviet": "cú",
     "pinyin": "gōu",
-    "sentenceId": 98
+    "sid": 98
   },
   "可见": {
     "level": 4,
@@ -13886,7 +13886,7 @@
     "keyword": "clearly",
     "hanviet": "khả kiến",
     "pinyin": "kě jiàn",
-    "sentenceId": 98
+    "sid": 98
   },
   "地位": {
     "level": 4,
@@ -13898,7 +13898,7 @@
     "keyword": "position",
     "hanviet": "đích vị",
     "pinyin": "dì wèi",
-    "sentenceId": 98
+    "sid": 98
   },
   "答": {
     "level": 4,
@@ -13916,7 +13916,7 @@
     "keyword": "entire",
     "hanviet": "chỉnh cá",
     "pinyin": "zhěng gè",
-    "sentenceId": 101
+    "sid": 101
   },
   "片": {
     "level": 4,
@@ -13928,7 +13928,7 @@
     "keyword": "feeling (classifier)",
     "hanviet": "phiến",
     "pinyin": "piān",
-    "sentenceId": 101
+    "sid": 101
   },
   "受尽": {
     "level": 4,
@@ -13940,7 +13940,7 @@
     "keyword": "suffer",
     "hanviet": "thụ tẫn",
     "pinyin": "shòu jìn",
-    "sentenceId": 101
+    "sid": 101
   },
   "镜头": {
     "level": 4,
@@ -13952,7 +13952,7 @@
     "keyword": "scene",
     "hanviet": "kính đầu",
     "pinyin": "jìng tóu",
-    "sentenceId": 103
+    "sid": 103
   },
   "带": {
     "level": 4,
@@ -13970,7 +13970,7 @@
     "keyword": "delicate and pretty",
     "hanviet": "thanh tú",
     "pinyin": "qīng xiù",
-    "sentenceId": 103
+    "sid": 103
   },
   "脸孔": {
     "level": 4,
@@ -13982,7 +13982,7 @@
     "keyword": "face",
     "hanviet": "kiểm khổng",
     "pinyin": "liǎn kǒng",
-    "sentenceId": 103
+    "sid": 103
   },
   "我们": {
     "addedAt": 1639123883610,
@@ -13993,7 +13993,7 @@
     "keyword": "we",
     "hanviet": "ngã môn",
     "pinyin": "wǒ men",
-    "sentenceId": 105
+    "sid": 105
   },
   "这么": {
     "level": 4,
@@ -14005,7 +14005,7 @@
     "keyword": "like this",
     "hanviet": "giá yêu",
     "pinyin": "zhè me",
-    "sentenceId": 105
+    "sid": 105
   },
   "墙": {
     "level": 3,
@@ -14014,7 +14014,7 @@
     "keyword": "wall",
     "hanviet": "tường",
     "pinyin": "qiáng",
-    "sentenceId": 1
+    "sid": 1
   },
   "彰化": {
     "addedAt": 1639140698215,
@@ -14025,7 +14025,7 @@
     "keyword": "Zhanghua",
     "hanviet": "chương hóa",
     "pinyin": "Zhāng huà",
-    "sentenceId": 3
+    "sid": 3
   },
   "卷发": {
     "addedAt": 1639104243882,
@@ -14036,7 +14036,7 @@
     "keyword": "curly hair",
     "hanviet": "quyển phát",
     "pinyin": "juǎn fà",
-    "sentenceId": 5
+    "sid": 5
   },
   "周遭": {
     "level": 4,
@@ -14045,7 +14045,7 @@
     "keyword": "nearby",
     "hanviet": "chu tao",
     "pinyin": "zhōu zāo",
-    "sentenceId": 5
+    "sid": 5
   },
   "抬杠": {
     "level": 3,
@@ -14054,7 +14054,7 @@
     "keyword": "bicker",
     "hanviet": "sĩ giang",
     "pinyin": "tái gàng",
-    "sentenceId": 5
+    "sid": 5
   },
   "赖导": {
     "level": 4,
@@ -14063,7 +14063,7 @@
     "keyword": "Discipline Master Lai",
     "hanviet": "lại đạo",
     "pinyin": "lài dǎo",
-    "sentenceId": 5
+    "sid": 5
   },
   "罚": {
     "addedAt": 1639127948645,
@@ -14074,7 +14074,7 @@
     "keyword": "punish",
     "hanviet": "phạt",
     "pinyin": "fá",
-    "sentenceId": 5
+    "sid": 5
   },
   "唯一": {
     "level": 3,
@@ -14083,7 +14083,7 @@
     "keyword": "only",
     "hanviet": "duy nhất",
     "pinyin": "wéi yī",
-    "sentenceId": 7
+    "sid": 7
   },
   "邻座": {
     "level": 3,
@@ -14092,7 +14092,7 @@
     "keyword": "neighbor",
     "hanviet": "lân tọa",
     "pinyin": "lín zuò",
-    "sentenceId": 7
+    "sid": 7
   },
   "光秃秃": {
     "level": 3,
@@ -14101,7 +14101,7 @@
     "keyword": "bald",
     "hanviet": "quang ngốc ngốc",
     "pinyin": "guāng tū tū",
-    "sentenceId": 7
+    "sid": 7
   },
   "墙壁": {
     "level": 3,
@@ -14110,7 +14110,7 @@
     "keyword": "wall",
     "hanviet": "tường bích",
     "pinyin": "qiáng bì",
-    "sentenceId": 7
+    "sid": 7
   },
   "柯景腾": {
     "level": 4,
@@ -14119,7 +14119,7 @@
     "keyword": "Ke Jing-teng",
     "hanviet": "kha cảnh đằng",
     "pinyin": "kē jǐng tēng",
-    "sentenceId": 9
+    "sid": 9
   },
   "吵闹": {
     "level": 4,
@@ -14128,7 +14128,7 @@
     "keyword": "raucous",
     "hanviet": "sảo nháo",
     "pinyin": "chǎo nào",
-    "sentenceId": 9
+    "sid": 9
   },
   "睥睨": {
     "level": 3,
@@ -14137,7 +14137,7 @@
     "keyword": "look disdainfully",
     "hanviet": "bễ nghễ",
     "pinyin": "bì nì",
-    "sentenceId": 9
+    "sid": 9
   },
   "抽屉": {
     "addedAt": 1639129545515,
@@ -14148,7 +14148,7 @@
     "keyword": "drawer",
     "hanviet": "trừu thế",
     "pinyin": "chōu ti",
-    "sentenceId": 9
+    "sid": 9
   },
   "乱七八糟": {
     "addedAt": 1639139577368,
@@ -14159,7 +14159,7 @@
     "keyword": "in a hideous mess",
     "hanviet": "loạn thất bát tao",
     "pinyin": "luàn qī bā zāo",
-    "sentenceId": 12
+    "sid": 12
   },
   "稿": {
     "level": 3
@@ -14171,7 +14171,7 @@
     "keyword": "squeeze out",
     "hanviet": "tễ xuất",
     "pinyin": "jǐ chū",
-    "sentenceId": 12
+    "sid": 12
   },
   "搞笑": {
     "level": 4,
@@ -14180,7 +14180,7 @@
     "keyword": "make people laugh",
     "hanviet": "cảo tiếu",
     "pinyin": "gǎo xiào",
-    "sentenceId": 15
+    "sid": 15
   },
   "荣誉": {
     "level": 3,
@@ -14189,7 +14189,7 @@
     "keyword": "honor",
     "hanviet": "vinh dự",
     "pinyin": "róng yù",
-    "sentenceId": 17
+    "sid": 17
   },
   "奖状": {
     "level": 3,
@@ -14198,7 +14198,7 @@
     "keyword": "prize certificate",
     "hanviet": "tưởng trạng",
     "pinyin": "jiǎng zhuàng",
-    "sentenceId": 17
+    "sid": 17
   },
   "秩序": {
     "level": 3,
@@ -14207,7 +14207,7 @@
     "keyword": "order",
     "hanviet": "trật tự",
     "pinyin": "zhì xù",
-    "sentenceId": 17
+    "sid": 17
   },
   "狗咬狗": {
     "level": 3,
@@ -14216,7 +14216,7 @@
     "keyword": "dog-eat-dog",
     "hanviet": "cẩu giảo cẩu",
     "pinyin": "gǒu yǎo gǒu",
-    "sentenceId": 17
+    "sid": 17
   },
   "礼拜一": {
     "level": 3,
@@ -14225,7 +14225,7 @@
     "keyword": "Monday",
     "hanviet": "lễ bái nhất",
     "pinyin": "Lǐ bài yī",
-    "sentenceId": 18
+    "sid": 18
   },
   "匿名": {
     "level": 3,
@@ -14234,7 +14234,7 @@
     "keyword": "anonymous",
     "hanviet": "nặc danh",
     "pinyin": "nì míng",
-    "sentenceId": 18
+    "sid": 18
   },
   "曹国胜": {
     "level": 3,
@@ -14243,7 +14243,7 @@
     "keyword": "Cao Guosheng",
     "hanviet": "tào quốc thắng",
     "pinyin": "cáo guó shèng",
-    "sentenceId": 18
+    "sid": 18
   },
   "出炉": {
     "level": 2,
@@ -14252,7 +14252,7 @@
     "keyword": "announced",
     "hanviet": "xuất lô",
     "pinyin": "chū lú",
-    "sentenceId": 20
+    "sid": 20
   },
   "榜首": {
     "level": 4,
@@ -14261,7 +14261,7 @@
     "keyword": "top of the list",
     "hanviet": "bảng thủ",
     "pinyin": "bǎng shǒu",
-    "sentenceId": 20
+    "sid": 20
   },
   "霉": {
     "level": 4
@@ -14273,7 +14273,7 @@
     "keyword": "unable to put up with any longer",
     "hanviet": "bất thắng kì nhiễu",
     "pinyin": "bù shèng qí rǎo",
-    "sentenceId": 20
+    "sid": 20
   },
   "造孽": {
     "level": 2,
@@ -14282,7 +14282,7 @@
     "keyword": "do evil",
     "hanviet": "tạo nghiệt",
     "pinyin": "zào niè",
-    "sentenceId": 24
+    "sid": 24
   },
   "处罚": {
     "level": 3,
@@ -14291,7 +14291,7 @@
     "keyword": "penalize",
     "hanviet": "xử phạt",
     "pinyin": "chǔ fá",
-    "sentenceId": 24
+    "sid": 24
   },
   "沈佳仪": {
     "level": 4,
@@ -14300,7 +14300,7 @@
     "keyword": "Shen Jiayi",
     "hanviet": "trầm giai nghi",
     "pinyin": "chén jiā yí",
-    "sentenceId": 76
+    "sid": 76
   },
   "拙": {
     "level": 3
@@ -14312,7 +14312,7 @@
     "keyword": "en",
     "hanviet": "ân",
     "pinyin": "ēn",
-    "sentenceId": 100
+    "sid": 100
   },
   "震惊": {
     "addedAt": 1639133344862,
@@ -14323,7 +14323,7 @@
     "keyword": "shock",
     "hanviet": "chấn kinh",
     "pinyin": "zhèn jīng",
-    "sentenceId": 96
+    "sid": 96
   },
   "杨泽于": {
     "level": 3,
@@ -14332,7 +14332,7 @@
     "keyword": "Yang Zeyu",
     "hanviet": "dương trạch vu",
     "pinyin": "yáng zé yú",
-    "sentenceId": 25
+    "sid": 25
   },
   "恐怖": {
     "level": 3,
@@ -14341,7 +14341,7 @@
     "keyword": "terrible",
     "hanviet": "khủng phố",
     "pinyin": "kǒng bù",
-    "sentenceId": 93
+    "sid": 93
   },
   "叹": {
     "addedAt": 1639128819916,
@@ -14352,7 +14352,7 @@
     "keyword": "sigh",
     "hanviet": "thán",
     "pinyin": "tàn",
-    "sentenceId": 91
+    "sid": 91
   },
   "人缘": {
     "level": 3,
@@ -14361,7 +14361,7 @@
     "keyword": "relations",
     "hanviet": "nhân duyến",
     "pinyin": "rén yuán",
-    "sentenceId": 83
+    "sid": 83
   },
   "佳": {
     "level": 3,
@@ -14370,7 +14370,7 @@
     "keyword": "good",
     "hanviet": "giai",
     "pinyin": "Jiā",
-    "sentenceId": 83
+    "sid": 83
   },
   "幼稚": {
     "addedAt": 1639148114807,
@@ -14381,7 +14381,7 @@
     "keyword": "childish",
     "hanviet": "ấu trĩ",
     "pinyin": "yòu zhì",
-    "sentenceId": 67
+    "sid": 67
   },
   "大爆炸": {
     "level": 3,
@@ -14390,7 +14390,7 @@
     "keyword": "Big Bang",
     "hanviet": "đại bạo tạc",
     "pinyin": "dà bào zhà",
-    "sentenceId": 66
+    "sid": 66
   },
   "爆出": {
     "level": 3,
@@ -14399,7 +14399,7 @@
     "keyword": "burst out",
     "hanviet": "bạo xuất",
     "pinyin": "bào chū",
-    "sentenceId": 61
+    "sid": 61
   },
   "毫无": {
     "level": 3,
@@ -14408,7 +14408,7 @@
     "keyword": "not in the least",
     "hanviet": "hào vô",
     "pinyin": "háo wú",
-    "sentenceId": 44
+    "sid": 44
   },
   "礼拜": {
     "level": 3,
@@ -14417,7 +14417,7 @@
     "keyword": "week",
     "hanviet": "lễ bái",
     "pinyin": "lǐ bài",
-    "sentenceId": 55
+    "sid": 55
   },
   "罢了": {
     "level": 2,
@@ -14426,7 +14426,7 @@
     "keyword": "that's all",
     "hanviet": "bãi liễu",
     "pinyin": "bà le",
-    "sentenceId": 48
+    "sid": 48
   },
   "可怜": {
     "addedAt": 1639128276880,
@@ -14437,7 +14437,7 @@
     "keyword": "pitiful",
     "hanviet": "khả liên",
     "pinyin": "kě lián",
-    "sentenceId": 38
+    "sid": 38
   },
   "剩下": {
     "addedAt": 1639128267285,
@@ -14448,7 +14448,7 @@
     "keyword": "remain",
     "hanviet": "thặng hạ",
     "pinyin": "shèng xià",
-    "sentenceId": 38
+    "sid": 38
   },
   "怪兽": {
     "level": 4,
@@ -14457,7 +14457,7 @@
     "keyword": "monster",
     "hanviet": "quái thú",
     "pinyin": "guài shòu",
-    "sentenceId": 39
+    "sid": 39
   },
   "廖英宏": {
     "level": 4,
@@ -14466,7 +14466,7 @@
     "keyword": "Liao Yinghong",
     "hanviet": "liêu anh hoành",
     "pinyin": "liào yīng hóng",
-    "sentenceId": 29
+    "sid": 29
   },
   "泯灭": {
     "level": 3,
@@ -14475,7 +14475,7 @@
     "keyword": "obliterate",
     "hanviet": "mẫn diệt",
     "pinyin": "mǐn miè",
-    "sentenceId": 35
+    "sid": 35
   },
   "友谊": {
     "level": 3,
@@ -14484,7 +14484,7 @@
     "keyword": "companionship",
     "hanviet": "hữu nghị",
     "pinyin": "yǒu yì",
-    "sentenceId": 35
+    "sid": 35
   },
   "白色恐怖": {
     "level": 3,
@@ -14493,7 +14493,7 @@
     "keyword": "White Terror",
     "hanviet": "bạch sắc khủng phố",
     "pinyin": "bái sè kǒng bù",
-    "sentenceId": 35
+    "sid": 35
   },
   "闹": {
     "level": 3,
@@ -14502,7 +14502,7 @@
     "keyword": "noisy",
     "hanviet": "nháo",
     "pinyin": "nào",
-    "sentenceId": 32
+    "sid": 32
   },
   "喂": {
     "addedAt": 1639128859942,
@@ -14513,7 +14513,7 @@
     "keyword": "hello",
     "hanviet": "uy",
     "pinyin": "wéi",
-    "sentenceId": 29
+    "sid": 29
   },
   "喔": {
     "addedAt": 1639124902640,
@@ -14524,7 +14524,7 @@
     "keyword": "oh",
     "hanviet": "ác",
     "pinyin": "ō",
-    "sentenceId": 29
+    "sid": 29
   },
   "榜眼": {
     "level": 3,
@@ -14533,7 +14533,7 @@
     "keyword": "second top",
     "hanviet": "bảng nhãn",
     "pinyin": "bǎng yǎn",
-    "sentenceId": 25
+    "sid": 25
   },
   "拨": {
     "level": 0,
@@ -14542,7 +14542,7 @@
     "keyword": "push",
     "hanviet": "bát",
     "pinyin": "bō",
-    "sentenceId": 25
+    "sid": 25
   },
   "欧巴桑": {
     "level": 4
@@ -14559,7 +14559,7 @@
     "keyword": "take",
     "hanviet": "đáp",
     "pinyin": "dā",
-    "sentenceId": 39
+    "sid": 39
   },
   "脚踏车": {
     "level": 3
@@ -14704,7 +14704,7 @@
     "keyword": "Zheng Mengxi",
     "hanviet": "trịnh mạnh tu",
     "pinyin": "zhèng mèng xiū",
-    "sentenceId": 39
+    "sid": 39
   },
   "蛮": {
     "addedAt": 1639125004355,
@@ -14729,7 +14729,7 @@
     "keyword": "purse",
     "hanviet": "trứu khởi",
     "pinyin": "zhòu qǐ",
-    "sentenceId": 91
+    "sid": 91
   },
   "眉头": {
     "addedAt": 1639134060452,
@@ -14740,7 +14740,7 @@
     "keyword": "brows",
     "hanviet": "mi đầu",
     "pinyin": "méi tóu",
-    "sentenceId": 91
+    "sid": 91
   },
   "脖子": {
     "level": 0
@@ -14894,7 +14894,7 @@
     "keyword": "feel inferior",
     "hanviet": "tự tàm hình uế",
     "pinyin": "zì cán xíng huì",
-    "sentenceId": 86
+    "sid": 86
   },
   "情绪": {
     "level": 1
@@ -15010,7 +15010,7 @@
     "keyword": "open",
     "hanviet": "tĩnh khai",
     "pinyin": "zhēng kāi",
-    "sentenceId": 77
+    "sid": 77
   },
   "妨碍": {
     "level": 1
@@ -15562,7 +15562,7 @@
     "keyword": "exasperated",
     "hanviet": "vô nại",
     "pinyin": "wú nài",
-    "sentenceId": 91
+    "sid": 91
   },
   "孱弱": {
     "addedAt": 1639128933176,
@@ -15649,7 +15649,7 @@
     "keyword": "pride",
     "hanviet": "kiêu ngạo",
     "pinyin": "jiāo ào",
-    "sentenceId": 67
+    "sid": 67
   },
   "搞不懂": {
     "addedAt": 1639133057813,
@@ -15986,7 +15986,7 @@
     "keyword": "ambience",
     "hanviet": "phân vi",
     "pinyin": "fēn wéi",
-    "sentenceId": 67
+    "sid": 67
   },
   "傻": {
     "addedAt": 1639141613450,
@@ -16202,7 +16202,7 @@
     "keyword": "immediately",
     "hanviet": "đốn thì",
     "pinyin": "dùn shí",
-    "sentenceId": 101
+    "sid": 101
   },
   "掏空": {
     "addedAt": 1639149097069,
