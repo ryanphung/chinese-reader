@@ -53,7 +53,7 @@ const Word = React.memo(function Word({ tokenPosition, token, selectedTokenPosit
       isSelected ? 'Word-selected' : '',
       isHovered ? 'Word-hovered' : ''
     ].join(' ')}
-      onMouseEnter={() => isWord ? onHover(token) : onHover()}
+      onMouseEnter={() => isWord ? onHover(tokenPosition) : onHover()}
       onMouseLeave={() => onHover()}
     >
       <InnerWord
