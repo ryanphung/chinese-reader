@@ -2,7 +2,7 @@ const keywords = `
 故事 故事 [gu4 shi5] /story/
 应该 應該 [ying1 gai1] /should be/
 从 从 [cong2] /from/
-那 那 [Na1] /that/
+那 那 [na4] /that/
 一 一 [yi1] /one/
 面 面 [mian4] /surface (classifier)/
 墙 墻 [qiang2] /wall/
@@ -17,14 +17,14 @@ const keywords = `
 部 部 [bu4] /section/
 美术 美術 [mei3 shu4] /art/
 甲 甲 [jia3] /first/
-班 班 [Ban1] /class/
+班 班 [ban1] /class/
 二 二 [er4] /two/
 年级 年級 [nian2 ji2] /grade/
 个 個 [ge5] /a/
 坚信 堅信 [jian1 xin4] /believe firmly/
 自己 自己 [zi4 ji3] /oneself/
 杂乱 雜亂 [za2 luan4] /messy/
-的 的 [de5] /of/
+的 的 [de5] /de/
 自然 自然 [zi4 ran2] /natural/
 卷发 捲髮 [juan3 fa4] /curly hair/
 终 終 [zhong1] /end/
@@ -38,7 +38,7 @@ const keywords = `
 太 太 [tai4] /too much/
 喜欢 喜歡 [xi3 huan5] /like/
 在 在 [zai4] /at/
-上课时 上课时 [shang3 ke4 shi2] /class time/
+上课时 上课时 [shang4 ke4 shi2] /class time/
 乱开玩笑 乱开玩笑 [luan4 kai1 wan2 xiao4] /make jokes in disorder way/
 爱 愛 [ai4] /love/
 跟 跟 [gen1] /with/
@@ -75,7 +75,7 @@ const keywords = `
 我 我 [wo3] /I/
 是的 是的 [shi4 de5] /yes/
 一定 一定 [yi1 ding4] /surely/
-好好 好好 [hao3 hao3] /good/
+好好 好好 [hao3 hao3] /well/
 反省 反省 [fan3 xing3] /reflect/
 打包 打包 [da3 bao1] /pack up/
 好 好 [hao3] /well/
@@ -125,11 +125,11 @@ const keywords = `
 秩序 秩序 [zhi4 xu4] /order/
 要求 要求 [yao1 qiu2] /request/
 很 很 [hen3] /very/
-高 高 [Gao1] /high/
+高 高 [gao1] /high/
 采取 採取 [cai3 qu3] /adopt/
 管理 管理 [guan3 li3] /management/
 手段 手段 [shou3 duan4] /method/
-也 也 [Ye3] /also/
+也 也 [ye3] /also/
 规格 規格 [gui1 ge2] /standard/
 狗咬狗 狗咬狗 [gou3 yao3 gou3] /dog-eat-dog/
 政策 政策 [zheng4 ce4] /policy/
