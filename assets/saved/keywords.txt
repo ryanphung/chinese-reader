@@ -1,8 +1,7 @@
-const keywords = `
 故事 故事 [gu4 shi5] /story/
 应该 應該 [ying1 gai1] /should be/
 从 从 [cong2] /from/
-那 那 [Na1] /that/
+那 那 [na4] /that/
 一 一 [yi1] /one/
 面 面 [mian4] /surface (classifier)/
 墙 墻 [qiang2] /wall/
@@ -17,14 +16,14 @@ const keywords = `
 部 部 [bu4] /section/
 美术 美術 [mei3 shu4] /art/
 甲 甲 [jia3] /first/
-班 班 [Ban1] /class/
+班 班 [ban1] /class/
 二 二 [er4] /two/
 年级 年級 [nian2 ji2] /grade/
 个 個 [ge5] /a/
 坚信 堅信 [jian1 xin4] /believe firmly/
 自己 自己 [zi4 ji3] /oneself/
 杂乱 雜亂 [za2 luan4] /messy/
-的 的 [de5] /of/
+的 的 [de5] /de/
 自然 自然 [zi4 ran2] /natural/
 卷发 捲髮 [juan3 fa4] /curly hair/
 终 終 [zhong1] /end/
@@ -38,7 +37,7 @@ const keywords = `
 太 太 [tai4] /too much/
 喜欢 喜歡 [xi3 huan5] /like/
 在 在 [zai4] /at/
-上课时 上课时 [shang3 ke4 shi2] /class time/
+上课时 上课时 [shang4 ke4 shi2] /class time/
 乱开玩笑 乱开玩笑 [luan4 kai1 wan2 xiao4] /make jokes in disorder way/
 爱 愛 [ai4] /love/
 跟 跟 [gen1] /with/
@@ -75,7 +74,7 @@ const keywords = `
 我 我 [wo3] /I/
 是的 是的 [shi4 de5] /yes/
 一定 一定 [yi1 ding4] /surely/
-好好 好好 [hao3 hao3] /good/
+好好 好好 [hao3 hao3] /well/
 反省 反省 [fan3 xing3] /reflect/
 打包 打包 [da3 bao1] /pack up/
 好 好 [hao3] /well/
@@ -125,11 +124,11 @@ const keywords = `
 秩序 秩序 [zhi4 xu4] /order/
 要求 要求 [yao1 qiu2] /request/
 很 很 [hen3] /very/
-高 高 [Gao1] /high/
+高 高 [gao1] /high/
 采取 採取 [cai3 qu3] /adopt/
 管理 管理 [guan3 li3] /management/
 手段 手段 [shou3 duan4] /method/
-也 也 [Ye3] /also/
+也 也 [ye3] /also/
 规格 規格 [gui1 ge2] /standard/
 狗咬狗 狗咬狗 [gou3 yao3 gou3] /dog-eat-dog/
 政策 政策 [zheng4 ce4] /policy/
@@ -467,38 +466,3 @@ const keywords = `
 脸孔 臉孔 [lian3 kong3] /face/
 我们 我們 [wo3 men5] /we/
 这么 這麼 [zhe4 me5] /like this/
-
-沈佳儀 沈佳仪 [shen3 jia1 yi2] /Shen Jiayi/
-賴導 赖导 [lai4 dao3] /Lai Dao/
-柯景騰 柯景腾 [ke1 jing3 teng1] /Ke Jing-teng/
-曹國勝 曹国胜 [cao2 guo2 sheng4] /Cao Guosheng/
-謝明和 谢明和 [xie4 ming2 he2] /Xie Minghe/
-廖英宏 廖英宏 [liao4 ying1 hong2] /Liao Yinghong/
-胡家瑋 胡家玮 [hu2 jia1 wei3] /Hu Jiaxuan/
-鄭孟修 郑孟修 [zheng4 meng4 xiu1] /Zheng Mengxi/
-楊澤於 杨泽于 [yang2 ze2 yu2] /Yang Zeyu/
-小丸子 小丸子 [xiao3 wan2 zi5] /Maruko/
-許志彰 许志彰 [xu3 zhi4 zhang1] /Xu Zhizhang/
-李豐名 李丰名 [li3 feng1 ming2] /Li Fengming/
-周淑真 周淑真 [zhou1 shu1 zhen1] /Zhou Shuzhen/
-黃如君 黄如君 [huang2 ru2 jun1] /Huang Rujun/
-葉淑蓮 叶淑莲 [ye4 shu1 lian2] /Ye Shilian/
-許君穗 许君穗 [xu3 jun1 sui4] /Xu Junsui/
-許博淳 许博淳 [xu3 bo2 chun2] /Xu Bochun/
-阿和 阿和 [a1 he2] /Ah He/
-小咪 小咪 [xiao3 mi1] /Xiao Mi/
-李小華 李小华 [li3 xiao3 hua2] /Li Xiaohua/
-精舍 精舍 [jing1 she3] /Buddhist abode/
-凌波微步 凌波微步 [ling2 bo1 wei1 bu4] /Ling Bo Wei Bu (a kungfu term)/
-怎麼 怎么 [zen3 me5] /how/
-很 很 [hen3] /very/
-呢 呢 [ne5] /ne/
-說 说 [shuo1] /say/
-囉唆 啰唆 [luo1 suo5] /annoying/
-一直 一直 [yi1 zhi2] /always/
-個 个 [ge5] /a/
-故事 故事 [gu4 shi5] /story/
-鹿鼎記 鹿鼎记 [lu4 ding3 ji5] /Lu Ding Ji (a classic novel)/
-`
-
-export default keywords

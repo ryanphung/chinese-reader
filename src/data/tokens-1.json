@@ -611,7 +611,7 @@
       "traditional": "上",
       "keyword": "on top",
       "hanviet": "thượng",
-      "pinyin": "shǎng",
+      "pinyin": "shàng",
       "isWord": true
     },
     {
@@ -951,7 +951,7 @@
       "traditional": "上",
       "keyword": "on top",
       "hanviet": "thượng",
-      "pinyin": "shǎng",
+      "pinyin": "shàng",
       "isWord": true
     },
     {
@@ -6402,7 +6402,7 @@
       "text": "馒头",
       "simplified": "馒头",
       "traditional": "饅頭",
-      "keyword": "steamed roll",
+      "keyword": "bun",
       "hanviet": "man đầu",
       "pinyin": "mán tou",
       "isWord": true
@@ -6415,7 +6415,7 @@
       "traditional": "加",
       "keyword": "add",
       "hanviet": "gia",
-      "pinyin": "Jiā",
+      "pinyin": "jiā",
       "isWord": true
     },
     {
@@ -6426,7 +6426,7 @@
       "traditional": "蛋",
       "keyword": "egg",
       "hanviet": "đản",
-      "pinyin": "Dàn",
+      "pinyin": "dàn",
       "isWord": true
     },
     {
@@ -6565,7 +6565,7 @@
       "text": "异样",
       "simplified": "异样",
       "traditional": "異樣",
-      "keyword": "difference",
+      "keyword": "peculiar",
       "hanviet": "dị dạng",
       "pinyin": "yì yàng",
       "isWord": true
@@ -6587,7 +6587,7 @@
       "text": "感觉",
       "simplified": "感觉",
       "traditional": "感覺",
-      "keyword": "feel",
+      "keyword": "feeling",
       "hanviet": "cảm giác",
       "pinyin": "gǎn jué",
       "isWord": true
@@ -6608,7 +6608,7 @@
       "text": "像",
       "simplified": "像",
       "traditional": "像",
-      "keyword": "resemble",
+      "keyword": "like",
       "hanviet": "tượng",
       "pinyin": "xiàng",
       "isWord": true
@@ -6630,7 +6630,7 @@
       "text": "这么",
       "simplified": "这么",
       "traditional": "這麼",
-      "keyword": "so much",
+      "keyword": "like this",
       "hanviet": "giá yêu",
       "pinyin": "zhè me",
       "isWord": true
@@ -6658,26 +6658,26 @@
       "isWord": true
     },
     {
+      "text": "好",
+      "simplified": "好",
+      "traditional": "好",
+      "keyword": "good",
+      "hanviet": "hảo",
+      "pinyin": "hǎo",
+      "isWord": true,
       "sid": 38,
-      "tid": 29,
-      "text": "好学",
-      "simplified": "好学",
-      "traditional": "好學",
-      "keyword": "eager to study",
-      "hanviet": "hảo học",
-      "pinyin": "hào xué",
-      "isWord": true
+      "tid": 29
     },
     {
+      "text": "学生",
+      "simplified": "学生",
+      "traditional": "學生",
+      "keyword": "student",
+      "hanviet": "học sinh",
+      "pinyin": "xué sheng",
+      "isWord": true,
       "sid": 38,
-      "tid": 30,
-      "text": "生",
-      "simplified": "生",
-      "traditional": "生",
-      "keyword": "be born",
-      "hanviet": "sinh",
-      "pinyin": "shēng",
-      "isWord": true
+      "tid": 30
     },
     {
       "sid": 38,
@@ -6695,32 +6695,32 @@
       "text": "竟然",
       "simplified": "竟然",
       "traditional": "竟然",
-      "keyword": "actually",
+      "keyword": "unexpectedly",
       "hanviet": "cánh nhiên",
       "pinyin": "jìng rán",
       "isWord": true
     },
     {
-      "sid": 38,
-      "tid": 33,
       "text": "老是",
       "simplified": "老是",
       "traditional": "老是",
       "keyword": "always",
       "hanviet": "lão thị",
       "pinyin": "lǎo shi",
-      "isWord": true
+      "isWord": true,
+      "sid": 38,
+      "tid": 33
     },
     {
-      "sid": 38,
-      "tid": 34,
       "text": "巴",
       "simplified": "巴",
       "traditional": "巴",
-      "keyword": "long for",
+      "keyword": "cling",
       "hanviet": "ba",
-      "pinyin": "Bā",
-      "isWord": true
+      "pinyin": "bā",
+      "isWord": true,
+      "sid": 38,
+      "tid": 34
     },
     {
       "sid": 38,
@@ -6777,15 +6777,15 @@
       "isWord": true
     },
     {
-      "sid": 38,
-      "tid": 40,
       "text": "从",
       "simplified": "从",
       "traditional": "从",
       "keyword": "from",
       "hanviet": "tòng",
       "pinyin": "cóng",
-      "isWord": true
+      "isWord": true,
+      "sid": 38,
+      "tid": 40
     },
     {
       "sid": 38,
@@ -6817,7 +6817,7 @@
       "traditional": "看",
       "keyword": "see",
       "hanviet": "khán",
-      "pinyin": "kān",
+      "pinyin": "kàn",
       "isWord": true
     },
     {
@@ -6892,7 +6892,7 @@
       "text": "进行",
       "simplified": "进行",
       "traditional": "進行",
-      "keyword": "advance",
+      "keyword": "carry out",
       "hanviet": "tiến hành",
       "pinyin": "jìn xíng",
       "isWord": true
@@ -6955,7 +6955,7 @@
       "text": "滑稽",
       "simplified": "滑稽",
       "traditional": "滑稽",
-      "keyword": "comical",
+      "keyword": "amusing",
       "hanviet": "hoạt kê",
       "pinyin": "huá jī",
       "isWord": true
@@ -6966,7 +6966,7 @@
       "text": "至极",
       "simplified": "至极",
       "traditional": "至極",
-      "keyword": "very",
+      "keyword": "extremely",
       "hanviet": "chí cực",
       "pinyin": "zhì jí",
       "isWord": true
@@ -6989,9 +6989,9 @@
       "text": "更",
       "simplified": "更",
       "traditional": "更",
-      "keyword": "change or replace",
+      "keyword": "even more",
       "hanviet": "canh",
-      "pinyin": "gēng",
+      "pinyin": "gèng",
       "isWord": true
     },
     {
@@ -7000,9 +7000,9 @@
       "text": "令",
       "simplified": "令",
       "traditional": "令",
-      "keyword": "see ",
+      "keyword": "make",
       "hanviet": "lệnh",
-      "pinyin": "Líng",
+      "pinyin": "lìng",
       "isWord": true
     },
     {
@@ -7076,9 +7076,9 @@
       "text": "越",
       "simplified": "越",
       "traditional": "越",
-      "keyword": "generic word for peoples or states of south China or south Asia at different historical periods",
+      "keyword": "the more",
       "hanviet": "việt",
-      "pinyin": "Yuè",
+      "pinyin": "yuè",
       "isWord": true
     },
     {
@@ -7152,9 +7152,9 @@
       "text": "越",
       "simplified": "越",
       "traditional": "越",
-      "keyword": "generic word for peoples or states of south China or south Asia at different historical periods",
+      "keyword": "the more",
       "hanviet": "việt",
-      "pinyin": "Yuè",
+      "pinyin": "yuè",
       "isWord": true
     },
     {
@@ -7241,7 +7241,7 @@
       "text": "便",
       "simplified": "便",
       "traditional": "便",
-      "keyword": "plain",
+      "keyword": "then",
       "hanviet": "tiện",
       "pinyin": "biàn",
       "isWord": true
@@ -7296,119 +7296,119 @@
       "text": "自习",
       "simplified": "自习",
       "traditional": "自習",
-      "keyword": "study outside of class time",
+      "keyword": "self-study",
       "hanviet": "tự tập",
       "pinyin": "zì xí",
       "isWord": true
     },
     {
-      "sid": 41,
-      "tid": 9,
       "text": "课",
       "simplified": "课",
       "traditional": "課",
-      "keyword": "subject",
+      "keyword": "class",
       "hanviet": "khóa",
       "pinyin": "kè",
-      "isWord": true
+      "isWord": true,
+      "sid": 41,
+      "tid": 9
     },
     {
-      "sid": 41,
-      "tid": 10,
       "text": "上",
       "simplified": "上",
       "traditional": "上",
       "keyword": "on top",
       "hanviet": "thượng",
-      "pinyin": "shǎng",
-      "isWord": true
+      "pinyin": "shàng",
+      "isWord": true,
+      "sid": 41,
+      "tid": 10
     },
     {
-      "sid": 41,
-      "tid": 11,
       "text": "聊天",
       "simplified": "聊天",
       "traditional": "聊天",
       "keyword": "chat",
       "hanviet": "liêu thiên",
       "pinyin": "liáo tiān",
-      "isWord": true
+      "isWord": true,
+      "sid": 41,
+      "tid": 11
     },
     {
-      "sid": 41,
-      "tid": 12,
       "text": "的",
       "simplified": "的",
       "traditional": "的",
       "keyword": "of",
       "hanviet": "đích",
       "pinyin": "de",
-      "isWord": true
+      "isWord": true,
+      "sid": 41,
+      "tid": 12
     },
     {
-      "sid": 41,
-      "tid": 13,
       "text": "坏",
       "simplified": "坏",
       "traditional": "壞",
       "keyword": "bad",
       "hanviet": "phôi",
       "pinyin": "huài",
-      "isWord": true
+      "isWord": true,
+      "sid": 41,
+      "tid": 13
     },
     {
-      "sid": 41,
-      "tid": 14,
       "text": "习惯",
       "simplified": "习惯",
       "traditional": "習慣",
       "keyword": "habit",
       "hanviet": "tập quán",
       "pinyin": "xí guàn",
-      "isWord": true
+      "isWord": true,
+      "sid": 41,
+      "tid": 14
     },
     {
-      "sid": 41,
-      "tid": 15,
       "text": "，",
       "simplified": "，",
       "traditional": "，",
       "hanviet": "",
       "pinyin": "",
-      "isWord": false
+      "isWord": false,
+      "sid": 41,
+      "tid": 15
     },
     {
-      "sid": 41,
-      "tid": 16,
       "text": "聊天",
       "simplified": "聊天",
       "traditional": "聊天",
       "keyword": "chat",
       "hanviet": "liêu thiên",
       "pinyin": "liáo tiān",
-      "isWord": true
+      "isWord": true,
+      "sid": 41,
+      "tid": 16
     },
     {
-      "sid": 41,
-      "tid": 17,
       "text": "的",
       "simplified": "的",
       "traditional": "的",
       "keyword": "of",
       "hanviet": "đích",
       "pinyin": "de",
-      "isWord": true
+      "isWord": true,
+      "sid": 41,
+      "tid": 17
     },
     {
-      "sid": 41,
-      "tid": 18,
       "text": "内容",
       "simplified": "内容",
       "traditional": "內容",
       "keyword": "content",
       "hanviet": "nội dung",
       "pinyin": "nèi róng",
-      "isWord": true
+      "isWord": true,
+      "sid": 41,
+      "tid": 18
     },
     {
       "sid": 41,
@@ -7471,7 +7471,7 @@
       "text": "上课",
       "simplified": "上课",
       "traditional": "上課",
-      "keyword": "go to class",
+      "keyword": "teach class",
       "hanviet": "thượng khóa",
       "pinyin": "shàng kè",
       "isWord": true
@@ -7499,26 +7499,26 @@
       "isWord": true
     },
     {
-      "sid": 41,
-      "tid": 27,
       "text": "慈",
       "simplified": "慈",
       "traditional": "慈",
       "keyword": "compassionate",
       "hanviet": "từ",
       "pinyin": "cí",
-      "isWord": true
+      "isWord": true,
+      "sid": 41,
+      "tid": 27
     },
     {
-      "sid": 41,
-      "tid": 28,
       "text": "济",
       "simplified": "济",
       "traditional": "濟",
-      "keyword": "cross a river",
+      "keyword": "aid",
       "hanviet": "tể",
-      "pinyin": "Jǐ",
-      "isWord": true
+      "pinyin": "jì",
+      "isWord": true,
+      "sid": 41,
+      "tid": 28
     },
     {
       "sid": 41,
@@ -7526,7 +7526,7 @@
       "text": "功德",
       "simplified": "功德",
       "traditional": "功德",
-      "keyword": "achievements and virtue",
+      "keyword": "virtue",
       "hanviet": "công đức",
       "pinyin": "gōng dé",
       "isWord": true
@@ -7537,7 +7537,7 @@
       "text": "会",
       "simplified": "会",
       "traditional": "會",
-      "keyword": "can",
+      "keyword": "association",
       "hanviet": "hội",
       "pinyin": "huì",
       "isWord": true
@@ -7643,26 +7643,26 @@
       "isWord": true
     },
     {
+      "text": "好",
+      "simplified": "好",
+      "traditional": "好",
+      "keyword": "good",
+      "hanviet": "hảo",
+      "pinyin": "hǎo",
+      "isWord": true,
       "sid": 43,
-      "tid": 1,
-      "text": "好学",
-      "simplified": "好学",
-      "traditional": "好學",
-      "keyword": "eager to study",
-      "hanviet": "hảo học",
-      "pinyin": "hào xué",
-      "isWord": true
+      "tid": 1
     },
     {
+      "text": "学生",
+      "simplified": "学生",
+      "traditional": "學生",
+      "keyword": "student",
+      "hanviet": "học sinh",
+      "pinyin": "xué sheng",
+      "isWord": true,
       "sid": 43,
-      "tid": 2,
-      "text": "生",
-      "simplified": "生",
-      "traditional": "生",
-      "keyword": "be born",
-      "hanviet": "sinh",
-      "pinyin": "shēng",
-      "isWord": true
+      "tid": 2
     },
     {
       "sid": 43,
@@ -10194,7 +10194,7 @@
       "traditional": "上",
       "keyword": "on top",
       "hanviet": "thượng",
-      "pinyin": "shǎng",
+      "pinyin": "shàng",
       "isWord": true
     },
     {
@@ -10947,7 +10947,7 @@
       "traditional": "上",
       "keyword": "on top",
       "hanviet": "thượng",
-      "pinyin": "shǎng",
+      "pinyin": "shàng",
       "isWord": true
     },
     {
@@ -17075,7 +17075,7 @@
       "traditional": "上",
       "keyword": "on top",
       "hanviet": "thượng",
-      "pinyin": "shǎng",
+      "pinyin": "shàng",
       "isWord": true
     },
     {
@@ -17556,7 +17556,7 @@
       "traditional": "上",
       "keyword": "on top",
       "hanviet": "thượng",
-      "pinyin": "shǎng",
+      "pinyin": "shàng",
       "isWord": true
     },
     {
@@ -17722,7 +17722,7 @@
       "traditional": "上",
       "keyword": "on top",
       "hanviet": "thượng",
-      "pinyin": "shǎng",
+      "pinyin": "shàng",
       "isWord": true
     },
     {
