@@ -419,6 +419,7 @@ function App() {
       <Header
         tokenPosition={selectedTokenPosition || hoveredTokenPosition}
         token={selectedToken || hoveredToken}
+        isTokenSelected={!!selectedToken}
         wordsCount={wordsCount}
         knownWordsCount={knownWordsCount}
         knownWordsCountInclRecommendation={knownWordsCountInclRecommendation}

@@ -4,6 +4,7 @@ import * as Icon from 'react-feather'
 
 
 const DictPane = React.memo(function DictPane({
+  isTokenSelected,
   tokenPosition,
   token={}, dictionary, settings={},
   onTokenUpdate,
@@ -12,7 +13,7 @@ const DictPane = React.memo(function DictPane({
   const { text, pinyin, hanviet, keyword } = token
 
   useEffect(() => {
-    if (voice && text) {
+    if (voice && text && isTokenSelected) {
       var msg = new SpeechSynthesisUtterance()
       msg.text = text
       msg.lang = 'zh'
@@ -21,7 +22,7 @@ const DictPane = React.memo(function DictPane({
         window.speechSynthesis.cancel()
       window.speechSynthesis.speak(msg)
     }
-  }, [text, voice])
+  }, [text, voice, isTokenSelected])
 
   function handleDeleteTokenClick() {
     const t = window.confirm('Are you sure you want to delete this token?')

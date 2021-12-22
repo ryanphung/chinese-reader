@@ -2,7 +2,7 @@ import './Header.scss'
 import DictPane from '../DictPane/DictPane'
 
 function Header({
-  tokenPosition, token,
+  tokenPosition, token, isTokenSelected,
   wordsCount, knownWordsCountInclRecommendation, knownWordsCount,
   recommendedVocabularyDb, vocabularyDb,
   onChapterChange, onSettingsClick, onRecommendedClick,
@@ -21,6 +21,7 @@ function Header({
       <DictPane
         tokenPosition={tokenPosition}
         token={token}
+        isTokenSelected={isTokenSelected}
         dictionary={dictionary}
         settings={settings}
         onTokenUpdate={onTokenUpdate}
