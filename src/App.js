@@ -85,8 +85,8 @@ function App() {
   , [])
 
   const voice = useMemo(() =>
-    voices.find(v => v.voiceURI === settings?.voice)
-  , [voices, settings.voice])
+    isSettingsLoaded ? voices.find(v => v.voiceURI === settings?.voice) : undefined
+  , [voices, isSettingsLoaded, settings.voice])
 
   // initialize the tokenizer on first load
   useEffect(() => {
