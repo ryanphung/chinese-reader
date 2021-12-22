@@ -3922,9 +3922,9 @@
     "level": 3
   },
   "联考": {
-    "addedAt": 1639148934212,
-    "chapter": 3,
-    "level": 3
+    "addedAt": 1640174007675,
+    "chapter": 6,
+    "level": 1
   },
   "创造": {
     "level": 4,
@@ -16668,5 +16668,21 @@
     "addedAt": 1640172952092,
     "chapter": 1,
     "level": 0
+  },
+  "国三": {
+    "addedAt": 1640173915520,
+    "chapter": 6,
+    "level": 0
+  },
+  "下学期": {
+    "addedAt": 1640173953079,
+    "chapter": 6,
+    "level": 0
+  },
+  "气息": {
+    "addedAt": 1640173985387,
+    "chapter": 6,
+    "level": 4,
+    "recommended": true
   }
 }
