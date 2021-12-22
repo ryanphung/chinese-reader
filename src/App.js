@@ -80,9 +80,21 @@ function App() {
     () => data.tokens?.[hoveredTokenPosition?.sid]?.[hoveredTokenPosition?.tid],
     [data.tokens, hoveredTokenPosition?.sid, hoveredTokenPosition?.tid])
 
-  const voices = useMemo(() =>
-    speechSynthesis.getVoices().filter(v => v.lang.includes('zh'))
-  , [])
+  const [voices, setVoices] = useState([])
+
+  useEffect(() => {
+    function populateVoiceList() {
+      setVoices(speechSynthesis.getVoices().filter(v => v.lang.includes('zh')))
+    }
+
+    populateVoiceList()
+
+    window.speechSynthesis.onvoiceschanged = populateVoiceList
+
+    return () => {
+      window.speechSynthesis.onvoiceschanged = undefined
+    }
+  }, [])
 
   const voice = useMemo(() =>
     isSettingsLoaded ? voices.find(v => v.voiceURI === settings?.voice) : undefined
