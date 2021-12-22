@@ -75,10 +75,10 @@ const keywords = `
 我 我 [wo3] /I/
 是的 是的 [shi4 de5] /yes/
 一定 一定 [yi1 ding4] /surely/
-好好 好好 [hao3 hao3] /well/
+好好 好好 [hao3 hao3] /properly/
 反省 反省 [fan3 xing3] /reflect/
 打包 打包 [da3 bao1] /pack up/
-好 好 [hao3] /well/
+好 好 [hao3] /good/
 裏 里 [li3] /inside/
 亂七八糟 乱七八糟 [luan4 qi1 ba1 zao1] /in a hideous mess/
 參考書 参考书 [can1 kao3 shu1] /reference book/
