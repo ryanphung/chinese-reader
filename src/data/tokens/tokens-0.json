@@ -1185,12 +1185,10 @@
       "text": "图稿",
       "simplified": "图稿",
       "traditional": "图稿",
-      "keyword": "draft?",
+      "keyword": "artwork",
       "hanviet": "đồ cảo",
       "pinyin": "tú gǎo",
-      "isWord": true,
-      "sid": 12,
-      "tid": 10
+      "isWord": true
     },
     {
       "text": "，",
@@ -9926,7 +9924,5 @@
       "isWord": false
     }
   ],
-  [
-
-  ]
+  []
 ]
