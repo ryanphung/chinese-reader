@@ -309,7 +309,7 @@ function App() {
     } else if (!isVocabulary) {
       v.level = 0
     } else {
-      const step = /*event.shiftKey ? -1 :*/ 1
+      const step = event.shiftKey ? -1 : 1
       v.level = (vocabularyDb[text].level + step + MAX_LEVEL + 1) % (MAX_LEVEL + 1)
     }
 
