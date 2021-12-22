@@ -124,6 +124,7 @@ const InnerWord = React.memo(function InnerWord({
 
   return (
     vocabularyLevel === 0 ? <WordByText onClick={onClick} text={text} transcript={transcript} meaning={keyword}/> :
+    // vocabularyLevel === 0 ? <WordByText onClick={onClick} text={text + '‹' + keyword + '›'} transcript={transcript} meaning=""/> :
     vocabularyLevel === 1 ? <WordByText onClick={onClick} text={text} transcript={transcript} meaning=""/> :
     vocabularyLevel === 2 ? <WordByText onClick={onClick} text={text} transcript="" meaning={keyword}/> :
     vocabularyLevel === 3 ? <WordByText onClick={onClick} text={text} transcript={hanviet} meaning=""/> :

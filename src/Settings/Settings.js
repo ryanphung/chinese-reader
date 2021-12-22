@@ -33,6 +33,12 @@ const THEMES = [
   { value: 'dark', label: 'Dark' }
 ]
 
+const LANGUAGE_NAMES = {
+  'zh-CN': 'China',
+  'zh-TW': 'Taiwan',
+  'zh-HK': 'HK'
+}
+
 function Settings({
   version,
   isVisible,
@@ -40,13 +46,15 @@ function Settings({
   onSettingsUpdate,
   onClose,
   vocabularyDb,
-  tokens
+  tokens,
+  voices
 }) {
   const {
     transcriptMethod='pinyin',
     script='simplified',
     recommendation='off',
-    theme='dark'
+    theme='dark',
+    voice='off'
   } = settings
 
   function handleTranscriptMethodSelectChange(e) {
@@ -74,6 +82,13 @@ function Settings({
     onSettingsUpdate({
       ...settings,
       theme: e.target.value
+    })
+  }
+
+  function handleVoiceSelectChange(e) {
+    onSettingsUpdate({
+      ...settings,
+      voice: e.target.value
     })
   }
 
@@ -127,6 +142,17 @@ function Settings({
           {
             THEMES.map((v, i) =>
               <option key={i} value={v.value}>{v.label}</option>
+            )
+          }
+        </select>
+      </section>
+      <section>
+        <span>Voice:</span>
+        <select onChange={handleVoiceSelectChange} value={voice}>
+          <option value={undefined}>Off</option>
+          {
+            voices.map((v, i) =>
+              <option key={i} value={v.voiceURI}>{LANGUAGE_NAMES[v.lang]}: {v.name}</option>
             )
           }
         </select>

@@ -1,13 +1,27 @@
-import React, { Fragment, useMemo } from 'react'
+import React, { Fragment, useMemo, useEffect } from 'react'
 import './DictPane.scss'
 import * as Icon from 'react-feather'
+
 
 const DictPane = React.memo(function DictPane({
   tokenPosition,
   token={}, dictionary, settings={},
-  onTokenUpdate
+  onTokenUpdate,
+  voice
 }) {
   const { text, pinyin, hanviet, keyword } = token
+
+  useEffect(() => {
+    if (voice && text) {
+      var msg = new SpeechSynthesisUtterance()
+      msg.text = text
+      msg.lang = 'zh'
+      msg.voice = voice
+      if (window.speechSynthesis.speaking)
+        window.speechSynthesis.cancel()
+      window.speechSynthesis.speak(msg)
+    }
+  }, [text, voice])
 
   function handleDeleteTokenClick() {
     const t = window.confirm('Are you sure you want to delete this token?')

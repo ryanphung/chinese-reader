@@ -6,7 +6,8 @@ function Header({
   wordsCount, knownWordsCountInclRecommendation, knownWordsCount,
   recommendedVocabularyDb, vocabularyDb,
   onChapterChange, onSettingsClick, onRecommendedClick,
-  dictionary, settings, onTokenUpdate
+  dictionary, settings, onTokenUpdate,
+  voice
 }) {
   const ease = (knownWordsCount / wordsCount) || 0
   const easeInclRecommendation = (knownWordsCountInclRecommendation / wordsCount) || 0
@@ -23,6 +24,7 @@ function Header({
         dictionary={dictionary}
         settings={settings}
         onTokenUpdate={onTokenUpdate}
+        voice={voice}
       />
       <div className="Header-info">
         <div className="Header-stats">

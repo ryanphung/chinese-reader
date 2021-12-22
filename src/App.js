@@ -80,6 +80,14 @@ function App() {
     () => data.tokens?.[hoveredTokenPosition?.sid]?.[hoveredTokenPosition?.tid],
     [data.tokens, hoveredTokenPosition?.sid, hoveredTokenPosition?.tid])
 
+  const voices = useMemo(() =>
+    speechSynthesis.getVoices().filter(v => v.lang.includes('zh'))
+  , [])
+
+  const voice = useMemo(() =>
+    voices.find(v => v.voiceURI === settings?.voice)
+  , [voices, settings.voice])
+
   // initialize the tokenizer on first load
   useEffect(() => {
     initTokenizerAsync().then(({ tokenize, dictionary }) => setTokenizer({ tokenize, dictionary }))
@@ -410,6 +418,7 @@ function App() {
         dictionary={tokenizer.dictionary}
         settings={settings}
         onTokenUpdate={handleTokenUpdate}
+        voice={voice}
       />
       <Settings
         version={VERSION}
@@ -419,6 +428,7 @@ function App() {
         onClose={() => setIsSettingsVisible(false)}
         vocabularyDb={vocabularyDb}
         tokens={data.tokens}
+        voices={voices}
       />
       <div className="App-main">
         <textarea className="App-input" value={content} onChange={handleChange}>
