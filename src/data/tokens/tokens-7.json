@@ -1148,21 +1148,21 @@
       "isWord": true
     },
     {
-      "text": "要紧",
-      "simplified": "要紧",
-      "traditional": "要緊",
-      "keyword": "important",
-      "hanviet": "yếu khẩn",
-      "pinyin": "yào jǐn",
+      "text": "要",
+      "simplified": "要",
+      "traditional": "要",
+      "keyword": "will",
+      "hanviet": "yếu",
+      "pinyin": "yāo",
       "isWord": true
     },
     {
-      "text": "密",
-      "simplified": "密",
-      "traditional": "密",
-      "keyword": "secret",
-      "hanviet": "mật",
-      "pinyin": "Mì",
+      "text": "紧密",
+      "simplified": "紧密",
+      "traditional": "緊密",
+      "keyword": "inseparably close",
+      "hanviet": "khẩn mật",
+      "pinyin": "jǐn mì",
       "isWord": true
     },
     {
@@ -2528,21 +2528,21 @@
       "isWord": true
     },
     {
-      "text": "跟班",
-      "simplified": "跟班",
-      "traditional": "跟班",
-      "keyword": "attendant",
-      "hanviet": "cân ban",
-      "pinyin": "gēn bān",
+      "text": "跟",
+      "simplified": "跟",
+      "traditional": "跟",
+      "keyword": "with",
+      "hanviet": "cân",
+      "pinyin": "gēn",
       "isWord": true
     },
     {
-      "text": "上",
-      "simplified": "上",
-      "traditional": "上",
-      "keyword": "on top",
-      "hanviet": "thượng",
-      "pinyin": "shàng",
+      "text": "班上",
+      "simplified": "班上",
+      "traditional": "班上",
+      "keyword": "class",
+      "hanviet": "ban thượng",
+      "pinyin": "bān shàng",
       "isWord": true
     },
     {
@@ -4333,48 +4333,30 @@
       "isWord": true
     },
     {
-      "text": "模",
-      "simplified": "模",
-      "traditional": "模",
-      "keyword": "imitate",
-      "hanviet": "mô",
-      "pinyin": "mó",
+      "text": "模模糊糊",
+      "simplified": "模模糊糊",
+      "traditional": "模模糊糊",
+      "keyword": "unknown",
+      "hanviet": "mô mô hồ hồ",
+      "pinyin": "mó mó hú hú",
       "isWord": true
     },
     {
-      "text": "模糊",
-      "simplified": "模糊",
-      "traditional": "模糊",
-      "keyword": "vague",
-      "hanviet": "mô hồ",
-      "pinyin": "mó hu",
+      "text": "地",
+      "simplified": "地",
+      "traditional": "地",
+      "keyword": "-ly",
+      "hanviet": "đích",
+      "pinyin": "de",
       "isWord": true
     },
     {
-      "text": "糊",
-      "simplified": "糊",
-      "traditional": "䊀",
-      "keyword": "muddled",
-      "hanviet": "hồ",
-      "pinyin": "hú",
-      "isWord": true
-    },
-    {
-      "text": "地产",
-      "simplified": "地产",
-      "traditional": "地產",
-      "keyword": "estate",
-      "hanviet": "đích sản",
-      "pinyin": "dì chǎn",
-      "isWord": true
-    },
-    {
-      "text": "生",
-      "simplified": "生",
-      "traditional": "生",
-      "keyword": "be born",
-      "hanviet": "sinh",
-      "pinyin": "shēng",
+      "text": "产生",
+      "simplified": "产生",
+      "traditional": "產生",
+      "keyword": "arise",
+      "hanviet": "sản sinh",
+      "pinyin": "chǎn shēng",
       "isWord": true
     },
     {
@@ -4574,30 +4556,12 @@
       "isWord": true
     },
     {
-      "text": "说好",
-      "simplified": "说好",
-      "traditional": "說好",
-      "keyword": "come to an agreement",
-      "hanviet": "thuyết hảo",
-      "pinyin": "shuō hǎo",
-      "isWord": true
-    },
-    {
-      "text": "说",
-      "simplified": "说",
-      "traditional": "說",
-      "keyword": "say",
-      "hanviet": "thuyết",
-      "pinyin": "shuō",
-      "isWord": true
-    },
-    {
-      "text": "歹",
-      "simplified": "歹",
-      "traditional": "歹",
-      "keyword": "bad",
-      "hanviet": "ngạt",
-      "pinyin": "dǎi",
+      "text": "说好说歹",
+      "simplified": "说好说歹",
+      "traditional": "说好说歹",
+      "keyword": "unknown",
+      "hanviet": "thuyết hảo thuyết ngạt",
+      "pinyin": "shuō hǎo shuō dǎi",
       "isWord": true
     },
     {
@@ -5904,21 +5868,21 @@
       "isWord": true
     },
     {
-      "text": "等第",
-      "simplified": "等第",
-      "traditional": "等第",
-      "keyword": "level",
-      "hanviet": "đẳng đệ",
-      "pinyin": "děng dì",
+      "text": "等",
+      "simplified": "等",
+      "traditional": "等",
+      "keyword": "etc.",
+      "hanviet": "đẳng",
+      "pinyin": "děng",
       "isWord": true
     },
     {
-      "text": "二",
-      "simplified": "二",
-      "traditional": "二",
-      "keyword": "two",
-      "hanviet": "nhị",
-      "pinyin": "èr",
+      "text": "第二",
+      "simplified": "第二",
+      "traditional": "第二",
+      "keyword": "second",
+      "hanviet": "đệ nhị",
+      "pinyin": "dì èr",
       "isWord": true
     },
     {
@@ -5949,12 +5913,21 @@
       "isWord": true
     },
     {
-      "text": "大树",
-      "simplified": "大树",
-      "traditional": "大樹",
-      "keyword": "Tashu township in Kaohsiung county |",
-      "hanviet": "đại thụ",
-      "pinyin": "Dà shù",
+      "text": "大",
+      "simplified": "大",
+      "traditional": "大",
+      "keyword": "big",
+      "hanviet": "đại",
+      "pinyin": "dà",
+      "isWord": true
+    },
+    {
+      "text": "树",
+      "simplified": "树",
+      "traditional": "樹",
+      "keyword": "tree",
+      "hanviet": "thụ",
+      "pinyin": "shù",
       "isWord": true
     },
     {
@@ -6599,7 +6572,7 @@
       "text": "彰女",
       "simplified": "彰女",
       "traditional": "彰女",
-      "keyword": "Zhanghua female",
+      "keyword": "Zhanghua Female",
       "hanviet": "chương nữ",
       "pinyin": "zhāng nǚ",
       "isWord": true

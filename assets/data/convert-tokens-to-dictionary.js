@@ -103,7 +103,7 @@ function enrichVocabulary() {
   try {
     let tokensMap = {}
 
-    for (let i = 0; i <= 1; i++)
+    for (let i = 0; i <= 7; i++)
       tokensMap = tokenFileToMap(__dirname + `/../../src/data/tokens/tokens-${i}.json`, tokensMap)
 
     console.log('Parse complete. Example:')
