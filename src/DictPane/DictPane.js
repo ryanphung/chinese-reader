@@ -100,7 +100,9 @@ const DictPane = React.memo(function DictPane({
     return results
   }, [dictionary, text])
 
-  const displayedText = (script === 'simplified' ? dictionaryWords?.[0]?.entries?.[0]?.simplified : dictionaryWords?.[0]?.entries?.[0]?.traditional) ?? text
+  let displayedText = (script === 'simplified' ? dictionaryWords?.[0]?.entries?.[0]?.simplified : dictionaryWords?.[0]?.entries?.[0]?.traditional) ?? text
+  if (displayedText?.length < text?.length) displayedText = text
+
   return (
     <div className="DictPane">
       <div>
