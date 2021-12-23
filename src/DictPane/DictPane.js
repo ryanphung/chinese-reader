@@ -22,7 +22,7 @@ const DictPane = React.memo(function DictPane({
         window.speechSynthesis.cancel()
       window.speechSynthesis.speak(msg)
     }
-  }, [text, voice, isTokenSelected])
+  }, [text, voice, isTokenSelected, tokenPosition?.sid, tokenPosition?.tid])
 
   function handleDeleteTokenClick() {
     const t = window.confirm('Are you sure you want to delete this token?')
