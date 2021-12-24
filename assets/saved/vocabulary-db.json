@@ -438,10 +438,9 @@
     "recommended": true
   },
   "题": {
-    "level": 4,
-    "addedAt": 1639149310921,
-    "chapter": 4,
-    "recommended": true
+    "addedAt": 1640321223896,
+    "chapter": 7,
+    "level": 4
   },
   "动作": {
     "level": 4,
@@ -810,10 +809,9 @@
     "recommended": true
   },
   "应": {
-    "level": 4,
-    "addedAt": 1639149310921,
-    "chapter": 4,
-    "recommended": true
+    "addedAt": 1640321237719,
+    "chapter": 7,
+    "level": 4
   },
   "有没有": {
     "level": 4,
@@ -1598,10 +1596,9 @@
     "level": 1
   },
   "组": {
-    "level": 4,
-    "addedAt": 1639129405753,
-    "chapter": 3,
-    "recommended": true
+    "addedAt": 1640324436338,
+    "chapter": 7,
+    "level": 4
   },
   "流传": {
     "level": 4,
@@ -1869,10 +1866,9 @@
     "recommended": true
   },
   "台北": {
-    "level": 4,
-    "addedAt": 1639129405753,
-    "chapter": 3,
-    "recommended": true
+    "addedAt": 1640323062393,
+    "chapter": 7,
+    "level": 4
   },
   "复兴": {
     "addedAt": 1639133462887,
@@ -2476,9 +2472,9 @@
     "recommended": true
   },
   "老歌": {
-    "addedAt": 1639135458039,
-    "chapter": 3,
-    "level": 1
+    "addedAt": 1640324963943,
+    "chapter": 7,
+    "level": 4
   },
   "歌曲": {
     "level": 4,
@@ -2714,9 +2710,9 @@
     "level": 1
   },
   "反复": {
-    "addedAt": 1639139359806,
-    "chapter": 3,
-    "level": 1
+    "addedAt": 1640322878722,
+    "chapter": 7,
+    "level": 3
   },
   "式子": {
     "level": 4,
@@ -2939,10 +2935,9 @@
     "level": 1
   },
   "阴": {
-    "level": 4,
-    "addedAt": 1639129405753,
-    "chapter": 3,
-    "recommended": true
+    "addedAt": 1640324703397,
+    "chapter": 7,
+    "level": 4
   },
   "上岸": {
     "level": 4,
@@ -3406,9 +3401,9 @@
     "recommended": true
   },
   "时光": {
-    "addedAt": 1639142371271,
-    "chapter": 3,
-    "level": 1
+    "addedAt": 1640324992529,
+    "chapter": 7,
+    "level": 3
   },
   "倒流": {
     "addedAt": 1639142372293,
@@ -3679,9 +3674,9 @@
     "recommended": true
   },
   "若无其事": {
-    "addedAt": 1639147320101,
-    "chapter": 3,
-    "level": 1
+    "addedAt": 1640320930778,
+    "chapter": 7,
+    "level": 3
   },
   "一行": {
     "level": 4,
@@ -3754,10 +3749,9 @@
     "recommended": true
   },
   "一句话": {
-    "level": 4,
-    "addedAt": 1639129405753,
-    "chapter": 3,
-    "recommended": true
+    "addedAt": 1640324608381,
+    "chapter": 7,
+    "level": 4
   },
   "做自己": {
     "level": 4,
@@ -4383,10 +4377,9 @@
     "recommended": true
   },
   "里头": {
-    "level": 1,
-    "addedAt": 1638970564253,
-    "chapter": 2,
-    "recommended": true
+    "addedAt": 1640321643307,
+    "chapter": 7,
+    "level": 3
   },
   "据说": {
     "level": 1,
@@ -4902,6 +4895,8 @@
     "level": 4
   },
   "微": {
+    "addedAt": 1640324701129,
+    "chapter": 7,
     "level": 4
   },
   "步": {
@@ -5021,10 +5016,9 @@
     "recommended": true
   },
   "几乎": {
-    "level": 4,
-    "addedAt": 1638970564253,
-    "chapter": 2,
-    "recommended": true
+    "addedAt": 1640325181063,
+    "chapter": 7,
+    "level": 4
   },
   "破口大骂": {
     "level": 4,
@@ -5476,9 +5470,9 @@
     "level": -2
   },
   "不必": {
-    "addedAt": 1639142336989,
-    "chapter": 3,
-    "level": 1
+    "addedAt": 1640323078027,
+    "chapter": 7,
+    "level": 4
   },
   "算法": {
     "level": 4,
@@ -6399,10 +6393,9 @@
     "recommended": true
   },
   "关系": {
-    "level": 4,
-    "addedAt": 1638884013214,
-    "chapter": 1,
-    "recommended": true
+    "addedAt": 1640325164842,
+    "chapter": 7,
+    "level": 4
   },
   "总是": {
     "level": 4,
@@ -6800,10 +6793,9 @@
     "recommended": true
   },
   "般": {
-    "level": 4,
-    "addedAt": 1638884013214,
-    "chapter": 1,
-    "recommended": true
+    "addedAt": 1640321333302,
+    "chapter": 7,
+    "level": 4
   },
   "小事": {
     "level": 4,
@@ -6854,10 +6846,9 @@
     "recommended": true
   },
   "不断": {
-    "level": 4,
-    "addedAt": 1638884013214,
-    "chapter": 1,
-    "recommended": true
+    "addedAt": 1640325250218,
+    "chapter": 7,
+    "level": 4
   },
   "聊": {
     "level": 4,
@@ -8324,9 +8315,9 @@
     "recommended": true
   },
   "熟": {
-    "addedAt": 1639134296168,
-    "chapter": 3,
-    "level": 1
+    "addedAt": 1640323760013,
+    "chapter": 7,
+    "level": 4
   },
   "如": {
     "level": 4,
@@ -8335,10 +8326,9 @@
     "recommended": true
   },
   "莫名其妙": {
-    "level": 1,
-    "addedAt": 1638884013214,
-    "chapter": 1,
-    "recommended": true
+    "addedAt": 1640265841940,
+    "chapter": 7,
+    "level": 3
   },
   "理解": {
     "level": 4,
@@ -8650,10 +8640,9 @@
     "recommended": true
   },
   "分": {
-    "level": 4,
-    "addedAt": 1638884013214,
-    "chapter": 1,
-    "recommended": true
+    "addedAt": 1640324817380,
+    "chapter": 7,
+    "level": 4
   },
   "竟": {
     "level": 4,
@@ -8845,10 +8834,9 @@
     "recommended": true
   },
   "承认": {
-    "level": 1,
-    "addedAt": 1638884013214,
-    "chapter": 1,
-    "recommended": true
+    "addedAt": 1640324003095,
+    "chapter": 7,
+    "level": 4
   },
   "不自在": {
     "level": 1,
@@ -9842,16 +9830,9 @@
     "sid": 5
   },
   "有": {
-    "level": 4,
-    "addedAt": 1638796584513,
-    "recommended": true,
-    "chapter": 0,
-    "simplified": "有",
-    "traditional": "有",
-    "keyword": "have",
-    "hanviet": "hữu",
-    "pinyin": "yǒu",
-    "sid": 5
+    "addedAt": 1640320647062,
+    "chapter": 7,
+    "level": 4
   },
   "天": {
     "level": 4,
@@ -10897,16 +10878,9 @@
     "sid": 18
   },
   "得": {
-    "level": 4,
-    "addedAt": 1638796584513,
-    "recommended": true,
-    "chapter": 0,
-    "simplified": "得",
-    "traditional": "得",
-    "keyword": "have to",
-    "hanviet": "đắc",
-    "pinyin": "děi",
-    "sid": 18
+    "addedAt": 1640320683260,
+    "chapter": 7,
+    "level": 4
   },
   "空白": {
     "level": 4,
@@ -14133,13 +14107,9 @@
     "sid": 18
   },
   "曹国胜": {
-    "level": 1,
-    "simplified": "曹国胜",
-    "traditional": "曹國勝",
-    "keyword": "Cao Guosheng",
-    "hanviet": "tào quốc thắng",
-    "pinyin": "cáo guó shèng",
-    "sid": 18
+    "addedAt": 1640324093371,
+    "chapter": 7,
+    "level": 4
   },
   "出炉": {
     "level": 2,
@@ -14222,9 +14192,9 @@
     "sid": 96
   },
   "杨泽于": {
-    "addedAt": 1640251431366,
-    "chapter": 6,
-    "level": 3
+    "addedAt": 1640324086603,
+    "chapter": 7,
+    "level": 4
   },
   "恐怖": {
     "level": 1,
@@ -14304,13 +14274,9 @@
     "level": 4
   },
   "罢了": {
-    "level": 2,
-    "simplified": "罢了",
-    "traditional": "罷了",
-    "keyword": "that's all",
-    "hanviet": "bãi liễu",
-    "pinyin": "bà le",
-    "sid": 48
+    "addedAt": 1640323180755,
+    "chapter": 7,
+    "level": 3
   },
   "可怜": {
     "addedAt": 1639128276880,
@@ -14495,7 +14461,9 @@
     "level": 1
   },
   "藏": {
-    "level": 1
+    "addedAt": 1640321674113,
+    "chapter": 7,
+    "level": 0
   },
   "馒头": {
     "level": 1
@@ -14807,9 +14775,9 @@
     "sid": 86
   },
   "情绪": {
-    "addedAt": 1640172808013,
-    "chapter": 1,
-    "level": 2
+    "addedAt": 1640320612451,
+    "chapter": 7,
+    "level": 3
   },
   "毕竟": {
     "addedAt": 1640172804216,
@@ -14905,7 +14873,9 @@
     "level": 4
   },
   "甩": {
-    "level": 1
+    "addedAt": 1640320856403,
+    "chapter": 7,
+    "level": 3
   },
   "炮": {
     "addedAt": 1639128856300,
@@ -15203,8 +15173,8 @@
     "level": 1
   },
   "卷": {
-    "addedAt": 1640176520333,
-    "chapter": 6,
+    "addedAt": 1640321351038,
+    "chapter": 7,
     "level": 4
   },
   "澡": {
@@ -15650,9 +15620,9 @@
     "level": 0
   },
   "笨蛋": {
-    "addedAt": 1639135027401,
-    "chapter": 3,
-    "level": 1
+    "addedAt": 1640323800476,
+    "chapter": 7,
+    "level": 4
   },
   "灵魂": {
     "addedAt": 1640262906755,
@@ -16157,9 +16127,9 @@
     "recommended": true
   },
   "逼": {
-    "addedAt": 1640157758497,
-    "chapter": 0,
-    "level": 0
+    "addedAt": 1640265903895,
+    "chapter": 7,
+    "level": 3
   },
   "绰号": {
     "addedAt": 1640157765051,
@@ -16888,8 +16858,8 @@
     "recommended": true
   },
   "捆": {
-    "addedAt": 1640176202704,
-    "chapter": 6,
+    "addedAt": 1640321378671,
+    "chapter": 7,
     "level": 0
   },
   "专门": {
@@ -17309,9 +17279,9 @@
     "recommended": true
   },
   "抓狂": {
-    "addedAt": 1640188803724,
-    "chapter": 6,
-    "level": 3
+    "addedAt": 1640321602113,
+    "chapter": 7,
+    "level": 0
   },
   "滋味": {
     "addedAt": 1640188845952,
@@ -17487,10 +17457,9 @@
     "recommended": true
   },
   "填": {
-    "addedAt": 1640248522710,
-    "chapter": 6,
-    "level": 4,
-    "recommended": true
+    "addedAt": 1640324411810,
+    "chapter": 7,
+    "level": 4
   },
   "得到": {
     "addedAt": 1640248539349,
@@ -18208,8 +18177,8 @@
     "recommended": true
   },
   "记忆": {
-    "addedAt": 1640256887580,
-    "chapter": 6,
+    "addedAt": 1640324314865,
+    "chapter": 7,
     "level": 3
   },
   "依稀": {
@@ -18286,8 +18255,8 @@
     "recommended": true
   },
   "既然": {
-    "addedAt": 1640257378107,
-    "chapter": 6,
+    "addedAt": 1640323093705,
+    "chapter": 7,
     "level": 2
   },
   "离别": {
@@ -18368,9 +18337,9 @@
     "recommended": true
   },
   "小华": {
-    "addedAt": 1640257844213,
-    "chapter": 6,
-    "level": 0
+    "addedAt": 1640325267873,
+    "chapter": 7,
+    "level": 4
   },
   "勇次": {
     "addedAt": 1640257862726,
@@ -18378,9 +18347,9 @@
     "level": 0
   },
   "丢": {
-    "addedAt": 1640262952667,
+    "addedAt": 1640321407505,
     "chapter": 7,
-    "level": 3
+    "level": 4
   },
   "不只": {
     "addedAt": 1640257888038,
@@ -18401,9 +18370,9 @@
     "recommended": true
   },
   "两小无猜": {
-    "addedAt": 1640259235541,
+    "addedAt": 1640318465800,
     "chapter": 7,
-    "level": 0
+    "level": 1
   },
   "相处": {
     "addedAt": 1640259236876,
@@ -18802,9 +18771,9 @@
     "level": 0
   },
   "彰女": {
-    "addedAt": 1640261819727,
+    "addedAt": 1640323625429,
     "chapter": 7,
-    "level": 0
+    "level": 4
   },
   "剥夺": {
     "addedAt": 1640261821050,
@@ -18983,9 +18952,9 @@
     "recommended": true
   },
   "考卷": {
-    "addedAt": 1640262555034,
+    "addedAt": 1640323317448,
     "chapter": 7,
-    "level": 3
+    "level": 4
   },
   "竹": {
     "addedAt": 1640262574609,
@@ -19219,15 +19188,14 @@
     "recommended": true
   },
   "机器": {
-    "addedAt": 1640263637779,
+    "addedAt": 1640320758731,
     "chapter": 7,
-    "level": 4,
-    "recommended": true
+    "level": 4
   },
   "左后方": {
-    "addedAt": 1640263715044,
+    "addedAt": 1640320590943,
     "chapter": 7,
-    "level": 0
+    "level": 4
   },
   "好久": {
     "addedAt": 1640263733223,
@@ -19240,5 +19208,694 @@
     "chapter": 7,
     "level": 4,
     "recommended": true
+  },
+  "训练": {
+    "addedAt": 1640264872768,
+    "chapter": 7,
+    "level": 4,
+    "recommended": true
+  },
+  "恶劣": {
+    "addedAt": 1640265250218,
+    "chapter": 7,
+    "level": 0
+  },
+  "突发奇想": {
+    "addedAt": 1640265302174,
+    "chapter": 7,
+    "level": 4,
+    "recommended": true
+  },
+  "缓解": {
+    "addedAt": 1640265375929,
+    "chapter": 7,
+    "level": 0
+  },
+  "遗弃": {
+    "addedAt": 1640265860037,
+    "chapter": 7,
+    "level": 0
+  },
+  "实话": {
+    "addedAt": 1640265875881,
+    "chapter": 7,
+    "level": 4,
+    "recommended": true
+  },
+  "硬是": {
+    "addedAt": 1640320720364,
+    "chapter": 7,
+    "level": 2
+  },
+  "黑暗": {
+    "addedAt": 1640265942011,
+    "chapter": 7,
+    "level": 4,
+    "recommended": true
+  },
+  "势力": {
+    "addedAt": 1640265943631,
+    "chapter": 7,
+    "level": 4,
+    "recommended": true
+  },
+  "多亏": {
+    "addedAt": 1640265950016,
+    "chapter": 7,
+    "level": 0
+  },
+  "两小": {
+    "addedAt": 1640318140622,
+    "chapter": 7,
+    "level": 1
+  },
+  "无猜": {
+    "addedAt": 1640318440828,
+    "chapter": 7,
+    "level": 3
+  },
+  "有得": {
+    "addedAt": 1640320634822,
+    "chapter": 7,
+    "level": 0
+  },
+  "蛋糕": {
+    "addedAt": 1640320828971,
+    "chapter": 7,
+    "level": 4
+  },
+  "聚餐": {
+    "addedAt": 1640320817281,
+    "chapter": 7,
+    "level": 0
+  },
+  "喧闹": {
+    "addedAt": 1640320823352,
+    "chapter": 7,
+    "level": 0
+  },
+  "假装": {
+    "addedAt": 1640320843026,
+    "chapter": 7,
+    "level": 4,
+    "recommended": true
+  },
+  "兴致": {
+    "addedAt": 1640320873435,
+    "chapter": 7,
+    "level": 3
+  },
+  "盎然": {
+    "addedAt": 1640320881545,
+    "chapter": 7,
+    "level": 3
+  },
+  "奶油": {
+    "addedAt": 1640320890919,
+    "chapter": 7,
+    "level": 4,
+    "recommended": true
+  },
+  "注意": {
+    "addedAt": 1640320902096,
+    "chapter": 7,
+    "level": 4,
+    "recommended": true
+  },
+  "餐厅": {
+    "addedAt": 1640320921119,
+    "chapter": 7,
+    "level": 4,
+    "recommended": true
+  },
+  "铁板烧": {
+    "addedAt": 1640320993980,
+    "chapter": 7,
+    "level": 4,
+    "recommended": true
+  },
+  "惆怅": {
+    "addedAt": 1640321017735,
+    "chapter": 7,
+    "level": 0
+  },
+  "停课": {
+    "addedAt": 1640321038204,
+    "chapter": 7,
+    "level": 4,
+    "recommended": true
+  },
+  "默契": {
+    "addedAt": 1640321051580,
+    "chapter": 7,
+    "level": 0
+  },
+  "十足": {
+    "addedAt": 1640321080936,
+    "chapter": 7,
+    "level": 0
+  },
+  "返校": {
+    "addedAt": 1640321094583,
+    "chapter": 7,
+    "level": 4,
+    "recommended": true
+  },
+  "挤满": {
+    "addedAt": 1640321176030,
+    "chapter": 7,
+    "level": 0
+  },
+  "红十字": {
+    "addedAt": 1640321314836,
+    "chapter": 7,
+    "level": 4,
+    "recommended": true
+  },
+  "灾区": {
+    "addedAt": 1640321319650,
+    "chapter": 7,
+    "level": 4,
+    "recommended": true
+  },
+  "送": {
+    "addedAt": 1640321322705,
+    "chapter": 7,
+    "level": 4,
+    "recommended": true
+  },
+  "粮食": {
+    "addedAt": 1640321329387,
+    "chapter": 7,
+    "level": 3
+  },
+  "随意": {
+    "addedAt": 1640321445528,
+    "chapter": 7,
+    "level": 4,
+    "recommended": true
+  },
+  "取用": {
+    "addedAt": 1640321447794,
+    "chapter": 7,
+    "level": 4,
+    "recommended": true
+  },
+  "有心": {
+    "addedAt": 1640321451697,
+    "chapter": 7,
+    "level": 4,
+    "recommended": true
+  },
+  "奴隶": {
+    "addedAt": 1640321454195,
+    "chapter": 7,
+    "level": 0
+  },
+  "偷偷": {
+    "addedAt": 1640321629563,
+    "chapter": 7,
+    "level": 0
+  },
+  "抢夺": {
+    "addedAt": 1640321631134,
+    "chapter": 7,
+    "level": 0
+  },
+  "结构性": {
+    "addedAt": 1640322782004,
+    "chapter": 7,
+    "level": 4,
+    "recommended": true
+  },
+  "在我看来": {
+    "addedAt": 1640322783781,
+    "chapter": 7,
+    "level": 4,
+    "recommended": true
+  },
+  "疯狂": {
+    "addedAt": 1640322785064,
+    "chapter": 7,
+    "level": 4,
+    "recommended": true
+  },
+  "告解": {
+    "addedAt": 1640322858399,
+    "chapter": 7,
+    "level": 4,
+    "recommended": true
+  },
+  "阅读": {
+    "addedAt": 1640322883792,
+    "chapter": 7,
+    "level": 4
+  },
+  "志愿": {
+    "addedAt": 1640322961710,
+    "chapter": 7,
+    "level": 4,
+    "recommended": true
+  },
+  "录取": {
+    "addedAt": 1640322999440,
+    "chapter": 7,
+    "level": 4,
+    "recommended": true
+  },
+  "没问题": {
+    "addedAt": 1640323072153,
+    "chapter": 7,
+    "level": 4,
+    "recommended": true
+  },
+  "高低": {
+    "addedAt": 1640323100565,
+    "chapter": 7,
+    "level": 4,
+    "recommended": true
+  },
+  "踩": {
+    "addedAt": 1640323138183,
+    "chapter": 7,
+    "level": 3
+  },
+  "脚下": {
+    "addedAt": 1640323141415,
+    "chapter": 7,
+    "level": 4,
+    "recommended": true
+  },
+  "远处": {
+    "addedAt": 1640323215144,
+    "chapter": 7,
+    "level": 4,
+    "recommended": true
+  },
+  "围住": {
+    "addedAt": 1640323256911,
+    "chapter": 7,
+    "level": 2
+  },
+  "写完": {
+    "addedAt": 1640323297797,
+    "chapter": 7,
+    "level": 4,
+    "recommended": true
+  },
+  "拼命": {
+    "addedAt": 1640323303344,
+    "chapter": 7,
+    "level": 2
+  },
+  "测验卷": {
+    "addedAt": 1640323355053,
+    "chapter": 7,
+    "level": 4
+  },
+  "孜孜不倦": {
+    "addedAt": 1640323383771,
+    "chapter": 7,
+    "level": 0
+  },
+  "不倦": {
+    "addedAt": 1640323388536,
+    "chapter": 7,
+    "level": 0
+  },
+  "心烦意乱": {
+    "addedAt": 1640323410258,
+    "chapter": 7,
+    "level": 4,
+    "recommended": true
+  },
+  "始末": {
+    "addedAt": 1640323448600,
+    "chapter": 7,
+    "level": 4
+  },
+  "交代": {
+    "addedAt": 1640323468517,
+    "chapter": 7,
+    "level": 4,
+    "recommended": true
+  },
+  "一遍": {
+    "addedAt": 1640323482923,
+    "chapter": 7,
+    "level": 0
+  },
+  "讯息": {
+    "addedAt": 1640323504152,
+    "chapter": 7,
+    "level": 4
+  },
+  "过后": {
+    "addedAt": 1640323531189,
+    "chapter": 7,
+    "level": 4,
+    "recommended": true
+  },
+  "鼓励": {
+    "addedAt": 1640323541231,
+    "chapter": 7,
+    "level": 4,
+    "recommended": true
+  },
+  "亮": {
+    "addedAt": 1640323554229,
+    "chapter": 7,
+    "level": 4,
+    "recommended": true
+  },
+  "意思": {
+    "addedAt": 1640323592687,
+    "chapter": 7,
+    "level": 4
+  },
+  "惹": {
+    "addedAt": 1640323587802,
+    "chapter": 7,
+    "level": 0
+  },
+  "救": {
+    "addedAt": 1640323633753,
+    "chapter": 7,
+    "level": 4,
+    "recommended": true
+  },
+  "难": {
+    "addedAt": 1640323652537,
+    "chapter": 7,
+    "level": 4,
+    "recommended": true
+  },
+  "没什么": {
+    "addedAt": 1640323667474,
+    "chapter": 7,
+    "level": 4,
+    "recommended": true
+  },
+  "大不了": {
+    "addedAt": 1640323675200,
+    "chapter": 7,
+    "level": 4,
+    "recommended": true
+  },
+  "考试": {
+    "addedAt": 1640323696520,
+    "chapter": 7,
+    "level": 4,
+    "recommended": true
+  },
+  "失望": {
+    "addedAt": 1640323705465,
+    "chapter": 7,
+    "level": 4,
+    "recommended": true
+  },
+  "叨叨": {
+    "addedAt": 1640323720160,
+    "chapter": 7,
+    "level": 0
+  },
+  "絮絮": {
+    "addedAt": 1640323724391,
+    "chapter": 7,
+    "level": 1
+  },
+  "有办法": {
+    "addedAt": 1640323749717,
+    "chapter": 7,
+    "level": 4,
+    "recommended": true
+  },
+  "经不起": {
+    "addedAt": 1640323787076,
+    "chapter": 7,
+    "level": 4,
+    "recommended": true
+  },
+  "打击": {
+    "addedAt": 1640323942960,
+    "chapter": 7,
+    "level": 3
+  },
+  "棘手": {
+    "addedAt": 1640323811762,
+    "chapter": 7,
+    "level": 0
+  },
+  "一蹶不振": {
+    "addedAt": 1640323872980,
+    "chapter": 7,
+    "level": 0
+  },
+  "年头": {
+    "addedAt": 1640323890695,
+    "chapter": 7,
+    "level": 4,
+    "recommended": true
+  },
+  "照顾": {
+    "addedAt": 1640323898730,
+    "chapter": 7,
+    "level": 4,
+    "recommended": true
+  },
+  "型": {
+    "addedAt": 1640323947622,
+    "chapter": 7,
+    "level": 4,
+    "recommended": true
+  },
+  "脆弱": {
+    "addedAt": 1640323960335,
+    "chapter": 7,
+    "level": 4
+  },
+  "大方": {
+    "addedAt": 1640324000207,
+    "chapter": 7,
+    "level": 0
+  },
+  "无话可说": {
+    "addedAt": 1640324013899,
+    "chapter": 7,
+    "level": 4,
+    "recommended": true
+  },
+  "失利": {
+    "addedAt": 1640324138594,
+    "chapter": 7,
+    "level": 4,
+    "recommended": true
+  },
+  "云林": {
+    "addedAt": 1640324271253,
+    "chapter": 7,
+    "level": 4
+  },
+  "工": {
+    "addedAt": 1640324186879,
+    "chapter": 7,
+    "level": 4,
+    "recommended": true
+  },
+  "专": {
+    "addedAt": 1640324267112,
+    "chapter": 7,
+    "level": 4
+  },
+  "渐渐": {
+    "addedAt": 1640324284209,
+    "chapter": 7,
+    "level": 3
+  },
+  "至于": {
+    "addedAt": 1640324473022,
+    "chapter": 7,
+    "level": 4,
+    "recommended": true
+  },
+  "主人": {
+    "addedAt": 1640324474214,
+    "chapter": 7,
+    "level": 4,
+    "recommended": true
+  },
+  "图腾": {
+    "addedAt": 1640324518748,
+    "chapter": 7,
+    "level": 0
+  },
+  "女中": {
+    "addedAt": 1640324547049,
+    "chapter": 7,
+    "level": 3
+  },
+  "位": {
+    "addedAt": 1640324582918,
+    "chapter": 7,
+    "level": 4
+  },
+  "说上": {
+    "addedAt": 1640324592973,
+    "chapter": 7,
+    "level": 4,
+    "recommended": true
+  },
+  "七月": {
+    "addedAt": 1640324627792,
+    "chapter": 7,
+    "level": 4,
+    "recommended": true
+  },
+  "十一": {
+    "addedAt": 1640324643824,
+    "chapter": 7,
+    "level": 4
+  },
+  "号": {
+    "addedAt": 1640324647226,
+    "chapter": 7,
+    "level": 4,
+    "recommended": true
+  },
+  "天气": {
+    "addedAt": 1640324667465,
+    "chapter": 7,
+    "level": 4,
+    "recommended": true
+  },
+  "下午": {
+    "addedAt": 1640324795674,
+    "chapter": 7,
+    "level": 4,
+    "recommended": true
+  },
+  "五十": {
+    "addedAt": 1640324799223,
+    "chapter": 7,
+    "level": 4,
+    "recommended": true
+  },
+  "列车": {
+    "addedAt": 1640324844201,
+    "chapter": 7,
+    "level": 4,
+    "recommended": true
+  },
+  "自强": {
+    "addedAt": 1640324851648,
+    "chapter": 7,
+    "level": 4,
+    "recommended": true
+  },
+  "符合": {
+    "addedAt": 1640324979039,
+    "chapter": 7,
+    "level": 3
+  },
+  "过往": {
+    "addedAt": 1640324989802,
+    "chapter": 7,
+    "level": 4,
+    "recommended": true
+  },
+  "出版社": {
+    "addedAt": 1640325008533,
+    "chapter": 7,
+    "level": 4,
+    "recommended": true
+  },
+  "签": {
+    "addedAt": 1640325021366,
+    "chapter": 7,
+    "level": 3
+  },
+  "少林寺": {
+    "addedAt": 1640325032179,
+    "chapter": 7,
+    "level": 4,
+    "recommended": true
+  },
+  "网络": {
+    "addedAt": 1640325059083,
+    "chapter": 7,
+    "level": 4
+  },
+  "诚品": {
+    "addedAt": 1640325076219,
+    "chapter": 7,
+    "level": 0
+  },
+  "门市": {
+    "addedAt": 1640325079722,
+    "chapter": 7,
+    "level": 4,
+    "recommended": true
+  },
+  "半年": {
+    "addedAt": 1640325134466,
+    "chapter": 7,
+    "level": 4,
+    "recommended": true
+  },
+  "妈妈": {
+    "addedAt": 1640325144748,
+    "chapter": 7,
+    "level": 4,
+    "recommended": true
+  },
+  "生病": {
+    "addedAt": 1640325146416,
+    "chapter": 7,
+    "level": 4,
+    "recommended": true
+  },
+  "惯性": {
+    "addedAt": 1640325216115,
+    "chapter": 7,
+    "level": 4,
+    "recommended": true
+  },
+  "驻足": {
+    "addedAt": 1640325241908,
+    "chapter": 7,
+    "level": 0
+  },
+  "划下": {
+    "addedAt": 1640325287584,
+    "chapter": 7,
+    "level": 4,
+    "recommended": true
+  },
+  "涂抹": {
+    "addedAt": 1640325319306,
+    "chapter": 7,
+    "level": 3
+  },
+  "再三": {
+    "addedAt": 1640325322960,
+    "chapter": 7,
+    "level": 4,
+    "recommended": true
+  },
+  "串": {
+    "addedAt": 1640325335711,
+    "chapter": 7,
+    "level": 1
+  },
+  "不明": {
+    "addedAt": 1640325352287,
+    "chapter": 7,
+    "level": 4,
+    "recommended": true
+  },
+  "符号": {
+    "addedAt": 1640325357739,
+    "chapter": 7,
+    "level": 0
   }
 }

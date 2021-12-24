@@ -12801,9 +12801,9 @@
       "text": "得",
       "simplified": "得",
       "traditional": "得",
-      "keyword": "have to",
+      "keyword": "de",
       "hanviet": "đắc",
-      "pinyin": "děi",
+      "pinyin": "de",
       "isWord": true
     },
     {
@@ -13115,7 +13115,7 @@
       "simplified": "机器",
       "traditional": "機器",
       "keyword": "machine",
-      "hanviet": "ky khí",
+      "hanviet": "cơ khí",
       "pinyin": "jī qì",
       "isWord": true
     },
@@ -13870,7 +13870,7 @@
       "text": "十足",
       "simplified": "十足",
       "traditional": "十足",
-      "keyword": "ample",
+      "keyword": "hundred percent",
       "hanviet": "thập túc",
       "pinyin": "shí zú",
       "isWord": true
@@ -13953,7 +13953,7 @@
       "text": "挤满",
       "simplified": "挤满",
       "traditional": "擠滿",
-      "keyword": "crowded to bursting point",
+      "keyword": "jam-packed",
       "hanviet": "tễ mãn",
       "pinyin": "jǐ mǎn",
       "isWord": true
@@ -13973,7 +13973,7 @@
       "traditional": "應",
       "keyword": "agree",
       "hanviet": "ứng",
-      "pinyin": "Yìng",
+      "pinyin": "yìng",
       "isWord": true
     },
     {
@@ -13982,7 +13982,7 @@
       "traditional": "題",
       "keyword": "topic",
       "hanviet": "đề",
-      "pinyin": "Tí",
+      "pinyin": "tí",
       "isWord": true
     },
     {
@@ -14007,9 +14007,9 @@
       "text": "卷",
       "simplified": "卷",
       "traditional": "卷",
-      "keyword": "roll up",
+      "keyword": "scroll",
       "hanviet": "quyển",
-      "pinyin": "juǎn",
+      "pinyin": "juàn",
       "isWord": true
     },
     {
@@ -14105,7 +14105,7 @@
       "text": "丢",
       "simplified": "丢",
       "traditional": "丟",
-      "keyword": "lose",
+      "keyword": "throw",
       "hanviet": "đâu",
       "pinyin": "diū",
       "isWord": true
@@ -14132,7 +14132,7 @@
       "text": "般",
       "simplified": "般",
       "traditional": "般",
-      "keyword": "sort",
+      "keyword": "manner",
       "hanviet": "bàn",
       "pinyin": "bān",
       "isWord": true
@@ -14167,9 +14167,9 @@
       "text": "卷",
       "simplified": "卷",
       "traditional": "卷",
-      "keyword": "roll up",
+      "keyword": "scroll",
       "hanviet": "quyển",
-      "pinyin": "juǎn",
+      "pinyin": "juàn",
       "isWord": true
     },
     {
@@ -14185,7 +14185,7 @@
       "text": "捆",
       "simplified": "捆",
       "traditional": "捆",
-      "keyword": "a bunch",
+      "keyword": "bundle",
       "hanviet": "khổn",
       "pinyin": "kǔn",
       "isWord": true
@@ -14194,7 +14194,7 @@
       "text": "捆",
       "simplified": "捆",
       "traditional": "捆",
-      "keyword": "a bunch",
+      "keyword": "bundle",
       "hanviet": "khổn",
       "pinyin": "kǔn",
       "isWord": true
@@ -14203,7 +14203,7 @@
       "text": "丢",
       "simplified": "丢",
       "traditional": "丟",
-      "keyword": "lose",
+      "keyword": "throw",
       "hanviet": "đâu",
       "pinyin": "diū",
       "isWord": true
@@ -14552,7 +14552,7 @@
       "text": "抓狂",
       "simplified": "抓狂",
       "traditional": "抓狂",
-      "keyword": "blow one's top",
+      "keyword": "become frantic",
       "hanviet": "trảo cuồng",
       "pinyin": "zhuā kuáng",
       "isWord": true
@@ -14650,7 +14650,7 @@
       "text": "藏",
       "simplified": "藏",
       "traditional": "藏",
-      "keyword": "Tibet",
+      "keyword": "conceal",
       "hanviet": "tàng",
       "pinyin": "Zàng",
       "isWord": true
@@ -15295,21 +15295,21 @@
       "isWord": true
     },
     {
-      "text": "去台",
-      "simplified": "去台",
-      "traditional": "去臺",
-      "keyword": "go to Taiwan",
-      "hanviet": "khứ thai",
-      "pinyin": "qù Tái",
+      "text": "去",
+      "simplified": "去",
+      "traditional": "去",
+      "keyword": "go",
+      "hanviet": "khứ",
+      "pinyin": "qù",
       "isWord": true
     },
     {
-      "text": "北",
-      "simplified": "北",
-      "traditional": "北",
-      "keyword": "north",
-      "hanviet": "bắc",
-      "pinyin": "běi",
+      "text": "台北",
+      "simplified": "台北",
+      "traditional": "台北",
+      "keyword": "Taibei or Taipei",
+      "hanviet": "thai bắc",
+      "pinyin": "Tái běi",
       "isWord": true
     },
     {
@@ -16103,21 +16103,12 @@
       "isWord": true
     },
     {
-      "text": "测验",
-      "simplified": "测验",
-      "traditional": "測驗",
-      "keyword": "test",
-      "hanviet": "trắc nghiệm",
-      "pinyin": "cè yàn",
-      "isWord": true
-    },
-    {
-      "text": "卷",
-      "simplified": "卷",
-      "traditional": "卷",
-      "keyword": "roll up",
-      "hanviet": "quyển",
-      "pinyin": "juǎn",
+      "text": "测验卷",
+      "simplified": "测验卷",
+      "traditional": "测验卷",
+      "keyword": "test paper",
+      "hanviet": "trắc nghiệm quyển",
+      "pinyin": "cè yàn juàn",
       "isWord": true
     },
     {
@@ -16535,7 +16526,7 @@
       "text": "讯息",
       "simplified": "讯息",
       "traditional": "訊息",
-      "keyword": "information",
+      "keyword": "message",
       "hanviet": "tấn tức",
       "pinyin": "xùn xī",
       "isWord": true
@@ -16948,7 +16939,7 @@
       "text": "意思",
       "simplified": "意思",
       "traditional": "意思",
-      "keyword": "idea",
+      "keyword": "meaning",
       "hanviet": "ý tư",
       "pinyin": "yì si",
       "isWord": true
@@ -17274,21 +17265,12 @@
       "isWord": true
     },
     {
-      "text": "彰",
-      "simplified": "彰",
-      "traditional": "彰",
-      "keyword": "clear",
-      "hanviet": "chương",
-      "pinyin": "zhāng",
-      "isWord": true
-    },
-    {
-      "text": "女",
-      "simplified": "女",
-      "traditional": "女",
-      "keyword": "female",
-      "hanviet": "nữ",
-      "pinyin": "nǚ",
+      "text": "彰女",
+      "simplified": "彰女",
+      "traditional": "彰女",
+      "keyword": "Zhanghua Female",
+      "hanviet": "chương nữ",
+      "pinyin": "zhāng nǚ",
       "isWord": true
     },
     {
@@ -17552,7 +17534,7 @@
       "text": "大不了",
       "simplified": "大不了",
       "traditional": "大不了",
-      "keyword": "at worst",
+      "keyword": "serious",
       "hanviet": "đại bất liễu",
       "pinyin": "dà bù liǎo",
       "isWord": true
@@ -17750,7 +17732,7 @@
       "text": "絮絮",
       "simplified": "絮絮",
       "traditional": "絮絮",
-      "keyword": "endless prattle",
+      "keyword": "chatter incessantly",
       "hanviet": "nhứ nhứ",
       "pinyin": "xù xu",
       "isWord": true
@@ -18190,7 +18172,7 @@
       "text": "年头",
       "simplified": "年头",
       "traditional": "年頭",
-      "keyword": "start of the year",
+      "keyword": "days",
       "hanviet": "niên đầu",
       "pinyin": "nián tóu",
       "isWord": true
@@ -18244,7 +18226,7 @@
       "text": "一蹶不振",
       "simplified": "一蹶不振",
       "traditional": "一蹶不振",
-      "keyword": "one stumble",
+      "keyword": "one stumble, unable to rise",
       "hanviet": "nhất quyết bất chấn",
       "pinyin": "yī jué bù zhèn",
       "isWord": true
@@ -18612,7 +18594,7 @@
       "text": "大方",
       "simplified": "大方",
       "traditional": "大方",
-      "keyword": "expert",
+      "keyword": "easily",
       "hanviet": "đại phương",
       "pinyin": "dà fāng",
       "isWord": true
@@ -19262,7 +19244,7 @@
       "text": "云林",
       "simplified": "云林",
       "traditional": "雲林",
-      "keyword": "Yunlin county in Taiwan",
+      "keyword": "Yunlin",
       "hanviet": "vân lâm",
       "pinyin": "Yún lín",
       "isWord": true
@@ -19280,7 +19262,7 @@
       "text": "专",
       "simplified": "专",
       "traditional": "專",
-      "keyword": "for a particular person",
+      "keyword": "specialized",
       "hanviet": "chuyên",
       "pinyin": "zhuān",
       "isWord": true
@@ -19333,7 +19315,7 @@
       "text": "记忆",
       "simplified": "记忆",
       "traditional": "記憶",
-      "keyword": "remember",
+      "keyword": "memory",
       "hanviet": "kí ức",
       "pinyin": "jì yì",
       "isWord": true
@@ -19764,7 +19746,7 @@
       "text": "填",
       "simplified": "填",
       "traditional": "填",
-      "keyword": "fill or stuff",
+      "keyword": "fill",
       "hanviet": "điền",
       "pinyin": "tián",
       "isWord": true
@@ -19845,9 +19827,9 @@
       "text": "组",
       "simplified": "组",
       "traditional": "組",
-      "keyword": "form",
+      "keyword": "group",
       "hanviet": "tổ",
-      "pinyin": "Zǔ",
+      "pinyin": "zǔ",
       "isWord": true
     },
     {
@@ -19882,7 +19864,7 @@
       "text": "一句话",
       "simplified": "一句话",
       "traditional": "一句話",
-      "keyword": "in a word",
+      "keyword": "one sentence",
       "hanviet": "nhất cú thoại",
       "pinyin": "yī jù huà",
       "isWord": true
@@ -20086,21 +20068,12 @@
       "isWord": true
     },
     {
-      "text": "女",
-      "simplified": "女",
-      "traditional": "女",
-      "keyword": "female",
-      "hanviet": "nữ",
-      "pinyin": "nǚ",
-      "isWord": true
-    },
-    {
-      "text": "中",
-      "simplified": "中",
-      "traditional": "中",
-      "keyword": "within",
-      "hanviet": "trung",
-      "pinyin": "Zhōng",
+      "text": "女中",
+      "simplified": "女中",
+      "traditional": "女中",
+      "keyword": "female high",
+      "hanviet": "nữ trung",
+      "pinyin": "nǚ zhōng",
       "isWord": true
     },
     {
@@ -20180,7 +20153,7 @@
       "text": "位",
       "simplified": "位",
       "traditional": "位",
-      "keyword": "position",
+      "keyword": "person (classifier)",
       "hanviet": "vị",
       "pinyin": "wèi",
       "isWord": true
@@ -20260,7 +20233,7 @@
       "text": "一句话",
       "simplified": "一句话",
       "traditional": "一句話",
-      "keyword": "in a word",
+      "keyword": "one sentence",
       "hanviet": "nhất cú thoại",
       "pinyin": "yī jù huà",
       "isWord": true
@@ -20359,7 +20332,7 @@
       "text": "十一",
       "simplified": "十一",
       "traditional": "十一",
-      "keyword": "PRC National Day",
+      "keyword": "11",
       "hanviet": "thập nhất",
       "pinyin": "Shí Yī",
       "isWord": true
@@ -20368,7 +20341,7 @@
       "text": "号",
       "simplified": "号",
       "traditional": "號",
-      "keyword": "roar",
+      "keyword": "day",
       "hanviet": "hào",
       "pinyin": "háo",
       "isWord": true
@@ -20396,7 +20369,7 @@
       "traditional": "微",
       "keyword": "tiny",
       "hanviet": "vi",
-      "pinyin": "Wēi",
+      "pinyin": "wēi",
       "isWord": true
     },
     {
@@ -20405,7 +20378,7 @@
       "traditional": "陰",
       "keyword": "overcast",
       "hanviet": "âm",
-      "pinyin": "Yīn",
+      "pinyin": "yīn",
       "isWord": true
     },
     {
@@ -20468,7 +20441,7 @@
       "text": "分",
       "simplified": "分",
       "traditional": "分",
-      "keyword": "divide",
+      "keyword": "minute",
       "hanviet": "phân",
       "pinyin": "fēn",
       "isWord": true
@@ -20665,7 +20638,7 @@
       "text": "签",
       "simplified": "签",
       "traditional": "簽",
-      "keyword": "sign one's name",
+      "keyword": "sign",
       "hanviet": "thiêm",
       "pinyin": "qiān",
       "isWord": true
@@ -20813,21 +20786,12 @@
       "isWord": true
     },
     {
-      "text": "诚",
-      "simplified": "诚",
-      "traditional": "誠",
-      "keyword": "sincere",
-      "hanviet": "thành",
-      "pinyin": "chéng",
-      "isWord": true
-    },
-    {
-      "text": "品",
-      "simplified": "品",
-      "traditional": "品",
-      "keyword": "article",
-      "hanviet": "phẩm",
-      "pinyin": "pǐn",
+      "text": "诚品",
+      "simplified": "诚品",
+      "traditional": "诚品",
+      "keyword": "unknown",
+      "hanviet": "thành phẩm",
+      "pinyin": "chéng pǐn",
       "isWord": true
     },
     {
@@ -20877,20 +20841,12 @@
       "isWord": true
     },
     {
-      "text": "B",
-      "simplified": "B",
-      "traditional": "B",
-      "keyword": "euphemistic variant of ",
+      "text": "BeeGees",
+      "simplified": "BeeGees",
+      "traditional": "BeeGees",
+      "keyword": "unknown",
       "hanviet": "",
       "pinyin": "bī",
-      "isWord": true
-    },
-    {
-      "text": "eeGees",
-      "simplified": "eeGees",
-      "traditional": "eeGees",
-      "hanviet": "",
-      "pinyin": "",
       "isWord": false
     },
     {
@@ -21167,21 +21123,12 @@
       "isWord": true
     },
     {
-      "text": "小",
-      "simplified": "小",
-      "traditional": "小",
-      "keyword": "small",
-      "hanviet": "tiểu",
-      "pinyin": "xiǎo",
-      "isWord": true
-    },
-    {
-      "text": "华",
-      "simplified": "华",
-      "traditional": "華",
-      "keyword": "abbr. for China",
-      "hanviet": "hoa",
-      "pinyin": "Huá",
+      "text": "小华",
+      "simplified": "小华",
+      "traditional": "小华",
+      "keyword": "Xiaohua",
+      "hanviet": "tiểu hoa",
+      "pinyin": "xiǎo Huá",
       "isWord": true
     },
     {
@@ -21286,7 +21233,7 @@
       "text": "关系",
       "simplified": "关系",
       "traditional": "關係",
-      "keyword": "relation",
+      "keyword": "concern",
       "hanviet": "quan hệ",
       "pinyin": "guān xi",
       "isWord": true
@@ -21586,21 +21533,21 @@
       "isWord": false
     },
     {
-      "text": "再不",
-      "simplified": "再不",
-      "traditional": "再不",
-      "keyword": "if not",
-      "hanviet": "tái bất",
-      "pinyin": "zài bù",
+      "text": "再",
+      "simplified": "再",
+      "traditional": "再",
+      "keyword": "again",
+      "hanviet": "tái",
+      "pinyin": "zài",
       "isWord": true
     },
     {
-      "text": "断",
-      "simplified": "断",
-      "traditional": "斷",
-      "keyword": "break",
-      "hanviet": "đoạn",
-      "pinyin": "duàn",
+      "text": "不断",
+      "simplified": "不断",
+      "traditional": "不斷",
+      "keyword": "unceasing",
+      "hanviet": "bất đoạn",
+      "pinyin": "bù duàn",
       "isWord": true
     },
     {
@@ -21680,21 +21627,12 @@
       "isWord": true
     },
     {
-      "text": "小",
-      "simplified": "小",
-      "traditional": "小",
-      "keyword": "small",
-      "hanviet": "tiểu",
-      "pinyin": "xiǎo",
-      "isWord": true
-    },
-    {
-      "text": "华",
-      "simplified": "华",
-      "traditional": "華",
-      "keyword": "abbr. for China",
-      "hanviet": "hoa",
-      "pinyin": "Huá",
+      "text": "小华",
+      "simplified": "小华",
+      "traditional": "小华",
+      "keyword": "Xiaohua",
+      "hanviet": "tiểu hoa",
+      "pinyin": "xiǎo Huá",
       "isWord": true
     },
     {
@@ -21834,7 +21772,7 @@
       "text": "涂抹",
       "simplified": "涂抹",
       "traditional": "塗抹",
-      "keyword": "paint",
+      "keyword": "smear",
       "hanviet": "đồ mạt",
       "pinyin": "tú mǒ",
       "isWord": true
@@ -21878,7 +21816,7 @@
       "text": "串",
       "simplified": "串",
       "traditional": "串",
-      "keyword": "string together",
+      "keyword": "classifier",
       "hanviet": "xuyến",
       "pinyin": "chuàn",
       "isWord": true

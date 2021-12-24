@@ -74,7 +74,7 @@
 我 我 [wo3] /I/
 是的 是的 [shi4 de5] /yes/
 一定 一定 [yi1 ding4] /surely/
-好好 好好 [hao3 hao3] /well/
+好好 好好 [hao3 hao3] /properly/
 反省 反省 [fan3 xing3] /reflect/
 打包 打包 [da3 bao1] /pack up/
 好 好 [hao3] /well/
@@ -1105,3 +1105,1378 @@ BL BL [BL5] /BL/
 漂亮 漂亮 [piao4 liang5] /pretty/
 年輕 年轻 [nian2 qing1] /young/
 難能可貴 难能可贵 [nan2 neng2 ke3 gui4] /rare and precious/
+山 山 [Shan1] /mountain/
+水 水 [Shui3] /water/
+空氣 空气 [kong1 qi4] /air/
+樹林 树林 [Shu4 lin2] /Shulin city in New Taipei City /
+㴱 深 [shen1] /deep/
+呼吸 呼吸 [hu1 xi1] /breathe/
+明顯 明显 [ming2 xian3] /clear/
+感受 感受 [gan3 shou4] /sense/
+肺 肺 [fei4] /lung/
+叶 叶 [xie2] /be in harmony/
+迅速 迅速 [xun4 su4] /rapid/
+清爽 清爽 [qing1 shuang3] /fresh and cool/
+膨脹 膨胀 [peng2 zhang4] /expand/
+捨不得 舍不得 [she3 bu5 de5] /hate to do sth/
+飽滿 饱满 [bao3 man3] /full/
+三十 三十 [san1 shi2] /thirty/
+臭 臭 [chou4] /stench/
+小孩 小孩 [xiao3 hai2] /child/
+走過 走过 [zou3 guo4] /walk past/
+山澗 山涧 [shan1 jian4] /mountain stream/
+小橋 小桥 [Xiao3 Qiao2] /Xiao Qiao/
+穿越 穿越 [chuan1 yue4] /pass through/
+耀眼 耀眼 [yao4 yan3] /dazzle/
+太陽 太阳 [tai4 yang5] /sun/
+底 底 [de5] /equivalent to  as possessive particle/
+陽光 阳光 [yang2 guang1] /sunshine/
+透過 透过 [tou4 guo4] /pass through/
+擺動 摆动 [bai3 dong4] /sway/
+吹拂 吹拂 [chui1 fu2] /brush/
+樹葉 树叶 [shu4 ye4] /tree leaves/
+枝 枝 [zhi1] /branch/
+身上 身上 [shen1 shang5] /on the body/
+流動 流动 [liu2 dong4] /flow/
+魚 鱼 [Yu2] /fish/
+光 光 [guang1] /light/
+擺脫 摆脱 [bai3 tuo1] /break away from/
+書本 书本 [shu1 ben3] /book/
+開心 开心 [kai1 xin1] /feel happy/
+黃如君 黄如君 [huang2 ru2 jun1] /Huang Rujun/
+葉淑蓮 叶淑莲 [ye4 shu1 lian2] /Ye Shilian/
+一路 一路 [yi1 lu4] /the whole journey/
+完 完 [wan2] /finish/
+訝異 讶异 [ya4 yi4] /be surprised/
+平常 平常 [ping2 chang2] /ordinary/
+嘰嘰喳喳 叽叽喳喳 [ji1 ji1 zha1 zha1] /chirp/
+一面 一面 [yi1 mian4] /one side/
+虔誠 虔诚 [qian2 cheng2] /pious/
+佛教徒 佛教徒 [Fo2 jiao4 tu2] /Buddhist/
+領 领 [ling3] /neck/
+先 先 [xian1] /early/
+認識 认识 [ren4 shi5] /know/
+精舍 精舍 [jing1 she3] /Buddhist abode/
+打坐 打坐 [da3 zuo4] /sit in meditation/
+大老遠 大老远 [da4 lao3 yuan3] /very far away/
+跑 跑 [pao2] /paw/
+舉手 举手 [ju3 shou3] /raise a hand/
+個子 个子 [ge4 zi5] /height/
+棒 棒 [bang4] /stick/
+課堂 课堂 [ke4 tang2] /classroom/
+扮 扮 [ban4] /disguise oneself as/
+幽默感 幽默感 [you1 mo4 gan3] /sense of humor/
+珍貴 珍贵 [zhen1 gui4] /precious/
+天性 天性 [tian1 xing4] /nature/
+幹什麼 干什么 [gan4 shen2 me5] /what are you doing?/
+頗 颇 [Po1] /rather/
+的姐 的姐 [di1 jie3] /female taxi driver/
+姐 姐 [jie3] /older sister/
+許君穗 许君穗 [xu3 jun1 sui4] /Xu Junsui/
+同班 同班 [tong2 ban1] /be in the same class/
+公認 公认 [gong1 ren4] /publicly known/
+美女 美女 [mei3 nü3] /beautiful woman/
+則 则 [ze2] /but/
+吵 吵 [chao3] /quarrel/
+修身 修身 [xiu1 shen1] /cultivate one's moral character/
+養性 养性 [yang3 xing4] /mental or spiritual cultivation/
+尤其是 尤其是 [you2 qi2 shi4] /especially/
+來到 来到 [lai2 dao4] /come/
+山上 山上 [Shan1 shang4] /Shanshang township in Tainan county |/
+佛祖 佛祖 [Fo2 zu3] /Buddha/
+微笑 微笑 [wei1 xiao4] /smile/
+只能 只能 [zhi3 neng2] /can only/
+認輸 认输 [ren4 shu1] /concede/
+都會 都会 [du1 hui4] /city/
+噴氣 喷气 [pen1 qi4] /jet/
+到了 到了 [dao4 liao3] /at last/
+得道 得道 [de2 dao4] /achieve the Dao/
+高人 高人 [gao1 ren2] /very able person/
+師父 师父 [shi1 fu5] /used for |/
+板 板 [ban3] /board/
+安排 安排 [an1 pai2] /arrange/
+魚貫 鱼贯 [yu2 guan4] /one after the other/
+靜坐 静坐 [jing4 zuo4] /sit quietly/
+室 室 [Shi4] /room/
+舖 铺 [pu4] /spread/
+榻榻米 榻榻米 [ta4 ta4 mi3] /tatami/
+燒 烧 [shao1] /burn/
+焚香 焚香 [fen2 xiang1] /burn incense/
+裡頭 里头 [li3 tou5] /inside/
+據說 据说 [ju4 shuo1] /it is said that/
+禁語 禁语 [jin4 yu3] /taboo/
+禪 禅 [chan2] /dhyana/
+七 七 [qi1] /seven/
+高尚 高尚 [gao1 shang4] /noble/
+大學生 大学生 [da4 xue2 sheng1] /university student/
+房間 房间 [fang2 jian1] /room/
+有種 有种 [you3 zhong3] /have guts/
+肅穆 肃穆 [su4 mu4] /solemn and respectful/
+公尺 公尺 [gong1 chi3] /meter/
+海底 海底 [hai3 di3] /seabed/
+打禪 打禅 [da3 chan2] /meditate/
+們 们 [men5] /plural marker for pronouns/
+死氣沉沉 死气沉沉 [si3 qi4 chen2 chen2] /dead atmosphere/
+海草 海草 [hai3 cao3] /seagrass/
+自 自 [zi4] /self/
+頭頂 头顶 [tou2 ding3] /top of the head/
+甩 甩 [shuai3] /throw/
+炮 炮 [bao1] /sauté/
+燈籠魚 灯笼鱼 [deng1 long2 yu2] /lantern fish/
+裡面 里面 [li3 mian4] /inside/
+大哥 大哥 [da4 ge1] /eldest brother/
+哥大 哥大 [Ge1 Da4] /Columbia University/
+姐姐 姐姐 [jie3 jie5] /older sister/
+進去 进去 [jin4 qu4] /go in/
+以後 以后 [yi3 hou4] /after/
+出聲 出声 [chu1 sheng1] /utter/
+睡著 睡着 [shui4 zhao2] /fall asleep/
+客人 客人 [ke4 ren2] /visitor/
+不能 不能 [bu4 neng2] /cannot/
+妨礙 妨碍 [fang2 ai4] /hinder/
+師兄 师兄 [shi1 xiong1] /senior male fellow student or apprentice/
+師姐 师姐 [shi1 jie3] /senior female fellow student or apprentice/
+修行 修行 [xiu1 xing2] /devote oneself to spiritual development/
+嚴肅 严肃 [yan2 su4] /solemn/
+告誡 告诫 [gao4 jie4] /warn/
+安 安 [An15] /content/
+偶爾 偶尔 [ou3 er3] /occasionally/
+孩子 孩子 [hai2 zi5] /child/
+脫掉 脱掉 [tuo1 diao4] /remove/
+鞋子 鞋子 [xie2 zi5] /shoe/
+躡手躡腳 蹑手蹑脚 [nie4 shou3 nie4 jiao3] /walk quietly on tiptoe/
+活蹦亂跳 活蹦乱跳 [huo2 beng4 luan4 tiao4] /leap and frisk about/
+小小 小小 [xiao3 xiao3] /very small/
+盤腿 盘腿 [pan2 tui3] /sit cross-legged/
+期間 期间 [qi1 jian1] /period of time/
+不言不語 不言不语 [bu4 yan2 bu4 yu3] /not say a word/
+不知 不知 [bu4 zhi1] /not to know/
+道 道 [dao4] /road/
+什麼時候 什么时候 [shen2 me5 shi2 hou5] /when?/
+算 算 [suan4] /regard as/
+令人 令人 [ling4 ren2] /cause one/
+耐 耐 [nai4] /bear/
+坦白 坦白 [tan3 bai2] /honest/
+本來 本来 [ben3 lai2] /original/
+打算 打算 [da3 suan4] /plan/
+呼嚕嚕 呼噜噜 [hu1 lu1 lu1] /snore/
+搞 搞 [gao3] /do/
+心神不寧 心神不宁 [xin1 shen2 bu4 ning2] /feel ill at ease/
+身體 身体 [shen1 ti3] /the body/
+亟 亟 [ji2] /urgent/
+慾 欲 [yu4] /desire/
+目睹 目睹 [mu4 du3] /witness/
+轟隆 轰隆 [hong1 long1] /rumbling/
+倒下 倒下 [dao3 xia4] /collapse/
+刻 刻 [ke4] /quarter/
+發覺 发觉 [fa1 jue2] /become aware/
+定性 定性 [ding4 xing4] /determine the nature/
+相 相 [Xiang1] /each other/
+眎 视 [shi4] /look at/
+誇張 夸张 [kua1 zhang1] /exaggerate/
+唇 唇 [chun2] /lip/
+語 语 [yu3] /dialect/
+溝通 沟通 [gou1 tong1] /join/
+著落 着落 [zhuo2 luo4] /whereabouts/
+推倒 推倒 [tui1 dao3] /push over/
+著眼 着眼 [zhuo2 yan3] /have one's eyes on/
+珠子 珠子 [zhu1 zi5] /pearl/
+建議 建议 [jian4 yi4] /propose/
+慢動作 慢动作 [man4 dong4 zuo4] /slow motion/
+襪子 袜子 [wa4 zi5] /socks/
+天山 天山 [Tian1 shan1] /Tianshan mountain range between XinJiang and Mongolia and Kyrgyzstan/
+路 路 [Lu4] /road/
+浸 浸 [jin4] /immerse/
+汗水 汗水 [han4 shui3] /sweat/
+鼻子 鼻子 [bi2 zi5] /nose/
+熟睡 熟睡 [shu2 shui4] /asleep/
+突然 突然 [tu1 ran2] /sudden/
+緊 紧 [jin3] /tight/
+看樣子 看样子 [kan4 yang4 zi5] /it seems/
+夢境 梦境 [meng4 jing4] /dreamland/
+撞 撞 [zhuang4] /knock against/
+火焰 火焰 [huo3 yan4] /blaze/
+垃圾 垃圾 [la1 ji1] /trash/
+身子 身子 [shen1 zi5] /body/
+震 震 [zhen4] /shake/
+露出 露出 [lu4 chu1] /expose/
+快要 快要 [kuai4 yao4] /almost/
+爆笑 爆笑 [bao4 xiao4] /burst out laughing/
+表情 表情 [biao3 qing2] /expression/
+樣 样 [yang4] /manner/
+學樣 学样 [xue2 yang4] /follow suit/
+小心翼翼 小心翼翼 [xiao3 xin1 yi4 yi4] /cautious and solemn/
+解開 解开 [jie3 kai1] /untie/
+僵硬 僵硬 [jiang1 ying4] /stiff/
+長 长 [chang2] /length/
+腳 脚 [jiao3] /foot/
+伸 伸 [shen1] /stretch/
+專注 专注 [zhuan1 zhu4] /focus/
+扭 扭 [niu3] /turn/
+腳趾 脚趾 [jiao3 zhi3] /toe/
+搓 搓 [cuo1] /rub or roll between the hands or fingers/
+孜孜 孜孜 [zi1 zi1] /diligent/
+渾然不覺 浑然不觉 [hun2 ran2 bu4 jue2] /totally unaware/
+弄 弄 [long4] /lane/
+忍俊 忍俊 [ren3 jun4] /smiling/
+不已 不已 [bu4 yi3] /endlessly/
+此時 此时 [ci3 shi2] /now/
+肚子 肚子 [du4 zi5] /belly/
+劇烈 剧烈 [ju4 lie4] /violent/
+震動 震动 [zhen4 dong4] /shake/
+暗笑 暗笑 [an4 xiao4] /laugh in/
+吸引 吸引 [xi1 yin3] /attract/
+許多 许多 [xu3 duo1] /many/
+一陣 一阵 [yi1 zhen4] /a burst/
+錯愕 错愕 [cuo4 e4] /astonish/
+瞬間 瞬间 [shun4 jian1] /in an instant/
+沒品 没品 [mei2 pin3] /lacking in class/
+笑嘻嘻 笑嘻嘻 [xiao4 xi1 xi1] /grinning/
+拎 拎 [lin1] /lift/
+凌波微步 凌波微步 [ling2 bo1 wei1 bu4] /Ling Bo Wei Bu/
+走 走 [zou3] /walk/
+亂 乱 [luan4] /in confusion or disorder/
+擰 拧 [ning2] /pinch/
+唏 唏 [xi1] /sound of sobbing/
+哩 哩 [li3] /mile/
+呼嚕 呼噜 [hu1 lu1] /wheezing/
+擠壓出 挤压出 [ji3 ya1 chu1] /extrude/
+夾攻 夹攻 [jia1 gong1] /attack from two sides/
+不自然 不自然 [bu4 zi4 ran2] /unnatural/
+善哉 善哉 [shan4 zai1] /excellent/
+恍然大悟 恍然大悟 [huang3 ran2 da4 wu4] /suddenly realize/
+泰然自若 泰然自若 [tai4 ran2 zi4 ruo4] /cool and collected/
+腿 腿 [tui3] /leg/
+使勁 使劲 [shi3 jin4] /exert all one's strength/
+幕 幕 [mu4] /curtain or screen/
+全都 全都 [quan2 dou1] /all/
+邊緣 边缘 [bian1 yuan2] /edge/
+醒 醒 [xing3] /wake up/
+乖乖牌 乖乖牌 [guai1 guai1 pai2] /good little boy/
+奇異 奇异 [qi2 yi4] /fantastic/
+氣氛 气氛 [qi4 fen1] /atmosphere/
+感染 感染 [gan3 ran3] /infection/
+看到 看到 [kan4 dao4] /see/
+雙腳 双脚 [shuang1 jiao3] /two legs/
+伺候 伺候 [ci4 hou4] /serve/
+加上 加上 [jia1 shang4] /plus/
+索性 索性 [suo3 xing4] /you might as well/
+蹲 蹲 [dun1] /crouch/
+噗 噗 [pu1] /pop/
+嗤 嗤 [chi1] /laugh at/
+一聲 一声 [yi1 sheng1] /first tone in Mandarin/
+罪過 罪过 [zui4 guo5] /sin/
+穿上 穿上 [chuan1 shang5] /put on/
+來不及 来不及 [lai2 bu5 ji2] /there's not enough time/
+收回 收回 [shou1 hui2] /regain/
+尷尬 尴尬 [gan1 ga4] /awkward/
+停滯 停滞 [ting2 zhi4] /stagnation/
+半空中 半空中 [ban4 kong1 zhong1] /in midair/
+臉色 脸色 [lian3 se4] /complexion/
+大變 大变 [da4 bian4] /huge changes/
+幾乎 几乎 [ji1 hu1] /almost/
+破口大罵 破口大骂 [po4 kou3 da4 ma4] /abuse roundly/
+氣急敗壞 气急败坏 [qi4 ji2 bai4 huai4] /flustered and exasperated/
+耳朵 耳朵 [er3 duo5] /ear/
+拕 拖 [tuo1] /drag/
+苦主 苦主 [ku3 zhu3] /victim's family/
+一同 一同 [yi1 tong2] /along/
+逃 逃 [tao2] /escape/
+氣死 气死 [qi4 si3] /infuriate/
+丟臉 丢脸 [diu1 lian3] /lose face/
+在外 在外 [zai4 wai4] /outer/
+半蹲 半蹲 [ban4 dun1] /half squat/
+完了 完了 [wan2 le5] /be finished/
+整 整 [zheng3] /exactly/
+白 白 [Bai2] /white/
+聽見 听见 [ting1 jian4] /hear/
+身後 身后 [shen1 hou4] /posthumous/
+驚天動地 惊天动地 [jing1 tian1 dong4 di4] /world-shaking/
+垮 垮 [kua3] /collapse/
+受害者 受害者 [shou4 hai4 zhe3] /casualty/
+委屈 委屈 [wei3 qu5] /feel wronged/
+拳頭 拳头 [quan2 tou5] /fist/
+握 握 [wo4] /hold/
+做 做 [zuo4] /do/
+不然 不然 [bu4 ran2] /not so/
+他們 他们 [ta1 men5] /they/
+作弄 作弄 [zuo4 nong4] /tease/
+怒 怒 [nu4] /anger/
+極 极 [ji2] /extremely/
+敢 敢 [gan3] /dare/
+辯駁 辩驳 [bian4 bo2] /dispute/
+跟著 跟着 [gen1 zhe5] /follow after/
+蹲下 蹲下 [dun1 xia4] /squat down/
+夕陽 夕阳 [xi1 yang2] /sunset/
+超級 超级 [chao1 ji2] /super-/
+室外 室外 [shi4 wai4] /outdoor/
+微風 微风 [wei1 feng1] /breeze/
+吹 吹 [chui1] /blow/
+香氣 香气 [xiang1 qi4] /fragrance/
+不算 不算 [bu4 suan4] /not calculate/
+剛剛 刚刚 [gang1 gang5] /just recently/
+挑 挑 [tiao1] /carry on a shoulder pole/
+許博淳 许博淳 [xu3 bo2 chun2] /Xu Bochun/
+忿忿不平 忿忿不平 [fen4 fen4 bu4 ping2] /variant of |/
+急促 急促 [ji2 cu4] /urgent/
+慌亂 慌乱 [huang1 luan4] /frenetic/
+推 推 [tui1] /push/
+小人 小人 [xiao3 ren2] /person of low social status/
+哪 哪 [na3] /how/
+解釋 解释 [jie3 shi4] /explanation/
+一樣 一样 [yi1 yang4] /same/
+別人 别人 [bie2 ren5] /other people/
+不爽 不爽 [bu4 shuang3] /not well/
+大概 大概 [da4 gai4] /roughly/
+㕘 参 [can1] /take part in/
+反正 反正 [fan3 zheng4] /anyway/
+無聊 无聊 [wu2 liao2] /bored/
+至少 至少 [zhi4 shao3] /at least/
+憋 憋 [bie1] /choke/
+派 派 [pai4] /clique/
+大而化之 大而化之 [da4 er2 hua4 zhi1] /careless/
+地面 地面 [di4 mian4] /floor/
+跌倒 跌倒 [die1 dao3] /tumble/
+十 十 [shi2] /ten/
+抖 抖 [dou3] /tremble/
+眉毛 眉毛 [mei2 mao5] /eyebrow/
+貫徹始終 贯彻始终 [guan4 che4 shi3 zhong1] /follow through/
+處事 处事 [chu3 shi4] /handle affairs/
+哲學 哲学 [zhe2 xue2] /philosophy/
+吃吃 吃吃 [chi1 chi1] /sound of muffled laughter/
+熱鬧 热闹 [re4 nao5] /bustling with noise and excitement/
+肎 肯 [ken3] /agree/
+錯過 错过 [cuo4 guo4] /miss/
+著涼 着凉 [zhao2 liang2] /catch cold/
+爽 爽 [shuang3] /bright/
+風 风 [feng1] /wind/
+累 累 [lei3] /accumulate/
+乾脆 干脆 [gan1 cui4] /straightforward/
+在地 在地 [zai4 di4] /local/
+百般 百般 [bai3 ban1] /in hundred and one ways/
+牆角 墙角 [qiang2 jiao3] /corner/
+含羞草 含羞草 [han2 xiu1 cao3] /mimosa/
+碰到 碰到 [peng4 dao4] /come across/
+葉子 叶子 [ye4 zi5] /foliage/
+閉合 闭合 [bi4 he2] /close by coming together/
+閉塞 闭塞 [bi4 se4] /stop up/
+植物 植物 [zhi2 wu4] /plant/
+有趣 有趣 [you3 qu4] /interesting/
+靜默 静默 [jing4 mo4] /silence/
+這裏 这里 [zhe4 li3] /here/
+比較 比较 [bi3 jiao4] /compare/
+新鮮 新鲜 [xin1 xian1] /fresh/
+大罵 大骂 [da4 ma4] /rain curses/
+晚飯 晚饭 [wan3 fan4] /evening meal/
+掛 挂 [gua4] /hang or suspend/
+單打 单打 [dan1 da3] /singles/
+通 通 [tong1] /go through/
+男生 男生 [nan2 sheng1] /schoolboy/
+晚上 晚上 [wan3 shang5] /evening/
+蚊子 蚊子 [wen2 zi5] /mosquito/
+兇 凶 [xiong1] /terrible/
+卷 卷 [juan3] /roll up/
+蚊香 蚊香 [wen2 xiang1] /mosquito-repellent incense or coil/
+蚊帳 蚊帐 [wen2 zhang4] /mosquito net/
+隨便 随便 [sui2 bian4] /as one wishes/
+洗 洗 [xi3] /wash/
+澡 澡 [zao3] /bath/
+照例 照例 [zhao4 li4] /as a rule/
+賭 赌 [du3] /bet/
+撲克牌 扑克牌 [pu1 ke4 pai2] /poker/
+象棋 象棋 [xiang4 qi2] /Chinese chess/
+五子棋 五子棋 [wu3 zi3 qi2] /five-in-a-row/
+不必 不必 [bu4 bi4] /need not/
+算法 算法 [suan4 fa3] /arithmetic/
+勝 胜 [sheng4] /victory/
+方 方 [Fang1] /square/
+几 几 [ji1] /small table/
+顆 颗 [ke1] /classifier for small spheres/
+棋子 棋子 [qi2 zi3] /chess piece/
+乘以 乘以 [cheng2 yi3] /multiplied with/
+塊 块 [kuai4] /lump/
+錢 钱 [Qian2] /coin/
+單純 单纯 [dan1 chun2] /simple/
+互 互 [hu4] /mutual/
+注 注 [zhu4] /inject/
+場 场 [chang2] /threshing floor/
+二十 二十 [er4 shi2] /twenty/
+元 元 [Yuan2] /currency unit/
+跳 跳 [tiao4] /jump/
+滿滿 满满 [man3 man3] /full/
+棋盤 棋盘 [qi2 pan2] /chessboard/
+誰 谁 [shei2] /who/
+軍棋 军棋 [jun1 qi2] /land battle chess/
+輸 输 [shu1] /lose/
+賠 赔 [pei2] /compensate for loss/
+倍 倍 [bei4] /(two/
+撂 撂 [liao4] /put down/
+豪 豪 [hao2] /grand/
+原因 原因 [yuan2 yin1] /cause/
+無 无 [wu2] /not to have/
+小時候 小时候 [xiao3 shi2 hou5] /in one's childhood/
+爸爸 爸爸 [ba4 ba5] /father/
+下棋 下棋 [xia4 qi2] /play chess/
+自認 自认 [zi4 ren4] /believe/
+功力 功力 [gong1 li4] /merit/
+遠 远 [yuan3] /far/
+同儕 同侪 [tong2 chai2] /peer/
+儘管 尽管 [jin3 guan3] /despite/
+從沒 从没 [cong2 mei2] /never/
+驗證 验证 [yan4 zheng4] /inspect and verify/
+此 此 [ci3] /this/
+果然 果然 [guo3 ran2] /really/
+排隊 排队 [pai2 dui4] /line up/
+大戰 大战 [da4 zhan4] /war/
+會死 会死 [hui4 si3] /mortal/
+哼 哼 [heng1] /groan/
+坐下 坐下 [zuo4 xia5] /sit down/
+陣勢 阵势 [zhen4 shi4] /battle array/
+大便 大便 [da4 bian4] /defecate/
+掌心 掌心 [zhang3 xin1] /hollow of the palm/
+一口氣 一口气 [yi1 kou3 qi4] /one breath/
+強 强 [Qiang2] /stubborn/
+棊 棋 [qi2] /chess/
+力 力 [Li4] /power/
+連同 连同 [lian2 tong2] /together with/
+一齊 一齐 [yi1 qi2] /at the same time/
+侷 局 [ju2] /narrow/
+節奏 节奏 [jie2 zou4] /rhythm/
+解決 解决 [jie3 jue2] /settle/
+挑戰者 挑战者 [tiao3 zhan4 zhe3] /challenger/
+多久 多久 [duo1 jiu3] /how long?/
+堆滿 堆满 [dui1 man3] /pile up/
+悲傷 悲伤 [bei1 shang1] /sad/
+隱密 隐密 [yin3 mi4] /secret/
+銅 铜 [tong2] /copper/
+幣 币 [bi4] /money/
+過去 过去 [guo4 qu4] /past/
+謝 谢 [Xie4] /thank/
+孟 孟 [Meng4] /first month of a season/
+敗 败 [bai4] /defeat/
+陣 阵 [zhen4] /disposition of troops/
+夠 够 [gou4] /enough/
+膽子 胆子 [dan3 zi5] /courage/
+對弈 对弈 [dui4 yi4] /play go/
+老二 老二 [lao3 er4] /second-eldest child in a family/
+開門 开门 [kai1 men2] /open a door/
+洗手台 洗手台 [xi3 shou3 tai2] /vanity unit/
+洗臉 洗脸 [xi3 lian3] /wash your face/
+清醒 清醒 [qing1 xing3] /clear-headed/
+一下 一下 [yi1 xia4] /give it a go/
+準備 准备 [zhun3 bei4] /preparation/
+開場 开场 [kai1 chang3] /begin/
+豪邁 豪迈 [hao2 mai4] /bold/
+梭哈 梭哈 [suo1 ha1] /show hand/
+賭局 赌局 [du3 ju2] /game of chance/
+拍 拍 [pai1] /pat/
+溼 湿 [shi1] /moist/
+嗒 嗒 [ta4] /despair/
+洋洋得意 洋洋得意 [yang2 yang2 de2 yi4] /immensely pleased with oneself/
+正好 正好 [zheng4 hao3] /just/
+掽 碰 [peng4] /touch/
+一塊 一块 [yi1 kuai4] /one block/
+那邊 那边 [na4 bian5] /over there/
+正在 正在 [zheng4 zai4] /just at/
+賭錢 赌钱 [du3 qian2] /gamble/
+小聲 小声 [xiao3 sheng1] /in a low voice/
+嘴唇 嘴唇 [zui3 chun2] /lip/
+受不了 受不了 [shou4 bu4 liao3] /unbearable/
+不置可否 不置可否 [bu4 zhi4 ke3 fou3] /decline to comment/
+還好 还好 [hai2 hao3] /not bad/
+全勝 全胜 [quan2 sheng4] /total victory/
+贏 赢 [ying2] /beat/
+不少 不少 [bu4 shao3] /many/
+沾 沾 [zhan1] /moisten/
+水珠 水珠 [shui3 zhu1] /droplet/
+等一下 等一下 [deng3 yi1 xia4] /wait a moment/
+有些 有些 [you3 xie1] /some/
+驚訝 惊讶 [jing1 ya4] /amazed/
+鍾 钟 [Zhong1] /handleless cup/
+木 木 [Mu4] /tree/
+床 床 [chuang2] /bed/
+所有 所有 [suo3 you3] /all/
+圍 围 [Wei2] /encircle/
+興高采烈 兴高采烈 [xing4 gao1 cai3 lie4] /happy and excited/
+贏家 赢家 [ying2 jia1] /winner/
+剩 剩 [sheng4] /remain/
+輸家 输家 [shu1 jia1] /loser/
+小家子氣 小家子气 [xiao3 jia1 zi5 qi4] /petty/
+賭注 赌注 [du3 zhu4] /stake/
+縱使 纵使 [zong4 shi3] /even if/
+學業 学业 [xue2 ye4] /studies/
+再好 再好 [zai4 hao3] /even better/
+勝負 胜负 [sheng4 fu4] /victory or defeat/
+同一 同一 [tong2 yi1] /identical/
+算盤 算盘 [suan4 pan2] /abacus/
+林火 林火 [lin2 huo3] /forest fire/
+銳 锐 [rui4] /acute/
+取得 取得 [qu3 de2] /acquire/
+優勢 优势 [you1 shi4] /superiority/
+一一 一一 [yi1 yi1] /one by one/
+孤零零 孤零零 [gu1 ling2 ling2] /lone/
+帥 帅 [Shuai4] /handsome/
+細嚼慢嚥 细嚼慢咽 [xi4 jiao2 man4 yan4] /eat slowly/
+剃光頭 剃光头 [ti4 guang1 tou2] /shave the whole head clean/
+局面 局面 [ju2 mian4] /aspect/
+划 划 [hua2] /row/
+句點 句点 [ju4 dian3] /period/
+今天 今天 [jin1 tian1] /today/
+表現 表现 [biao3 xian4] /show/
+是非 是非 [shi4 fei1] /right and wrong/
+搖頭 摇头 [yao2 tou2] /shake one's head/
+拄 拄 [zhu3] /lean on/
+下巴 下巴 [xia4 ba5] /chin/
+拜託 拜托 [bai4 tuo1] /request sb to do sth/
+反駁 反驳 [fan3 bo2] /retort/
+要不是 要不是 [yao4 bu5 shi4] /if it were not for/
+馬 马 [Ma3] /horse/
+罰半蹲 罚半蹲 [fa2 ban4 dun1] /punish a student by having him stand in a half-squatting position with arms extended forward/
+怎樣 怎样 [zen3 yang4] /how/
+瞪 瞪 [deng4] /open/
+一眼 一眼 [yi1 yan3] /a glance/
+強辯 强辩 [qiang3 bian4] /argue strenuously or with sophistry/
+沒收 没收 [mo4 shou1] /confiscate/
+一說 一说 [yi1 shuo1] /an expression of opinion/
+硬生生 硬生生 [ying4 sheng1 sheng1] /stiff/
+愣 愣 [leng4] /look distracted/
+怎麼回事 怎么回事 [zen3 me5 hui2 shi4] /what's the matter?/
+有人 有人 [you3 ren2] /someone/
+是不是 是不是 [shi4 bu4 shi4] /is or isn't/
+算了 算了 [suan4 le5] /let it be/
+遲早 迟早 [chi2 zao3] /sooner or later/
+砍 砍 [kan3] /chop/
+呴 呴 [xu1] /breathe on/
+慘 惨 [can3] /miserable/
+好過 好过 [hao3 guo4] /have an easy time/
+車 车 [Che1] /car/
+色 色 [se4] /color/
+咬 咬 [yao3] /bite/
+牙 牙 [ya2] /tooth/
+僅 仅 [jin3] /barely/
+周旋 周旋 [zhou1 xuan2] /mix with others/
+全部 全部 [quan2 bu4] /whole/
+在一起 在一起 [zai4 yi1 qi3] /together/
+對手 对手 [dui4 shou3] /opponent/
+控制 控制 [kong4 zhi4] /control/
+了局 了局 [liao3 ju2] /end/
+將軍 将军 [Jiang1 jun1] /Chiangchun township in Tainan county |/
+抽 抽 [chou1] /draw out/
+轟 轰 [hong1] /explosion/
+外層空間 外层空间 [wai4 ceng2 kong1 jian1] /outer space/
+選擇 选择 [xuan3 ze2] /select/
+單手 单手 [dan1 shou3] /one hand/
+托 托 [tuo1] /prop/
+彌勒佛 弥勒佛 [Mi2 le4 fo2] /Maitreya/
+橫臥 横卧 [heng2 wo4] /recline/
+好像 好像 [hao3 xiang4] /as if/
+永遠 永远 [yong3 yuan3] /forever/
+教 教 [Jiao4] /teach/
+伸手 伸手 [shen1 shou3] /reach out with one's hand/
+苦笑 苦笑 [ku3 xiao4] /force a smile/
+經歷 经历 [jing1 li4] /experience/
+半個 半个 [ban4 ge5] /half of sth/
+孱弱 孱弱 [chan2 ruo4] /delicate/
+河 河 [he2] /river/
+小卒 小卒 [xiao3 zu2] /foot soldier/
+放過 放过 [fang4 guo4] /let off/
+最後 最后 [zui4 hou4] /final/
+打 打 [da2] /dozen/
+成了 成了 [cheng2 le5] /be done/
+不下 不下 [bu4 xia4] /be not less than/
+平手 平手 [ping2 shou3] /draw/
+繚繞 缭绕 [liao2 rao4] /curl up/
+塞 塞 [Sai1] /Serbia/
+手裡 手里 [shou3 li3] /in hand/
+結果 结果 [jie1 guo3] /bear fruit/
+打成平手 打成平手 [da3 cheng2 ping2 shou3] /draw/
+關上 关上 [guan1 shang4] /close/
+門 门 [Men2] /gate/
+茫然 茫然 [mang2 ran2] /blankly/
+腦子 脑子 [nao3 zi5] /brains/
+棋局 棋局 [qi2 ju2] /state of play in a game of chess/
+多年 多年 [duo1 nian2] /many years/
+再怎麼 再怎么 [zai4 zen3 me5] /no matter how .../
+搏 搏 [bo2] /fight/
+國 国 [Guo2] /country/
+學期 学期 [xue2 qi1] /term/
+聯考 联考 [lian2 kao3] /entrance examination/
+氣息 气息 [qi4 xi1] /breath/
+濃厚 浓厚 [nong2 hou4] /dense/
+失去 失去 [shi1 qu4] /lose/
+意義 意义 [yi4 yi4] /sense/
+談戀愛 谈恋爱 [tan2 lian4 ai4] /court/
+無暇 无暇 [wu2 xia2] /too busy/
+右側 右侧 [you4 ce4] /right side/
+明后天 明后天 [ming2 hou4 tian1] /tomorrow/
+範圍 范围 [fan4 wei2] /range/
+第 第 [di4] /(prefix indicating ordinal number/
+不復 不复 [bu4 fu4] /no longer/
+出現 出现 [chu1 xian4] /appear/
+學號 学号 [xue2 hao4] /student ID number/
+左側 左侧 [zuo3 ce4] /left side/
+粉筆 粉笔 [fen3 bi3] /chalk/
+塗 涂 [tu2] /apply/
+觸目驚心 触目惊心 [chu4 mu4 jing1 xin1] /shocks the eye/
+阿拉伯數字 阿拉伯数字 [A15 la1 bo2 shu4 zi4] /Arabic numerals 0/
+倒數 倒数 [dao4 shu3] /count backwards/
+數字 数字 [shu4 zi4] /numeral/
+歸 归 [gui1] /return/
+零 零 [ling2] /zero/
+便是 便是 [bian4 shi4] /emphasizes that sth is precisely or exactly as stated/
+魔王 魔王 [mo2 wang2] /devil king/
+決 决 [jue2] /decide/
+死戰 死战 [si3 zhan4] /fight to the death/
+時刻 时刻 [shi2 ke4] /time/
+等到 等到 [deng3 dao4] /wait until/
+暑假 暑假 [shu3 jia4] /summer vacation/
+籃球 篮球 [lan2 qiu2] /basketball/
+夠本 够本 [gou4 ben3] /break even/
+面對 面对 [mian4 dui4] /confront/
+關鍵 关键 [guan1 jian4] /crucial point/
+儘 尽 [jin3] /the greatest extent/
+一切 一切 [yi1 qie4] /everything/
+退 退 [tui4] /retreat/
+刻板 刻板 [ke4 ban3] /stiff/
+角色 角色 [jue2 se4] /role/
+理念 理念 [li3 nian4] /idea/
+古板 古板 [gu3 ban3] /outmoded/
+欠缺 欠缺 [qian4 que1] /be deficient in/
+說服力 说服力 [shuo1 fu2 li4] /persuasiveness/
+Brave Heart Brave Heart [bi1] /unknown/
+勇敢 勇敢 [yong3 gan3] /brave/
+梅尔吉柏逊 梅尔吉柏逊 [Mei2 er3 Ji2 bo2 xun4] /Mel Gibson/
+半 半 [ban4] /half/
+漆 漆 [qi1] /paint/
+跨 跨 [kua4] /step across/
+乘 乘 [Cheng2] /ride/
+戰馬 战马 [zhan4 ma3] /warhorse/
+來回 来回 [lai2 hui2] /make a round trip/
+呼嘯 呼啸 [hu1 xiao4] /whistle/
+矣 矣 [yi3] /classical final particle/
+可 可 [ke3] /can/
+閒情逸致 闲情逸致 [xian2 qing2 yi4 zhi4] /leisurely and carefree mood/
+集體 集体 [ji2 ti3] /collective/
+沉浸 沉浸 [chen2 jin4] /soak/
+怨 怨 [yuan4] /blame/
+可怕 可怕 [ke3 pa4] /awful/
+五花八門 五花八门 [wu3 hua1 ba1 men2] /myriad/
+捆 捆 [kun3] /a bunch/
+專門 专门 [zhuan1 men2] /specialist/
+搜集 搜集 [sou1 ji2] /gather/
+考題 考题 [kao3 ti2] /exam question/
+鐵 铁 [Tie3] /iron/
+柜 柜 [gui4] /Salix multinervis/
+班長 班长 [ban1 zhang3] /class monitor/
+擁有 拥有 [yong1 you3] /have/
+打開 打开 [da3 kai1] /open/
+鑰匙 钥匙 [yao4 shi5] /key/
+秒 秒 [miao3] /second/
+內 内 [nei4] /inside/
+飛 飞 [fei1] /fly/
+桌 桌 [zhuo1] /table/
+日復一日 日复一日 [ri4 fu4 yi1 ri4] /day after day/
+滿腹經綸 满腹经纶 [man3 fu4 jing1 lun2] /full of political wisdom/
+機械化 机械化 [ji1 xie4 hua4] /mechanize/
+核心 核心 [he2 xin1] /core/
+從來沒 从来没 [cong2 lai2 mei2] /have never/
+空 空 [kong1] /empty/
+不只 不只 [bu4 zhi3] /not only/
+體育 体育 [ti3 yu4] /sports/
+堂 堂 [tang2] /hall/
+課程 课程 [ke4 cheng2] /course/
+提前 提前 [ti2 qian2] /shift to an earlier date/
+任課 任课 [ren4 ke4] /give classes/
+鬼魅 鬼魅 [gui3 mei4] /demon/
+借屍還魂 借尸还魂 [jie4 shi1 huan2 hun2] /reincarnated in sb else's body/
+無數 无数 [wu2 shu4] /countless/
+靜止 静止 [jing4 zhi3] /still/
+自修 自修 [zi4 xiu1] /study on one's own/
+每每 每每 [mei3 mei3] /often/
+聽得見 听得见 [ting1 de2 jian4] /audible/
+打樁 打桩 [da3 zhuang1] /drive piles into/
+單調 单调 [dan1 diao4] /monotonous/
+聲響 声响 [sheng1 xiang3] /sound/
+咚咚 咚咚 [Dong1 dong5] /Dongdong/
+咚 咚 [dong1] /boom/
+坐鎮 坐镇 [zuo4 zhen4] /keep watch/
+李小華 李小华 [li3 xiao3 hua2] /Li Xiaohua/
+避嫌 避嫌 [bi4 xian2] /avoid arousing suspicion/
+擠 挤 [ji3] /crowd in/
+互相 互相 [hu4 xiang1] /each other/
+請教 请教 [qing3 jiao4] /ask for guidance/
+交談 交谈 [jiao1 tan2] /discuss/
+模式 模式 [mo2 shi4] /mode/
+沖 冲 [chong1] /dash against/
+總 总 [zong3] /always/
+福利 福利 [fu2 li4] /material benefit/
+社 社 [she4] /society/
+盒 盒 [he2] /small box/
+牛奶 牛奶 [niu2 nai3] /cow's milk/
+招呼 招呼 [zhao1 hu5] /call out to/
+貼心 贴心 [tie1 xin1] /intimate/
+盯着 盯着 [ding1 zhe5] /staring/
+照做 照做 [zhao4 zuo4] /do as instructed/
+不誤 不误 [bu4 wu4] /used in expressions of the form V|V/
+老 老 [lao3] /prefix used before the of a person or a numeral indicating the order of birth of the children in a family or to indicate affection or familiarity/
+的確 的确 [di2 que4] /really/
+懷疑 怀疑 [huai2 yi2] /doubt/
+眼光 眼光 [yan3 guang1] /gaze/
+審問 审问 [shen3 wen4] /interrogate/
+倆 俩 [lia3] /two/
+學習 学习 [xue2 xi2] /learn/
+驚人 惊人 [jing1 ren2] /astonishing/
+速度 速度 [su4 du4] /speed/
+攀升 攀升 [pan1 sheng1] /clamber up/
+位置 位置 [wei4 zhi5] /position/
+家常便飯 家常便饭 [jia1 chang2 bian4 fan4] /simple home-style meal/
+嚴格 严格 [yan2 ge2] /strict/
+冥頑不靈 冥顽不灵 [ming2 wan2 bu4 ling2] /stupid/
+至此 至此 [zhi4 ci3] /up until now/
+安慰 安慰 [an1 wei4] /comfort/
+發憤 发愤 [fa1 fen4] /make a determined effort/
+動力 动力 [dong4 li4] /motive power/
+摩西 摩西 [Mo2 xi1] /Moses/
+手 手 [shou3] /hand/
+劈開 劈开 [pi1 kai1] /cleave/
+埃及 埃及 [Ai1 ji2] /Egypt/
+紅海 红海 [Hong2 Hai3] /Red Sea/
+異曲同工 异曲同工 [yi4 qu3 tong2 gong1] /different tunes played with equal skill/
+妙 妙 [miao4] /clever/
+哪裏 哪里 [na3 li3] /where?/
+強烈 强烈 [qiang2 lie4] /intense/
+好奇 好奇 [hao4 qi2] /inquisitive/
+探詢 探询 [tan4 xun2] /inquire into/
+使用 使用 [shi3 yong4] /use/
+牌 牌 [pai2] /mahjong tile/
+補習 补习 [bu3 xi2] /take extra lessons in a cram school or with a private tutor/
+等等 等等 [deng3 deng3] /et cetera/
+創造 创造 [chuang4 zao4] /create/
+異常 异常 [yi4 chang2] /exceptional/
+整天 整天 [zheng3 tian1] /all day long/
+十倍 十倍 [shi2 bei4] /tenfold/
+會不會 会不会 [hui4 bu4 hui4] /(posing a question: whether sb/
+抓狂 抓狂 [zhua1 kuang2] /blow one's top/
+響應 响应 [xiang3 ying4] /respond to/
+個中 个中 [ge4 zhong1] /therein/
+滋味 滋味 [zi1 wei4] /taste/
+晻 暗 [an4] /obscure/
+杠 杠 [gang1] /flagpole/
+愛上 爱上 [ai4 shang4] /fall in love with/
+真正 真正 [zhen1 zheng4] /genuine/
+訣竅 诀窍 [jue2 qiao4] /secret/
+汲 汲 [Ji2] /draw/
+營 营 [ying2] /camp/
+訂立 订立 [ding4 li4] /conclude/
+模擬 模拟 [mo2 ni3] /imitation/
+進步 进步 [jin4 bu4] /progress/
+名次 名次 [ming2 ci4] /position in a ranking of names/
+斷 断 [duan4] /break/
+重新 重新 [chong2 xin1] /again/
+分派 分派 [fen1 pai4] /assign/
+希望 希望 [xi1 wang4] /wish for/
+傳說 传说 [chuan2 shuo1] /legend/
+適合 适合 [shi4 he2] /fit/
+考生 考生 [kao3 sheng1] /exam candidate/
+完美 完美 [wan2 mei3] /perfect/
+隊形 队形 [dui4 xing2] /formation/
+左邊 左边 [zuo3 bian5] /left/
+右邊 右边 [you4 bian5] /right side/
+分開 分开 [fen1 kai1] /separate/
+生怕 生怕 [sheng1 pa4] /fear/
+就此 就此 [jiu4 ci3] /at this point/
+下滑 下滑 [xia4 hua2] /slide down/
+站 站 [zhan4] /station/
+固定 固定 [gu4 ding4] /fix/
+數量 数量 [shu4 liang4] /amount/
+大學 大学 [Da4 xue2] /the Great Learning/
+榜單 榜单 [bang3 dan1] /list of successful applicants for college admission/
+立場 立场 [li4 chang3] /position/
+教務 教务 [jiao4 wu4] /educational administration/
+處 处 [chu4] /office/
+一連串 一连串 [yi1 lian2 chuan4] /a succession of/
+說服 说服 [shuo1 fu2] /persuade/
+排名 排名 [pai2 ming2] /rank/
+名學 名学 [ming2 xue2] /logic/
+生 生 [sheng1] /be born/
+直 直 [Zhi2] /straight/
+升 升 [sheng1] /ascend/
+高中 高中 [gao1 zhong1] /senior high school/
+講座 讲座 [jiang3 zuo4] /course/
+超過 超过 [chao1 guo4] /surpass/
+六百 六百 [liu4 bai3] /600/
+填 填 [tian2] /fill form/
+得到 得到 [de2 dao4] /get/
+補助 补助 [bu3 zhu4] /subsidy/
+万 万 [Mo4] /ten thousand/
+獎學金 奖学金 [jiang3 xue2 jin1] /scholarship/
+總分 总分 [zong3 fen1] /overall score/
+若是 若是 [ruo4 shi4] /if/
+低于 低于 [di1 yu2] /lower than/
+六 六 [liu4] /six/
+女 女 [nü3] /female/
+千 千 [qian1] /thousand/
+提供 提供 [ti2 gong1] /offer/
+師資 师资 [shi1 zi1] /qualified teacher/
+有的是 有的是 [you3 de5 shi4] /have plenty of/
+台中 台中 [Tai2 zhong1] /Taizhong or Taichung city and county in central Taiwan/
+重 重 [zhong4] /important/
+有的 有的 [you3 de5] /some/
+補習班 补习班 [bu3 xi2 ban1] /cram class/
+執教 执教 [zhi2 jiao4] /teach/
+好幾年 好几年 [hao3 ji3 nian2] /several years/
+口碑 口碑 [kou3 bei1] /reputation/
+不錯 不错 [bu4 cuo4] /correct/
+保證 保证 [bao3 zheng4] /guarantee/
+都是 都是 [dou1 shi4] /all are/
+一流 一流 [yi1 liu2] /top quality/
+振振有辭 振振有辞 [zhen4 zhen4 you3 ci2] /speak forcefully and with justice/
+獎金 奖金 [jiang3 jin1] /award money/
+誘人 诱人 [you4 ren2] /attractive/
+甚 甚 [shen2] /very/
+了解 了解 [liao3 jie3] /understand/
+整齊 整齐 [zheng3 qi2] /orderly/
+共同 共同 [gong4 tong2] /together/
+㽞 留 [liu2] /stay/
+同窗 同窗 [tong2 chuang1] /schoolmate/
+意志 意志 [yi4 zhi4] /determination/
+堅定 坚定 [jian1 ding4] /firm/
+男 男 [nan2] /male/
+男女同校 男女同校 [nan2 nü3 tong2 xiao4] /coeducation/
+戀愛 恋爱 [lian4 ai4] /love/
+王道 王道 [wang2 dao4] /the Way of the King/
+倒是 倒是 [dao4 shi5] /actually/
+困惑 困惑 [kun4 huo4] /perplexed/
+瞒着 瞒着 [man2 zhe5] /keeping from/
+爸媽 爸妈 [ba4 ma1] /dad and mom/
+黑 黑 [Hei1] /secret/
+零用錢 零用钱 [ling2 yong4 qian2] /pocket money/
+另一方面 另一方面 [ling4 yi1 fang1 mian4] /on the other hand/
+畢業 毕业 [bi4 ye4] /graduation/
+紀念 纪念 [ji4 nian4] /commemorate/
+冊 册 [ce4] /book/
+製作 制作 [zhi4 zuo4] /make/
+如火如荼 如火如荼 [ru2 huo3 ru2 tu2] /like wildfire/
+展開 展开 [zhan3 kai1] /unfold/
+由 由 [you2] /by/
+阿和 阿和 [a1 he2] /Ah He/
+週末 周末 [zhou1 mo4] /weekend/
+假日 假日 [jia4 ri4] /holiday/
+客廳 客厅 [ke4 ting1] /living room/
+請 请 [qing3] /ask/
+公假 公假 [gong1 jia4] /leave/
+圖書館 图书馆 [tu2 shu1 guan3] /library/
+剪 剪 [Jian3] /cut/
+繳交 缴交 [jiao3 jiao1] /hand in/
+上來 上来 [shang4 lai2] /come around/
+炤 照 [zhao4] /photo/
+科任老师 科任老师 [ke1 ren4 lao3 shi1] /subject teacher/
+照片 照片 [zhao4 pian4] /photograph/
+小組 小组 [xiao3 zu3] /group/
+逐一 逐一 [zhu2 yi1] /one by one/
+素描 素描 [su4 miao2] /sketch/
+完成 完成 [wan2 cheng2] /complete/
+星 星 [xing1] /star/
+欠 欠 [qian4] /deficient/
+教訓 教训 [jiao4 xun5] /provide guidance/
+柯腾 柯腾 [Ke1 teng2] /Keteng/
+博仔 博仔 [bo2 zai3] /Bozai/
+看見 看见 [kan4 jian4] /see/
+挑選 挑选 [tiao1 xuan3] /choose/
+合影 合影 [he2 ying3] /take a joint photo/
+混蛋 混蛋 [hun2 dan4] /scoundrel/
+居心不良 居心不良 [ju1 xin1 bu4 liang2] /harbor evil intentions/
+傢伙 家伙 [jia1 huo5] /guy/
+近 近 [jin4] /near/
+文案 文案 [wen2 an4] /copy/
+踢 踢 [ti1] /kick/
+有了 有了 [you3 le5] /I've got a solution!/
+好感 好感 [hao3 gan3] /good feeling/
+曖昧 暧昧 [ai4 mei4] /dubious/
+放棄 放弃 [fang4 qi4] /give up/
+窮追不捨 穷追不舍 [qiong2 zhui1 bu4 she3] /pursue relentlessly/
+無形 无形 [wu2 xing2] /invisible/
+計算機 计算机 [ji4 suan4 ji1] /computer/
+稀有 稀有 [xi1 you3] /uncommon/
+寶貝 宝贝 [bao3 bei4] /treasure/
+專業 专业 [zhuan1 ye4] /professional/
+臭蟲 臭虫 [chou4 chong2] /bedbug/
+製造 制造 [zhi4 zao4] /manufacture/
+公司 公司 [gong1 si1] /company/
+微軟 微软 [Wei1 ruan3] /Microsoft/
+win 3.1 win 3.1 [win5 3.15] /Windows 3.1/
+誕生 诞生 [dan4 sheng1] /be born/
+原始 原始 [yuan2 shi3] /first/
+年代 年代 [nian2 dai4] /a decade of a century/
+手工 手工 [shou3 gong1] /handwork/
+仰賴 仰赖 [yang3 lai4] /rely on/
+統一 统一 [tong3 yi1] /unify/
+發佈 发布 [fa1 bu4] /release/
+格式 格式 [ge2 shi4] /form/
+兼 兼 [jian1] /double/
+參照 参照 [can1 zhao4] /consult a reference/
+字形 字形 [zi4 xing2] /character form/
+大小 大小 [da4 xiao3] /size/
+表 表 [biao3] /listing/
+方便 方便 [fang1 bian4] /convenient/
+廠商 厂商 [chang3 shang1] /manufacturer/
+後續 后续 [hou4 xu4] /follow-up/
+打字 打字 [da3 zi4] /type/
+印刷 印刷 [yin4 shua1] /print/
+鉛筆 铅笔 [qian1 bi3] /pencil/
+尺 尺 [chi3] /ruler/
+預備 预备 [yu4 bei4] /prepare/
+黏貼 黏贴 [nian2 tie1] /glue to/
+雲彩 云彩 [yun2 cai5] /cloud/
+仔細 仔细 [zi3 xi4] /careful/
+標 标 [biao1] /mark/
+該 该 [gai1] /should/
+細 细 [xi4] /fine/
+座落 座落 [zuo4 luo4] /be situated/
+方格 方格 [fang1 ge2] /square box/
+專司 专司 [zhuan1 si1] /work solely on/
+老實 老实 [lao3 shi5] /honest/
+不覺 不觉 [bu4 jue2] /unconsciously/
+年紀 年纪 [nian2 ji4] /age/
+古怪 古怪 [gu3 guai4] /strange/
+附和 附和 [fu4 he4] /agree/
+神色 神色 [shen2 se4] /expression/
+掩飾 掩饰 [yan3 shi4] /cover up/
+小华 小华 [Xiao3 hua2] /Xiaohua/
+男女 男女 [nan2 nü3] /male-female/
+結婚 结婚 [jie2 hun1] /marry/
+飄忽 飘忽 [piao1 hu1] /swiftly moving/
+眼神 眼神 [yan3 shen2] /meaningful glance/
+喜 喜 [xi3] /like/
+對方 对方 [dui4 fang1] /counterpart/
+回溯 回溯 [hui2 su4] /recall/
+幼兒園 幼儿园 [you4 er2 yuan2] /kindergarten/
+春心 春心 [chun1 xin1] /amorous feelings/
+盪漾 荡漾 [dang4 yang4] /ripple/
+就算 就算 [jiu4 suan4] /granted that/
+彼此 彼此 [bi3 ci3] /each other/
+不可能 不可能 [bu4 ke3 neng2] /impossible/
+早就 早就 [zao3 jiu4] /already at an earlier time/
+分手 分手 [fen1 shou3] /break up/
+沒有意義 没有意义 [mei2 you3 yi4 yi4] /not to have any meaning/
+不一樣 不一样 [bu4 yi1 yang4] /different/
+嘆氣 叹气 [tan4 qi4] /sigh/
+即將 即将 [ji2 jiang1] /on the eve of/
+不可 不可 [bu4 ke3] /cannot/
+免 免 [mian3] /exempt/
+俗 俗 [su2] /custom/
+底下 底下 [di3 xia5] /below/
+傳遞 传递 [chuan2 di4] /transmit/
+重複 重复 [chong2 fu4] /repeat/
+上好 上好 [shang4 hao3] /first-rate/
+友 友 [you3] /friend/
+興趣 兴趣 [xing4 qu4] /interest/
+鵬程萬里 鹏程万里 [peng2 cheng2 wan4 li3] /the fabled roc flies ten thousand miles/
+百事可樂 百事可乐 [Bai3 shi4 Ke3 le4] /Pepsi/
+老套 老套 [lao3 tao4] /hackneyed/
+當初 当初 [dang1 chu1] /at that time/
+留言本 留言本 [liu2 yan2 ben3] /guestbook/
+些 些 [xie1] /some/
+已 已 [yi3] /already/
+記憶 记忆 [ji4 yi4] /remember/
+依稀 依稀 [yi1 xi1] /vaguely/
+記得 记得 [ji4 de5] /remember/
+欄 栏 [lan2] /column/
+丟 丢 [diu1] /lose/
+養樂多 养乐多 [Yang3 le4 duo1] /Yakult/
+署名 署名 [shu3 ming2] /sign/
+宮本 宫本 [Gong1 ben3] /Miyamoto/
+勇次 勇次 [yong3 ci4] /Yuji/
+刀 刀 [dao1] /knife/
+正經 正经 [zheng4 jing1] /serious/
+樂於 乐于 [le4 yu2] /willing/
+瞎搞 瞎搞 [xia1 gao3] /fool around/
+一模一樣 一模一样 [yi1 mu2 yi1 yang4] /exactly the same/
+倦 倦 [juan4] /tired/
+膩 腻 [ni4] /greasy/
+書店 书店 [shu1 dian4] /bookstore/
+美 美 [Mei3] /the Americas/
+傳 传 [chuan2] /pass on/
+肩膀 肩膀 [jian1 bang3] /shoulder/
+亂寫 乱写 [luan4 xie3] /write without basis/
+髒話 脏话 [zang1 hua4] /profanity/
+生殖器 生殖器 [sheng1 zhi2 qi4] /reproductive organ/
+報復 报复 [bao4 fu4] /make reprisals/
+既然 既然 [ji4 ran2] /since/
+離別 离别 [li2 bie2] /leave/
+詭異 诡异 [gui3 yi4] /strange/
+據我所知 据我所知 [ju4 wo3 suo3 zhi1] /as far as I know/
+一半 一半 [yi1 ban4] /half/
+沒錯 没错 [mei2 cuo4] /that's right/
+後悔 后悔 [hou4 hui3] /regret/
+老成 老成 [lao3 cheng2] /mature/
+說道 说道 [shuo1 dao4] /state/
+認清 认清 [ren4 qing1] /see clearly/
+國小 国小 [guo2 xiao3] /elementary school/
+留言册 留言册 [liu2 yan2 ce4] /message book/
+找 找 [zhao3] /try to find/
+找不到 找不到 [zhao3 bu5 dao4] /can't find/
+保管 保管 [bao3 guan3] /hold in safekeeping/
+打呵欠 打呵欠 [da3 he1 qian4] /yawn/
+散步 散步 [san4 bu4] /take a walk/
+放學 放学 [fang4 xue2] /dismiss students at the end of the school day/
+走路 走路 [zou3 lu4] /walk/
+兩小無猜 两小无猜 [liang3 xiao3 wu2 cai1] /innocent playmates/
+相處 相处 [xiang1 chu3] /be in contact/
+她們 她们 [ta1 men5] /they/
+略 略 [lüe4] /plan/
+顯 显 [xian3] /make visible/
+憂 忧 [you1] /worry/
+飃 飘 [piao1] /float/
+向 向 [Xiang4] /towards/
+中的 中的 [zhong4 di4] /hit the target/
+團體 团体 [tuan2 ti3] /group/
+文化 文化 [wen2 hua4] /culture/
+絲毫 丝毫 [si1 hao2] /the slightest amount or degree/
+組成 组成 [zu3 cheng2] /form/
+不大 不大 [bu4 da4] /not very/
+貼切 贴切 [tie1 qie4] /close-fitting/
+形容 形容 [xing2 rong2] /describe/
+湊 凑 [cou4] /gather together/
+之間 之间 [zhi1 jian1] /between/
+聯係 联系 [lian2 xi4] /connection/
+緊密 紧密 [jin3 mi4] /inseparably close/
+相約 相约 [xiang1 yue1] /agree/
+洗手間 洗手间 [xi3 shou3 jian1] /toilet/
+久而久之 久而久之 [jiu3 er2 jiu3 zhi1] /over time/
+經期 经期 [jing1 qi1] /menstrual period/
+駕 驾 [Jia4] /harness/
+堅強 坚强 [jian1 qiang2] /staunch/
+明白 明白 [ming2 bai5] /clear/
+中午 中午 [zhong1 wu3] /noon/
+吃飯 吃饭 [chi1 fan4] /have a meal/
+肉 肉 [rou4] /meat/
+粽 粽 [zong4] /rice dumplings wrapped in leaves/
+襍 杂 [za2] /mixed/
+純粹 纯粹 [chun2 cui4] /pure/
+蛋白質 蛋白质 [dan4 bai2 zhi4] /protein/
+計算 计算 [ji4 suan4] /count/
+生氣 生气 [sheng1 qi4] /get angry/
+重視 重视 [zhong4 shi4] /attach importance to sth/
+火大 火大 [huo3 da4] /get mad/
+交情 交情 [jiao1 qing5] /friendship/
+畢業典禮 毕业典礼 [bi4 ye4 dian3 li3] /graduation ceremony/
+表演 表演 [biao3 yan3] /play/
+活動 活动 [huo2 dong4] /exercise/
+縣政府 县政府 [xian4 zheng4 fu3] /county administration/
+禮堂 礼堂 [li3 tang2] /assembly hall/
+演出 演出 [yan3 chu1] /act/
+學藝 学艺 [xue2 yi4] /learn a skill or art/
+佈置 布置 [bu4 zhi4] /put in order/
+通力 通力 [tong1 li4] /cooperate/
+因此 因此 [yin1 ci3] /thus/
+旅行 旅行 [lü3 xing2] /travel/
+玩牌 玩牌 [wan2 pai2] /play cards/
+限制 限制 [xian4 zhi4] /restrict/
+重重 重重 [chong2 chong2] /layer upon layer/
+二十一點 二十一点 [er4 shi2 yi1 dian3] /blackjack/
+強制 强制 [qiang2 zhi4] /enforce/
+補 补 [bu3] /repair/
+撿 捡 [jian3] /pick up/
+分數 分数 [fen1 shu4] /grade/
+除以 除以 [chu2 yi3] /divided by/
+唉 唉 [ai1] /interjection or grunt of agreement or recognition/
+看不慣 看不惯 [kan4 bu5 guan4] /cannot bear to see/
+接受 接受 [jie1 shou4] /accept/
+模模糊糊 模模糊糊 [mo2 mo2 hu2 hu2] /unknown/
+產生 产生 [chan3 sheng1] /arise/
+距離 距离 [ju4 li2] /distance/
+有著 有着 [you3 zhe5] /have/
+說不出 说不出 [shuo1 bu5 chu1] /unable to say/
+刻意 刻意 [ke4 yi4] /meticulous/
+扭捏 扭捏 [niu3 nie5] /affecting shyness or embarrassment/
+例如 例如 [li4 ru2] /for example/
+说好说歹 说好说歹 [shuo1 hao3 shuo1 dai3] /unknown/
+擺 摆 [bai3] /arrange/
+遺憾 遗憾 [yi2 han4] /regret/
+在位 在位 [zai4 wei4] /on the throne/
+子 子 [zi3] /son/
+背著 背着 [bei1 zhe5] /carrying on one's back/
+靜 静 [jing4] /still/
+下來 下来 [xia4 lai5] /come down/
+不了 不了 [bu4 le5] /no thanks/
+載 载 [zai3] /record in writing/
+飄移 飘移 [piao1 yi2] /drift/
+慢慢 慢慢 [man4 man4] /slowly/
+掃視 扫视 [sao3 shi4] /run one's eyes over/
+神情 神情 [shen2 qing2] /look/
+怏 怏 [yang4] /discontented/
+第二 第二 [di4 er4] /second/
+心情 心情 [xin1 qing2] /mood/
+白目 白目 [bai2 mu4] /stupid/
+怎麼了 怎么了 [zen3 me5 le5] /What's up?/
+沒有什麼 没有什么 [mei2 you3 shen2 me5] /it is nothing/
+來得 来得 [lai2 de5] /emerge/
+晚 晚 [wan3] /evening/
+尼姑 尼姑 [ni2 gu1] /Buddhist nun/
+彰女 彰女 [zhang1 nü3] /Zhanghua Female/
+憑什麼 凭什么 [ping2 shen2 me5] /why?/
+剝奪 剥夺 [bo1 duo2] /deprive/
+歪 歪 [wai1] /askew/
+呵欠 呵欠 [he1 qian4] /yawn/
+別 别 [Bie2] /leave/
+肩 肩 [jian1] /shoulder/
+廉價 廉价 [lian2 jia4] /cheaply-priced/
+出於 出于 [chu1 yu2] /due to/
+好意 好意 [hao3 yi4] /good intention/
+道理 道理 [dao4 li5] /reason/
+招來 招来 [zhao1 lai2] /attract/
+冷嘲熱諷 冷嘲热讽 [leng3 chao2 re4 feng3] /frigid irony and scorching satire/
+之後 之后 [zhi1 hou4] /afterwards/
+情況 情况 [qing2 kuang4] /circumstances/
+好轉 好转 [hao3 zhuan3] /improve/
+接連 接连 [jie1 lian2] /on end/
+甜蜜 甜蜜 [tian2 mi4] /sweet/
+不曾 不曾 [bu4 ceng2] /hasn't yet/
+存在 存在 [cun2 zai4] /exist/
+難受 难受 [nan2 shou4] /suffer pain/
+什麼樣 什么样 [shen2 me5 yang4] /what kind?/
+反應 反应 [fan3 ying4] /react/
+某 某 [mou3] /some/
+接 接 [jie1] /receive/
+順理成章 顺理成章 [shun4 li3 cheng2 zhang1] /logical/
+心理 心理 [xin1 li3] /psychology/
+建設 建设 [jian4 she4] /build/
+鼓起勇氣 鼓起勇气 [gu3 qi3 yong3 qi4] /summon one's courage/
+輕輕 轻轻 [qing1 qing1] /lightly/
+伸出 伸出 [shen1 chu1] /extend/
+手背 手背 [shou3 bei4] /back of the hand/
+戰戰兢兢 战战兢兢 [zhan4 zhan4 jing1 jing1] /trembling with fear/
+牽 牵 [qian1] /draw in/
+低頭 低头 [di1 tou2] /bow the head/
+艱 艰 [jian1] /difficult/
+澀 涩 [se4] /rough/
+那天 那天 [na4 tian1] /that day/
+復習 复习 [fu4 xi2] /review/
+忘記 忘记 [wang4 ji4] /forget/
+考卷 考卷 [kao3 juan4] /exam paper/
+夾 夹 [jia1] /place in between/
+遞 递 [di4] /hand over/
+過來 过来 [guo4 lai2] /come over/
+紙條 纸条 [zhi3 tiao2] /slip of paper/
+精緻 精致 [jing1 zhi4] /delicate/
+竹 竹 [zhu2] /bamboo/
+傘 伞 [san3] /umbrella/
+華 华 [Hua2] /abbr. for China/
+兩句 两句 [liang3 ju4] /a few words/
+拳王 拳王 [quan2 wang2] /boxing champion/
+泰森 泰森 [Tai4 Sen1] /Tyson/
+瞄準 瞄准 [miao2 zhun3] /take aim at/
+鼻 鼻 [bi2] /nose/
+記 记 [ji4] /blow (classifier)/
+左 左 [zuo3] /left/
+拳 拳 [quan2] /fist/
+碎 碎 [sui4] /break down/
+下顎 下颚 [xia4 e4] /mandible/
+右 右 [you4] /right/
+勾拳 勾拳 [gou1 quan2] /hook/
+靈魂 灵魂 [ling2 hun2] /soul/
+教練 教练 [jiao4 lian4] /coach/
+毛巾 毛巾 [mao2 jin1] /towel/
+直接 直接 [zhi2 jie1] /direct/
+腦 脑 [nao3] /brain/
+竅 窍 [qiao4] /hole/
+唏哩呼噜 唏哩呼噜 [xi1 li3 hu1 lu1] /sobbing and wheezing/
+哭 哭 [ku1] /cry/
+當場 当场 [dang1 chang3] /at the scene/
+流出 流出 [liu2 chu1] /flow out/
+眼淚 眼泪 [yan3 lei4] /tears/
+自尊心 自尊心 [zi4 zun1 xin1] /self-respect/
+一向 一向 [yi1 xiang4] /always/
+可比 可比 [ke3 bi3] /comparable/
+靈魂出竅 灵魂出窍 [ling2 hun2 chu1 qiao4] /out-of-body experience/
+復 复 [fu4] /go and return/
+回返 回返 [hui2 fan3] /return/
+怒火 怒火 [nu4 huo3] /rage/
+三姑六婆 三姑六婆 [san1 gu1 liu4 po2] /women with disreputable or illegal professions/
+娘 娘 [niang2] /mother/
+賊 贼 [zei2] /thief/
+第二天 第二天 [di4 er4 tian1] /next day/
+剃 剃 [ti4] /shave/
+接近 接近 [jie1 jin4] /close to/
+光頭 光头 [guang1 tou2] /shaven head/
+平頭 平头 [ping2 tou2] /flattop/
+並且 并且 [bing4 qie3] /furthermore/
+依照 依照 [yi1 zhao4] /according to/
+字詞 字词 [zi4 ci2] /letters or words/
+組 组 [Zu3] /form/
+徹底 彻底 [che4 di3] /thorough/
+遠離 远离 [yuan3 li2] /be far from/
+接觸 接触 [jie1 chu4] /touch/
+攤開 摊开 [tan1 kai1] /spread out/
+一言不發 一言不发 [yi1 yan2 bu4 fa1] /not say a word/
+解題 解题 [jie3 ti2] /solve problems/
+訓練 训练 [xun4 lian4] /train/
+成 成 [Cheng2] /succeed/
+台 台 [Tai2] /you/
+效率 效率 [xiao4 lü4] /efficiency/
+機器 机器 [ji1 qi4] /machine/
+左后方 左后方 [zuo3 hou4 fang1] /behind to the left/
+好久 好久 [hao3 jiu3] /quite a while/
+不善 不善 [bu4 shan4] /bad/
+過頭 过头 [guo4 tou2] /overdo it/
+題目 题目 [ti2 mu4] /subject/
+見 见 [jian4] /see/
+惡劣 恶劣 [e4 lie4] /nasty/
+倒 倒 [dao4] /actually/
+突發奇想 突发奇想 [tu1 fa1 qi2 xiang3] /suddenly have a thought/
+緩解 缓解 [huan3 jie3] /alleviate/
+墨 墨 [Mo4] /ink/
+實話 实话 [shi2 hua4] /truth/
+遺棄 遗弃 [yi2 qi4] /leave/
+多虧 多亏 [duo1 kui1] /thanks to/
+硬是 硬是 [ying4 shi4] /really/
+黑暗 黑暗 [hei1 an4] /dark/
+勢力 势力 [shi4 li5] /power/
+回來 回来 [hui2 lai5] /return/
+聚餐 聚餐 [ju4 can1] /communal meal/
+蛋糕 蛋糕 [dan4 gao1] /cake/
+喧鬧 喧闹 [xuan1 nao4] /make a noise/
+假裝 假装 [jia3 zhuang1] /feign/
+興致 兴致 [xing4 zhi4] /mood/
+盎然 盎然 [ang4 ran2] /abundant/
+奶油 奶油 [nai3 you2] /cream/
+注意 注意 [zhu4 yi4] /take note of/
+餐廳 餐厅 [can1 ting1] /dining hall/
+若無其事 若无其事 [ruo4 wu2 qi2 shi4] /as if nothing had happened/
+鐵板燒 铁板烧 [tie3 ban3 shao1] /teppanyaki/
+惆悵 惆怅 [chou2 chang4] /melancholy/
+停課 停课 [ting2 ke4] /stop classes/
+默契 默契 [mo4 qi4] /tacit understanding/
+十足 十足 [shi2 zu2] /hundred percent/
+返校 返校 [fan3 xiao4] /return to school/
+擠滿 挤满 [ji3 man3] /jam-packed/
+應 应 [ying4] /agree/
+題 题 [ti2] /topic/
+紅十字 红十字 [Hong2 shi2 zi4] /Red Cross/
+災區 灾区 [zai1 qu1] /disaster area/
+送 送 [song4] /deliver/
+糧食 粮食 [liang2 shi5] /foodstuff/
+有心 有心 [you3 xin1] /have a mind to/
+奴隸 奴隶 [nu2 li4] /slave/
+隨意 随意 [sui2 yi4] /as one wishes/
+取用 取用 [qu3 yong4] /access/
+高度 高度 [gao1 du4] /height/
+憂患 忧患 [you1 huan4] /suffering/
+意識 意识 [yi4 shi2] /consciousness/
+厭惡 厌恶 [yan4 wu4] /loathe/
+常態 常态 [chang2 tai4] /normal state/
+紛紛 纷纷 [fen1 fen1] /one after another/
+搶奪 抢夺 [qiang3 duo2] /plunder/
+偷偷 偷偷 [tou1 tou1] /stealthily/
+藏 藏 [Zang4] /conceal/
+在我看來 在我看来 [zai4 wo3 kan4 lai2] /in my opinion/
+結構性 结构性 [jie2 gou4 xing4] /structural/
+瘋狂 疯狂 [feng1 kuang2] /crazy/
+告解 告解 [gao4 jie3] /confess/
+反復 反复 [fan3 fu4] /repeatedly/
+閱讀 阅读 [yue4 du2] /read/
+志願 志愿 [zhi4 yuan4] /aspiration/
+錄取 录取 [lu4 qu3] /accept an applicant/
+台北 台北 [Tai2 bei3] /Taibei or Taipei/
+北 北 [bei3] /north/
+沒問題 没问题 [mei2 wen4 ti2] /no problem/
+高低 高低 [gao1 di1] /height/
+跴 踩 [cai3] /step on/
+腳下 脚下 [jiao3 xia4] /under the foot/
+遠處 远处 [yuan3 chu4] /distant place/
+圍住 围住 [wei2 zhu4] /surround/
+拼命 拼命 [pin1 ming4] /do one's utmost/
+测验卷 测验卷 [ce4 yan4 juan4] /test paper/
+寫完 写完 [xie3 wan2] /finish writing/
+改 改 [gai3] /change/
+孜孜不倦 孜孜不倦 [zi1 zi1 bu4 juan4] /diligent and never slacking/
+不倦 不倦 [bu4 juan4] /tireless/
+心煩意亂 心烦意乱 [xin1 fan2 yi4 luan4] /heart distracted/
+始末 始末 [shi3 mo4] /whole story/
+快速 快速 [kuai4 su4] /fast/
+交代 交代 [jiao1 dai4] /hand over/
+一遍 一遍 [yi1 bian4] /one time/
+訊息 讯息 [xun4 xi1] /message/
+過後 过后 [guo4 hou4] /after the event/
+鼓勵 鼓励 [gu3 li4] /encourage/
+亮 亮 [liang4] /bright/
+意思 意思 [yi4 si5] /meaning/
+惹 惹 [re3] /provoke/
+捄 救 [jiu4] /save/
+難 难 [nan2] /difficult/
+而已 而已 [er2 yi3] /that's all/
+沒什麼 没什么 [mei2 shen2 me5] /nothing/
+大不了 大不了 [da4 bu4 liao3] /serious/
+專心 专心 [zhuan1 xin1] /concentrate/
+考試 考试 [kao3 shi4] /take an exam/
+失望 失望 [shi1 wang4] /disappointed/
+叨叨 叨叨 [dao1 dao5] /chatter/
+絮絮 絮絮 [xu4 xu5] /chatter incessantly/
+有辦法 有办法 [you3 ban4 fa3] /can find methods/
+熟 熟 [shu2] /cooked/
+經不起 经不起 [jing1 bu5 qi3] /can't stand it/
+打擊 打击 [da3 ji1] /hit/
+笨蛋 笨蛋 [ben4 dan4] /fool/
+變得 变得 [bian4 de5] /become/
+棘手 棘手 [ji2 shou3] /thorny/
+年頭 年头 [nian2 tou2] /days/
+照顧 照顾 [zhao4 gu5] /take care of/
+一蹶不振 一蹶不振 [yi1 jue2 bu4 zhen4] /one stumble, unable to rise/
+型 型 [xing2] /mold/
+脆弱 脆弱 [cui4 ruo4] /weak/
+大方 大方 [da4 fang1] /easily/
+無話可說 无话可说 [wu2 hua4 ke3 shuo1] /have nothing to say/
+謝明和 谢明和 [xie4 ming2 he2] /Xie Minghe/
+失利 失利 [shi1 li4] /lose/
+雲林 云林 [Yun2 lin2] /Yunlin/
+工 工 [gong1] /work/
+專 专 [zhuan1] /specialized/
+漸漸 渐渐 [jian4 jian4] /gradually/
+一句話 一句话 [yi1 ju4 hua4] /one sentence/
+至於 至于 [zhi4 yu2] /as for/
+主人 主人 [zhu3 ren2] /master/
+黑白 黑白 [hei1 bai2] /black and white/
+圖騰 图腾 [tu2 teng2] /totem/
+女中 女中 [nü3 zhong1] /female high/
+位 位 [wei4] /person (classifier)/
+說上 说上 [shuo1 shang4] /say/
+七月 七月 [Qi1 yue4] /July/
+十一 十一 [Shi2 Yi1] /11/
+號 号 [hao2] /day/
+天氣 天气 [tian1 qi4] /weather/
+微 微 [wei1] /tiny/
+陰 阴 [yin1] /overcast/
+下午 下午 [xia4 wu3] /afternoon/
+五十 五十 [wu3 shi2] /fifty/
+自強 自强 [zi4 qiang2] /strive for self-improvement/
+列車 列车 [lie4 che1] /train/
+趕到 赶到 [gan3 dao4] /hurry/
+出版社 出版社 [chu1 ban3 she4] /publishing house/
+簽 签 [qian1] /sign/
+少林寺 少林寺 [Shao4 lin2 Si4] /Shaolin Temple/
+八 八 [ba1] /eight/
+金石 金石 [jin1 shi2] /metal and stone/
+網絡 网络 [Wang3 luo4] /Internet/
+诚品 诚品 [cheng2 pin3] /unknown/
+門市 门市 [men2 shi4] /retail sales/
+BeeGees BeeGees [bi1] /unknown/
+首 首 [shou3] /head/
+老歌 老歌 [lao3 ge1] /oldie/
+符合 符合 [fu2 he2] /in keeping with/
+過往 过往 [guo4 wang3] /come and go/
+時光 时光 [shi2 guang1] /time/
+半年 半年 [ban4 nian2] /half a year/
+媽媽 妈妈 [ma1 ma5] /mama/
+生病 生病 [sheng1 bing4] /fall ill/
+慣性 惯性 [guan4 xing4] /inertia/
+家門 家门 [jia1 men2] /house door/
+經過 经过 [jing1 guo4] /pass/
+駐足 驻足 [zhu4 zu2] /stop/
+生命 生命 [sheng1 ming4] /life/
+劃下 划下 [hua4 xia4] /underline/
+塗抹 涂抹 [tu2 mo3] /smear/
+再三 再三 [zai4 san1] /over and over again/
+串 串 [chuan4] /classifier/
+不明 不明 [bu4 ming2] /not clear/
+符號 符号 [fu2 hao4] /symbol/
