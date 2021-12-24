@@ -1,7 +1,7 @@
 import React, { useMemo, useCallback } from 'react'
 import './Word.css'
 // import pinyinify from 'pinyin'
-import * as Icon from 'react-feather'
+// import * as Icon from 'react-feather'
 
 const Word = React.memo(function Word({ tokenPosition, token, selectedTokenPosition, hoveredTokenPosition, vocabularyDb, recommendedVocabularyDb, onClick, onActionClick, onHover, hoverDisabled, settings={} }) {
   const {
@@ -33,12 +33,12 @@ const Word = React.memo(function Word({ tokenPosition, token, selectedTokenPosit
     })
   }, [isWord, onClick, tokenPosition.sid, tokenPosition.tid])
 
-  const handleActionClick = useCallback(function handleActionClick(e) {
-    onActionClick(e, {
-      sid: tokenPosition.sid,
-      tid: tokenPosition.tid
-    })
-  }, [onActionClick, tokenPosition.sid, tokenPosition.tid])
+  // const handleActionClick = useCallback(function handleActionClick(e) {
+  //   onActionClick(e, {
+  //     sid: tokenPosition.sid,
+  //     tid: tokenPosition.tid
+  //   })
+  // }, [onActionClick, tokenPosition.sid, tokenPosition.tid])
 
   return (
     isLineBreak ?
@@ -66,7 +66,7 @@ const Word = React.memo(function Word({ tokenPosition, token, selectedTokenPosit
         script={script}
         onClick={handleClick}
       />
-      {
+      {/*
         !hoverDisabled && isWord && (isHovered || isSelected) &&
         <WordActionPopup
           handleActionClick={handleActionClick}
@@ -74,38 +74,38 @@ const Word = React.memo(function Word({ tokenPosition, token, selectedTokenPosit
           isRecommended={isRecommended}
           vocabularyLevel={vocabularyLevel}
         />
-      }
+      */}
     </span>
   )
 })
 
-const WordActionPopup = React.memo(function WordActionPopup({
-  handleActionClick,
-  isVocabulary,
-  isRecommended,
-  vocabularyLevel
-}) {
-  return (
-    <div className="Word-action-popup" onClick={handleActionClick}>
-      {
-        !isVocabulary &&
-        (
-          isRecommended ?
-          <div>Add Recommended Word</div> :
-          <div>Add New Word</div>
-        )
-      }
-      {
-        isVocabulary &&
-        (
-          (vocabularyLevel < 4) ?
-          `Level ${vocabularyLevel}` :
-          <Icon.Check size={24}/>
-        )
-      }
-    </div>
-  )
-})
+// const WordActionPopup = React.memo(function WordActionPopup({
+//   handleActionClick,
+//   isVocabulary,
+//   isRecommended,
+//   vocabularyLevel
+// }) {
+//   return (
+//     <div className="Word-action-popup" onClick={handleActionClick}>
+//       {
+//         !isVocabulary &&
+//         (
+//           isRecommended ?
+//           <div>Add Recommended Word</div> :
+//           <div>Add New Word</div>
+//         )
+//       }
+//       {
+//         isVocabulary &&
+//         (
+//           (vocabularyLevel < 4) ?
+//           `Level ${vocabularyLevel}` :
+//           <Icon.Check size={24}/>
+//         )
+//       }
+//     </div>
+//   )
+// })
 
 const InnerWord = React.memo(function InnerWord({
   vocabularyLevel,

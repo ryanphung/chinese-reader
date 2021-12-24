@@ -288,6 +288,9 @@ function App() {
   }, [selectedToken, setHoveredTokenPosition])
 
   const handleWordActionClick = useCallback((event, tokenPosition) => {
+  }, [])
+
+  const handleWordClick = useCallback((event, tokenPosition) => {
     // debugger
     const token = data.tokens[tokenPosition.sid][tokenPosition.tid]
     const text = token.text
@@ -321,22 +324,25 @@ function App() {
     vocabularyDb, recommendedVocabularyDb, setRecommendedVocabularyDb, setVocabularyDb, data.chapter, data.tokens
   ])
 
-  const handleWordClick = useCallback((event, tokenPosition) => {
-    if (selectedTokenPosition?.sid === tokenPosition?.sid &&
-      selectedTokenPosition?.tid === tokenPosition?.tid)
-      setSelectedTokenPosition()
-    else
-      setSelectedTokenPosition(tokenPosition)
-    setHoveredTokenPosition()
-  }, [
-    selectedTokenPosition, setSelectedTokenPosition, setHoveredTokenPosition
-  ])
+  // const handleWordClick = useCallback((event, tokenPosition) => {
+  //   if (selectedTokenPosition?.sid === tokenPosition?.sid &&
+  //     selectedTokenPosition?.tid === tokenPosition?.tid)
+  //     setSelectedTokenPosition()
+  //   else
+  //     setSelectedTokenPosition(tokenPosition)
+  //   setHoveredTokenPosition()
+  // }, [
+  //   selectedTokenPosition, setSelectedTokenPosition, setHoveredTokenPosition
+  // ])
 
   const handleSelection = useCallback(({ sid, start, end, text }) => {
-    console.log(start, end, text)
+    // console.log(start, end, text)
 
-    if (start === end)
+    if (start === end) {
+      // unselect, and return
+      setSelectedTokenPosition()
       return
+    }
 
     const { sentence, newTokenId } = retokenizeSentence(tokenizer.tokenize, tokenizer.dictionary, data.tokens[sid], start, end)
 
@@ -517,9 +523,6 @@ const AppOutput = React.memo(function AppOutput({
       return
 
     const selection = window.getSelection()
-
-    if (!selection.toString())
-      return
 
     const $startSentence = selection.anchorNode.parentElement.closest('[sentence]')
     const $endSentence = selection.extentNode.parentElement.closest('[sentence]')
