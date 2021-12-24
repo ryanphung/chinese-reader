@@ -12109,7 +12109,7 @@
       "text": "恶劣",
       "simplified": "恶劣",
       "traditional": "惡劣",
-      "keyword": "vile",
+      "keyword": "nasty",
       "hanviet": "ác liệt",
       "pinyin": "è liè",
       "isWord": true
@@ -12126,9 +12126,9 @@
       "text": "倒",
       "simplified": "倒",
       "traditional": "倒",
-      "keyword": "fall",
+      "keyword": "actually",
       "hanviet": "đảo",
-      "pinyin": "dǎo",
+      "pinyin": "dào",
       "isWord": true
     },
     {
@@ -12473,21 +12473,12 @@
       "isWord": true
     },
     {
-      "text": "左",
-      "simplified": "左",
-      "traditional": "左",
-      "keyword": "left",
-      "hanviet": "tả",
-      "pinyin": "Zuǒ",
-      "isWord": true
-    },
-    {
-      "text": "后方",
-      "simplified": "后方",
-      "traditional": "後方",
-      "keyword": "the rear",
-      "hanviet": "hậu phương",
-      "pinyin": "hòu fāng",
+      "text": "左后方",
+      "simplified": "左后方",
+      "traditional": "左后方",
+      "keyword": "behind to the back",
+      "hanviet": "tả hậu phương",
+      "pinyin": "zuǒ hòu fāng",
       "isWord": true
     },
     {
@@ -12538,7 +12529,7 @@
       "text": "缓解",
       "simplified": "缓解",
       "traditional": "緩解",
-      "keyword": "bring relief",
+      "keyword": "alleviate",
       "hanviet": "hoãn giải",
       "pinyin": "huǎn jiě",
       "isWord": true
@@ -12674,7 +12665,7 @@
       "text": "墨",
       "simplified": "墨",
       "traditional": "墨",
-      "keyword": "ink stick",
+      "keyword": "ink",
       "hanviet": "mặc",
       "pinyin": "Mò",
       "isWord": true
@@ -12989,7 +12980,7 @@
       "text": "硬是",
       "simplified": "硬是",
       "traditional": "硬是",
-      "keyword": "just",
+      "keyword": "really",
       "hanviet": "ngạnh thị",
       "pinyin": "yìng shì",
       "isWord": true
@@ -13040,12 +13031,21 @@
       "isWord": true
     },
     {
-      "text": "五四",
-      "simplified": "五四",
-      "traditional": "五四",
-      "keyword": "fourth of May",
-      "hanviet": "ngũ tứ",
-      "pinyin": "wǔ sì",
+      "text": "五",
+      "simplified": "五",
+      "traditional": "五",
+      "keyword": "five",
+      "hanviet": "ngũ",
+      "pinyin": "wǔ",
+      "isWord": true
+    },
+    {
+      "text": "四",
+      "simplified": "四",
+      "traditional": "四",
+      "keyword": "four",
+      "hanviet": "tứ",
+      "pinyin": "sì",
       "isWord": true
     },
     {
@@ -13078,7 +13078,7 @@
       "text": "将",
       "simplified": "将",
       "traditional": "將",
-      "keyword": "use",
+      "keyword": "take",
       "hanviet": "tương",
       "pinyin": "jiāng",
       "isWord": true
