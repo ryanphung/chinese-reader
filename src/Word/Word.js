@@ -22,10 +22,12 @@ const Word = React.memo(function Word({ tokenPosition, token, selectedTokenPosit
   const isNew = isWord && !isRecommended && !isVocabulary
   const vocabularyLevel = (vocabularyDb[text] ?? recommendedVocabularyDb[text])?.level ?? (isWord ? 0 : undefined)
 
-  const handleClick = useCallback(function handleClick(e) {
+  const handleMouseUp = useCallback(function handleMouseUp(e) {
     if (!isWord) return
 
     if (!onClick instanceof Function) return
+
+    if (window.getSelection().toString()) return
 
     onClick(e, {
       sid: tokenPosition.sid,
@@ -64,7 +66,7 @@ const Word = React.memo(function Word({ tokenPosition, token, selectedTokenPosit
         text={displayedText}
         transcriptMethod={transcriptMethod}
         script={script}
-        onClick={handleClick}
+        onMouseUp={handleMouseUp}
       />
       {/*
         !hoverDisabled && isWord && (isHovered || isSelected) &&
@@ -115,7 +117,7 @@ const InnerWord = React.memo(function InnerWord({
   transcriptMethod,
   script,
   text,
-  onClick
+  onMouseUp
 }) {
   const transcript = useMemo(() =>
     transcriptMethod === 'pinyin' ? pinyin : hanviet,
@@ -123,12 +125,12 @@ const InnerWord = React.memo(function InnerWord({
   )
 
   return (
-    vocabularyLevel === 0 ? <WordByText onClick={onClick} text={text} transcript={transcript} meaning={keyword}/> :
-    // vocabularyLevel === 0 ? <WordByText onClick={onClick} text={text + '‹' + keyword + '›'} transcript={transcript} meaning=""/> :
-    vocabularyLevel === 1 ? <WordByText onClick={onClick} text={text} transcript={hanviet} meaning={keyword}/> :
-    vocabularyLevel === 2 ? <WordByText onClick={onClick} text={text} transcript="" meaning={keyword}/> :
-    vocabularyLevel === 3 ? <WordByText onClick={onClick} text={text} transcript={transcript} meaning=""/> :
-    <WordByText onClick={onClick} text={text} transcript="" meaning=""/>
+    vocabularyLevel === 0 ? <WordByText onMouseUp={onMouseUp} text={text} transcript={transcript} meaning={keyword}/> :
+    // vocabularyLevel === 0 ? <WordByText onMouseUp={onMouseUp} text={text + '‹' + keyword + '›'} transcript={transcript} meaning=""/> :
+    vocabularyLevel === 1 ? <WordByText onMouseUp={onMouseUp} text={text} transcript={hanviet} meaning={keyword}/> :
+    vocabularyLevel === 2 ? <WordByText onMouseUp={onMouseUp} text={text} transcript="" meaning={keyword}/> :
+    vocabularyLevel === 3 ? <WordByText onMouseUp={onMouseUp} text={text} transcript={transcript} meaning=""/> :
+    <WordByText onMouseUp={onMouseUp} text={text} transcript="" meaning=""/>
   )
 })
 
@@ -157,14 +159,14 @@ function WordByText({
   text,
   transcript,
   meaning,
-  onClick
+  onMouseUp
 }) {
   const textSplit = [...text]
   const transcriptSplit = transcript?.split?.(' ') ?? []
 
   return (
     text === ' ' ? '\u00A0' :
-    <span onClick={onClick} annotation2={meaning}>
+    <span onMouseUp={onMouseUp} annotation2={meaning}>
       {
         textSplit.map((v, i) =>
           <span key={i} annotation={transcriptSplit?.[i] || undefined}>{v}</span>
