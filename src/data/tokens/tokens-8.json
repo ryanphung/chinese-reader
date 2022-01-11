@@ -2039,21 +2039,21 @@
       "isWord": true
     },
     {
-      "text": "下地",
-      "simplified": "下地",
-      "traditional": "下地",
-      "keyword": "go down to the fields",
-      "hanviet": "hạ đích",
-      "pinyin": "xià dì",
+      "text": "下",
+      "simplified": "下",
+      "traditional": "下",
+      "keyword": "down",
+      "hanviet": "hạ",
+      "pinyin": "xià",
       "isWord": true
     },
     {
-      "text": "址",
-      "simplified": "址",
-      "traditional": "址",
-      "keyword": "location",
-      "hanviet": "chỉ",
-      "pinyin": "zhǐ",
+      "text": "地址",
+      "simplified": "地址",
+      "traditional": "地址",
+      "keyword": "address",
+      "hanviet": "đích chỉ",
+      "pinyin": "dì zhǐ",
       "isWord": true
     },
     {
