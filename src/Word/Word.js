@@ -3,15 +3,15 @@ import './Word.css'
 // import pinyinify from 'pinyin'
 // import * as Icon from 'react-feather'
 
-const Word = React.memo(function Word({ tokenPosition, token, selectedTokenPosition, hoveredTokenPosition, vocabularyDb, recommendedVocabularyDb, onClick, onActionClick, onHover, hoverDisabled, settings={} }) {
+const Word = React.memo(function Word({ tokenPosition, token, /*selection, */hoveredTokenPosition, vocabularyDb, recommendedVocabularyDb, onClick, onActionClick, onHover, hoverDisabled, settings={} }) {
   const {
     transcriptMethod='pinyin',
     script='simplified'
   } = settings
   const { text, keyword, hanviet, pinyin, isWord } = token
-  const isSelected =
-    selectedTokenPosition?.sid === tokenPosition.sid &&
-    selectedTokenPosition?.tid === tokenPosition.tid
+  // const isSelected =
+  //   selection?.sid === tokenPosition.sid &&
+  //   selection?.tid === tokenPosition.tid
   const isHovered =
     hoveredTokenPosition?.sid === tokenPosition.sid &&
     hoveredTokenPosition?.tid === tokenPosition.tid
@@ -52,7 +52,7 @@ const Word = React.memo(function Word({ tokenPosition, token, selectedTokenPosit
       isRecommended ? 'Word-recommended' : '',
       isVocabulary ? 'Word-vocabulary' : '',
       isNew ? 'Word-new' : '',
-      isSelected ? 'Word-selected' : '',
+      // isSelected ? 'Word-selected' : '',
       isHovered ? 'Word-hovered' : ''
     ].join(' ')}
       onMouseEnter={() => isWord ? onHover(tokenPosition) : onHover()}

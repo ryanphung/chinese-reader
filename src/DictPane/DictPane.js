@@ -4,16 +4,28 @@ import * as Icon from 'react-feather'
 
 
 const DictPane = React.memo(function DictPane({
-  isTokenSelected,
-  tokenPosition,
-  token={}, dictionary, settings={},
-  onTokenUpdate,
+  selection,
+  selectedToken,
+  hoveredTokenPosition,
+  hoveredToken,
+  dictionary, settings={},
+  onTokenUpdate, onTokenAdd,
   voice
 }) {
-  const { text, pinyin, hanviet, keyword } = token
+  const token = selectedToken || hoveredToken
+  const tokenPosition = selection || hoveredTokenPosition
+  const isTokenSelected = !!selectedToken
+
+  const { pinyin, hanviet, keyword } = token || {}
+  const text = token?.text || selection?.text
+  const isWordToken = !!token?.isWord
+  const showDelete = isWordToken && isTokenSelected
+  const showGoogleTranslate = !!text && !isWordToken
+  const showUsePhrase = !!text && !isWordToken
+  const showButtons = showDelete || showGoogleTranslate || showUsePhrase
 
   useEffect(() => {
-    if (voice && text /*&& isTokenSelected*/) {
+    if (voice && text) {
       var msg = new SpeechSynthesisUtterance()
       msg.text = text
       msg.lang = 'zh'
@@ -22,7 +34,11 @@ const DictPane = React.memo(function DictPane({
         window.speechSynthesis.cancel()
       window.speechSynthesis.speak(msg)
     }
-  }, [text, voice, isTokenSelected, tokenPosition?.sid, tokenPosition?.tid])
+  }, [text, voice, tokenPosition?.sid, tokenPosition?.tid])
+
+  function handleAddTokenClick() {
+    onTokenAdd({ selection })
+  }
 
   function handleDeleteTokenClick() {
     const t = window.confirm('Are you sure you want to delete this token?')
@@ -31,6 +47,7 @@ const DictPane = React.memo(function DictPane({
         tokenPosition,
         token: {
           ...token,
+          keyword: undefined,
           isWord: false
         }
       })
@@ -106,8 +123,7 @@ const DictPane = React.memo(function DictPane({
   return (
     <div className="DictPane">
       <div>
-        <span className="DictPane-hanzi DictPane-hoverable">
-          <Icon.Trash2 size={16} className="DictPane-delete-icon DictPane-hoverable-icon DictPane-clickable" onClick={handleDeleteTokenClick}/>
+        <span className="DictPane-hanzi">
           {displayedText}
         </span>
         {
@@ -137,17 +153,44 @@ const DictPane = React.memo(function DictPane({
             </span>
           </>
         }
+        {
+          showButtons &&
+          <div class="DictPane-info" style={{marginTop: 4, flexDirection: "row", gap: 4}}>
+            {
+              showGoogleTranslate &&
+              <a href={`https://translate.google.com/?sl=zh-CN&tl=en&text=${text}&op=translate`} target="_blank">
+                <button style={{fontSize: '.25rem'}}>
+                  <Icon.ExternalLink size={16} style={{position: 'relative', top: 2}}/> Google Translate
+                </button>
+              </a>
+            }
+            {
+              showUsePhrase &&
+              <button style={{fontSize: '.25rem'}} onClick={handleAddTokenClick}>
+                <Icon.Check size={16} style={{position: 'relative', top: 2}}/> Use Phrase
+              </button>
+            }
+            {
+              showDelete &&
+              <button style={{fontSize: '.25rem'}} onClick={handleDeleteTokenClick}>
+                <Icon.Trash2 size={16} style={{position: 'relative', top: 2}}/> Delete Phrase
+              </button>
+            }
+          </div>
+        }
       </div>
       {
         !!dictionaryWords?.length &&
-        <div className="DictPane-info">
-          <span><Icon.BookOpen size={16} style={{position: 'relative', top: 3, marginRight: 4}}/><strong>DICTIONARY</strong></span>
-          {
-            dictionaryWords?.map?.((dictionaryWord, i) =>
-              <DictionaryWord key={i} dictionaryWord={dictionaryWord} handlePinyinClick={handlePinyinClick} handleKeywordClick={handleKeywordClick} script={script}/>
-            )
-          }
-        </div>
+        <>
+          <div className="DictPane-info DictPane-border-top DictPane-border-bottom">
+            <span><Icon.BookOpen size={16} style={{position: 'relative', top: 3, marginRight: 4}}/><strong>DICTIONARY</strong></span>
+            {
+              dictionaryWords?.map?.((dictionaryWord, i) =>
+                <DictionaryWord key={i} dictionaryWord={dictionaryWord} handlePinyinClick={handlePinyinClick} handleKeywordClick={handleKeywordClick} script={script}/>
+              )
+            }
+          </div>
+        </>
       }
     </div>
   )

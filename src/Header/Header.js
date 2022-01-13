@@ -2,11 +2,11 @@ import './Header.scss'
 import DictPane from '../DictPane/DictPane'
 
 function Header({
-  tokenPosition, token, isTokenSelected,
+  selection, selectedToken, hoveredTokenPosition, hoveredToken,
   wordsCount, knownWordsCountInclRecommendation, knownWordsCount,
   recommendedVocabularyDb, vocabularyDb,
   onChapterChange, onSettingsClick, onRecommendedClick,
-  dictionary, settings, onTokenUpdate,
+  dictionary, settings, onTokenUpdate, onTokenAdd,
   voice
 }) {
   const ease = (knownWordsCount / wordsCount) || 0
@@ -19,12 +19,14 @@ function Header({
   return (
     <div className="Header">
       <DictPane
-        tokenPosition={tokenPosition}
-        token={token}
-        isTokenSelected={isTokenSelected}
+        selection={selection}
+        selectedToken={selectedToken}
+        hoveredTokenPosition={hoveredTokenPosition}
+        hoveredToken={hoveredToken}
         dictionary={dictionary}
         settings={settings}
         onTokenUpdate={onTokenUpdate}
+        onTokenAdd={onTokenAdd}
         voice={voice}
       />
       <div className="Header-info">
