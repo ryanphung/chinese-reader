@@ -2492,6 +2492,8 @@ BeeGees BeeGees [bi1] /unknown/
 精舍 精舍 [jing1 she3] /Buddhist abode/
 凌波微步 凌波微步 [ling2 bo1 wei1 bu4] /Ling Bo Wei Bu (a kungfu term)/
 鹿鼎記 鹿鼎记 [lu4 ding3 ji5] /Lu Ding Ji (a classic novel)/
+李姿仪 李姿仪 [li3 zi1 yi2] /Li Ziyi/
+李晓菁 李晓菁 [li3 xiao3 jing1] /Li Xiaojing/
 `
 
 export default keywords
