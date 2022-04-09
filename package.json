@@ -8,6 +8,7 @@
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
     "chinese-tokenizer": "^2.4.0",
+    "googletrans": "https://github.com/ryanphung/googletrans.git",
     "js-file-download": "^0.4.12",
     "lodash": "^4.17.21",
     "pinyin": "^2.10.2",
@@ -25,7 +26,8 @@
     "convert": "node ./assets/data/convert.js",
     "clipboard:copy": "pbcopy < ./assets/saved/vocabularyDb.txt",
     "clipboard:paste": "pbpaste > ./assets/saved/vocabularyDb.txt",
-    "deploy": "git push -f heroku `git branch --show-current`:master"
+    "deploy": "git push -f heroku `git branch --show-current`:master",
+    "chrome:no-cors": "open -n -a /Applications/Google\\ Chrome.app/Contents/MacOS/Google\\ Chrome --args --user-data-dir=\"/tmp/chrome_dev_test\" --disable-web-security"
   },
   "eslintConfig": {
     "extends": [

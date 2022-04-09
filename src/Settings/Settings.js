@@ -158,7 +158,9 @@ function Settings({
         </select>
       </section>
       <div style={{display: 'flex', gap: 8, marginTop: 10, justifyContent: 'flex-end'}}>
+        {/* eslint-disable-next-line */}
         <a href="#" onClick={handleDownloadTokensClick}>Download Tokens</a>
+        {/* eslint-disable-next-line */}
         <a href="#" onClick={handleDownloadVocabularyClick}>Download Vocabulary</a>
       </div>
       <div style={{display: 'flex', marginTop: 10, justifyContent: 'flex-end'}}>
