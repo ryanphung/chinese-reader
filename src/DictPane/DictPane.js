@@ -1,7 +1,6 @@
-import React, { Fragment, useMemo, useEffect } from 'react'
+import React, { Fragment, useMemo, useEffect, useState } from 'react'
 import './DictPane.scss'
 import * as Icon from 'react-feather'
-
 
 const DictPane = React.memo(function DictPane({
   selection,
@@ -21,8 +20,37 @@ const DictPane = React.memo(function DictPane({
   const isWordToken = !!token?.isWord
   const showDelete = isWordToken && isTokenSelected
   const showGoogleTranslate = !!text && !isWordToken
+  const [googleTranslating, setGoogleTranslating] = useState(false)
+  const [googleTranslateText, setGoogleTranslateText] = useState()
   const showUsePhrase = !!text && !isWordToken
   const showButtons = showDelete || showGoogleTranslate || showUsePhrase
+
+  useEffect(() => {
+    async function translate(text) {
+      setGoogleTranslating(true)
+      try {
+        const result = await fetch('https://googletrans-api.herokuapp.com/translate?' +
+          new URLSearchParams({
+            text,
+            from: 'zh-CN',
+            to: 'en',
+            tld: 'com'
+          }))
+        const json = await result.json()
+        setGoogleTranslateText(json.text)
+        console.log(result)
+      } catch (error) {
+        setGoogleTranslateText(`Translation error: ${error}`)
+      } finally {
+        setGoogleTranslating(false)
+      }
+    }
+
+    if (showGoogleTranslate)
+      translate(text)
+    else
+      setGoogleTranslateText()
+  }, [showGoogleTranslate, text])
 
   useEffect(() => {
     if (voice && text) {
@@ -154,16 +182,27 @@ const DictPane = React.memo(function DictPane({
           </>
         }
         {
-          showButtons &&
-          <div class="DictPane-info" style={{marginTop: 4, flexDirection: "row", gap: 4}}>
-            {
-              showGoogleTranslate &&
-              <a href={`https://translate.google.com/?sl=zh-CN&tl=en&text=${text}&op=translate`} target="_blank">
-                <button style={{fontSize: '.25rem'}}>
-                  <Icon.ExternalLink size={16} style={{position: 'relative', top: 2}}/> Google Translate
-                </button>
+          !!googleTranslating &&
+          <>
+            <span className="DictPane-meaning">
+              Translating...
+            </span>
+          </>
+        }
+        {
+          !!googleTranslateText &&
+          <>
+            <span className="DictPane-meaning">
+              {googleTranslateText}
+              <a href={`https://translate.google.com/?sl=zh-CN&tl=en&text=${text}&op=translate`} target="_blank" rel="noreferrer" style={{fontSize: '.25rem'}}>
+                <Icon.ExternalLink size={16} style={{marginLeft: 4, position: 'relative', top: 2}}/>
               </a>
-            }
+            </span>
+          </>
+        }
+        {
+          showButtons &&
+          <div className="DictPane-info" style={{marginTop: 4, flexDirection: "row", gap: 4}}>
             {
               showUsePhrase &&
               <button style={{fontSize: '.25rem'}} onClick={handleAddTokenClick}>

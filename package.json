@@ -8,7 +8,6 @@
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
     "chinese-tokenizer": "^2.4.0",
-    "googletrans": "https://github.com/ryanphung/googletrans.git",
     "js-file-download": "^0.4.12",
     "lodash": "^4.17.21",
     "pinyin": "^2.10.2",

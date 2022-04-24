@@ -382,10 +382,10 @@ function App() {
     setHoveredTokenPosition()
 
     // window.getSelection().removeAllRanges()
-  }, [data.tokens, setData, tokenizer.tokenize, tokenizer.dictionary])
+  }, [data.tokens/*, setData, tokenizer.tokenize, tokenizer.dictionary*/])
 
   useEffect(() => {
-    console.log(selectedToken)
+    console.log("selectedToken:", selectedToken)
   }, [selectedToken])
 
   const handleScroll = useCallback(() => {
