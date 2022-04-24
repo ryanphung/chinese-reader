@@ -2494,6 +2494,7 @@ BeeGees BeeGees [bi1] /unknown/
 鹿鼎記 鹿鼎记 [lu4 ding3 ji5] /Lu Ding Ji (a classic novel)/
 李姿仪 李姿仪 [li3 zi1 yi2] /Li Ziyi/
 李晓菁 李晓菁 [li3 xiao3 jing1] /Li Xiaojing/
+沈千玉 沈千玉 [shen3 qian1 yu2] /Shen Qianyu/
 `
 
 export default keywords
