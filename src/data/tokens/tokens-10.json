@@ -109,7 +109,7 @@
       "simplified": "台词",
       "traditional": "臺詞",
       "keyword": "an actor's lines",
-      "hanviet": "thai từ",
+      "hanviet": "đài từ",
       "pinyin": "tái cí",
       "isWord": true
     },
@@ -321,7 +321,7 @@
       "text": "意外",
       "simplified": "意外",
       "traditional": "意外",
-      "keyword": "accident",
+      "keyword": "unexpected",
       "hanviet": "ý ngoại",
       "pinyin": "yì wài",
       "isWord": true
@@ -1428,7 +1428,7 @@
       "text": "大剌剌",
       "simplified": "大剌剌",
       "traditional": "大剌剌",
-      "keyword": "casual",
+      "keyword": "pompous",
       "hanviet": "đại lạt lạt",
       "pinyin": "dà là là",
       "isWord": true
@@ -1769,7 +1769,7 @@
       "text": "载",
       "simplified": "载",
       "traditional": "載",
-      "keyword": "record in writing",
+      "keyword": "carry",
       "hanviet": "tái",
       "pinyin": "zǎi",
       "isWord": true
@@ -2685,7 +2685,7 @@
       "text": "翘",
       "simplified": "翘",
       "traditional": "翹",
-      "keyword": "outstanding",
+      "keyword": "raise",
       "hanviet": "kiều",
       "pinyin": "qiáo",
       "isWord": true
@@ -3263,21 +3263,12 @@
       "isWord": true
     },
     {
-      "text": "留",
-      "simplified": "留",
-      "traditional": "留",
-      "keyword": "leave",
-      "hanviet": "lưu",
-      "pinyin": "liú",
-      "isWord": true
-    },
-    {
-      "text": "校",
-      "simplified": "校",
-      "traditional": "校",
-      "keyword": "school",
-      "hanviet": "giáo",
-      "pinyin": "xiào",
+      "text": "留校",
+      "simplified": "留校",
+      "traditional": "留校",
+      "keyword": "stay in school",
+      "hanviet": "lưu giáo",
+      "pinyin": "liú xiào",
       "isWord": true
     },
     {
@@ -3787,21 +3778,12 @@
       "isWord": true
     },
     {
-      "text": "学弟",
-      "simplified": "学弟",
-      "traditional": "學弟",
-      "keyword": "junior or younger male schoolmate",
-      "hanviet": "học đệ",
-      "pinyin": "xué dì",
-      "isWord": true
-    },
-    {
-      "text": "妹",
-      "simplified": "妹",
-      "traditional": "妹",
-      "keyword": "younger sister",
-      "hanviet": "muội",
-      "pinyin": "mèi",
+      "text": "学弟妹",
+      "simplified": "学弟妹",
+      "traditional": "学弟妹",
+      "keyword": "juniors",
+      "hanviet": "học đệ muội",
+      "pinyin": "xué dì mèi",
       "isWord": true
     },
     {
@@ -3914,7 +3896,7 @@
       "text": "赶",
       "simplified": "赶",
       "traditional": "趕",
-      "keyword": "overtake",
+      "keyword": "drive away",
       "hanviet": "cản",
       "pinyin": "gǎn",
       "isWord": true
@@ -4568,12 +4550,21 @@
       "isWord": false
     },
     {
-      "text": "有种",
-      "simplified": "有种",
-      "traditional": "有種",
-      "keyword": "have guts",
-      "hanviet": "hữu chủng",
-      "pinyin": "yǒu zhǒng",
+      "text": "有",
+      "simplified": "有",
+      "traditional": "有",
+      "keyword": "have",
+      "hanviet": "hữu",
+      "pinyin": "yǒu",
+      "isWord": true
+    },
+    {
+      "text": "种",
+      "simplified": "种",
+      "traditional": "種",
+      "keyword": "type",
+      "hanviet": "chủng",
+      "pinyin": "zhǒng",
       "isWord": true
     },
     {
@@ -8469,7 +8460,7 @@
       "text": "迎风",
       "simplified": "迎风",
       "traditional": "迎風",
-      "keyword": "downwind",
+      "keyword": "in the wind",
       "hanviet": "nghênh phong",
       "pinyin": "yíng fēng",
       "isWord": true
@@ -10496,7 +10487,7 @@
       "text": "有一搭没一搭",
       "simplified": "有一搭没一搭",
       "traditional": "有一搭沒一搭",
-      "keyword": "indifferent",
+      "keyword": "unimportant",
       "hanviet": "hữu nhất đáp một nhất đáp",
       "pinyin": "yǒu yī dā méi yī dā",
       "isWord": true
@@ -10910,7 +10901,7 @@
       "text": "转动",
       "simplified": "转动",
       "traditional": "轉動",
-      "keyword": "move around",
+      "keyword": "turn sth around",
       "hanviet": "chuyển động",
       "pinyin": "zhuǎn dòng",
       "isWord": true
