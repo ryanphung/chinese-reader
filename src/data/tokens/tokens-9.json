@@ -8175,7 +8175,7 @@
       "text": "一旦",
       "simplified": "一旦",
       "traditional": "一旦",
-      "keyword": "in case",
+      "keyword": "once",
       "hanviet": "nhất đán",
       "pinyin": "yī dàn",
       "isWord": true
@@ -8433,7 +8433,7 @@
       "text": "有一搭没一搭",
       "simplified": "有一搭没一搭",
       "traditional": "有一搭沒一搭",
-      "keyword": "unimportant",
+      "keyword": "indifferently",
       "hanviet": "hữu nhất đáp một nhất đáp",
       "pinyin": "yǒu yī dā méi yī dā",
       "isWord": true
@@ -9996,7 +9996,7 @@
       "text": "本人",
       "simplified": "本人",
       "traditional": "本人",
-      "keyword": "himself",
+      "keyword": "herself",
       "hanviet": "bổn nhân",
       "pinyin": "běn rén",
       "isWord": true
@@ -11462,7 +11462,7 @@
       "text": "通",
       "simplified": "通",
       "traditional": "通",
-      "keyword": "go through",
+      "keyword": "classifier",
       "hanviet": "thông",
       "pinyin": "tōng",
       "isWord": true
@@ -12096,30 +12096,12 @@
       "isWord": true
     },
     {
-      "text": "提",
-      "simplified": "提",
-      "traditional": "提",
-      "keyword": "mention",
-      "hanviet": "đề",
-      "pinyin": "dī",
-      "isWord": true
-    },
-    {
-      "text": "不",
-      "simplified": "不",
-      "traditional": "不",
-      "keyword": "not",
-      "hanviet": "bất",
-      "pinyin": "bù",
-      "isWord": true
-    },
-    {
-      "text": "起劲",
-      "simplified": "起劲",
-      "traditional": "起勁",
-      "keyword": "vigorously",
-      "hanviet": "khởi kính",
-      "pinyin": "qǐ jìn",
+      "text": "提不起劲",
+      "simplified": "提不起劲",
+      "traditional": "提不起劲",
+      "keyword": "unable to",
+      "hanviet": "đề bất khởi kính",
+      "pinyin": "tí bù qǐ jìn",
       "isWord": true
     },
     {
@@ -13279,7 +13261,7 @@
       "text": "靠近",
       "simplified": "靠近",
       "traditional": "靠近",
-      "keyword": "near",
+      "keyword": "approach",
       "hanviet": "kháo cận",
       "pinyin": "kào jìn",
       "isWord": true
@@ -13397,7 +13379,7 @@
       "traditional": "结界",
       "keyword": "enchantment",
       "hanviet": "kết giới",
-      "pinyin": "jiē jiè",
+      "pinyin": "jié jiè",
       "isWord": true
     },
     {
@@ -13664,5 +13646,7 @@
       "isWord": false
     }
   ],
-  []
+  [
+
+  ]
 ]
